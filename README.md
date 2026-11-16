@@ -14,7 +14,9 @@ Not included:
 
 The audited papers are identified only by `rec_id`, a short hash of the record key. DOIs are withheld in every file except the registered frame (`frame/frame_i139.tsv`). The frame, the seed in the protocol and the sampling rule make the sample reproducible, so the papers can be identified by anyone who repeats the sampling; the paper does not name them.
 
-Because DOIs and excerpts were removed, files whose hashes were recorded during the study (`extraction/spec_table_i139.sha256`, `extraction/labels_i139.sha256`, `extraction/m2_m3_rules_i139.sha256` and the audit locks) do not match the copies here; those hashes refer to the unredacted files kept by the author. The protocol, the frame and the DAG files are unredacted and match their hashes.
+Because DOIs and excerpts were removed, files whose hashes were recorded during the study (`extraction/spec_table_i139.sha256`, `extraction/labels_i139.sha256` and the audit locks) do not match the copies here; those hashes refer to the unredacted files kept by the author. The protocol, the frame and the DAG files are unredacted and match their hashes.
+
+`extraction/m2_m3_rules_i139.md` is unredacted. Its two recorded hashes (`extraction/m2_m3_rules_i139.sha256`) refer to earlier states of this append-only file. `extraction/rules_history/` holds every state, rebuilt byte for byte from the session logs of 15 November 2026: `rules_v1_0823.md` matches the first recorded hash, `rules_v3_0856.md` the second, and `rules_v5_0930.md` equals the current file; `timeline.tsv` gives the time and SHA-256 of each state.
 
 ## Folders
 
