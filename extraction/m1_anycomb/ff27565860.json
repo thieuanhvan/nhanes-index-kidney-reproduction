@@ -1,0 +1,108 @@
+{
+ "rec_id": "ff27565860",
+ "points_run": [
+  "estimate: Q4 vs Q1 1.22",
+  "covariates: add HDL-C and TC",
+  "weighted (correct weight)"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 8,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.06,
+   "or_repro": 1.075,
+   "dlogor": 0.0143,
+   "n_reported": 8329.0,
+   "n_repro": 5351,
+   "dn_rel": 0.3575
+  },
+  {
+   "combo": 1,
+   "label": "weighted (correct weight)",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.06,
+   "or_repro": 1.065,
+   "dlogor": 0.0044,
+   "n_reported": 8329.0,
+   "n_repro": 5351,
+   "dn_rel": 0.3575
+  },
+  {
+   "combo": 2,
+   "label": "covariates: add HDL-C and TC",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.06,
+   "or_repro": 1.044,
+   "dlogor": 0.015,
+   "n_reported": 8329.0,
+   "n_repro": 5351,
+   "dn_rel": 0.3575
+  },
+  {
+   "combo": 3,
+   "label": "covariates: add HDL-C and TC; weighted (correct weight)",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.06,
+   "or_repro": 1.115,
+   "dlogor": 0.0503,
+   "n_reported": 8329.0,
+   "n_repro": 5351,
+   "dn_rel": 0.3575
+  },
+  {
+   "combo": 4,
+   "label": "estimate: Q4 vs Q1 1.22",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.22,
+   "or_repro": 1.298,
+   "dlogor": 0.0617,
+   "n_reported": 8329.0,
+   "n_repro": 5351,
+   "dn_rel": 0.3575
+  },
+  {
+   "combo": 5,
+   "label": "estimate: Q4 vs Q1 1.22; weighted (correct weight)",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.22,
+   "or_repro": 1.088,
+   "dlogor": 0.1143,
+   "n_reported": 8329.0,
+   "n_repro": 5351,
+   "dn_rel": 0.3575
+  },
+  {
+   "combo": 6,
+   "label": "estimate: Q4 vs Q1 1.22; covariates: add HDL-C and TC",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.22,
+   "or_repro": 1.03,
+   "dlogor": 0.1694,
+   "n_reported": 8329.0,
+   "n_repro": 5351,
+   "dn_rel": 0.3575
+  },
+  {
+   "combo": 7,
+   "label": "estimate: Q4 vs Q1 1.22; covariates: add HDL-C and TC; weighted (correct weight)",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.22,
+   "or_repro": 0.8699,
+   "dlogor": 0.3382,
+   "n_reported": 8329.0,
+   "n_repro": 5351,
+   "dn_rel": 0.3575
+  }
+ ]
+}

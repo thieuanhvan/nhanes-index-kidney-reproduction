@@ -1,0 +1,42 @@
+{
+ "rec_id": "69700c2b09",
+ "n_reported": 4177.0,
+ "n_repro": 2988,
+ "n_cc": 3636,
+ "n_xy": 4206,
+ "n_domain_y": 4206,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "pir_cat__1to3",
+   342,
+   false
+  ],
+  [
+   "pir_cat__gt3",
+   342,
+   false
+  ],
+  [
+   "drinker",
+   175,
+   false
+  ],
+  [
+   "bmi_cat__25to30",
+   66,
+   false
+  ],
+  [
+   "bmi_cat__ge30",
+   66,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

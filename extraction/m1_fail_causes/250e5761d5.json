@@ -1,0 +1,42 @@
+{
+ "rec_id": "250e5761d5",
+ "n_reported": 7760.0,
+ "n_repro": 13121,
+ "n_cc": 13121,
+ "n_xy": 14180,
+ "n_domain_y": 14180,
+ "weight": null,
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "drink__yes",
+   1012,
+   false
+  ],
+  [
+   "htn__yes",
+   18,
+   false
+  ],
+  [
+   "edu__gt_hs",
+   12,
+   false
+  ],
+  [
+   "edu__hs_ged",
+   12,
+   false
+  ],
+  [
+   "smoke__yes",
+   12,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

@@ -1,0 +1,75 @@
+{
+ "rec_id": "cde66dda6a",
+ "status": "run",
+ "weight_kind": "fasting",
+ "n_common": 17315,
+ "B": 100,
+ "boot_failed_fits": 0,
+ "added_A": [
+  "smoking__current",
+  "smoking__former"
+ ],
+ "k_terms_dropped": [
+  "dx_hypertension",
+  "dx_diabetes",
+  "scr",
+  "ldl",
+  "hdl",
+  "tg"
+ ],
+ "log": [],
+ "point_logor": {
+  "P": -0.04106386471803788,
+  "A": -0.060398635373899265,
+  "D": 0.026924949996868033,
+  "DA": 0.014348673499368183
+ },
+ "route1_add": {
+  "delta": -0.019334770655861387,
+  "lo": -0.04203870663226098,
+  "hi": 0.0017560645780734193,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "route1_drop": {
+  "delta": 0.07474730887326744,
+  "lo": -0.03949730862743796,
+  "hi": 0.18957289278971082,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "route2_drop": {
+  "delta": 0.0679888147149059,
+  "lo": -0.050887855496081005,
+  "hi": 0.1848622424398665,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "route2_add": {
+  "delta": -0.01257627649749985,
+  "lo": -0.026210544326362325,
+  "hi": -0.0011253324815026998,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "mean_add": {
+  "delta": -0.01595552357668062,
+  "lo": -0.033195555377921036,
+  "hi": -0.0009547941889831819,
+  "class": "negative"
+ },
+ "mean_drop": {
+  "delta": 0.07136806179408668,
+  "lo": -0.045224894886580595,
+  "hi": 0.1871614347790499,
+  "class": "negative"
+ },
+ "total": {
+  "delta": 0.05541253821740606,
+  "lo": -0.06687325511046091,
+  "hi": 0.1723908136579633,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 18
+}

@@ -1,0 +1,99 @@
+{
+ "rec_id": "988df86a79",
+ "family": "F3_diet_life",
+ "dag_family": "D3",
+ "flag_outcome_component": false,
+ "missing_A": "education|hypertension_dx",
+ "missing_B": "education|hypertension_dx|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "diet_day1",
+ "target": "x",
+ "target_sd": 1.0009074879703996,
+ "n_terms": 23,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "c_htn_dx"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "c_htn_dx",
+  "c_pa"
+ ],
+ "n_common": 7179,
+ "n_paper_sample": 7447,
+ "n_neg": 6519,
+ "pir_missing_rate": 0.08960629106523876,
+ "full": {
+  "P": {
+   "logor": 0.1797602863159863,
+   "se": 0.05527983927250868,
+   "n": 7179
+  },
+  "Ps": {
+   "logor": 0.18385468747430345,
+   "se": 0.05321689642235534,
+   "n": 7447
+  },
+  "Pn": {
+   "logor": 0.1540364106614543,
+   "se": 0.05728730561120948,
+   "n": 6519
+  },
+  "N": {
+   "logor": 0.15383873050538244,
+   "se": 0.05722516057142509,
+   "n": 6519
+  },
+  "A": {
+   "logor": 0.18253113501756388,
+   "se": 0.0565165618814702,
+   "n": 7179
+  },
+  "B": {
+   "logor": 0.17791673119636378,
+   "se": 0.056243045456618644,
+   "n": 7179
+  },
+  "Q": {
+   "logor": 0.17060321247102456,
+   "se": 0.05693685367943237,
+   "n": 7179
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.004094401158317135,
+ "E3a_A": {
+  "delta": 0.0027708487015775662,
+  "lo": -0.012871047471380393,
+  "hi": 0.019440239428070966,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.0018435551196225308,
+  "lo": -0.01953127130983757,
+  "hi": 0.01442004630631496,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.00019768015607185552,
+  "lo": -0.0023687044407035653,
+  "hi": 0.001733205907340558,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.009157073844961755,
+  "lo": -0.010240739509195679,
+  "hi": 0.02838926379167704,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "seconds": 39
+}

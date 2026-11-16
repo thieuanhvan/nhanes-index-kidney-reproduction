@@ -1,0 +1,99 @@
+{
+ "rec_id": "8a9e8d47ec",
+ "family": "F3_diet_life",
+ "dag_family": "D4b",
+ "flag_outcome_component": false,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "x",
+ "target_sd": 0.7771261725164661,
+ "n_terms": 21,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_pa"
+ ],
+ "n_common": 761,
+ "n_paper_sample": 827,
+ "n_neg": 692,
+ "pir_missing_rate": 0.0910824988078207,
+ "full": {
+  "P": {
+   "logor": 0.45356170455744027,
+   "se": 0.2617092634237719,
+   "n": 761
+  },
+  "Ps": {
+   "logor": 0.4672880090696748,
+   "se": 0.2402749254832202,
+   "n": 827
+  },
+  "Pn": {
+   "logor": 0.39718631184591735,
+   "se": 0.33323004098705705,
+   "n": 692
+  },
+  "N": {
+   "logor": 0.399309113165087,
+   "se": 0.33609926774996846,
+   "n": 692
+  },
+  "A": {
+   "logor": 0.49090174718471935,
+   "se": 0.29619627588888425,
+   "n": 761
+  },
+  "B": {
+   "logor": 0.4981921126823179,
+   "se": 0.2961781655007154,
+   "n": 761
+  },
+  "Q": {
+   "logor": 0.4841084981825165,
+   "se": 0.22973373487378426,
+   "n": 761
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.013726304512234555,
+ "E3a_A": {
+  "delta": 0.03734004262727908,
+  "lo": -0.10619301114925717,
+  "hi": 0.21263441255748977,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": 0.04463040812487762,
+  "lo": -0.1084831518880358,
+  "hi": 0.28179607545871566,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 0.0021228013191696427,
+  "lo": -0.05317401523414338,
+  "hi": 0.15811274739208592,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.03054679362507623,
+  "lo": -0.2519495199782846,
+  "hi": 0.2312295230912549,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 2
+}

@@ -1,0 +1,59 @@
+{
+ "rec_id": "259b9d6255",
+ "points_run": [
+  "estimate: continuous WWI 1.21",
+  "ACR > 30"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 4,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.6,
+   "or_repro": 1.517,
+   "dlogor": 0.0533,
+   "n_reported": 5330.0,
+   "n_repro": 4863,
+   "dn_rel": 0.0876
+  },
+  {
+   "combo": 1,
+   "label": "ACR > 30",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.6,
+   "or_repro": 1.517,
+   "dlogor": 0.0533,
+   "n_reported": 5330.0,
+   "n_repro": 4863,
+   "dn_rel": 0.0876
+  },
+  {
+   "combo": 2,
+   "label": "estimate: continuous WWI 1.21",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.21,
+   "or_repro": 1.192,
+   "dlogor": 0.015,
+   "n_reported": 5330.0,
+   "n_repro": 4863,
+   "dn_rel": 0.0876
+  },
+  {
+   "combo": 3,
+   "label": "estimate: continuous WWI 1.21; ACR > 30",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.21,
+   "or_repro": 1.192,
+   "dlogor": 0.015,
+   "n_reported": 5330.0,
+   "n_repro": 4863,
+   "dn_rel": 0.0876
+  }
+ ]
+}

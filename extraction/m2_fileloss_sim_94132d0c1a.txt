@@ -1,0 +1,19 @@
+94132d0c1a fixed code n (i, ii, iii) (37018, 37018, 37018) kind mec recorded (37361, 37361, 37361)
+nhanes_core.read 1999-2000\DEMO.xpt 1434960 n (34458, 34458, 34458) mec 
+nhanes_core.read 1999-2000\MCQ.xpt 1585331 n (34458, 34458, 34458) mec 
+nhanes_core.read 2001-2002\MCQ_B.xpt 1549560 n (33705, 33705, 33705) mec 
+nhanes_core.read 2003-2004\MCQ_C.xpt 1485330 n (33780, 33780, 33780) mec 
+nhanes_extra.read_stem 1999-2000\DRXTOT.xpt 1234506 n (37018, 37018, 37018) mec 
+nhanes_extra.read_stem 2001-2002\DRXTOT_B.xpt 1487734 n (37018, 37018, 37018) mec 
+nhanes_extra.read_stem 2003-2004\DR1TOT_C.xpt 1542880 n (37018, 37018, 37018) mec 
+nhanes_extra.read_stem 2005-2006\DR1TOT_D.xpt 1592000 n (37018, 37018, 37018) mec 
+nhanes_extra.read_stem 2007-2008\DR1TOT_E.xpt 1600968 n (37018, 37018, 37018) mec 
+nhanes_extra.read_stem 2009-2010\DR1TOT_F.xpt 1701998 n (37018, 37018, 37018) mec 
+nhanes_extra.read_stem 2011-2012\DR1TOT_G.xpt 1550108 n (37018, 37018, 37018) mec 
+nhanes_extra.read_stem 2013-2014\DR1TOT_H.xpt 1648584 n (37018, 37018, 37018) mec 
+nhanes_extra.read_stem 2015-2016\DR1TOT_I.xpt 1603392 n (37018, 37018, 37018) mec 
+nhanes_extra.read_stem 2017-2020\P_DR1TOT.xpt 2402400 n (37018, 37018, 37018) mec 
+m1_lib._read 1999-2000\DEMO.xpt 1434960 n (34458, 34458, 34458) mec 
+m1_lib._read 1999-2000\MCQ.xpt 1585331 n (37230, 37230, 37230) mec 
+m1_lib._read 2001-2002\MCQ_B.xpt 1549560 n (37354, 37354, 37354) mec 
+m1_lib._read 2003-2004\MCQ_C.xpt 1485330 n (37361, 37361, 37361) mec   <-- MATCH

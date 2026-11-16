@@ -1,0 +1,7 @@
+f6e85f9043 run fail OR 1.22 -> 1.514 N 15163 -> 10479 builder written before first execution; CTI from recon INDEX CTI_mgdl (CRP mg/L 
+cef539b61e run strict_pass OR 1.36 -> 1.36 N 10787 -> 10495 builder written before first execution
+71eedfeafb run strict_pass OR 0.975 -> 0.979 N 28377 -> 30410 builder written before first execution. Post-run technical fix 1 (after first m1
+b966d3cfdc run fail OR 0.69 -> 0.6201 N 4353 -> 5290 builder written before first execution
+450ed6ebb6 run fail OR 2.73 -> 3.125 N 5943 -> 4266 builder written before first execution
+ba21203b93 run fail OR 2.16 -> 1.554 N 1681 -> 1456 builder written before first execution
+a906145f51 run near_pass OR 1.5 -> 1.336 N 6119 -> 5528 builder written before first execution. Post-run technical fix 1 (after first m1

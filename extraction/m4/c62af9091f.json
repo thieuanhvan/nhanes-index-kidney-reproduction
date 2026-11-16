@@ -1,0 +1,55 @@
+{
+ "rec_id": "c62af9091f",
+ "status": "run",
+ "n": 24376,
+ "xcol": "x",
+ "sd_x": 19.49256514180914,
+ "k_reported": 2.313,
+ "grid": [
+  0.21544588377705948,
+  100.8
+ ],
+ "k_reported_in_range": true,
+ "covariates": [
+  "female",
+  "age",
+  "race4__black",
+  "race4__mex",
+  "race4__other",
+  "cohab",
+  "smoke_ever",
+  "alcohol",
+  "htn",
+  "dm",
+  "dyslip",
+  "obese28"
+ ],
+ "collinear_dropped": [],
+ "k_hat": 0.21544588377705948,
+ "rcs_wald": 38.50267819390296,
+ "rcs_p": 4.3576230644352205e-09,
+ "rcs_F_p": 1.0658601527062287e-07,
+ "k_ci": [
+  0.21544588377705948,
+  0.21544588377705948
+ ],
+ "k_ci_width_sd": 0.0,
+ "boot_edge_share": 1.0,
+ "sim": {
+  "paper": {
+   "coverage": 0.0,
+   "power_localise": 0.0,
+   "slope_change": 0.256886398365433
+  },
+  "half": {
+   "coverage": 0.05,
+   "power_localise": 0.0,
+   "slope_change": 0.1284431991827165
+  },
+  "neg_false_localisation": 1.0
+ },
+ "k_true_used": 2.313,
+ "class": "classification_invalid",
+ "class_0_5sd": "classification_invalid",
+ "seconds": 2374
+}

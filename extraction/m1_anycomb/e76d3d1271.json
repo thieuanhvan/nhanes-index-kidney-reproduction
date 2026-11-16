@@ -1,0 +1,34 @@
+{
+ "rec_id": "e76d3d1271",
+ "points_run": [
+  "estimate: T3 vs T1 1.22"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.08,
+   "or_repro": 1.096,
+   "dlogor": 0.0145,
+   "n_reported": 21765.0,
+   "n_repro": 17919,
+   "dn_rel": 0.1767
+  },
+  {
+   "combo": 1,
+   "label": "estimate: T3 vs T1 1.22",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.22,
+   "or_repro": 1.279,
+   "dlogor": 0.047,
+   "n_reported": 21765.0,
+   "n_repro": 17919,
+   "dn_rel": 0.1767
+  }
+ ]
+}

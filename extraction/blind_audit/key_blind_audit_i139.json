@@ -1,0 +1,105 @@
+{
+ "seed": "20261114-i139-blindaudit",
+ "plant": {
+  "6b7f67827b": [
+   "model",
+   "Model 1"
+  ],
+  "ba21203b93": [
+   "model",
+   "Model IV, continuous FPSA/TPSA"
+  ],
+  "c62af9091f": [
+   "model",
+   "Model 1"
+  ],
+  "cef539b61e": [
+   "model",
+   "Model 2"
+  ],
+  "250e5761d5": [
+   "model",
+   "Model 2"
+  ],
+  "9835a67923": [
+   "covariates",
+   [
+    "age",
+    "gender",
+    "race"
+   ]
+  ],
+  "d22fcf0a95": [
+   "covariates",
+   [
+    "age",
+    "gender",
+    "race"
+   ]
+  ],
+  "fad26f18b1": [
+   "covariates",
+   [
+    "age",
+    "gender",
+    "race"
+   ]
+  ],
+  "ff27565860": [
+   "covariates",
+   [
+    "age",
+    "gender",
+    "race"
+   ]
+  ],
+  "fea693ee81": [
+   "covariates",
+   [
+    "age",
+    "sex",
+    "race"
+   ]
+  ],
+  "aca6f864fb": [
+   "estimate",
+   [
+    0.51,
+    0.45,
+    0.59
+   ]
+  ],
+  "78c5287646": [
+   "estimate",
+   [
+    0.51,
+    0.4,
+    0.65
+   ]
+  ],
+  "259b9d6255": [
+   "estimate",
+   [
+    5.27,
+    4.03,
+    6.9
+   ]
+  ],
+  "9e2e6087fa": [
+   "estimate",
+   [
+    1.05,
+    1.02,
+    1.1
+   ]
+  ],
+  "53ca68a923": [
+   "estimate",
+   [
+    0.581,
+    0.521,
+    0.647
+   ]
+  ]
+ }
+}

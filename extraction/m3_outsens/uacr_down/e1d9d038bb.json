@@ -1,0 +1,84 @@
+{
+ "rec_id": "e1d9d038bb",
+ "family": "F4_lipid_anthro",
+ "dag_family": "D5",
+ "flag_outcome_component": true,
+ "missing_A": "",
+ "missing_B": "physical_activity",
+ "label_A": "sufficient",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "lnuhr_q4",
+ "target_sd": 1.0,
+ "n_terms": 17,
+ "added_A": [],
+ "added_B": [
+  "c_pa"
+ ],
+ "n_common": 3290,
+ "n_paper_sample": 3292,
+ "n_neg": 2926,
+ "pir_missing_rate": 0.10811479465611083,
+ "full": {
+  "P": {
+   "logor": 0.9694571144847622,
+   "se": 0.1782014758554241,
+   "n": 3290
+  },
+  "Ps": {
+   "logor": 0.965830335278916,
+   "se": 0.17806839525765333,
+   "n": 3292
+  },
+  "Pn": {
+   "logor": 1.0628182594690214,
+   "se": 0.1826813402391334,
+   "n": 2926
+  },
+  "N": {
+   "logor": 1.0642078459776172,
+   "se": 0.18184442972653728,
+   "n": 2926
+  },
+  "B": {
+   "logor": 0.9695752945020847,
+   "se": 0.1776075345875554,
+   "n": 3290
+  },
+  "Q": {
+   "logor": 0.9728990399176932,
+   "se": 0.1711580594810954,
+   "n": 3290
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.003626779205846198,
+ "E3a_A": {
+  "class": "negative",
+  "note": "nothing missing under DAG A (or all present)"
+ },
+ "E3a_B": {
+  "delta": 0.00011818001732244454,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 0.0013895865085957748,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.003441925432930981,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "seconds": 1
+}

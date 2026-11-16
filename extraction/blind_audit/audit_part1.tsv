@@ -1,0 +1,73 @@
+item	rec_id	field	verdict	correct_value
+1	d84bd11e2e	model	correct	
+1	d84bd11e2e	covariates	correct	
+1	d84bd11e2e	estimate	correct	
+2	450ed6ebb6	model	correct	
+2	450ed6ebb6	covariates	correct	
+2	450ed6ebb6	estimate	correct	
+3	d22fcf0a95	model	correct	
+3	d22fcf0a95	covariates	wrong	missing: marital status; education level; PIR; alcohol consumption; smoking status; BMI; HBP (hypertension); DM (diabetes); CVD; extra: none
+3	d22fcf0a95	estimate	cannot_tell	
+4	e76d3d1271	model	correct	
+4	e76d3d1271	covariates	correct	
+4	e76d3d1271	estimate	correct	
+5	4de61a08ed	model	correct	
+5	4de61a08ed	covariates	correct	
+5	4de61a08ed	estimate	correct	
+6	ac96396902	model	wrong	Model 3 (Table 2, fully adjusted model for CVD-CKD comorbidity, the only outcome with an estimate in the abstract)
+6	ac96396902	covariates	correct	
+6	ac96396902	estimate	wrong	5.38 (3.84, 7.54)
+7	71eedfeafb	model	correct	
+7	71eedfeafb	covariates	correct	
+7	71eedfeafb	estimate	correct	
+8	79f1e21c4c	model	correct	
+8	79f1e21c4c	covariates	correct	
+8	79f1e21c4c	estimate	correct	
+9	78c5287646	model	correct	
+9	78c5287646	covariates	correct	
+9	78c5287646	estimate	wrong	0.64 (0.459, 0.892) (multivariate; 0.51 (0.40, 0.65) is the univariate OR)
+10	30eae6044c	model	correct	
+10	30eae6044c	covariates	correct	
+10	30eae6044c	estimate	correct	
+11	53ca68a923	model	correct	
+11	53ca68a923	covariates	correct	
+11	53ca68a923	estimate	wrong	0.705 (0.589, 0.845) (0.581 (0.521, 0.647) is Model 2)
+12	e1d9d038bb	model	correct	
+12	e1d9d038bb	covariates	correct	
+12	e1d9d038bb	estimate	correct	
+13	6b7f67827b	model	wrong	Model 2 (fully adjusted model; paper has Crude, Model 1, Model 2)
+13	6b7f67827b	covariates	correct	
+13	6b7f67827b	estimate	cannot_tell	
+14	ea130293e0	model	correct	
+14	ea130293e0	covariates	cannot_tell	
+14	ea130293e0	estimate	correct	
+15	ea03123ab4	model	correct	
+15	ea03123ab4	covariates	correct	
+15	ea03123ab4	estimate	correct	
+16	0717542568	model	correct	
+16	0717542568	covariates	correct	
+16	0717542568	estimate	correct	
+17	c62af9091f	model	wrong	Model 3
+17	c62af9091f	covariates	correct	
+17	c62af9091f	estimate	correct	
+18	3865be04bf	model	correct	
+18	3865be04bf	covariates	correct	
+18	3865be04bf	estimate	correct	
+19	1c8c318fda	model	correct	
+19	1c8c318fda	covariates	correct	
+19	1c8c318fda	estimate	cannot_tell	
+20	f1ad3fb0ff	model	cannot_tell	
+20	f1ad3fb0ff	covariates	correct	
+20	f1ad3fb0ff	estimate	cannot_tell	
+21	4b72270032	model	correct	
+21	4b72270032	covariates	correct	
+21	4b72270032	estimate	correct	
+22	cde66dda6a	model	correct	
+22	cde66dda6a	covariates	correct	
+22	cde66dda6a	estimate	correct	
+23	a906145f51	model	correct	
+23	a906145f51	covariates	correct	
+23	a906145f51	estimate	correct	
+24	9e2e6087fa	model	correct	
+24	9e2e6087fa	covariates	correct	
+24	9e2e6087fa	estimate	wrong	1.19 (1.00, 1.41) (Tertile 3 vs Tertile 1, Model 3; 1.05 (1.02, 1.10) is the continuous per-unit OR)

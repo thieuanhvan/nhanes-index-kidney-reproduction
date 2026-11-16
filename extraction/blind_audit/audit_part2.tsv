@@ -1,0 +1,70 @@
+item	rec_id	field	verdict	correct_value
+25	9cd1df095e	model	correct	
+25	9cd1df095e	covariates	correct	
+25	9cd1df095e	estimate	correct	
+26	c48bec549c	model	correct	
+26	c48bec549c	covariates	correct	
+26	c48bec549c	estimate	correct	
+27	2ecb3dff61	model	correct	
+27	2ecb3dff61	covariates	correct	
+27	2ecb3dff61	estimate	cannot_tell	
+28	8991f10763	model	correct	
+28	8991f10763	covariates	correct	
+28	8991f10763	estimate	correct	
+29	edaf91172c	model	correct	
+29	edaf91172c	covariates	correct	
+29	edaf91172c	estimate	correct	
+30	aca6f864fb	model	correct	
+30	aca6f864fb	covariates	correct	
+30	aca6f864fb	estimate	wrong	0.74 (0.63-0.87) [Model 3 Q4 vs Q1; 0.51 (0.45-0.59) is the unadjusted estimate]
+31	ff27565860	model	correct	
+31	ff27565860	covariates	wrong	missing: marital status; education level; BMI; PIR; smoking status; hypertension; stroke; cancer; coronary heart disease; hypercholesterolemia; liver disease; extra: none
+31	ff27565860	estimate	correct	
+32	cef539b61e	model	wrong	Model 3
+32	cef539b61e	covariates	correct	
+32	cef539b61e	estimate	correct	
+33	94132d0c1a	model	correct	
+33	94132d0c1a	covariates	correct	
+33	94132d0c1a	estimate	correct	
+34	fea693ee81	model	correct	
+34	fea693ee81	covariates	wrong	missing: body mass index; poverty income ratio; education level; marital status; smoking status; alcohol consumption; PA total MET; hyperlipidemia; hypertension; diabetes mellitus; cardiovascular disease; extra: none (age, sex, race is Adjust 1)
+34	fea693ee81	estimate	correct	
+35	8a9e8d47ec	model	correct	
+35	8a9e8d47ec	covariates	correct	
+35	8a9e8d47ec	estimate	correct	
+36	69700c2b09	model	correct	
+36	69700c2b09	covariates	correct	
+36	69700c2b09	estimate	correct	
+37	250e5761d5	model	wrong	Model 3
+37	250e5761d5	covariates	correct	
+37	250e5761d5	estimate	correct	
+38	988df86a79	model	correct	
+38	988df86a79	covariates	correct	
+38	988df86a79	estimate	correct	
+39	b966d3cfdc	model	correct	
+39	b966d3cfdc	covariates	correct	
+39	b966d3cfdc	estimate	correct	
+40	cf0849f17f	model	correct	
+40	cf0849f17f	covariates	correct	
+40	cf0849f17f	estimate	correct	
+41	9835a67923	model	correct	
+41	9835a67923	covariates	wrong	missing: marital status; BMI; hypertension; smoking status; extra: none (age, gender, race is Model 2)
+41	9835a67923	estimate	correct	
+42	ba21203b93	model	wrong	Model IV (T3 vs T2 tertile, not continuous FPSA/TPSA; continuous Model IV OR is 1.03 (1.02-1.04))
+42	ba21203b93	covariates	correct	
+42	ba21203b93	estimate	correct	
+43	76d45e5c64	model	correct	
+43	76d45e5c64	covariates	correct	
+43	76d45e5c64	estimate	correct	
+44	fad26f18b1	model	correct	
+44	fad26f18b1	covariates	wrong	missing: marital status; education level; PIR; BMI; smoking; drinking; AST; ALT; hypertension; DM; CVD; dyslipidemia; extra: none (age, gender, race is Model 2)
+44	fad26f18b1	estimate	correct	
+45	f6e85f9043	model	correct	
+45	f6e85f9043	covariates	correct	
+45	f6e85f9043	estimate	correct	
+46	fe82b9da6a	model	correct	
+46	fe82b9da6a	covariates	correct	
+46	fe82b9da6a	estimate	correct	
+47	259b9d6255	model	correct	
+47	259b9d6255	covariates	correct	
+47	259b9d6255	estimate	wrong	1.60 (1.01-2.53) [Model 3 Q4 vs Q1; 5.27 (4.03-6.90) is Model 1 unadjusted]

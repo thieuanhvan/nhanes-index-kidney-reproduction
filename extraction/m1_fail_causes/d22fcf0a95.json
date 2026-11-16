@@ -1,0 +1,44 @@
+{
+ "rec_id": "d22fcf0a95",
+ "n_reported": 25236.0,
+ "n_repro": 20708,
+ "n_cc": 20708,
+ "n_xy": 25236,
+ "n_domain_y": 25236,
+ "weight": null,
+ "exposure_terms": [
+  "x_q2",
+  "x_q3",
+  "x_q4"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "pir3__high",
+   2404,
+   false
+  ],
+  [
+   "pir3__mid",
+   2404,
+   false
+  ],
+  [
+   "alc3__lowmod",
+   2185,
+   false
+  ],
+  [
+   "alc3__severe",
+   2185,
+   false
+  ],
+  [
+   "bmi",
+   237,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

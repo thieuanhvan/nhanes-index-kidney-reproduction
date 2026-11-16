@@ -1,0 +1,26 @@
+rec_id	failing_component	n_cause	or_differs	imputation_stated	imputation_main_analysis	fasting_covariate_in_top5	n_reported	n_xy_noweight	n_xy	n_repro	n_cc_check	dlogor	dn_rel	top_covariate_loss
+1c8c318fda	N	undisclosed exclusion	False	False	False	False	10968		16165	14419	14419	0.0416	0.3146	ever_drink:1012
+250e5761d5	OR and N	undisclosed exclusion	True	False	False	False	7760		14180	13121	13121	0.3633	0.6908	drink__yes:1012
+30eae6044c	N	undisclosed exclusion	False	True	True	False	2770		4147	3757	3757	0.0174	0.3563	pir3__high:354
+3865be04bf	OR		True	False	False	False	28231		39239	31121	31121	3.8637	0.1023	drink_cur:3999
+450ed6ebb6	N	imputation	False	True	True	False	5943		5770	4266	4266	0.1352	0.2821	drink_yes:882
+53ca68a923	N	subsample	False	False	False	False	26996	26996	12098	10490	10490	0.0296	0.6114	pir:949
+76d45e5c64	N	subsample	False	True	False	False	7138	7369	3483	530	530	0.1451	0.9257	drink__heavy:1761
+79f1e21c4c	OR		True	True	True	False	18078		20403	17677	17677	1.0115	0.0221	alc_days:1349
+8a9e8d47ec	N	subsample	False	False	False	True	15360		16133	4886	4886	0.0538	0.6819	ldl:8827
+988df86a79	N	subsample	False	False	False	True	19317		19329	7447	7447	0.0052	0.6144	ldl:10244
+9cd1df095e	N	subsample	False	True	True	False	7772	7775	3683	2758	2758	0.0456	0.6451	pir:491
+b966d3cfdc	N	undisclosed exclusion	False	False	False	False	4353		5398	5290	5290	0.1067	0.2152	htn:70
+ba21203b93	OR		True	True	True	False	1681		1644	1456	1456	0.3294	0.1338	drink_yes:96
+c48bec549c	N	unexplained	False	False	False	False	23879		22334	17711	17711	0.0607	0.2583	drink3__current:2451
+cde66dda6a	OR and N	unexplained	True	False	False	False	24387		20976	17709	17709	0.6541	0.2738	pir3__high:1746
+cf0849f17f	N	unexplained	False	False	False	False	3937		3755	2908	2908	0.0624	0.2613	pir:385
+d22fcf0a95	N	imputation	False	True	True	False	25236		25236	20708	20708	0.0392	0.1794	pir3__high:2404
+d84bd11e2e	N	undisclosed exclusion	False	False	False	False	2371		3441	3082	3082	0.1335	0.2998	pir3__high:319
+e1d9d038bb	N	unexplained	False	True	False	False	4010		4042	3292	3292	0.0678	0.179	pir:437
+e76d3d1271	N	unexplained	False	False	False	False	21765		19444	17919	17919	0.0145	0.1767	drink_yes:1124
+ea130293e0	N	subsample	False	True	True	False	3734	3926	1993	1902	1902	0.0814	0.4906	ldl:54
+edaf91172c	OR and N	undisclosed exclusion	True	False	False	False	19426		35125	27246	27246	0.2403	0.4025	hichol:4740
+f6e85f9043	N	imputation	False	True	True	False	15163		13175	10479	10479	0.216	0.3089	pir_cat__1.3-3.5:1099
+fad26f18b1	N	imputation	False	True	True	False	25181		25181	20655	20655	0.0306	0.1797	pir3__high:2402
+ff27565860	N	unexplained	False	False	False	False	8329		8422	5351	5351	0.0143	0.3575	marital6__divorced:1666

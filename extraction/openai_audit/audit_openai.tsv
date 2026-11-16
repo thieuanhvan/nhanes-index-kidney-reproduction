@@ -1,0 +1,97 @@
+item	rec_id	field	verdict	correct_value	evidence	model
+1	ba21203b93	model	correct	Model IV	Table 3: FPSA/TPSA T3, fully adjusted OR 2.16 (1.6–2.91); footnote: “Model IV: adjusted for Model III + total cholesterol level (TC) + total triglyceride level (TG) + high-density lipoprotein(HDL) + Glycosylated hemoglobin (HbA1C)”.	gpt-6.1-sol
+1	ba21203b93	covariates	wrong	missing: ['age']; extra: []	“Model II: adjusted for age + race + education level + marriage status”; Model III includes Model II, and Model IV includes Model III.	gpt-6.1-sol
+1	ba21203b93	estimate	correct	OR 2.16 (95% CI 1.60–2.91)	Abstract: “FPSA/TPSA ratio ... (OR = 2.16, 95% CI 1.60–2.91)”; Table 3 locates this estimate in the Model IV T3-versus-T2 comparison.	gpt-6.1-sol
+2	4b72270032	model	correct	Model 3	Table 2, RAR row: Model 3, 1.58 [1.42, 1.75].	gpt-6.1-sol
+2	4b72270032	covariates	correct	missing: []; extra: []	Model 3: adjusted for age, sex, BMI, race, educational level, PIR, smoking, hypertension, CVD, diabetes, BUN, ALT, AST, glycosylated, hemoglobin, and glucose.	gpt-6.1-sol
+2	4b72270032	estimate	correct	OR 1.58 (95% CI 1.42–1.75)	This relationship remained robust after adjusting for multiple covariates (OR = 1.58, 95% confidence interval = 1.42–1.75).	gpt-6.1-sol
+3	ac96396902	model	wrong	Model 3	“In the fully adjusted model (Model 3), each one-unit increase in ALBI ... (OR = 5.38, 95% CI 3.84–7.54).”	gpt-6.1-sol
+3	ac96396902	covariates	correct	missing: []; extra: []	Table 2 footnote: “Model 3: Adjust: Age, Sex, Race/ethnicity, Education, Family income to poverty ratio, BMI, Hypertension, Drinking status, Smoking status.” The Methods and abstract additionally list diabetes, inconsistent with this footnote.	gpt-6.1-sol
+3	ac96396902	estimate	wrong	OR 5.38 (95% CI 3.84–7.54)	Abstract: “each one-unit increase in the ALBI score ... CVD–CKD comorbidity (OR = 5.38, 95% CI 3.84–7.54)”; Table 2 reports the same continuous ALBI estimate under Model 3.	gpt-6.1-sol
+4	d84bd11e2e	model	correct	Model 3	Table 3, Log2-CMI, Model3: 1.40(1.19, 1.66).	gpt-6.1-sol
+4	d84bd11e2e	covariates	correct	missing: []; extra: []	Table 3 footnote: “Model 3: adjusted for age, sex, race, poverty income ratio, physical activity, education level, smoking status, cardiovascular disease, hypertension, and hyperlipidemia.”	gpt-6.1-sol
+4	d84bd11e2e	estimate	correct	OR 1.40 (95% CI 1.19–1.66) per 1-unit increase in Log2-CMI	Table 3, Log2-CMI, Model3: “1.40(1.19, 1.66)”; abstract: “OR: 1.40, 95% CI: 1.19–1.66”.	gpt-6.1-sol
+5	f6e85f9043	model	correct	Model 3	In the fully adjusted model 3, each unit increase in CTI was associated with a 22% higher odds of albuminuria.	gpt-6.1-sol
+5	f6e85f9043	covariates	correct	missing: []; extra: []	Model 3: Age, sex, race, body mass index, education, marital status, PIR, low eGFR, serum uric acid, serum albumin, TG, LDL-C, diabetes mellitus, alcohol consumption, physical activity, smoking status, ALT, and AST were adjusted.	gpt-6.1-sol
+5	f6e85f9043	estimate	correct	OR 1.22 (95% CI 1.14–1.31) per 1-unit increase in CTI	In the fully adjusted model 3, each unit increase in CTI was associated with a 22% higher odds of albuminuria (odds ratio = 1.22, 95% confidence interval [95% CI]: 1.14–1.31).	gpt-6.1-sol
+6	d22fcf0a95	model	wrong	Model1	The abstract reports Q2 OR 1.19 (95% CI 1.07–1.31); Table 2 assigns this estimate to Model1.	gpt-6.1-sol
+6	d22fcf0a95	covariates	wrong	missing: []; extra: ['age', 'gender', 'race', 'marital status', 'educational level', 'PIR', 'alcohol consumption', 'smoking status', 'BMI', 'HBP', 'DM', 'CVD']	Model 1: No adjustment for confounders.	gpt-6.1-sol
+6	d22fcf0a95	estimate	wrong	OR 1.19 (95% CI 1.07–1.31), Q2 versus Q1	Abstract: “1.19 (95% CI = 1.07–1.31, p <0.05) for the Q2 group”; Table 2 reports the same values under Model1.	gpt-6.1-sol
+7	3865be04bf	model	correct	Model 3	Model 3 (OR=1.85, 95% CI: 1.64–2.08, P < 0.001).	gpt-6.1-sol
+7	3865be04bf	covariates	correct	missing: []; extra: []	Table 2: “Model 3: Adjust: sex, ethnicity, PIR, smoking, drinking, physical activity, education level, hypertension, and diabetes mellitus.”	gpt-6.1-sol
+7	3865be04bf	estimate	correct	OR 1.85 (95% CI 1.64–2.08)	Abstract: “fully adjusted odds ratios (OR) 1.85 ... 1.64–2.08”; Table 2, continuous FIB4, Model 3: “1.85 (1.64 ~ 2.08)”.	gpt-6.1-sol
+8	ea03123ab4	model	correct	Model 3	Table 3, Continuous METS-VF, Model 3: 1.406 (1.243, 1.590).	gpt-6.1-sol
+8	ea03123ab4	covariates	correct	missing: []; extra: []	Model 2: adjusted for age group (<60/≥60 years), sex, ethnicity, marital status, PIR, education level, and smoking history. Model 3: adjusted for Model 2 + hypertension, diabetes, CVDs, BMI group (<25/25-30/≥30kg/m2), TC, LDL-c, and eGFR.	gpt-6.1-sol
+8	ea03123ab4	estimate	correct	OR 1.406 (95% CI 1.243–1.590)	Table 3, Continuous METS-VF, Model 3: 1.406 (1.243, 1.590) <0.001.	gpt-6.1-sol
+9	450ed6ebb6	model	correct	Model 3	Table 2, RC Quartile 4, Model 3: 2.73 (2.12, 3.52).	gpt-6.1-sol
+9	450ed6ebb6	covariates	correct	missing: []; extra: []	Model 3: Adjusted for age, gender ... race ... educational level ... marital status ... PIR ... smoking status ... drinking status ... BMI, Hypertension ... and diabetes duration.	gpt-6.1-sol
+9	450ed6ebb6	estimate	correct	OR 2.73 (95% CI 2.12–3.52), RC Q4 vs Q1	Abstract: 'The highest RC (OR: 2.73, 95% CI: 2.12–3.52 ...)' after full adjustment; Table 2 confirms RC Quartile 4, Model 3: 2.73 (2.12, 3.52).	gpt-6.1-sol
+10	988df86a79	model	wrong	Model 3	Table 2, overall population, Per SD increment: Model 3, '1.16 (1.06, 1.27)'.	gpt-6.1-sol
+10	988df86a79	covariates	correct	missing: []; extra: []	Model3 was adjusted for age, sex (only for overall population), race, poverty income ratio, BMI, SBP, DBP, current smoking, alcohol intake, FPG, albumin, TG, TC, HDL, LDL, diabetes mellitus, antihypertensive drugs, lipoprotein-lowering drugs, glucose-lowering drugs.	gpt-6.1-sol
+10	988df86a79	estimate	correct	OR 1.16 (95% CI 1.06–1.27) per SD increment	Table 2, Per SD increment, Model 3: '1.16 (1.06, 1.27) 0.002'.	gpt-6.1-sol
+11	250e5761d5	model	correct	Model 3	After adjustment for multiple covariates (Model 3) ... each 1-unit increase in AVAI was associated with a 47% increase in CKD prevalence.	gpt-6.1-sol
+11	250e5761d5	covariates	correct	missing: []; extra: []	Model 3: adjusted for age, sex, race, BMI, educational level, smoke, drink, activity status, diabetes, hypertension.	gpt-6.1-sol
+11	250e5761d5	estimate	correct	OR 1.47 (95% CI 1.36–1.59) per 1-unit increase	Table 2, CKD, AVAI, Model 3: 1.47 (1.36, 1.59) <0.001.	gpt-6.1-sol
+12	71eedfeafb	model	correct	Model 3	Additional adjustment for the use of RASI and NSAIDs in the fully adjusted model (Model 3) ... (OR = 0.975; 95% CI: 0.969–0.981).	gpt-6.1-sol
+12	71eedfeafb	covariates	correct	missing: []; extra: []	Model 3: ethnicity, age, sex, education, marital status, hypertension, hyperlipidemia, ASCVD, DM, RASI, NSAID.	gpt-6.1-sol
+12	71eedfeafb	estimate	correct	OR 0.975 (95% CI 0.969–0.981) per 1-unit increase in OBS	Table 2, Continuous, Model 3: 0.975 (0.969, 0.981).	gpt-6.1-sol
+13	8991f10763	model	correct	Fully adjusted model(model 3)	Table 2: “Fully adjusted model(model 3)”	gpt-6.1-sol
+13	8991f10763	covariates	correct	missing: []; extra: []	Table 2: “Fully Adjusted model (model 3): Adjusted for age, gender, race, marital status, education level, poverty income ratio, BMI, ALT, AST, TC, TG, drinking, smoking, hypertension, hyperuricemia, and diabetes mellitus.”	gpt-6.1-sol
+13	8991f10763	estimate	correct	OR 1.05 (95% CI 1.03–1.07) per 1-unit increase in AISI/100	“In model 3, a positive correlation between AISI/100 and CKD persisted (OR = 1.05, [95% CI: 1.03–1.07], P < .001)”	gpt-6.1-sol
+14	e76d3d1271	model	correct	Model 3	Table 2: CMI per 1 unit, Model 3: 1.08 (1.03–1.13).	gpt-6.1-sol
+14	e76d3d1271	covariates	correct	missing: []; extra: []	Model 3: Adjusted by age, gender, race/ethnicity, smoke, drink, BMI, TC, LDL-C, hypertension and DM	gpt-6.1-sol
+14	e76d3d1271	estimate	correct	OR 1.08 (95% CI 1.03–1.13) per 1 unit CMI	Table 2: CMI per 1 unit, Model 3: 1.08 (1.03–1.13), P = 0.002.	gpt-6.1-sol
+15	6b7f67827b	model	correct	Model 2	Table 3, NHANES population: NTI, per 1-unit increase ... Model 2 OR (95% CI): 1.021 (1.013–1.029).	gpt-6.1-sol
+15	6b7f67827b	covariates	correct	missing: []; extra: []	Model 1: adjusted for age, sex, race/ethnicity, education, and marital status. Model 2: Model 1 plus smoking, drinking, BMI, systolic blood pressure, diabetes, and heart failure.	gpt-6.1-sol
+15	6b7f67827b	estimate	correct	OR 1.021 (95% CI 1.013–1.029) per 1-unit increase in NTI	Table 3, NHANES population, Model 2: NTI, per 1-unit increase ... 1.021 (1.013–1.029).	gpt-6.1-sol
+16	ea130293e0	model	correct	Model 3	Table 2, NHANES RA, Model3: 1.46 (1.13, 1.87).	gpt-6.1-sol
+16	ea130293e0	covariates	wrong	missing: ['age', 'poverty-to-income ratio (PIR)', 'serum uric acid (SUA)']; extra: []	Model 2 – adjusted for demographic factors (age, sex, race, education level, smoking status); Model 3 – additionally adjusted for clinical indicators ... Variables selected for adjustment included: age ... poverty‑to‑income ratio (PIR) ... serum uric acid (SUA).	gpt-6.1-sol
+16	ea130293e0	estimate	correct	OR 1.46 (95% CI 1.13–1.87)	After full adjustment ... (NHANES: OR = 1.46, 95% CI: 1.13–1.87 ...).	gpt-6.1-sol
+17	1c8c318fda	model	correct	Model 3	After adjusting for potential confounders in Model 3 ... NHANES: OR = 1.81, 95% CI = 1.58–2.07.	gpt-6.1-sol
+17	1c8c318fda	covariates	correct	missing: []; extra: []	Model 3: adjusted for sex, age, race, education level, marital status, BMI, triglycerides, total cholesterol, CVD, diabetes mellitus, hypertension, CRP, lipid-lowering drugs, smoking, and drinking status.	gpt-6.1-sol
+17	1c8c318fda	estimate	correct	OR 1.81 (95% CI 1.58–2.07) per SD	Table 3, NHANES, UHR% per SD, Model 3: 1.81 (1.58, 2.07).	gpt-6.1-sol
+18	78c5287646	model	correct	Multivariate analysis (Table 5, footnote a)	Table 5: “Multivariate analysis”; “PNI group (Higher PNI) ... 0.640(0.459,0.892)”	gpt-6.1-sol
+18	78c5287646	covariates	correct	missing: []; extra: []	Table 5 footnote a: “adjustment for age, gender, race, smoking, hypertension, DII group, energy intake, DPI, hyperuricemia, HbA1c, triglyceride, hypoalbuminemia, anemia, lymphocyte and PNI group.”	gpt-6.1-sol
+18	78c5287646	estimate	correct	OR 0.640 (95% CI 0.459–0.892)	Abstract: “a lower risk of DKD (OR 0.64, 95% CI 0.459–0.892, p = 0.01)”; Table 5: “PNI group (Higher PNI) ... 0.640(0.459,0.892)”	gpt-6.1-sol
+19	a906145f51	model	correct	Model 3	Table 3, CKD, Quintile 1: Model 3 OR (95% CI) = 1.50 (1.19-1.90).	gpt-6.1-sol
+19	a906145f51	covariates	correct	missing: []; extra: []	Model 3 was adjusted for age, gender, body mass index, race, smoking status, alcohol consumption, DM duration, hypertension, cardiovascular disease, anemia, uric acid, blood urea nitrogen, antidiabetic drugs, renin angiotensin system inhibitors, and statins.	gpt-6.1-sol
+19	a906145f51	estimate	correct	OR 1.50 (95% CI 1.19-1.90), Quintile 1 versus Quintile 3	Table 3: CKD, Quintile 1, Model 3: 1.50 (1.19-1.90); Quintile 3: Ref.	gpt-6.1-sol
+20	cef539b61e	model	correct	Model 3	Model 3 (OR [95% CI], 1.36 [1.07–1.73]; p =0.01).	gpt-6.1-sol
+20	cef539b61e	covariates	correct	missing: []; extra: []	Model 3: adjusted by age, gender, race, education status, alcohol status, smoking status, PIR, BMI, WC, DBP, SBP, Glu, ALT, AST, Cr, UA, TG, TC, HDL-C, LDL-C, eGFR, hyperlipidemia, hypertension, diabetes mellitus	gpt-6.1-sol
+20	cef539b61e	estimate	wrong	OR 1.36 (95% CI 1.07–1.73) per 1-unit increase in SII/1000	Table 3, SII/1000, Model 3: 1.36 (1.07, 1.73),0.01	gpt-6.1-sol
+21	9835a67923	model	correct	Model 3	Table 2, Q4 before PSM: Model 3, 0.78 (0.63, 0.96).	gpt-6.1-sol
+21	9835a67923	covariates	correct	missing: []; extra: []	Model 2 adjusted for age, gender and race; Model 3 ... adjusted for marital status, BMI, hypertension and smoking status based on model 2.	gpt-6.1-sol
+21	9835a67923	estimate	correct	OR 0.78 (95% CI 0.63–0.96), Q4 vs Q1	Abstract: “DN [Q4 vs. Q1: OR (95% CI): 0.78 (0.63, 0.96)”; confirmed in Table 2, Model 3 before PSM.	gpt-6.1-sol
+22	79f1e21c4c	model	correct	Adjusted model (model 3)	Table 2: “Adjusted model (model 3)” reports CKD, TyG index as continuous variable: 4.03 (1.81, 8.96).	gpt-6.1-sol
+22	79f1e21c4c	covariates	wrong	missing: ['serum uric acid']; extra: []	Table 2 footnote: “Model 3: Adjusted for gender, age, race, BMI, WC, education level, smoking, alcohol drinking, SBP, DBP, AST, ALT, serum uric acid, TC, LDL-C, HDL-C, serum total calcium, hypertension, and diabetes status”.	gpt-6.1-sol
+22	79f1e21c4c	estimate	correct	OR 4.03 (95% CI 1.81–8.96) per 1-unit increase	“The positive correlation remains stable (OR = 4.03; 95% CI 1.81, 8.96) following full adjustment” for “every unit rise in the TyG index.”	gpt-6.1-sol
+23	9e2e6087fa	model	correct	Fully adjusted model (Model 3)	Table 2: “Fully adjusted model (Model 3)”; Tertile 3: “1.19 (1.00, 1.41)”.	gpt-6.1-sol
+23	9e2e6087fa	covariates	wrong	missing: ['eGFR']; extra: []	Table 2 footnote: “Model 3: adjusted for gender, age, race, education, systolic blood pressure, diastolic blood pressure, body mass index, waist circumference, hypertension, diabetes, smoking status, Serum Albumin, Serum Blood Urea Nitrogen, Serum Uric Acid, eGFR, ALT, AST, Total cholesterol, and HD	gpt-6.1-sol
+23	9e2e6087fa	estimate	correct	OR 1.19 (95% CI 1.00–1.41), T3 vs T1	Abstract: “OR = 1.19; 95% CI, 1.00–1.41”; Table 2 reports “1.19 (1.00, 1.41)” for Tertile 3 in Model 3.	gpt-6.1-sol
+24	0717542568	model	correct	Model 2	“When the copper/zinc level decreased to 1.20-1.46 level in Model 2” ... “when the copper/zinc level decreased to less than 1.2 ... 0.57 (95%CI, 0.39-0.84, p=0.006).”	gpt-6.1-sol
+24	0717542568	covariates	correct	missing: []; extra: []	“The model 2 was adjusted by age, gender, ethnicity, education status, average household income, BMI, diabetic status and smoke status.”	gpt-6.1-sol
+24	0717542568	estimate	correct	OR 0.57 (95% CI 0.39–0.84)	“when the copper/zinc level decreased to less than 1.2, the risk of participants had CKD was reduced to 0.57 (95%CI, 0.39-0.84, p=0.006).”	gpt-6.1-sol
+25	9cd1df095e	model	correct	Model 3	Model 3 was adjusted for all covariates.	gpt-6.1-sol
+25	9cd1df095e	covariates	correct	missing: []; extra: []	Model 3: age, sex, race, poverty-to-income ratio, educational level, physical activity status, marital status, alcohol consumption, smoking status, systolic blood pressure, diastolic blood pressure, serum creatinine, serum urea nitrogen, uric acid, fasting blood glucose, glycohemoglobin, triglycerid	gpt-6.1-sol
+25	9cd1df095e	estimate	correct	OR 1.13 (95% CI 1.09–1.18) per 1-unit increase in NHR	Table 2, NHR, Model 3: 1.13 (1.09, 1.18).	gpt-6.1-sol
+26	8a9e8d47ec	model	correct	Model II	Model II (OR = 1.37, 95% CI 1.28–1.48, p < 0.0001)	gpt-6.1-sol
+26	8a9e8d47ec	covariates	correct	missing: []; extra: []	Model II adjusted for age, sex, race, SBP, DBP, BMI, HDL-c, LDL-c, TC, CRP, HbA1c, FPG, Cr, smoke, and alcohol.	gpt-6.1-sol
+26	8a9e8d47ec	estimate	correct	OR 1.37 (95% CI 1.28–1.48) per 1-unit increase in WWI	Model II (OR = 1.37, 95% CI 1.28–1.48, p < 0.0001), indicating that for every unit increase in WWI, the prevalence of albuminuria increased by 37%.	gpt-6.1-sol
+27	b966d3cfdc	model	correct	Model 3	Specifically, in Model 3, Q4 had an OR of 0.69 (95% CI 0.57–0.85, p = 0.0003) compared to Q1.	gpt-6.1-sol
+27	b966d3cfdc	covariates	correct	missing: []; extra: []	Model 3 adjusted for age, gender, race, education, hypertension, smoking, BMI, UCR, UA, ALB, TBIL, TC, BUN.	gpt-6.1-sol
+27	b966d3cfdc	estimate	wrong	OR 0.69 (95% CI 0.57–0.85), Q4 vs Q1	Abstract: 'OR 0.69, 95% CI 0.57–0.85'; Results: 'in Model 3, Q4 had an OR of 0.69 (95% CI 0.57–0.85 ... ) compared to Q1.'	gpt-6.1-sol
+28	f1ad3fb0ff	model	wrong	Model 3 additionally adjusted for log (HOMA-IR)	Abstract: “this association persisted after additional adjustments for HOMA-IR or dichotomous metabolic syndrome.” Table 3 first lists “additionally adjusted for log (HOMA-IR).”	gpt-6.1-sol
+28	f1ad3fb0ff	covariates	wrong	missing: ['log (HOMA-IR)']; extra: []	Table 3: “Model 3: adjusted for age, gender, race, smoking status, physical activity, diabetes, hypertension, cardiovascular disease, BMI, Scr, and eGFR,” with an additional column “additionally adjusted for log (HOMA-IR).”	gpt-6.1-sol
+28	f1ad3fb0ff	estimate	wrong	OR 1.346 (95% CI 1.204–1.506)	Table 3, continuous TyG index, additionally adjusted for log (HOMA-IR): “1.346 (1.204, 1.506) <0.001.”	gpt-6.1-sol
+29	4de61a08ed	model	correct	Multivariate piecewise linear regression, fully adjusted	Table 3: “Independent correlation between HRR and albuminuria by multivariate piecewise linear regression.”	gpt-6.1-sol
+29	4de61a08ed	covariates	correct	missing: []; extra: []	Table 3: “Adjustment variables: sex, age, BMI, PIR; TC; TG; ALT; AST; BUN; UA; Cr; eGFR; Race; Smoking; Drinking; Hypertension; Diabetes; CVD; Education level.”	gpt-6.1-sol
+29	4de61a08ed	estimate	correct	OR 0.93 (95% CI 0.90–0.97), per 0.1-unit increase when HRR <1.213	Table 3: “<1.213 (per 0.1 unit) | 0.93 | (0.90, 0.97) | 0.0007.”	gpt-6.1-sol
+30	c62af9091f	model	correct	Model 3	In model 3, the OR of the CALLY index was 0.99 (95% CI: 0.99–0.99, p = 0.029).	gpt-6.1-sol
+30	c62af9091f	covariates	correct	missing: []; extra: []	Table 3: model 3: adjusted for gender, age, race, marital status, smoking, alcohol, hypertension, diabetes, dyslipidemia, and obesity.	gpt-6.1-sol
+30	c62af9091f	estimate	correct	OR 0.99 (95% CI 0.99–0.99) per 1-unit increase	In model 3, the OR of the CALLY index was 0.99 (95% CI: 0.99–0.99, p = 0.029).	gpt-6.1-sol
+31	cde66dda6a	model	correct	Model 3	Table 2: Model 3, METS-VF Index: 1.860 (1.480, 2.338).	gpt-6.1-sol
+31	cde66dda6a	covariates	correct	missing: []; extra: []	Model 3: adjusted for age, gender, race, education level, poverty-to-income ratio, alcohol intake, Hypertension, Diabetes, exercise routine, serum albumin, serum creatinine, low-density lipoprotein cholesterol, high-density lipoprotein cholesterol, triglyceride, urinary albumin and urinary creatinin	gpt-6.1-sol
+31	cde66dda6a	estimate	correct	OR 1.860 (95% CI 1.480–2.338) per 1-unit increase	Table 2, METS-VF Index, Model 3: 1.860 (1.480, 2.338).	gpt-6.1-sol
+32	fe82b9da6a	model	wrong	Model 2	Table 3: OBS <20, Model 2: 1.42 (1.06–1.91).	gpt-6.1-sol
+32	fe82b9da6a	covariates	correct	missing: []; extra: []	Model 2: ... adjusting for age, educational level, PIR, diabetic retinopathy, hypertension, CVD, anti-diabetes drug, anti-hypertension drug, and anti-dyslipidemia drug.	gpt-6.1-sol
+32	fe82b9da6a	estimate	correct	OR 1.42 (95% CI 1.06–1.91)	After adjusting for the covariates, the risk of DKD was elevated in those with OBS <20 (OR = 1.42, 95%CI: 1.06–1.91).	gpt-6.1-sol

@@ -1,0 +1,44 @@
+{
+ "rec_id": "9835a67923",
+ "n_reported": 3218.0,
+ "n_repro": 2506,
+ "n_cc": 3415,
+ "n_xy": 3634,
+ "n_domain_y": 3634,
+ "weight": "w",
+ "exposure_terms": [
+  "dobs_q2",
+  "dobs_q3",
+  "dobs_q4"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": true,
+ "covariate_loss_top5": [
+  [
+   "bmi",
+   92,
+   false
+  ],
+  [
+   "smoking__current",
+   73,
+   false
+  ],
+  [
+   "smoking__former",
+   73,
+   false
+  ],
+  [
+   "htn",
+   58,
+   false
+  ],
+  [
+   "marital__never",
+   31,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

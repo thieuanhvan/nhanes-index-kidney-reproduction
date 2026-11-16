@@ -1,0 +1,98 @@
+{
+ "rec_id": "ea130293e0",
+ "family": "F2_inflam",
+ "dag_family": "D2",
+ "flag_outcome_component": true,
+ "missing_A": "pir|hypertension_dx",
+ "missing_B": "pir|hypertension_dx|alcohol|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x",
+ "target_sd": 0.49707768521168155,
+ "n_terms": 19,
+ "added_A": [
+  "pir",
+  "c_htn_dx"
+ ],
+ "added_B": [
+  "pir",
+  "c_htn_dx",
+  "c_alc",
+  "c_pa"
+ ],
+ "n_common": 1682,
+ "n_paper_sample": 2010,
+ "n_neg": 1489,
+ "pir_missing_rate": 0.10264900662251655,
+ "full": {
+  "P": {
+   "logor": 0.23625428956850256,
+   "se": 0.10887757150521331,
+   "n": 1682
+  },
+  "Ps": {
+   "logor": 0.22357507869252247,
+   "se": 0.09021982660889226,
+   "n": 2010
+  },
+  "Pn": {
+   "logor": 0.2629256949537093,
+   "se": 0.12297895940699924,
+   "n": 1489
+  },
+  "N": {
+   "logor": 0.26324785552955143,
+   "se": 0.12357233641143167,
+   "n": 1489
+  },
+  "A": {
+   "logor": 0.23778383950522666,
+   "se": 0.10877936702125264,
+   "n": 1682
+  },
+  "B": {
+   "logor": 0.2242949452404708,
+   "se": 0.11018089845351452,
+   "n": 1682
+  },
+  "Q": {
+   "logor": 0.31453596547825746,
+   "se": 0.10594589340493807,
+   "n": 1682
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.01267921087598009,
+ "E3a_A": {
+  "delta": 0.001529549936724106,
+  "lo": -0.030867561606386498,
+  "hi": 0.023687140257192735,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.011959344328031751,
+  "lo": -0.04389646528077216,
+  "hi": 0.023783965250248475,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 0.000322160575842112,
+  "lo": -0.008447760622938722,
+  "hi": 0.0146650023438976,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.0782816759097549,
+  "lo": -0.12999686193433105,
+  "hi": -0.0370756770965341,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "seconds": 6
+}

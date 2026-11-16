@@ -1,0 +1,80 @@
+{
+ "rec_id": "76d45e5c64",
+ "family": "F4_lipid_anthro",
+ "dag_family": "D5",
+ "flag_outcome_component": true,
+ "missing_A": "",
+ "missing_B": "",
+ "label_A": "sufficient",
+ "label_B": "sufficient",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "x_q4",
+ "target_sd": 1.0,
+ "n_terms": 31,
+ "added_A": [],
+ "added_B": [],
+ "n_common": 61,
+ "n_paper_sample": 61,
+ "n_neg": 57,
+ "pir_missing_rate": 0.10735826296743065,
+ "full": {
+  "P": {
+   "logor": 13.719141041612144,
+   "se": 12.783523431135444,
+   "n": 61
+  },
+  "Ps": {
+   "logor": 13.719141041612144,
+   "se": 12.783523431135444,
+   "n": 61
+  },
+  "Pn": {
+   "logor": 12.908074629536754,
+   "se": 13.527838078010442,
+   "n": 57
+  },
+  "N": {
+   "logor": 9571922643483.89,
+   "se": 4366390122598.8174,
+   "n": 57
+  },
+  "Q": {
+   "logor": 14.199170754077985,
+   "se": 12.347962936174248,
+   "n": 61
+  }
+ },
+ "boot_failed_fits": 23,
+ "log": [
+  "model P: constant terms dropped ['race1__other_multi']",
+  "model Ps: constant terms dropped ['race1__other_multi']",
+  "model Pn: constant terms dropped ['race1__other_multi']",
+  "model N: constant terms dropped ['race1__other_multi']",
+  "model Q: constant terms dropped ['race1__other_multi']"
+ ],
+ "sample_change": 0.0,
+ "E3a_A": {
+  "class": "negative",
+  "note": "nothing missing under DAG A (or all present)"
+ },
+ "E3a_B": {
+  "class": "negative",
+  "note": "nothing missing under DAG B"
+ },
+ "neg_control": {
+  "delta": 9571922643470.982,
+  "lo": -142017381046217.0,
+  "hi": 182545867022159.12,
+  "n_boot": 87,
+  "class": "point_positive"
+ },
+ "pos_control": {
+  "delta": -0.48002971246584103,
+  "lo": -11516185131316.19,
+  "hi": 65651808766563.14,
+  "n_boot": 98,
+  "class": "point_positive"
+ },
+ "seconds": 8
+}

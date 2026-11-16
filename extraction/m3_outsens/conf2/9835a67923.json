@@ -1,0 +1,100 @@
+{
+ "rec_id": "9835a67923",
+ "family": "F3_diet_life",
+ "dag_family": "D3",
+ "flag_outcome_component": false,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|alcohol|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "diet_day1",
+ "target": "dobs_q4",
+ "target_sd": 1.0,
+ "n_terms": 15,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_alc",
+  "c_pa"
+ ],
+ "n_common": 722,
+ "n_paper_sample": 840,
+ "n_neg": 640,
+ "pir_missing_rate": 0.0967741935483871,
+ "full": {
+  "P": {
+   "logor": 0.26855178363980253,
+   "se": 0.30606586279739334,
+   "n": 722
+  },
+  "Ps": {
+   "logor": 0.016133309817402144,
+   "se": 0.265044086306119,
+   "n": 840
+  },
+  "Pn": {
+   "logor": 0.3754810204860578,
+   "se": 0.3164738189336195,
+   "n": 640
+  },
+  "N": {
+   "logor": 0.360875382074413,
+   "se": 0.3206758297333187,
+   "n": 640
+  },
+  "A": {
+   "logor": 0.3615541987949813,
+   "se": 0.3425495882944351,
+   "n": 722
+  },
+  "B": {
+   "logor": 0.4311373567074436,
+   "se": 0.34236937656854904,
+   "n": 722
+  },
+  "Q": {
+   "logor": 0.12175632421542457,
+   "se": 0.2802024097240225,
+   "n": 722
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.2524184738224004,
+ "E3a_A": {
+  "delta": 0.09300241515517876,
+  "lo": -0.11685957103099416,
+  "hi": 0.30039658537671093,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": 0.16258557306764104,
+  "lo": -0.12092197684216659,
+  "hi": 0.4033063664001674,
+  "n_boot": 100,
+  "class": "point_positive"
+ },
+ "neg_control": {
+  "delta": -0.014605638411644806,
+  "lo": -0.06942442468548334,
+  "hi": 0.06747212921063148,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.14679545942437797,
+  "lo": 0.020511848329788984,
+  "hi": 0.3194550015472058,
+  "n_boot": 100,
+  "class": "point_positive"
+ },
+ "seconds": 6
+}

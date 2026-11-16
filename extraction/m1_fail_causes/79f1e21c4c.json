@@ -1,0 +1,42 @@
+{
+ "rec_id": "79f1e21c4c",
+ "n_reported": 18078.0,
+ "n_repro": 17677,
+ "n_cc": 17677,
+ "n_xy": 20403,
+ "n_domain_y": 20403,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "alc_days",
+   1349,
+   false
+  ],
+  [
+   "dbp",
+   894,
+   false
+  ],
+  [
+   "sbp",
+   818,
+   false
+  ],
+  [
+   "waist",
+   554,
+   false
+  ],
+  [
+   "ldl",
+   393,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

@@ -1,0 +1,441 @@
+{
+ "source": "prereg_i139_v6_vi.md",
+ "source_sha256": "72db630ce54c3d65d90c8d175aaf0eac10145d967020fc802387d147fd25ca21",
+ "families": {
+  "D1": {
+   "A": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "T B+",
+     "Diagnosed_diabetes": "K-M",
+     "Glycaemia_HbA1c_insulin": "K-M",
+     "Diagnosed_hypertension": "K-M",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T B+",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "31956a6fe597b7425a35cc394910a8c2c47412aa2d7f6493f0bc1f2aad441179"
+   },
+   "B": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking",
+     "Alcohol",
+     "Physical_activity",
+     "BMI_waist",
+     "Lipid_lowering_drugs"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "T B+",
+     "Diagnosed_diabetes": "K-M",
+     "Glycaemia_HbA1c_insulin": "K-M",
+     "Diagnosed_hypertension": "K-M",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T B+",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "c1650a0964363b785238bab024f7fd5d034612a80f0aaa86018d4e786e31b6ec"
+   }
+  },
+  "D2": {
+   "A": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking",
+     "Diagnosed_diabetes",
+     "Diagnosed_hypertension"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "T B+",
+     "Diagnosed_diabetes": "G",
+     "Glycaemia_HbA1c_insulin": "K-M",
+     "Diagnosed_hypertension": "G",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "34e8db5d1a9a133eadacf13dc52a6b9e2019142c8ba7b614335de695c9181c61"
+   },
+   "B": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking",
+     "Alcohol",
+     "Physical_activity",
+     "BMI_waist",
+     "Diagnosed_diabetes",
+     "Diagnosed_hypertension"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "T B+",
+     "Diagnosed_diabetes": "G",
+     "Glycaemia_HbA1c_insulin": "K-M",
+     "Diagnosed_hypertension": "G",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "d512de103b025d7b398b3fedac97349234a3af33adc4f87adf1ba8566563828f"
+   }
+  },
+  "D3": {
+   "A": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking",
+     "Diagnosed_diabetes",
+     "Diagnosed_hypertension"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "K-M",
+     "Diagnosed_diabetes": "G",
+     "Glycaemia_HbA1c_insulin": "K-M",
+     "Diagnosed_hypertension": "G",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "30c3f5366ed052bce26ccc33bba19ff05ab41409c5b50ddb93f481298b908e8a"
+   },
+   "B": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking",
+     "Alcohol",
+     "Physical_activity",
+     "Diagnosed_diabetes",
+     "Diagnosed_hypertension"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "K-M",
+     "Diagnosed_diabetes": "G",
+     "Glycaemia_HbA1c_insulin": "K-M",
+     "Diagnosed_hypertension": "G",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "552810b269e139606994e7b059fecbe03fa4b72ac7856f1fb36546990bb961bd"
+   }
+  },
+  "D4a": {
+   "A": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "T B+",
+     "Diagnosed_diabetes": "T B+",
+     "Glycaemia_HbA1c_insulin": "T",
+     "Diagnosed_hypertension": "K-M",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T B+",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "6d41d2fcc0dcd2e43cf489a56bc3116c05e196b51f4e5bcaf5c2d1b5440ab286"
+   },
+   "B": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking",
+     "Alcohol",
+     "Physical_activity",
+     "BMI_waist",
+     "Diagnosed_diabetes",
+     "Lipid_lowering_drugs"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "T B+",
+     "Diagnosed_diabetes": "T B+",
+     "Glycaemia_HbA1c_insulin": "T",
+     "Diagnosed_hypertension": "K-M",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T B+",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "499557f61a2e1fcebf368acff8fd799237574f1434a214579f564aacae0f6e7d"
+   }
+  },
+  "D4b": {
+   "A": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "K-M",
+     "Diagnosed_diabetes": "K-M",
+     "Glycaemia_HbA1c_insulin": "K-M",
+     "Diagnosed_hypertension": "K-M",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "fa559f62e34c113477992ac86443eda687a358c6ba7ec186f90330e029c6a573"
+   },
+   "B": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking",
+     "Alcohol",
+     "Physical_activity"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "K-M",
+     "Diagnosed_diabetes": "K-M",
+     "Glycaemia_HbA1c_insulin": "K-M",
+     "Diagnosed_hypertension": "K-M",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "1df9e0fe589a59ceef08acb6e73bd018600e81e11592c273ee8cdb77b57f0f53"
+   }
+  },
+  "D5": {
+   "A": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "T B+",
+     "Diagnosed_diabetes": "T",
+     "Glycaemia_HbA1c_insulin": "T",
+     "Diagnosed_hypertension": "T",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "662c27eb6fbf3b3de12e6f1192bede0b14f19e6819ff53968e9cf69d84c19519"
+   },
+   "B": {
+    "adjustment_set": [
+     "Age_Sex",
+     "Race_ethnicity",
+     "Education_PIR",
+     "Smoking",
+     "Alcohol",
+     "Physical_activity",
+     "BMI_waist"
+    ],
+    "backdoor_valid": true,
+    "minimal": true,
+    "roles": {
+     "Age_Sex": "G",
+     "Race_ethnicity": "G",
+     "Education_PIR": "G",
+     "Smoking": "G",
+     "Alcohol": "T B+",
+     "Physical_activity": "T B+",
+     "BMI_waist": "T B+",
+     "Diagnosed_diabetes": "T",
+     "Glycaemia_HbA1c_insulin": "T",
+     "Diagnosed_hypertension": "T",
+     "Measured_BP": "K-O",
+     "Lipid_lowering_drugs": "T",
+     "Diabetes_drugs": "T",
+     "Antihypertensive_drugs": "T",
+     "HDL_LDL_TC": "T",
+     "CRP_WBC": "T",
+     "Uric_acid": "K-O",
+     "Kidney_markers": "K-O",
+     "CVD": "K-X",
+     "NHANES_cycle": "P"
+    },
+    "dagitty_sha256": "78d09e689eb787b43f542a1b35f84fdcb37ed113b4f0449eb93d6e97040f10d0"
+   }
+  }
+ }
+}

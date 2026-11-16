@@ -1,0 +1,98 @@
+{
+ "rec_id": "c62af9091f",
+ "status": "run",
+ "n_common": 22413,
+ "weight_kind": "mec",
+ "binary_target": false,
+ "term_map": {
+  "female": "confounder_like",
+  "age": "confounder_like",
+  "race4__black": "confounder_like",
+  "race4__mex": "confounder_like",
+  "race4__other": "confounder_like",
+  "cohab": "other",
+  "smoke_ever": "confounder_like",
+  "alcohol": "confounder_like",
+  "htn": "hypertension_dx",
+  "dm": "diabetes_dx",
+  "dyslip": "other",
+  "obese28": "other"
+ },
+ "log": [],
+ "k_concepts": [],
+ "k_terms_dropped_E3b": [],
+ "point": {
+  "P": {
+   "logor": -0.07782719067869948,
+   "logpr": -0.074020441692036,
+   "marg_logor": -0.06420200565573286
+  },
+  "E3b": {
+   "logor": -0.07782719067869948,
+   "logpr": -0.074020441692036,
+   "marg_logor": -0.06420200565573286
+  },
+  "conv": {
+   "logor": -0.0772947234324704,
+   "logpr": -0.08178831033485308,
+   "marg_logor": -0.06346918120496658
+  },
+  "P_dmrx": {
+   "logor": -0.08109109088442017,
+   "logpr": -0.07660427110460472,
+   "marg_logor": -0.06669320519866706
+  },
+  "P_bprx": {
+   "logor": -0.07676178783412722,
+   "logpr": -0.07353006466272399,
+   "marg_logor": -0.06322910675672744
+  },
+  "A": {
+   "logor": -0.0693553106373898,
+   "logpr": -0.06778275464075251,
+   "marg_logor": -0.056762125347122216
+  },
+  "B": {
+   "logor": -0.06649753190811024,
+   "logpr": -0.0656275945998015,
+   "marg_logor": -0.05438066386503748
+  }
+ },
+ "E3a_A_PR": {
+  "delta": 0.006237687051283497,
+  "lo": 0.001835657210992277,
+  "hi": 0.010781674207975567,
+  "class": "negative"
+ },
+ "E3a_A_marginal": {
+  "delta": 0.007439880308610647,
+  "lo": 0.0015050000656712304,
+  "hi": 0.013530876974565995,
+  "class": "negative"
+ },
+ "E3a_B_PR": {
+  "delta": 0.008392847092234507,
+  "lo": 0.0025600389901010837,
+  "hi": 0.015431531219116036,
+  "class": "negative"
+ },
+ "E3a_B_marginal": {
+  "delta": 0.009821341790695381,
+  "lo": 0.002511600165181849,
+  "hi": 0.018247132127964645,
+  "class": "negative"
+ },
+ "shift_conv": 0.0005324672462290736,
+ "shift_P_dmrx": -0.0032639002057206906,
+ "shift_P_bprx": 0.0010654028445722524,
+ "RoE": {
+  "n_models": 1024,
+  "n_groups": 13,
+  "p2_5": 0.6795745048013084,
+  "p97_5": 0.9365629448396403,
+  "roe": 1.3781608024177854,
+  "share_or_gt1": 0.0,
+  "n_failed_fits": 0
+ },
+ "seconds": 55
+}

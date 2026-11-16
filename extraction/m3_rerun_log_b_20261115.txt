@@ -1,0 +1,22 @@
+79f1e21c4c run fasting nC 15884 A negative -0.0004 B negative neg negative pos point_positive 126 s
+4b72270032 run mec nC 29114 A negative  B negative neg negative pos negative 83 s
+fad26f18b1 run mec nC 20654 A negative  B negative neg negative pos negative 88 s
+71eedfeafb run diet_day1 nC 27932 A negative 0.0174 B negative neg negative pos negative 81 s
+8991f10763 run mec nC 25400 A negative  B negative neg negative pos negative 88 s
+c62af9091f run mec nC 22539 A negative 0.0082 B negative neg negative pos firm_positive 57 s
+cef539b61e run fasting nC 10493 A negative  B negative neg negative pos negative 55 s
+1c8c318fda run mec nC 13232 A negative 0.0021 B negative neg negative pos negative 49 s
+ea03123ab4 run fasting nC 17181 A negative  B negative neg negative pos negative 50 s
+f6e85f9043 run fasting nC 9678 A negative  B negative neg negative pos negative 48 s
+c48bec549c run fasting nC 17711 A negative  B negative neg negative pos negative 53 s
+250e5761d5 run fasting nC 11419 A negative -0.0244 B negative neg negative pos firm_positive 50 s
+ff27565860 run mec nC 5027 A negative  B negative neg negative pos negative 34 s
+8a9e8d47ec run fasting nC 4230 A negative -0.0362 B negative neg negative pos negative 29 s
+a906145f51 run mec nC 5005 A negative -0.0075 B negative neg negative pos negative 35 s
+30eae6044c run mec nC 3755 A negative  B negative neg negative pos point_positive 28 s
+9835a67923 run diet_day1 nC 3030 A point_positive 0.1103 B point_positive neg negative pos negative 13 s
+450ed6ebb6 run fasting nC 4243 A negative  B negative neg negative pos negative 14 s
+e1d9d038bb run mec nC 3290 A negative  B negative neg negative pos negative 9 s
+d84bd11e2e run fasting nC 2940 A negative  B negative neg negative pos negative 8 s
+78c5287646 run mec nC 2270 A negative -0.0024 B negative neg negative pos negative 11 s
+ea130293e0 run fasting nC 1605 A negative -0.002 B negative neg negative pos negative 10 s

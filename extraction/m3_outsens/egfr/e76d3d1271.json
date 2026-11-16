@@ -1,0 +1,99 @@
+{
+ "rec_id": "e76d3d1271",
+ "family": "F4_lipid_anthro",
+ "dag_family": "D4b",
+ "flag_outcome_component": false,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "x",
+ "target_sd": 1.31773879014908,
+ "n_terms": 14,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_pa"
+ ],
+ "n_common": 16390,
+ "n_paper_sample": 17919,
+ "n_neg": 14949,
+ "pir_missing_rate": 0.08727628060069945,
+ "full": {
+  "P": {
+   "logor": 0.1092527680763087,
+   "se": 0.032002490036266436,
+   "n": 16390
+  },
+  "Ps": {
+   "logor": 0.10181986032085195,
+   "se": 0.03081480074755485,
+   "n": 17919
+  },
+  "Pn": {
+   "logor": 0.1090827005218172,
+   "se": 0.03427596629599951,
+   "n": 14949
+  },
+  "N": {
+   "logor": 0.10992693723567509,
+   "se": 0.03424467667331421,
+   "n": 14949
+  },
+  "A": {
+   "logor": 0.09117354361300382,
+   "se": 0.031762942893154435,
+   "n": 16390
+  },
+  "B": {
+   "logor": 0.08899335202392979,
+   "se": 0.03197471319668644,
+   "n": 16390
+  },
+  "Q": {
+   "logor": 0.06785422500946024,
+   "se": 0.030221556982853805,
+   "n": 16390
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.007432907755456741,
+ "E3a_A": {
+  "delta": -0.01807922446330487,
+  "lo": -0.024709441352249156,
+  "hi": -0.011592911148282122,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.02025941605237891,
+  "lo": -0.027894355806153258,
+  "hi": -0.014370756142803068,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 0.0008442367138578877,
+  "lo": -0.001147694560340691,
+  "hi": 0.006382816649929571,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.04139854306684845,
+  "lo": 0.025308069824749698,
+  "hi": 0.05978447880768026,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 9
+}

@@ -1,0 +1,85 @@
+{
+ "rec_id": "53ca68a923",
+ "family": "F2_inflam",
+ "dag_family": "D2",
+ "flag_outcome_component": true,
+ "missing_A": "",
+ "missing_B": "alcohol|physical_activity",
+ "label_A": "sufficient",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "cally_q4",
+ "target_sd": 1.0,
+ "n_terms": 21,
+ "added_A": [],
+ "added_B": [
+  "c_alc",
+  "c_pa"
+ ],
+ "n_common": 10421,
+ "n_paper_sample": 11087,
+ "n_neg": 9532,
+ "pir_missing_rate": 0.07986368350866795,
+ "full": {
+  "P": {
+   "logor": -0.35507033490061385,
+   "se": 0.10887476975820493,
+   "n": 10421
+  },
+  "Ps": {
+   "logor": -0.3699261676206553,
+   "se": 0.10649543265098875,
+   "n": 11087
+  },
+  "Pn": {
+   "logor": -0.3947081297077009,
+   "se": 0.119237734479804,
+   "n": 9532
+  },
+  "N": {
+   "logor": -0.39519204193123497,
+   "se": 0.11946419437308219,
+   "n": 9532
+  },
+  "B": {
+   "logor": -0.3500824172644658,
+   "se": 0.10921156105386248,
+   "n": 10421
+  },
+  "Q": {
+   "logor": -0.6358646977516371,
+   "se": 0.10245625407578755,
+   "n": 10421
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.014855832720041429,
+ "E3a_A": {
+  "class": "negative",
+  "note": "nothing missing under DAG A (or all present)"
+ },
+ "E3a_B": {
+  "delta": 0.0049879176361480315,
+  "lo": -0.0030851968962386303,
+  "hi": 0.01778380175946857,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.0004839122235340554,
+  "lo": -0.0050629384939056485,
+  "hi": 0.002856839604497039,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.28079436285102327,
+  "lo": 0.22389524623905852,
+  "hi": 0.3529892423660037,
+  "n_boot": 500,
+  "class": "firm_positive"
+ },
+ "seconds": 36
+}

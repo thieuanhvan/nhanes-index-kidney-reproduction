@@ -1,0 +1,5140 @@
+[
+ {
+  "family": "F1_tyg",
+  "rec_id": "f6e85f9043",
+  "doi": "[DOI withheld]",
+  "index_name": "CTI",
+  "index_formula": "CTI = 0.412 × ln(CRP [mg/dL]) + ln([TGs (mg/dL) × fasting glucose (mg/dL)]/2)",
+  "index_components": [
+   "CRP",
+   "TG",
+   "FPG"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010"
+  ],
+  "population": "US adults; excluded participants lacking fasting blood glucose, TG or CRP, missing urinary ACR, and pregnant participants; no explicit age limit stated in Methods",
+  "n_analytic": 15163,
+  "outcome_main": "albuminuria",
+  "outcome_definition": "albuminuria: ACR >= 30 mg/g (macroalbuminuria ACR >= 300 mg/g is a secondary outcome)",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥30 mg/g",
+  "weight_variable": null,
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 1.22,
+  "ci_low": 1.14,
+  "ci_high": 1.31,
+  "p": "<.0001",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "age",
+    "sex",
+    "race",
+    "body mass index",
+    "education",
+    "marital status",
+    "PIR",
+    "low eGFR",
+    "serum uric acid",
+    "serum albumin",
+    "TG",
+    "LDL-C",
+    "diabetes mellitus",
+    "alcohol consumption",
+    "physical activity",
+    "smoking status",
+    "ALT",
+    "AST"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race",
+   "BMI",
+   "education",
+   "marital status",
+   "poverty-to-income ratio",
+   "low eGFR",
+   "serum uric acid",
+   "serum albumin",
+   "TG",
+   "low-density lipoprotein cholesterol",
+   "diabetes mellitus",
+   "alcohol consumption",
+   "physical activity",
+   "smoking status",
+   "alanine aminotransferase",
+   "aspartate aminotransferase"
+  ],
+  "inflection_point": 8.0,
+  "ambiguities": [
+   {
+    "point": "covariate list of the fully adjusted model",
+    "reading_1": "Table 2 footnote Model 3 list (18 covariates, no hypertension)",
+    "reading_2": "Table 3 footnote list for the same estimate 1.22 (1.14–1.31) adds hypertension (19 covariates)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.48,
+    "ci_low": 1.41,
+    "ci_high": 1.55,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race/ethnicity"
+    ],
+    "estimate": 1.34,
+    "ci_low": 1.27,
+    "ci_high": 1.41,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F1_tyg",
+  "rec_id": "79f1e21c4c",
+  "doi": "[DOI withheld]",
+  "index_name": "TyG index",
+  "index_formula": "Ln [triglycerides (mg/dl) * fasting glucose (mg/dl)/2]",
+  "index_components": [
+   "TG",
+   "FPG"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2020 (pre-pandemic)"
+  ],
+  "population": "age >= 20 years; excluded cancer, pregnancy, missing ACR, missing eGFR, missing TyG index",
+  "n_analytic": 18078,
+  "outcome_main": "CKD",
+  "outcome_definition": "low eGFR (eGFR < 60 mL/min/1.73m2) or albuminuria (ACR ≥ 30 mg/g)",
+  "egfr_equation": "CKD-EPI 2009",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "weighted analysis accounting for the complex multi-stage sample design (weight variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Adjusted model (model 3)",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 4.03,
+  "ci_low": 1.81,
+  "ci_high": 8.96,
+  "p": 0.0006,
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "gender",
+    "age",
+    "race",
+    "BMI",
+    "WC",
+    "education level",
+    "smoking",
+    "alcohol drinking",
+    "SBP",
+    "DBP",
+    "AST",
+    "ALT",
+    "serum uric acid",
+    "TC",
+    "LDL-C",
+    "HDL-C",
+    "serum total calcium",
+    "hypertension",
+    "diabetes status"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "sex",
+   "age",
+   "race",
+   "BMI",
+   "WC",
+   "education level",
+   "smoking status",
+   "alcohol consumption",
+   "SBP",
+   "DBP",
+   "AST",
+   "ALT",
+   "serum uric acid",
+   "TC",
+   "LDL-C",
+   "HDL-C",
+   "serum total calcium",
+   "hypertension",
+   "diabetes status"
+  ],
+  "inflection_point": 8.21,
+  "ambiguities": [
+   {
+    "point": "cycles covered by 1999–2020",
+    "reading_1": "1999-2000 through 2015-2016 plus 2017-March 2020 pre-pandemic file",
+    "reading_2": "1999-2000 through 2017-2018 only (2019-2020 not a separate full cycle)"
+   },
+   {
+    "point": "eGFR equation version",
+    "reading_1": "CKD-EPI 2009 (text: 'In 2009, eGFR was determined using ... CKD-EPI')",
+    "reading_2": "CKD-EPI, version not stated (the year may refer to something other than the equation)"
+   },
+   {
+    "point": "inflection point scope",
+    "reading_1": "8.21 (CKD, age 41-60 subgroup, Table 3)",
+    "reading_2": "none for CKD in the full sample (smooth curve showed no non-linearity)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Crude model (model 1)",
+    "covariates": [],
+    "estimate": 1.65,
+    "ci_low": 1.56,
+    "ci_high": 1.75,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Adjusted model (model 2)",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 1.72,
+    "ci_low": 1.63,
+    "ci_high": 1.82,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F1_tyg",
+  "rec_id": "f1ad3fb0ff",
+  "doi": "[DOI withheld]",
+  "index_name": "TyG index",
+  "index_formula": "ln (fasting triglyceride[mg/dl] × fasting plasma glucose[mg/dl]/2)",
+  "index_components": [
+   "TG",
+   "FPG"
+  ],
+  "cycles": [
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "participants older than 20 years with complete TyG index, albuminuria and glomerular filtration rate, in the fasting subsample",
+  "n_analytic": 9872,
+  "outcome_main": "albuminuria",
+  "outcome_definition": "UACR>30 mg/g",
+  "egfr_equation": "CKD-EPI creatinine equation, version not stated (eGFR used as covariate)",
+  "uacr_threshold": ">30 mg/g",
+  "weight_variable": "fasting subsample weights",
+  "cycle_pooling": "fasting subsample weights combined across four cycles (combination formula not stated)",
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit (continuous)",
+  "estimate": 1.391,
+  "ci_low": 1.258,
+  "ci_high": 1.539,
+  "p": "<0.001",
+  "source_table": "Table 3",
+  "covariates_final": [
+   "age",
+   "gender",
+   "race",
+   "smoking status",
+   "physical activity",
+   "diabetes",
+   "hypertension",
+   "cardiovascular disease",
+   "BMI",
+   "Scr",
+   "eGFR"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "smoking status",
+   "physical activity",
+   "hypertension",
+   "diabetes",
+   "cardiovascular disease",
+   "BMI",
+   "Scr",
+   "eGFR"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "abstract has no numeric estimate; which Table 3 column is most fully adjusted",
+    "reading_1": "Model 3 (the last numbered model defined in Methods and Table 3 footnote), continuous TyG: OR 1.391 (1.258, 1.539)",
+    "reading_2": "Table 3 column 'additionally adjusted for metabolic syndrome' OR 1.316 (1.178, 1.470) (or 'additionally adjusted for log (HOMA-IR)' OR 1.346 (1.204, 1.506))"
+   },
+   {
+    "point": "mutually adjusted model in Table 6",
+    "reading_1": "Table 6 (TyG with log (HOMA-IR), metabolic syndrome and Model 3 covariates) is a secondary analysis",
+    "reading_2": "Table 6 OR 1.283 (1.138, 1.446) is the most fully adjusted estimate"
+   },
+   {
+    "point": "Albuminuria threshold",
+    "reading_1": "UACR > 30 mg/g (as written)",
+    "reading_2": "UACR >= 30 mg/g (standard definition)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.871,
+    "ci_low": 1.725,
+    "ci_high": 2.03,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 1.772,
+    "ci_low": 1.622,
+    "ci_high": 1.936,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "additionally adjusted for log (HOMA-IR)",
+    "covariates": [
+     "age",
+     "gender",
+     "race",
+     "smoking status",
+     "physical activity",
+     "diabetes",
+     "hypertension",
+     "cardiovascular disease",
+     "BMI",
+     "Scr",
+     "eGFR",
+     "log (HOMA-IR)"
+    ],
+    "estimate": 1.346,
+    "ci_low": 1.204,
+    "ci_high": 1.506,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "additionally adjusted for metabolic syndrome",
+    "covariates": [
+     "age",
+     "gender",
+     "race",
+     "smoking status",
+     "physical activity",
+     "diabetes",
+     "hypertension",
+     "cardiovascular disease",
+     "BMI",
+     "Scr",
+     "eGFR",
+     "metabolic syndrome"
+    ],
+    "estimate": 1.316,
+    "ci_low": 1.178,
+    "ci_high": 1.47,
+    "loc": "Table 3"
+   }
+  ]
+ },
+ {
+  "family": "F1_tyg",
+  "rec_id": "6b7f67827b",
+  "doi": "[DOI withheld]",
+  "index_name": "NTI (NLR–TyG index)",
+  "index_formula": "NTI = NLR × TyG; NLR = absolute neutrophil count / absolute lymphocyte count; TyG = ln[triglycerides (mg/dL) × fasting glucose (mg/dL)/2]",
+  "index_components": [
+   "neutrophils",
+   "lymphocytes",
+   "TG",
+   "FPG"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2020 (pre-pandemic)"
+  ],
+  "population": "NHANES component: hypertensive adults aged >= 20 years (SBP >= 140, DBP >= 90, self-report or medication); excluded missing NTI components, unascertainable CKD, dialysis, zero or missing fasting-subsample weight, missing covariates",
+  "n_analytic": 9182,
+  "outcome_main": "CKD",
+  "outcome_definition": "NHANES: eGFR <60 mL/min/1.73 m2 or UACR >=30 mg/g",
+  "egfr_equation": null,
+  "uacr_threshold": 30,
+  "weight_variable": "official fasting-subsample weights, with strata and PSU",
+  "cycle_pooling": "combined across survey periods in proportion to the duration represented by each period; 2017–March 2020 treated as a 3.2-year period",
+  "model_label": "Model 2",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 1.021,
+  "ci_low": 1.013,
+  "ci_high": 1.029,
+  "p": "<0.001",
+  "source_table": "Table 3",
+  "covariates_final": [
+   "age",
+   "sex",
+   "race/ethnicity",
+   "education",
+   "marital status",
+   "smoking",
+   "drinking",
+   "BMI",
+   "systolic blood pressure",
+   "diabetes",
+   "heart failure"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race/ethnicity",
+   "education",
+   "marital status",
+   "smoking status",
+   "drinking status",
+   "body mass index (BMI)",
+   "SBP",
+   "diabetes mellitus",
+   "heart failure"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "which cohort supplies the main estimate (abstract states the hospital cohort first)",
+    "reading_1": "NHANES part (brief rule 2: two independent co-primary data sources, NHANES separable): Model 2 OR 1.021 (1.013, 1.029) per 1 unit, N 9,182",
+    "reading_2": "literal first-stated abstract estimate, Chinese hospital cohort: Model 2 OR 1.012 (1.010, 1.014), N 8,358"
+   },
+   {
+    "point": "eGFR equation in NHANES",
+    "reading_1": "not stated for NHANES ('eGFR values were obtained from the harmonized source dataset')",
+    "reading_2": "CKD-EPI 2009, the equation stated for the hospital cohort"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Crude model",
+    "covariates": [],
+    "estimate": 1.033,
+    "ci_low": 1.026,
+    "ci_high": 1.04,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model 1",
+    "covariates": [
+     "age",
+     "sex",
+     "race/ethnicity",
+     "education",
+     "marital status"
+    ],
+    "estimate": 1.027,
+    "ci_low": 1.019,
+    "ci_high": 1.035,
+    "loc": "Table 3"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "d22fcf0a95",
+  "doi": "[DOI withheld]",
+  "index_name": "NPAR",
+  "index_formula": "neutrophil percentage (%) / albumin (g/dL)",
+  "index_components": [
+   "neutrophil percentage",
+   "albumin"
+  ],
+  "cycles": [
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "age >= 20 years; excluded pregnant, incomplete serum creatinine or UACR, incomplete NPAR",
+  "n_analytic": 25236,
+  "outcome_main": "CKD",
+  "outcome_definition": "low eGFR (eGFR < 60 mL/min/1.73 m2) or albuminuria (UACR of 30 mg/g or higher)",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "30 mg/g or higher",
+  "weight_variable": null,
+  "cycle_pooling": null,
+  "model_label": "Model3",
+  "effect_type": "OR",
+  "exposure_scale": "Q2 vs Q1",
+  "estimate": 1.14,
+  "ci_low": 1.01,
+  "ci_high": 1.27,
+  "p": "< 0.05",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "age",
+    "gender",
+    "race",
+    "marital status",
+    "educational level",
+    "PIR",
+    "alcohol consumption",
+    "smoking status",
+    "BMI",
+    "HBP",
+    "DM",
+    "CVD"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "marital status",
+   "education level",
+   "PIR",
+   "alcohol consumption",
+   "smoking status",
+   "BMI",
+   "HBP",
+   "DM",
+   "CVD"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "abstract 'adjusted' ORs are the crude model (rule 3)",
+    "reading_1": "apply rule 1 to the most adjusted model: Model3, first stated abstract contrast Q2 vs Q1, OR 1.14 (1.01, 1.27)",
+    "reading_2": "Model3 continuous NPAR OR 1.099 (1.084, 1.114) (rule 1 fallback preferring continuous)"
+   },
+   {
+    "point": "which category contrast",
+    "reading_1": "Q2 vs Q1 (first stated in the abstract)",
+    "reading_2": "Q4 vs Q1 Model3 OR 1.86 (1.68, 2.07) (highest vs lowest; the contrast both passes took, at Model1)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model1 (crude), Q2 vs Q1",
+    "covariates": [],
+    "estimate": 1.19,
+    "ci_low": 1.07,
+    "ci_high": 1.31,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model2, Q2 vs Q1",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 1.18,
+    "ci_low": 1.05,
+    "ci_high": 1.31,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "94132d0c1a",
+  "doi": "[DOI withheld]",
+  "index_name": "SIRI",
+  "index_formula": "Neutrophil count × monocyte count/lymphocyte count",
+  "index_components": [
+   "neutrophils",
+   "monocytes",
+   "lymphocytes"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2020 (pre-pandemic)"
+  ],
+  "population": "excluding patients with cancer, age < 20, or pregnancy, and those without ACR, eGFR and SIRI",
+  "n_analytic": 41089,
+  "outcome_main": "CKD",
+  "outcome_definition": "albuminuria (ACR ≥ 30 mg/g) or eGFR < 60 mL/min/1.73 m2",
+  "egfr_equation": "CKD-EPI 2009",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "NHANES sampling weights (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 1.24,
+  "ci_low": 1.19,
+  "ci_high": 1.3,
+  "p": "<0.0001",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "sex",
+    "age",
+    "race",
+    "education level",
+    "BMI",
+    "smoking status",
+    "alcohol consumption",
+    "blood uric acid",
+    "serum phosphorus",
+    "TC",
+    "triglycerides",
+    "AST",
+    "ALT",
+    "PIR",
+    "CVD",
+    "marital status",
+    "diabetes",
+    "hypertension"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "sex",
+   "age",
+   "race",
+   "education level",
+   "BMI",
+   "alcohol consumption",
+   "smoking status",
+   "TC",
+   "triglycerides",
+   "AST",
+   "ALT",
+   "PIR",
+   "CVD",
+   "blood uric acid",
+   "serum phosphorus",
+   "marital status",
+   "diabetes",
+   "hypertension"
+  ],
+  "inflection_point": 2.04,
+  "ambiguities": [
+   {
+    "point": "UACR threshold for albuminuria",
+    "reading_1": "ACR >= 30 mg/g (Methods)",
+    "reading_2": "ACR > 30 mg/g (Abstract: 'of more than 30 mg/g')"
+   },
+   {
+    "point": "cycles covered by 'NHANES 1999-2020'",
+    "reading_1": "1999-2000 to 2015-2016 plus 2017-March 2020 pre-pandemic file",
+    "reading_2": "1999-2000 to 2017-2018 as separate two-year cycles (plus 2019-2020 not usable)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.42,
+    "ci_low": 1.38,
+    "ci_high": 1.46,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "sex",
+     "race"
+    ],
+    "estimate": 1.33,
+    "ci_low": 1.29,
+    "ci_high": 1.37,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "ea130293e0",
+  "doi": "[DOI withheld]",
+  "index_name": "RA",
+  "index_formula": "RA = RDW (%) / Serum Albumin (g/dL)",
+  "index_components": [
+   "RDW",
+   "albumin"
+  ],
+  "cycles": [
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "NHANES participants aged 18 or older with diabetes, with RDW, albumin, ACR and eGFR data",
+  "n_analytic": 3734,
+  "outcome_main": "DKD",
+  "outcome_definition": "DKD in participants with diabetes: eGFR < 60 mL/min/1.73 m2 (CKD-EPI) or UACR >= 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥30 mg/g",
+  "weight_variable": "sample weights with stratification and clustering variables (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit of RA (dL/g), continuous",
+  "estimate": 1.46,
+  "ci_low": 1.13,
+  "ci_high": 1.87,
+  "p": "<0.001",
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "sex",
+   "race",
+   "education level",
+   "smoking status",
+   "BMI",
+   "blood pressure",
+   "lipid profile",
+   "renal function parameters"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race",
+   "education level",
+   "smoking status",
+   "BMI",
+   "blood pressure",
+   "lipid profile",
+   "renal function parameters"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "Model 3 covariate list",
+    "reading_1": "Model 2 (age, sex, race, education level, smoking status) plus BMI, blood pressure, lipid profile, renal function parameters, 'etc.' (Statistical analysis model definitions)",
+    "reading_2": "Covariates section list: age, sex, PIR, smoking status, hypertension, BMI, Scr, BUN, SUA, HDL-C, LDL-C (later paragraph also names eGFR); no race or education"
+   },
+   {
+    "point": "main estimate cohort",
+    "reading_1": "NHANES (stated first; mortality analyses NHANES only): OR 1.46 (1.13, 1.87)",
+    "reading_2": "SMU hospital cohort OR 1.27 (1.01, 1.60)"
+   },
+   {
+    "point": "inflection point",
+    "reading_1": "none for DKD",
+    "reading_2": "3.33 dL/g, RCS optimal cutoff for all-cause mortality in DKD patients (Results, Survival analysis)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 2.0,
+    "ci_low": 1.63,
+    "ci_high": 2.45,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "sex",
+     "race",
+     "education level",
+     "smoking status"
+    ],
+    "estimate": 1.93,
+    "ci_low": 1.59,
+    "ci_high": 2.34,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "fad26f18b1",
+  "doi": "[DOI withheld]",
+  "index_name": "hemoglobin, albumin, lymphocyte and platelet (HALP) score",
+  "index_formula": "HALP score = [hemoglobin (g/L) x serum albumin (g/L) x lymphocyte count (10^9/L)] / platelet count (10^9/L)",
+  "index_components": [
+   "hemoglobin",
+   "albumin",
+   "lymphocyte count",
+   "platelet count"
+  ],
+  "cycles": [
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "Adults aged 20 years or older; excluded pregnant, missing Scr or ACR, insufficient HALP data, dialysis",
+  "n_analytic": 25181,
+  "outcome_main": "CKD",
+  "outcome_definition": "CKD = albuminuria (ACR >= 30 mg/g) or low eGFR (eGFR < 60 mL/min/1.73 m2, 2009 CKD-EPI)",
+  "egfr_equation": "CKD-EPI 2009",
+  "uacr_threshold": "ACR >= 30 mg/g",
+  "weight_variable": "NHANES survey design and sampling weights (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 point of HALP score",
+  "estimate": 0.97,
+  "ci_low": 0.94,
+  "ci_high": 0.99,
+  "p": 0.031,
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "gender",
+   "race",
+   "marital status",
+   "education level",
+   "PIR",
+   "BMI",
+   "smoking",
+   "drinking",
+   "AST",
+   "ALT",
+   "hypertension",
+   "DM",
+   "CVD",
+   "dyslipidemia"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "marital status",
+   "education level",
+   "PIR",
+   "BMI",
+   "smoking",
+   "drinking",
+   "AST",
+   "ALT",
+   "hypertension",
+   "DM",
+   "CVD",
+   "dyslipidemia"
+  ],
+  "inflection_point": 52.43,
+  "ambiguities": [
+   {
+    "point": "Demographic covariate coding",
+    "reading_1": "Age entered as binary (<60 or >=60), PIR in 3 categories, BMI in 3 categories (Covariates section)",
+    "reading_2": "Age and BMI entered as continuous variables"
+   },
+   {
+    "point": "CKD definition by single visit",
+    "reading_1": "CKD = albuminuria (ACR >= 30) or eGFR < 60 at one NHANES visit",
+    "reading_2": "CKD by KDIGO chronicity (>= 3 months), not possible here"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 0.95,
+    "ci_low": 0.92,
+    "ci_high": 0.98,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 0.96,
+    "ci_low": 0.93,
+    "ci_high": 0.99,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "cef539b61e",
+  "doi": "[DOI withheld]",
+  "index_name": "SII",
+  "index_formula": "SII = neutrophil-to-lymphocyte ratio × platelet count",
+  "index_components": [
+   "neutrophils",
+   "lymphocytes",
+   "platelets"
+  ],
+  "cycles": [
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "age >= 18, not pregnant, with SII, UACR, eGFR, weight values and covariates",
+  "n_analytic": 10787,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR < 60 mL/min per 1.73 m2 or UACR >= 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "greater than or equivalent to 30 mg g−1",
+  "weight_variable": "NHANES weights (variable not named; 17,651 excluded for unavailable weight values)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit of SII/1000 (per 1000 units of SII)",
+  "estimate": 1.36,
+  "ci_low": 1.07,
+  "ci_high": 1.73,
+  "p": 0.01,
+  "source_table": "Table 3",
+  "covariates_final": {
+   "value": [
+    "age",
+    "gender",
+    "race",
+    "education status",
+    "alcohol status",
+    "smoking status",
+    "PIR",
+    "BMI",
+    "WC",
+    "DBP",
+    "SBP",
+    "Glu",
+    "ALT",
+    "AST",
+    "Cr",
+    "UA",
+    "TG",
+    "TC",
+    "HDL-C",
+    "LDL-C",
+    "eGFR",
+    "hyperlipidemia",
+    "hypertension",
+    "diabetes mellitus"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race",
+   "education status",
+   "alcohol status",
+   "smoking status",
+   "PIR",
+   "BMI",
+   "WC",
+   "DBP",
+   "SBP",
+   "Glu",
+   "ALT",
+   "AST",
+   "Cr",
+   "UA",
+   "TG",
+   "TC",
+   "HDL-C",
+   "LDL-C",
+   "eGFR",
+   "hyperlipidemia",
+   "hypertension",
+   "DM"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "weight variable",
+    "reading_1": "unnamed NHANES weight; 17,651 dropped for missing weight values suggests a subsample weight",
+    "reading_2": "pooled six-cycle MEC weight (WTMEC2YR divided by 6)"
+   },
+   {
+    "point": "eGFR equation",
+    "reading_1": "CKD-EPI, version not stated",
+    "reading_2": "CKD-EPI 2009 creatinine equation"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 2.14,
+    "ci_low": 1.75,
+    "ci_high": 2.62,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 1.77,
+    "ci_low": 1.43,
+    "ci_high": 2.21,
+    "loc": "Table 3"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "9cd1df095e",
+  "doi": "[DOI withheld]",
+  "index_name": "neutrophil-to-high-density lipoprotein cholesterol ratio (NHR)",
+  "index_formula": "NHR = neutrophil count (10^3 cells/uL) / HDL-C (mmol/L)",
+  "index_components": [
+   "neutrophil count",
+   "HDL-C"
+  ],
+  "cycles": [
+   "2017-2020 (pre-pandemic)"
+  ],
+  "population": "Adults aged 20 years or older; excluded missing NHR or ACR",
+  "n_analytic": 7772,
+  "outcome_main": "albuminuria",
+  "outcome_definition": "albuminuria = ACR > 30 mg/g",
+  "egfr_equation": null,
+  "uacr_threshold": "ACR > 30 mg/g",
+  "weight_variable": "survey weights (survey-weighted logistic regression; variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit of NHR",
+  "estimate": 1.13,
+  "ci_low": 1.09,
+  "ci_high": 1.18,
+  "p": null,
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "sex",
+   "race",
+   "poverty-to-income ratio",
+   "educational level",
+   "physical activity status",
+   "marital status",
+   "alcohol consumption",
+   "smoking status",
+   "systolic blood pressure",
+   "diastolic blood pressure",
+   "serum creatinine",
+   "serum urea nitrogen",
+   "uric acid",
+   "fasting blood glucose",
+   "glycohemoglobin",
+   "triglycerides",
+   "LDL-cholesterol",
+   "glomerular filtration rate",
+   "body mass index",
+   "diabetes",
+   "hypertension",
+   "hyperlipidemia",
+   "kidney stones"
+  ],
+  "covariate_sources_differ": true,
+  "covariates_methods": [
+   "sex",
+   "age",
+   "race",
+   "educational level",
+   "poverty-to-income ratio",
+   "marital status",
+   "alcohol consumption",
+   "smoking status",
+   "physical activity",
+   "LDL-C",
+   "triglycerides",
+   "body mass index",
+   "blood urea nitrogen",
+   "uric acid",
+   "glomerular filtration rate",
+   "glycated hemoglobin",
+   "fasting glucose",
+   "systolic blood pressure",
+   "diastolic blood pressure",
+   "diabetes",
+   "hypertension",
+   "hyperlipidemia",
+   "kidney stones"
+  ],
+  "inflection_point": 4.58,
+  "ambiguities": [
+   {
+    "point": "Model 3 covariate list",
+    "reading_1": "Table 2 footnote list, which includes serum creatinine",
+    "reading_2": "Methods Covariates paragraph (and 'adjusted for all covariates'), which does not name serum creatinine"
+   },
+   {
+    "point": "Weight variable and cycle pooling for 2017-2020 pre-pandemic file",
+    "reading_1": "Unnamed survey weights, no pooling rule stated",
+    "reading_2": "Special 2017-March 2020 pre-pandemic weight (WTMECPRP)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.18,
+    "ci_low": 1.14,
+    "ci_high": 1.22,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "sex",
+     "race"
+    ],
+    "estimate": 1.25,
+    "ci_low": 1.2,
+    "ci_high": 1.3,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "53ca68a923",
+  "doi": "[DOI withheld]",
+  "index_name": "CALLY index",
+  "index_formula": "albumin (g/l) × lymphocyte count (109/l)/[CRP (mg/l) × 10]",
+  "index_components": [
+   "albumin",
+   "lymphocyte count",
+   "CRP"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010"
+  ],
+  "population": "Excluded: age below 20 years, pregnant, missing CALLY index, eGFR or UACR data",
+  "n_analytic": 26996,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR < 60 ml/min/1.73 m2 and/or UACR ≥ 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "population-weighted multi-stage survey design following CDC weighting standards (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "Q4 vs Q1",
+  "estimate": 0.705,
+  "ci_low": 0.589,
+  "ci_high": 0.845,
+  "p": "<0.001",
+  "source_table": "Table III",
+  "covariates_final": [
+   "age",
+   "sex",
+   "race",
+   "marital status",
+   "PIR",
+   "education level",
+   "smoking history",
+   "hypertension",
+   "diabetes",
+   "CVDs",
+   "BMI",
+   "TG",
+   "HDL-c",
+   "LDL-c",
+   "UA"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race",
+   "marital status",
+   "PIR",
+   "education level",
+   "smoking history",
+   "hypertension",
+   "diabetes mellitus",
+   "CVDs",
+   "BMI",
+   "TG",
+   "HDL-c",
+   "LDL-c",
+   "UA"
+  ],
+  "inflection_point": 0.543,
+  "ambiguities": [
+   {
+    "point": "abstract gives only a category estimate (Q4 vs Q1); continuous estimate exists in table",
+    "reading_1": "Q4 vs Q1, Model 3: OR 0.705 (0.589, 0.845)",
+    "reading_2": "Ln CALLY index continuous, Model 3: OR 0.878 (0.837, 0.922), Table III"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 0.357,
+    "ci_low": 0.325,
+    "ci_high": 0.392,
+    "loc": "Table III"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "sex",
+     "race",
+     "marital status",
+     "PIR",
+     "education level",
+     "smoking history"
+    ],
+    "estimate": 0.581,
+    "ci_low": 0.521,
+    "ci_high": 0.647,
+    "loc": "Table III"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "c62af9091f",
+  "doi": "[DOI withheld]",
+  "index_name": "CALLY index",
+  "index_formula": "CALLY = (lymphocyte count [109/L] × albumin [g/dL])/(CRP [mg/dL] × 10)",
+  "index_components": [
+   "lymphocytes",
+   "albumin",
+   "CRP"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010"
+  ],
+  "population": "Excluded: age <20 years or pregnancy; missing CKD indicators (serum creatinine, UACR, eGFR); missing CALLY components (albumin, lymphocyte count, CRP); incomplete key demographics or chronic diseases",
+  "n_analytic": 24538,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR <60 mL/min/1.73 m2 and/or UACR ≥30 mg/g (KDIGO), sustained more than 3 months",
+  "egfr_equation": "CKD-EPI, version not stated (\"most recent iteration\")",
+  "uacr_threshold": "≥30 mg/g",
+  "weight_variable": null,
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 0.99,
+  "ci_low": 0.99,
+  "ci_high": 0.99,
+  "p": 0.029,
+  "source_table": "Table 3",
+  "covariates_final": {
+   "value": [
+    "gender",
+    "age",
+    "race",
+    "marital status",
+    "smoking",
+    "alcohol",
+    "hypertension",
+    "diabetes",
+    "dyslipidemia",
+    "obesity"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "gender",
+   "age",
+   "race",
+   "marital status",
+   "smoking status",
+   "alcohol consumption",
+   "hypertension",
+   "diabetes",
+   "dyslipidemia",
+   "obesity"
+  ],
+  "inflection_point": 2.313,
+  "ambiguities": [
+   {
+    "point": "eGFR equation version",
+    "reading_1": "CKD-EPI, 'most recent iteration', version not stated",
+    "reading_2": "CKD-EPI 2021 race-free equation"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 0.98,
+    "ci_low": 0.97,
+    "ci_high": 0.98,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "gender",
+     "age",
+     "race"
+    ],
+    "estimate": 0.99,
+    "ci_low": 0.99,
+    "ci_high": 0.99,
+    "loc": "Table 3"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "cf0849f17f",
+  "doi": "[DOI withheld]",
+  "index_name": "systemic immune-inﬂammation index (SII)",
+  "index_formula": "platelet count × neutrophil count/lymphocyte count",
+  "index_components": [
+   "platelet count",
+   "neutrophil count",
+   "lymphocyte count"
+  ],
+  "cycles": [
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "Adults with T2DM; excluded age under 18 years, missing SII, missing ACR, missing eGFR, without T2DM, pregnancy",
+  "n_analytic": 3937,
+  "outcome_main": "DKD",
+  "outcome_definition": "ACR ≥30 mg/g and/or eGFR<60 mL/min/1.73m2 in T2DM patients",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥30 mg/g",
+  "weight_variable": "weighted analyses according to NHANES recommendations (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "high vs low SII (>=445.21 vs <445.21, fixed cut point from ROC optimal cutoff, not a sample quantile)",
+  "estimate": 1.42,
+  "ci_low": 1.1,
+  "ci_high": 1.83,
+  "p": 0.01,
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "gender",
+   "poverty income ratio",
+   "race",
+   "education levels",
+   "smoking status",
+   "Hypertension",
+   "Hyperlipidemia",
+   "Metabolic syndrome",
+   "anti-inflammation therapy",
+   "metformin use",
+   "insulin use",
+   "BMI",
+   "SBP",
+   "DBP",
+   "glycohemoglobin",
+   "serum creatinine",
+   "blood urea nitrogen",
+   "serum uric acid",
+   "eGFR",
+   "TC",
+   "TG",
+   "ALT",
+   "AST",
+   "ASCVD",
+   "CHF"
+  ],
+  "covariate_sources_differ": true,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "PIR",
+   "educational levels",
+   "smoking status",
+   "hypertension",
+   "hyperlipidemia",
+   "MetS",
+   "anti-inflammation therapy",
+   "metformin use",
+   "insulin use",
+   "SBP",
+   "DBP",
+   "glycohemoglobin",
+   "BUN",
+   "SUA",
+   "TC",
+   "TG",
+   "ALT",
+   "AST",
+   "ASCVD",
+   "CHF"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "Model 3 covariate list differs between Table 2 footnote and Methods",
+    "reading_1": "Table 2 footnote list, which adds BMI, serum creatinine and eGFR to the Methods list",
+    "reading_2": "Methods list without BMI, serum creatinine and eGFR"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.538,
+    "ci_low": 1.287,
+    "ci_high": 1.837,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "race",
+     "education",
+     "smoking status"
+    ],
+    "estimate": 1.58,
+    "ci_low": 1.28,
+    "ci_high": 1.96,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "4b72270032",
+  "doi": "[DOI withheld]",
+  "index_name": "red cell distribution width-to-albumin ratio (RAR)",
+  "index_formula": "direct ratio of red cell distribution width-to-serum albumin levels",
+  "index_components": [
+   "RDW",
+   "albumin"
+  ],
+  "cycles": [
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "Adults aged ≥ 20 years with complete RAR and CKD data; excluded incomplete serum creatinine or ACR, missing RAR, missing covariate data",
+  "n_analytic": 29847,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR < 60 mL/min per 1.73 m2, albuminuria ≥ 30 mg/g, or both",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "weights applied following official NHANES documentation (no variable named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "continuous RAR (unit not stated)",
+  "estimate": 1.58,
+  "ci_low": 1.42,
+  "ci_high": 1.75,
+  "p": "<.001",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "age",
+    "sex",
+    "BMI",
+    "race",
+    "educational level",
+    "PIR",
+    "smoking",
+    "hypertension",
+    "CVD",
+    "diabetes",
+    "BUN",
+    "ALT",
+    "AST",
+    "glycosylated hemoglobin",
+    "glucose"
+   ]
+  },
+  "covariate_sources_differ": true,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race/ethnicity",
+   "education level",
+   "poverty–income ratio",
+   "BMI",
+   "blood urea nitrogen",
+   "alanine aminotransferase",
+   "aspartate aminotransferase",
+   "smoking status",
+   "hypertension",
+   "diabetes",
+   "CVD"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "abstract has no numeric estimate",
+    "reading_1": "Fully adjusted continuous RAR estimate from Table 2 Model 3: OR 1.58 [1.42, 1.75]",
+    "reading_2": "Fully adjusted Q4 vs Q1 estimate from Table 2 Model 3: OR 1.83 [1.58, 2.13]"
+   },
+   {
+    "point": "Model 3 covariate set",
+    "reading_1": "Table 2 footnote list (includes glycosylated hemoglobin and glucose; no alcohol, no lipids)",
+    "reading_2": "Abstract description: demographics (age, sex, race), lifestyle (smoking, alcohol consumption), metabolic indicators (BMI, glucose, lipids), comorbidities (hypertension, diabetes)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 2.37,
+    "ci_low": 2.19,
+    "ci_high": 2.56,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "sex",
+     "race"
+    ],
+    "estimate": 2.09,
+    "ci_low": 1.92,
+    "ci_high": 2.27,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F2_inflam",
+  "rec_id": "8991f10763",
+  "doi": "[DOI withheld]",
+  "index_name": "aggregate index of systemic inflammation (AISI)",
+  "index_formula": "AISI = (neutrophils × monocytes × platelets)/lymphocytes",
+  "index_components": [
+   "neutrophils",
+   "monocytes",
+   "platelets",
+   "lymphocytes"
+  ],
+  "cycles": [
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "Aged 20 years or older; excluded lacking complete CKD data, AISI data, or covariates data",
+  "n_analytic": 24386,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR <60 mL/min/1.73 m², or albumin-to-creatinine ratio ≥ 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "survey weight recommendations specific to NHANES (no variable named)",
+  "cycle_pooling": null,
+  "model_label": "Fully adjusted model(model 3)",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit of AISI/100 (AISI divided by 100)",
+  "estimate": 1.05,
+  "ci_low": 1.03,
+  "ci_high": 1.07,
+  "p": "<.001",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "age",
+    "gender",
+    "race",
+    "marital status",
+    "education level",
+    "poverty income ratio",
+    "BMI",
+    "ALT",
+    "AST",
+    "TC",
+    "TG",
+    "drinking",
+    "smoking",
+    "hypertension",
+    "hyperuricemia",
+    "diabetes mellitus"
+   ]
+  },
+  "covariate_sources_differ": true,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "poverty income ratio",
+   "body mass index",
+   "marital status",
+   "education levels",
+   "smoking status",
+   "drinking status",
+   "total cholesterol",
+   "triglycerides",
+   "aspartate aminotransferase",
+   "alanine aminotransferase",
+   "blood uric acid",
+   "hyperuricemia",
+   "hypertension",
+   "diabetes mellitus"
+  ],
+  "inflection_point": 720,
+  "ambiguities": [
+   {
+    "point": "Model 3 covariate set",
+    "reading_1": "Table 2 footnote: hyperuricemia but no blood uric acid",
+    "reading_2": "Methods 2.5 lists blood uric acid (mg/dL) as well as hyperuricemia; Methods 2.6 says Model 3 included all covariates"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Univariable model(model 1)",
+    "covariates": [],
+    "estimate": 1.08,
+    "ci_low": 1.07,
+    "ci_high": 1.1,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Partially adjusted model(model 2)",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 1.08,
+    "ci_low": 1.06,
+    "ci_high": 1.1,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F3_diet_life",
+  "rec_id": "71eedfeafb",
+  "doi": "[DOI withheld]",
+  "index_name": "OBS",
+  "index_formula": "sum of 20 components (16 dietary, 4 lifestyle), each scored 0-2 by sex-specific tertiles (pro-oxidants reversed); total 0 to 40",
+  "index_components": [
+   "dietary fiber",
+   "carotenoids",
+   "riboflavin",
+   "niacin",
+   "vitamin B6",
+   "vitamin B12",
+   "vitamin C",
+   "vitamin E",
+   "total folate",
+   "calcium",
+   "magnesium",
+   "zinc",
+   "copper",
+   "selenium",
+   "total fat",
+   "iron",
+   "physical activity",
+   "alcohol intake",
+   "serum cotinine",
+   "BMI"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "adults aged >=20 with BMI >=25 kg/m2; excluded pregnant women, missing OBS variables, missing eGFR or urinary albumin",
+  "n_analytic": 28377,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR < 60 mL/min/1.73 m2 or ACR > 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated (\"updated\" CKD-EPI incorporating serum creatinine, age, sex, and race)",
+  "uacr_threshold": "> 30 mg/g",
+  "weight_variable": "sampling weights (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 0.975,
+  "ci_low": 0.969,
+  "ci_high": 0.981,
+  "p": "<0.0001",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "ethnicity",
+    "age",
+    "sex",
+    "education",
+    "marital status",
+    "hypertension",
+    "hyperlipidemia",
+    "ASCVD",
+    "DM",
+    "RASI",
+    "NSAID"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "race/ethnicity",
+   "age",
+   "sex",
+   "marital status",
+   "educational attainment",
+   "hypertension",
+   "hyperlipidemia",
+   "diabetes mellitus",
+   "ASCVD",
+   "NSAIDs",
+   "RASI"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "effect measure label",
+    "reading_1": "OR (Methods, Results and abstract: logistic regression)",
+    "reading_2": "Table 2 column header says HR"
+   },
+   {
+    "point": "eGFR equation version",
+    "reading_1": "CKD-EPI with race term (2009 form; 'updated' as written)",
+    "reading_2": "2021 race-free CKD-EPI ('updated')"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Crude model",
+    "covariates": [],
+    "estimate": 0.964,
+    "ci_low": 0.959,
+    "ci_high": 0.969,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 1",
+    "covariates": [
+     "ethnicity",
+     "age",
+     "sex",
+     "education",
+     "marital status"
+    ],
+    "estimate": 0.971,
+    "ci_low": 0.965,
+    "ci_high": 0.977,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "ethnicity",
+     "age",
+     "sex",
+     "education",
+     "marital status",
+     "hypertension",
+     "hyperlipidemia",
+     "ASCVD",
+     "DM"
+    ],
+    "estimate": 0.975,
+    "ci_low": 0.969,
+    "ci_high": 0.982,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F3_diet_life",
+  "rec_id": "9e2e6087fa",
+  "doi": "[DOI withheld]",
+  "index_name": "DII",
+  "index_formula": "for each of 28 dietary components: (intake - global mean intake)/global SD, Z-score converted to percentile, multiplied by the component inflammatory effect score; summed (Shivappa et al.)",
+  "index_components": [
+   "protein",
+   "carbohydrates",
+   "cholesterol",
+   "total fat",
+   "saturated fat",
+   "MUFAs",
+   "n-3 fatty acids",
+   "PUFAs",
+   "n-6 fatty acids",
+   "vitamin A",
+   "vitamin B12",
+   "vitamin C",
+   "vitamin D",
+   "vitamin E",
+   "thiamine",
+   "riboflavin",
+   "folic acid",
+   "zinc",
+   "selenium",
+   "beta-carotene",
+   "alcohol",
+   "fiber",
+   "Fe",
+   "Mg",
+   "caffeine",
+   "niacin",
+   "energy"
+  ],
+  "cycles": [
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "adults aged >=20; excluded pregnant, missing ACR, eGFR, DII",
+  "n_analytic": 22607,
+  "outcome_main": "albuminuria",
+  "outcome_definition": "ACR > 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated (CKD-EPI creatinine equation)",
+  "uacr_threshold": "> 30 mg/g",
+  "weight_variable": "none: analysis stated as unweighted",
+  "cycle_pooling": null,
+  "model_label": "Fully adjusted model (Model 3)",
+  "effect_type": "OR",
+  "exposure_scale": "T3 vs T1 (tertiles)",
+  "estimate": 1.19,
+  "ci_low": 1.0,
+  "ci_high": 1.41,
+  "p": 0.0437,
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "gender",
+    "age",
+    "race",
+    "education",
+    "systolic blood pressure",
+    "diastolic blood pressure",
+    "body mass index",
+    "waist circumference",
+    "hypertension",
+    "diabetes",
+    "smoking status",
+    "Serum Albumin",
+    "Serum Blood Urea Nitrogen",
+    "Serum Uric Acid",
+    "eGFR",
+    "ALT",
+    "AST",
+    "Total cholesterol",
+    "HDL-C"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race/ethnicity",
+   "education",
+   "SBP",
+   "DBP",
+   "BMI",
+   "waist circumference",
+   "hypertension",
+   "diabetes",
+   "smoking status",
+   "ALB",
+   "BUN",
+   "UA",
+   "ALT",
+   "AST",
+   "total cholesterol",
+   "HDL-C",
+   "eGFR"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "exposure scale of main estimate",
+    "reading_1": "abstract gives only the category estimate: Tertile 3 vs Tertile 1, Model 3, OR 1.19 (1.00, 1.41)",
+    "reading_2": "continuous DII per 1 unit, Model 3, OR 1.05 (1.02, 1.10), p 0.0060 (Table 2)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Crude model (Model 1)",
+    "covariates": [],
+    "estimate": 1.34,
+    "ci_low": 1.21,
+    "ci_high": 1.48,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Minimally adjusted model(Model 2)",
+    "covariates": [
+     "gender",
+     "age",
+     "race"
+    ],
+    "estimate": 1.28,
+    "ci_low": 1.16,
+    "ci_high": 1.42,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Fully adjusted model (Model 3), continuous DII",
+    "covariates": "same as Model 3",
+    "estimate": 1.05,
+    "ci_low": 1.02,
+    "ci_high": 1.1,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F3_diet_life",
+  "rec_id": "988df86a79",
+  "doi": "[DOI withheld]",
+  "index_name": "DII",
+  "index_formula": "Zscore = [(average daily intake − global average daily intake)/standard deviation]; Zscore1 = Zscore → (converted to percentile)× 2 − 1; DII = sum over food ingredients of Zscore1 × inflammation effect score",
+  "index_components": [
+   "energy",
+   "carbohydrate",
+   "protein",
+   "total fat",
+   "dietary fiber",
+   "cholesterol",
+   "saturated fatty acids",
+   "monounsaturated fatty acids",
+   "polyunsaturated fatty acids",
+   "ω-3 polyunsaturated fatty acids",
+   "ω-6 polyunsaturated fatty acids",
+   "vitamin A",
+   "vitamin B1",
+   "vitamin B2",
+   "vitamin B3 (niacin)",
+   "vitamin B6",
+   "vitamin B12",
+   "vitamin C",
+   "vitamin D",
+   "vitamin E",
+   "folic acid",
+   "alcohol",
+   "beta-carotene",
+   "caffeine",
+   "iron",
+   "magnesium",
+   "zinc",
+   "selenium"
+  ],
+  "cycles": [
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "general population NHANES 2011-2018; excluded age under 18, failure to complete dietary questionnaire and provide blood samples, missing DII, uACR, eGFR",
+  "n_analytic": 19317,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR < 60 mL/min/1.73 m2 or uACR >= 30 mg/g (Methods: 'and/or proteinuria of at least 30 mg/g')",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": ">= 30 mg/g (uACR ≥ 30 mg/g; Methods: at least 30 mg/g)",
+  "weight_variable": null,
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per SD increment",
+  "estimate": 1.16,
+  "ci_low": 1.06,
+  "ci_high": 1.27,
+  "p": 0.002,
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "age",
+    "sex",
+    "race",
+    "poverty income ratio",
+    "BMI",
+    "SBP",
+    "DBP",
+    "current smoking",
+    "alcohol intake",
+    "FPG",
+    "albumin",
+    "TG",
+    "TC",
+    "HDL",
+    "LDL",
+    "diabetes mellitus",
+    "antihypertensive drugs",
+    "lipoprotein-lowering drugs",
+    "glucose-lowering drugs"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race",
+   "poverty income ratio",
+   "BMI",
+   "SBP",
+   "DBP",
+   "current smoking",
+   "alcohol intake",
+   "FPG",
+   "albumin",
+   "TG",
+   "TC",
+   "HDL",
+   "LDL",
+   "diabetes mellitus",
+   "antihypertensive drugs",
+   "lipoprotein-lowering drugs",
+   "glucose-lowering drugs"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "n_analytic",
+    "reading_1": "19,317 (Methods, Abstract, Discussion; Table 1 quartile counts 4829+4829+4829+4830)",
+    "reading_2": "19,371 (Results para 1: 'Of the 19,371 participants')"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.19,
+    "ci_low": 1.14,
+    "ci_high": 1.23,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "sex",
+     "race",
+     "poverty income ratio",
+     "BMI",
+     "SBP",
+     "DBP",
+     "current smoking",
+     "alcohol intake"
+    ],
+    "estimate": 1.12,
+    "ci_low": 1.06,
+    "ci_high": 1.19,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F3_diet_life",
+  "rec_id": "30eae6044c",
+  "doi": "[DOI withheld]",
+  "index_name": "A body shape index (ABSI)",
+  "index_formula": "ABSI = waist circumference / (BMI^(2/3) x height^(1/2)) x 100",
+  "index_components": [
+   "waist circumference",
+   "BMI",
+   "height"
+  ],
+  "cycles": [
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016"
+  ],
+  "population": "Adults aged 20-80 years with diabetes; excluded cancer history, pregnancy, missing ACR/eGFR/ABSI data, missing smoking/alcohol/education",
+  "n_analytic": 2770,
+  "outcome_main": "DKD",
+  "outcome_definition": "DKD = diabetes plus CKD; CKD = eGFR < 60 mL/min/1.73 m2 or ACR >= 30 mg/g",
+  "egfr_equation": "2021 CKD-EPI creatinine",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": null,
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit (ABSI x100, continuous)",
+  "estimate": 1.33,
+  "ci_low": 1.09,
+  "ci_high": 1.61,
+  "p": 0.004,
+  "source_table": "Table 2",
+  "covariates_final": [
+   "sex",
+   "age",
+   "race",
+   "education level",
+   "PIR",
+   "smoking",
+   "alcohol consumption",
+   "hypertension",
+   "CVD",
+   "ALT",
+   "AST",
+   "TC",
+   "HDL-C"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "sex",
+   "age",
+   "race",
+   "education level",
+   "PIR",
+   "smoking",
+   "alcohol consumption",
+   "hypertension",
+   "CVD",
+   "ALT",
+   "AST",
+   "TC",
+   "HDL-C"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "Survey weighting",
+    "reading_1": "No survey weights used (none mentioned)",
+    "reading_2": "Weights applied but not reported"
+   },
+   {
+    "point": "index components",
+    "reading_1": "as in the formula: waist circumference, BMI, height (BMI itself from weight and height)",
+    "reading_2": "measured inputs: height, weight, waist circumference"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.79,
+    "ci_low": 1.51,
+    "ci_high": 2.13,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "sex",
+     "age",
+     "race"
+    ],
+    "estimate": 1.38,
+    "ci_low": 1.15,
+    "ci_high": 1.67,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F3_diet_life",
+  "rec_id": "fe82b9da6a",
+  "doi": "[DOI withheld]",
+  "index_name": "OBS",
+  "index_formula": "total OBS = cumulative sum of all factor scores (antioxidants scored 0, 1, 2 from lowest to highest tertile; pro-oxidants scored 2 to 0)",
+  "index_components": [
+   "16 dietary components",
+   "physical activity",
+   "alcohol consumption",
+   "BMI",
+   "cotinine"
+  ],
+  "cycles": [
+   "2011-2012",
+   "2013-2014"
+  ],
+  "population": "diabetes patients aged ≥ 20 years; excluded dialysis patients, missing serum creatinine, urine creatinine, albumin, serum MMA, OBS data, education level, serum vitamin B12",
+  "n_analytic": 1618,
+  "outcome_main": "DKD",
+  "outcome_definition": "eGFR < 60 mL/min/1.73 m2 or UACR ≥ 30 mg/g (in diabetes patients)",
+  "egfr_equation": "CKD-EPI 2009 form (141, 0.993^age; year not stated; printed exponent -1.029 and female factor 1.108 differ from the published -1.209 and 1.018; no race term printed)",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "WTDRD1 (dietary day one 2-year sample weight), with SDMVSTRA and SDMVPSU",
+  "cycle_pooling": null,
+  "model_label": "Model 2",
+  "effect_type": "OR",
+  "exposure_scale": "OBS <20 vs >=20 (fixed cut point 20; reference >= 20)",
+  "estimate": 1.42,
+  "ci_low": 1.06,
+  "ci_high": 1.91,
+  "p": 0.023,
+  "source_table": "Table 3",
+  "covariates_final": {
+   "value": [
+    "age",
+    "educational level",
+    "PIR",
+    "diabetic retinopathy",
+    "hypertension",
+    "CVD",
+    "anti-diabetes drug",
+    "anti-hypertension drug",
+    "anti-dyslipidemia drug"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": null,
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "cycle pooling of WTDRD1",
+    "reading_1": "2-year WTDRD1 used as is across two cycles",
+    "reading_2": "WTDRD1 divided by 2 for pooled 2011-2014"
+   },
+   {
+    "point": "eGFR equation",
+    "reading_1": "CKD-EPI 2009 with printed typos (published coefficients)",
+    "reading_2": "coefficients exactly as printed (-1.029, 1.108)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.4,
+    "ci_low": 1.09,
+    "ci_high": 1.8,
+    "loc": "Table 3"
+   }
+  ]
+ },
+ {
+  "family": "F3_diet_life",
+  "rec_id": "aca6f864fb",
+  "doi": "[DOI withheld]",
+  "index_name": "OBS",
+  "index_formula": "OBS total score = sum of the scores of all components (antioxidant tertiles 1–3 scored 0–2, pro-oxidant tertiles 1–3 scored 2–0; alcohol 2/1/0; obesity/overweight/normal weight 0/1/2)",
+  "index_components": [
+   "dietary fiber",
+   "carotene",
+   "riboflavin",
+   "niacin",
+   "vitamin B6",
+   "total folic acid",
+   "vitamin B12",
+   "vitamin C",
+   "vitamin E",
+   "calcium",
+   "magnesium",
+   "zinc",
+   "copper",
+   "selenium",
+   "total fat",
+   "iron",
+   "physical activity",
+   "BMI",
+   "alcohol consumption",
+   "cotinine"
+  ],
+  "cycles": [
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "excluded < 18 years, incomplete CKD data, OBS items < 16, incomplete covariate data",
+  "n_analytic": 25118,
+  "outcome_main": "CKD",
+  "outcome_definition": "low eGFR (< 60 mL/min/1.73 m2) or ACR of more than 30 mg/g",
+  "egfr_equation": "CKD-EPI 2009 creatinine equation (year not stated; identified from the printed formula with race factor 1.159)",
+  "uacr_threshold": "more than 30 mg/g",
+  "weight_variable": "sample weighting method recommended by NHANES (2-year weight; variable not named)",
+  "cycle_pooling": "14-year weight = 1/7 of the 2-year weight",
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "Q4 vs Q1 (OBS quartiles)",
+  "estimate": 0.74,
+  "ci_low": 0.63,
+  "ci_high": 0.87,
+  "p": "< 0.001",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "age",
+    "sex",
+    "race",
+    "marriage status",
+    "education",
+    "family PIR",
+    "diabetes mellitus",
+    "hypertension",
+    "hyperlipidemia",
+    "cardiovascular disease",
+    "depression",
+    "sleep duration",
+    "antihyperglycemic drug",
+    "antihypertensive drug"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "marital status",
+   "race/ethnicity",
+   "education level",
+   "PIR",
+   "sleep duration",
+   "depressive status",
+   "hypertension",
+   "diabetes mellitus",
+   "hyperlipidemia",
+   "CVD",
+   "use of hypoglycemic medications",
+   "use of antihypertensive medications"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "ACR threshold",
+    "reading_1": "ACR more than 30 mg/g (strictly > 30)",
+    "reading_2": "ACR >= 30 mg/g"
+   },
+   {
+    "point": "which survey weight",
+    "reading_1": "weight variable unspecified; 14-year weight = 1/7 of the 2-year weight",
+    "reading_2": "MEC examination weight (WTMEC2YR) or dietary day-1 weight divided by 7 (OBS uses 24-h recall)"
+   },
+   {
+    "point": "Model 2 versus Model 3",
+    "reading_1": "Model 3 (fully adjusted, as the abstract says)",
+    "reading_2": "Model 2 gives the same Q4 OR 0.74 (0.63-0.87)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Unadjusted",
+    "covariates": [],
+    "estimate": 0.51,
+    "ci_low": 0.45,
+    "ci_high": 0.59,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 1",
+    "covariates": [
+     "age",
+     "sex",
+     "race",
+     "marriage status",
+     "education",
+     "family PIR"
+    ],
+    "estimate": 0.65,
+    "ci_low": 0.56,
+    "ci_high": 0.76,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "sex",
+     "race",
+     "marriage status",
+     "education",
+     "family PIR",
+     "diabetes mellitus",
+     "hypertension",
+     "hyperlipidemia",
+     "cardiovascular disease",
+     "depression"
+    ],
+    "estimate": 0.74,
+    "ci_low": 0.63,
+    "ci_high": 0.87,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F3_diet_life",
+  "rec_id": "78c5287646",
+  "doi": "[DOI withheld]",
+  "index_name": "Prognostic nutritional index (PNI)",
+  "index_formula": "PNI = 5 x lymphocyte count (10^9/L) + serum albumin (g/L)",
+  "index_components": [
+   "lymphocyte count",
+   "serum albumin"
+  ],
+  "cycles": [
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "age >= 18 years; excluded pregnant, no mortality data, no dietary data, missing key laboratory data, type 1 diabetes; DKD analysis restricted to the 2720 participants with T2DM",
+  "n_analytic": 2720,
+  "outcome_main": "DKD (in T2DM)",
+  "outcome_definition": "DKD = CKD combined with diabetes; CKD = UACR > 30 mg/g and/or eGFR < 60 mL/min/1.73 m2",
+  "egfr_equation": "CKD_EPI_Scr equation (version not stated)",
+  "uacr_threshold": "UACR > 30 mg/g",
+  "weight_variable": "NHANES 2-year sample weights with stratification and clustering (variable not named)",
+  "cycle_pooling": "6-year weight = one third of the 2-year weight",
+  "model_label": "Multivariate analysis (Table 5, footnote a)",
+  "effect_type": "OR",
+  "exposure_scale": "Higher PNI (> 50.5) vs lower PNI (≤ 50.5)",
+  "estimate": 0.64,
+  "ci_low": 0.459,
+  "ci_high": 0.892,
+  "p": 0.01,
+  "source_table": "Table 5",
+  "covariates_final": [
+   "age",
+   "gender",
+   "race",
+   "smoking",
+   "hypertension",
+   "DII group",
+   "energy intake",
+   "DPI",
+   "hyperuricemia",
+   "HbA1c",
+   "triglyceride",
+   "hypoalbuminemia",
+   "anemia",
+   "lymphocyte"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": null,
+  "inflection_point": 50.5,
+  "ambiguities": [
+   {
+    "point": "analytic N of the main estimate",
+    "reading_1": "2720, the participants with T2DM in whom DKD is modelled",
+    "reading_2": "14,349, the whole study sample"
+   },
+   {
+    "point": "Covariates in the adjusted model",
+    "reading_1": "Footnote list (14 variables) excluding the exposure 'PNI group'",
+    "reading_2": "Footnote list also counts lymphocyte (a PNI component) and PNI group as modelled terms"
+   },
+   {
+    "point": "inflection_point 50.5",
+    "reading_1": "50.5 is a data-derived cut point (ROC optimum for DKD and mortality, mortality spline nadir), recorded as the reported threshold",
+    "reading_2": "no inflection point for DKD (no spline or threshold model for DKD)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Univariate analysis",
+    "covariates": [],
+    "estimate": 0.51,
+    "ci_low": 0.4,
+    "ci_high": 0.65,
+    "loc": "Table 5"
+   }
+  ]
+ },
+ {
+  "family": "F3_diet_life",
+  "rec_id": "9835a67923",
+  "doi": "[DOI withheld]",
+  "index_name": "DOBS",
+  "index_formula": "sum of the individual scores of 16 components (14 dietary antioxidants, 2 dietary pro-oxidants)",
+  "index_components": [
+   "dietary fiber",
+   "carotene",
+   "vitamin B2",
+   "niacin",
+   "vitamin B6",
+   "total folate",
+   "vitamin B12",
+   "vitamin C",
+   "vitamin E",
+   "calcium",
+   "magnesium",
+   "zinc",
+   "copper",
+   "selenium",
+   "total fat",
+   "iron"
+  ],
+  "cycles": [
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010"
+  ],
+  "population": "diabetes participants, NHANES 2001-2010; excluded pregnancy, non-diabetes or missing diabetes data, missing UACR, eGFR, dietary antioxidant/pro-oxidant intake, extreme energy intake (< 500 or > 5,000 kcal/day), missing inflammatory factors, missing covariates; no age limit stated",
+  "n_analytic": 3218,
+  "outcome_main": "DN (diabetic nephropathy)",
+  "outcome_definition": "diabetic patients with UACR > 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": ">30 mg/g",
+  "weight_variable": "WTDR2D if two complete dietary recalls, otherwise WTDRD1",
+  "cycle_pooling": "WTDRD1 * 1/5 or WTDR2D * 1/5 (five 2-year cycles)",
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "Q4 vs Q1",
+  "estimate": 0.78,
+  "ci_low": 0.63,
+  "ci_high": 0.96,
+  "p": 0.021,
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "gender",
+   "race",
+   "marital status",
+   "BMI",
+   "hypertension",
+   "smoking status"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "marital status",
+   "BMI",
+   "hypertension",
+   "smoking status"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "exposure scale of the main estimate",
+    "reading_1": "Q4 vs Q1, Model 3, before PSM: OR 0.78 (0.63, 0.96), p = 0.021 (the only estimate in the abstract)",
+    "reading_2": "continuous DOBS, Model 3, before PSM: OR 0.98 (0.97, 1.00), p = 0.006 (Table 2)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 0.71,
+    "ci_low": 0.57,
+    "ci_high": 0.87,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 0.76,
+    "ci_low": 0.62,
+    "ci_high": 0.94,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F3_diet_life",
+  "rec_id": "8a9e8d47ec",
+  "doi": "[DOI withheld]",
+  "index_name": "WWI",
+  "index_formula": "WWI = WC/√weight",
+  "index_components": [
+   "WC",
+   "weight"
+  ],
+  "cycles": [
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2020 (pre-pandemic)"
+  ],
+  "population": "hypertensive patients: self-reported history, use of anti-hypertensive medications, or SBP ≥140 mmHg or DBP ≥90 mmHg; age limits not stated; screening criteria only in Figure 1",
+  "n_analytic": 15360,
+  "outcome_main": "albuminuria",
+  "outcome_definition": "albuminuria = UACR >= 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": ">= 30 mg/g",
+  "weight_variable": null,
+  "cycle_pooling": null,
+  "model_label": "Model II",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 1.37,
+  "ci_low": 1.28,
+  "ci_high": 1.48,
+  "p": "<0.0001",
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "sex",
+   "race",
+   "SBP",
+   "DBP",
+   "BMI",
+   "HDL-c",
+   "LDL-c",
+   "TC",
+   "CRP",
+   "HbA1c",
+   "FPG",
+   "Cr",
+   "smoke",
+   "alcohol"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": null,
+  "inflection_point": 11.65,
+  "ambiguities": [
+   {
+    "point": "which index is the main exposure (abstract names WWI and CMI)",
+    "reading_1": "WWI, first stated: Model II OR 1.37 (1.28, 1.48) per unit",
+    "reading_2": "CMI, second stated: OR 1.09"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Crude model",
+    "covariates": [],
+    "estimate": 1.58,
+    "ci_low": 1.5,
+    "ci_high": 1.67,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model I",
+    "covariates": [
+     "age",
+     "sex",
+     "race"
+    ],
+    "estimate": 1.5,
+    "ci_low": 1.41,
+    "ci_high": 1.59,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F3_diet_life",
+  "rec_id": "b966d3cfdc",
+  "doi": "[DOI withheld]",
+  "index_name": "OBS",
+  "index_formula": "total OBS = sum of the scores of 13 dietary nutrients (9 antioxidants, 4 pro-oxidants) and 4 lifestyle factors (1 antioxidant, 3 pro-oxidants)",
+  "index_components": [
+   "vitamin C",
+   "vitamin E",
+   "alpha-carotene",
+   "beta-carotene",
+   "beta-cryptoxanthin",
+   "lycopene",
+   "lutein + zeaxanthin",
+   "selenium",
+   "zinc",
+   "iron",
+   "total fat",
+   "total PUFA",
+   "total SFA",
+   "physical activity",
+   "BMI",
+   "cotinine (smoking)",
+   "alcohol"
+  ],
+  "cycles": [
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "individuals diagnosed with diabetes, adults aged 18 years or older; excluded missing ACR and eGFR, incomplete OBS component data, incomplete covariate data",
+  "n_analytic": 4353,
+  "outcome_main": "CKD",
+  "outcome_definition": "(1) eGFR < 60 mL/min/1.73 m², (2) ACR ≥ 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "ACR ≥ 30 mg/g",
+  "weight_variable": "recommended sample weight calculation (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "Q4 vs Q1",
+  "estimate": 0.69,
+  "ci_low": 0.57,
+  "ci_high": 0.85,
+  "p": 0.0003,
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "gender",
+   "race",
+   "education",
+   "hypertension",
+   "smoking",
+   "BMI",
+   "UCR",
+   "UA",
+   "ALB",
+   "TBIL",
+   "TC",
+   "BUN"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "education",
+   "hypertension",
+   "smoking status",
+   "BMI",
+   "ALB",
+   "TBIL",
+   "TC",
+   "BUN",
+   "UCR",
+   "UA"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "abstract gives only a category estimate (Q4 vs Q1); continuous estimate exists in Table 2",
+    "reading_1": "Model 3, Q4 vs Q1: OR 0.69 (0.57, 0.85), p = 0.0003",
+    "reading_2": "Model 3, per 1 unit OBS: OR 0.96 (0.94, 0.98), p < 0.001 (Table 2 'Continuous' row)"
+   },
+   {
+    "point": "number of cycles: text says 'five NHANES cycles (2007–2018)'",
+    "reading_1": "the six two-year cycles spanning 2007-2018 as dated",
+    "reading_2": "five cycles within 2007-2018, one cycle not named"
+   },
+   {
+    "point": "how the two CKD criteria are combined",
+    "reading_1": "CKD = eGFR < 60 mL/min/1.73 m² or ACR ≥ 30 mg/g (either criterion, as listed (1), (2))",
+    "reading_2": "CKD = both criteria required"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 0.79,
+    "ci_low": 0.66,
+    "ci_high": 0.94,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race",
+     "education"
+    ],
+    "estimate": 0.72,
+    "ci_low": 0.6,
+    "ci_high": 0.86,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "1c8c318fda",
+  "doi": "[DOI withheld]",
+  "index_name": "UHR",
+  "index_formula": "UHR = SUA (mg/dL) / HDL-C (mg/dL)",
+  "index_components": [
+   "SUA",
+   "HDL-C"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010"
+  ],
+  "population": "NHANES participants aged >=45 y; excluded missing HDL-C, SUA, serum creatinine, and key covariates",
+  "n_analytic": 10968,
+  "outcome_main": "CKD",
+  "outcome_definition": "CKD = eGFR < 60 mL/min/1.73 m2",
+  "egfr_equation": "2021 CKD-EPI (creatinine)",
+  "uacr_threshold": null,
+  "weight_variable": "proper sample weights (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per SD",
+  "estimate": 1.81,
+  "ci_low": 1.58,
+  "ci_high": 2.07,
+  "p": "< 0.001",
+  "source_table": "Table 3",
+  "covariates_final": [
+   "sex",
+   "age",
+   "race",
+   "education level",
+   "marital status",
+   "BMI",
+   "triglycerides",
+   "total cholesterol",
+   "CVD",
+   "diabetes mellitus",
+   "hypertension",
+   "CRP",
+   "lipid-lowering drugs",
+   "smoking",
+   "drinking status"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race",
+   "education level",
+   "marital status",
+   "BMI",
+   "total cholesterol",
+   "triglycerides",
+   "CVD",
+   "DM",
+   "hypertension",
+   "CRP",
+   "lipid-lowering drugs",
+   "smoking",
+   "drinking status"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "which cohort supplies the main estimate (abstract gives CHARLS first, NHANES second, both Model 3 per SD)",
+    "reading_1": "NHANES part (brief rule 2: NHANES is a co-primary analysis, extract the NHANES part only): Model 3 per SD OR 1.81 (1.58, 2.07), N 10,968",
+    "reading_2": "literal first-stated abstract estimate, CHARLS: Model 3 per SD OR 1.83 (1.44, 2.32), N 9,012"
+   },
+   {
+    "point": "Methods Model 3 covariates",
+    "reading_1": "Model 2 covariates (age, sex, race, education, marital status, BMI) plus the nine added variables",
+    "reading_2": "only the nine added variables (nesting ambiguous)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.52,
+    "ci_low": 1.38,
+    "ci_high": 1.67,
+    "loc": "Table 3 (NHANES)"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "sex",
+     "age",
+     "race",
+     "education level",
+     "marital status",
+     "BMI"
+    ],
+    "estimate": 1.83,
+    "ci_low": 1.6,
+    "ci_high": 2.09,
+    "loc": "Table 3 (NHANES)"
+   }
+  ]
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "cde66dda6a",
+  "doi": "[DOI withheld]",
+  "index_name": "METS-VF (Metabolic Score for Visceral Fat)",
+  "index_formula": "{\\rm METS-VF}=4.466 + 0.011 \\times ({\\rm Ln(METS-IR))^{3}}+3.329\\times (\\rm Ln(WHtr))^{3}\\:\\\\+0.319 \\times({\\rm gender}) + 0.594 \\times ((\\rm Ln(Age))",
+  "index_components": [
+   "gender",
+   "age",
+   "FPG",
+   "TG",
+   "BMI",
+   "HDL-C",
+   "WC",
+   "height"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "age >= 20; excluded participants without METS-VF data and with missing renal function data",
+  "n_analytic": 24387,
+  "outcome_main": "CKD",
+  "outcome_definition": "CKD = eGFR < 60 ml/min/1.73 m2 or UACR > 30 mg/g (two criteria listed as (1), (2); connector not stated)",
+  "egfr_equation": "creatinine equation printed but not named; coefficients (K 0.9/0.7, alpha -0.411/-0.329, 0.993^Age, 1.018 female, 1.159 black) are those of CKD-EPI 2009",
+  "uacr_threshold": "> 30 mg/g",
+  "weight_variable": "survey design and weighted variables (weight variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 1.86,
+  "ci_low": 1.48,
+  "ci_high": 2.338,
+  "p": null,
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "gender",
+   "race",
+   "education level",
+   "poverty-to-income ratio",
+   "alcohol intake",
+   "Hypertension",
+   "Diabetes",
+   "exercise routine",
+   "serum albumin",
+   "serum creatinine",
+   "low-density lipoprotein cholesterol",
+   "high-density lipoprotein cholesterol",
+   "triglyceride",
+   "urinary albumin",
+   "urinary creatinine"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "gender",
+   "age",
+   "race",
+   "education level",
+   "the poverty income ratio (PIR)",
+   "alcohol intake",
+   "physical activity",
+   "hypertension",
+   "diabetes",
+   "serum creatinine",
+   "serum albumin",
+   "low-density lipoprotein cholesterol (LDL-C)",
+   "high-density lipoprotein cholesterol (HDL-C)",
+   "triglycerides (TG)",
+   "urine creatinine",
+   "urine albumin"
+  ],
+  "inflection_point": "6.10, 7.55",
+  "ambiguities": [
+   {
+    "point": "how the two CKD criteria are combined",
+    "reading_1": "either criterion: eGFR < 60 or UACR > 30 mg/g",
+    "reading_2": "both criteria required"
+   },
+   {
+    "point": "Survey weight",
+    "reading_1": "Weights unspecified: 'weighted variables' with no variable named, so a single-cycle or generic weight",
+    "reading_2": "Cycle-specific MEC weights divided by 10 cycles"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 3.328,
+    "ci_low": 3.102,
+    "ci_high": 3.57,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 1.743,
+    "ci_low": 1.601,
+    "ci_high": 1.897,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "ea03123ab4",
+  "doi": "[DOI withheld]",
+  "index_name": "METS-VF",
+  "index_formula": "METS-VF= 4.466 + 0.011 × [Ln (METS-IR)] ³ + 3.239 × [Ln (WHtR)] ³ + 0.319 × (sex) + 0.594 × [Ln (age)] (male=1, female=0); METS-IR= Ln [(2 × fasting plasma glucose) + (triglycerides)] × (body mass index)/[Ln (high-density lipoprotein cholesterol)]",
+  "index_components": [
+   "FPG",
+   "TG",
+   "BMI",
+   "HDL-C",
+   "WC",
+   "height",
+   "sex",
+   "age"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "age >= 20 years; excluded those missing METS-VF or UACR data",
+  "n_analytic": 22514,
+  "outcome_main": "albuminuria",
+  "outcome_definition": "albuminuria, UACR >= 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥30 mg/g",
+  "weight_variable": "descriptive statistics weighted by population (weight variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "continuous METS-VF (per 1 unit implied, unit not stated)",
+  "estimate": 1.406,
+  "ci_low": 1.243,
+  "ci_high": 1.59,
+  "p": "<0.001",
+  "source_table": "Table 3",
+  "covariates_final": {
+   "value": [
+    "age group (<60/≥60 years)",
+    "sex",
+    "ethnicity",
+    "marital status",
+    "PIR",
+    "education level",
+    "smoking history",
+    "hypertension",
+    "diabetes",
+    "CVDs",
+    "BMI group (<25/25-30/≥30kg/m2)",
+    "TC",
+    "LDL-c",
+    "eGFR"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age group",
+   "sex",
+   "ethnicity",
+   "marital status",
+   "PIR",
+   "education level",
+   "smoking history",
+   "hypertension",
+   "diabetes",
+   "CVDs",
+   "BMI group",
+   "TC",
+   "LDL-c",
+   "eGFR"
+  ],
+  "inflection_point": 6.128,
+  "ambiguities": [
+   {
+    "point": "survey weights in regression",
+    "reading_1": "weights stated only for descriptive statistics ('descriptive statistics weighted by population'); regression models not stated as weighted",
+    "reading_2": "all analyses including logistic regression survey-weighted"
+   },
+   {
+    "point": "index components",
+    "reading_1": "base variables: FPG, TG, BMI, HDL-C (via METS-IR), WC and height (via WHtR), sex, age",
+    "reading_2": "named formula terms: METS-IR, WHtR, age, sex"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 2.328,
+    "ci_low": 2.169,
+    "ci_high": 2.498,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age group",
+     "sex",
+     "ethnicity",
+     "marital status",
+     "PIR",
+     "education level",
+     "smoking history"
+    ],
+    "estimate": 1.789,
+    "ci_low": 1.657,
+    "ci_high": 1.931,
+    "loc": "Table 3"
+   }
+  ]
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "76d45e5c64",
+  "doi": "[DOI withheld]",
+  "index_name": "UHR",
+  "index_formula": "serum uric acid (mg/dL) divided by HDL-C (mg/dL), multiplied by 100%",
+  "index_components": [
+   "uric acid",
+   "HDL-C"
+  ],
+  "cycles": [
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "adults with diabetes; excluded participants under 20 and those lacking uric acid, HDL-C, eGFR, UACR or diabetes status data",
+  "n_analytic": 7138,
+  "outcome_main": "DKD",
+  "outcome_definition": "CKD (UACR > 30 mg/g and/or eGFR < 60 mL/min/1.73 m2) in conjunction with diabetes",
+  "egfr_equation": "CKD-EPI 2009",
+  "uacr_threshold": "> 30 mg/g",
+  "weight_variable": "weighted (weight variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "Q4 vs Q1",
+  "estimate": 6.73,
+  "ci_low": 1.97,
+  "ci_high": 23.05,
+  "p": 0.004,
+  "source_table": "Table 3",
+  "covariates_final": {
+   "value": [
+    "age",
+    "gender",
+    "race",
+    "education",
+    "PIR",
+    "marital",
+    "smoking status",
+    "drinking status",
+    "physical activity",
+    "anti-diabetic agents",
+    "anti-hyperlipidemia agents",
+    "diabetic duration",
+    "hypertension",
+    "CVD",
+    "BMI",
+    "FPG",
+    "HbA1c",
+    "LDL-C",
+    "white blood cell",
+    "hemoglobin",
+    "neutrophils"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "education",
+   "PIR",
+   "marital",
+   "smoking status",
+   "drinking status",
+   "physical activity",
+   "anti-diabetic agents",
+   "anti-hyperlipidemia agents",
+   "diabetic duration",
+   "hypertension",
+   "CVD",
+   "BMI",
+   "fasting plasma glucose",
+   "HbA1c",
+   "low-density lipoprotein-cholesterol",
+   "white blood cell",
+   "hemoglobin",
+   "neutrophil levels"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "exposure scale of main estimate",
+    "reading_1": "abstract gives only the category estimate: Model 3 Q4 vs Q1 OR 6.73 (1.97, 23.05)",
+    "reading_2": "Table 3 continuous UHR at Model 3: OR 1.10 (1.02, 1.18), P 0.023"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 2.0,
+    "ci_low": 1.68,
+    "ci_high": 2.38,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race",
+     "smoking status",
+     "drinking status"
+    ],
+    "estimate": 2.2,
+    "ci_low": 1.61,
+    "ci_high": 3.02,
+    "loc": "Table 3"
+   }
+  ]
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "e1d9d038bb",
+  "doi": "[DOI withheld]",
+  "index_name": "UHR (ln-UHR quartiles)",
+  "index_formula": "UHR=Serum UA (mg/dL)HDL~-C(mg/dL)×100%",
+  "index_components": [
+   "UA",
+   "HDL-C"
+  ],
+  "cycles": [
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "adults >= 20 with type 2 diabetes; excluded pregnant, missing UA/HDL, missing UACR and eGFR, cancer, no T2DM",
+  "n_analytic": 4010,
+  "outcome_main": "DKD (original definition)",
+  "outcome_definition": "diabetes mellitus with a UACR ≥ 30 mg/g and/or an eGFR < 60 mL/min/1.73m2",
+  "egfr_equation": "CKD-EPI 2009 (race multiplier not applied)",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "WTMEC2YR (MEC weight), with SDMVPSU and SDMVSTRA",
+  "cycle_pooling": "WTMEC2YR divided by 5 (5 cycles)",
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "Q4 vs Q1 of ln-UHR quartiles",
+  "estimate": 2.43,
+  "ci_low": 1.75,
+  "ci_high": 3.38,
+  "p": "<.001",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "gender",
+    "race",
+    "education",
+    "smoke",
+    "age",
+    "PIR",
+    "BMI",
+    "HbA1c",
+    "drinking",
+    "hypertension"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race/ethnicity",
+   "education",
+   "PIR",
+   "smoking",
+   "alcohol use",
+   "BMI",
+   "HbA1c",
+   "hypertension"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "which model is the most fully adjusted abstract estimate",
+    "reading_1": "Model 3 (the only model with numeric estimates in the abstract; stated as primary): Q4 vs Q1 OR 2.43 (1.75, 3.38)",
+    "reading_2": "Model 4 (abstract mentions attenuation in model 4 without numbers; extended sensitivity analysis): Q4 vs Q1 OR 1.84 (1.28, 2.64)"
+   },
+   {
+    "point": "exposure scale of main estimate",
+    "reading_1": "abstract gives only the category estimate Q4 vs Q1 (Model 3)",
+    "reading_2": "no continuous estimate at Model 3 in Table 2; only a continuous per-SD ln-UHR estimate at Model 4 in text (OR 1.42, 95% CI 1.27-1.59)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 2.27,
+    "ci_low": 1.81,
+    "ci_high": 2.86,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "gender",
+     "race",
+     "education",
+     "smoke",
+     "age",
+     "PIR",
+     "BMI",
+     "HbA1c",
+     "drinking"
+    ],
+    "estimate": 2.49,
+    "ci_low": 1.79,
+    "ci_high": 3.44,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 4",
+    "covariates": [
+     "gender",
+     "race",
+     "education",
+     "smoke",
+     "age",
+     "PIR",
+     "BMI",
+     "HbA1c",
+     "drinking",
+     "hypertension",
+     "ALB",
+     "ALT",
+     "BUN",
+     "GLB"
+    ],
+    "estimate": 1.84,
+    "ci_low": 1.28,
+    "ci_high": 2.64,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "e76d3d1271",
+  "doi": "[DOI withheld]",
+  "index_name": "CMI",
+  "index_formula": "The WHtR is multiplied by TG/HDL-C to calculate the CMI",
+  "index_components": [
+   "WC",
+   "height",
+   "TG",
+   "HDL-C"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2020 (pre-pandemic)"
+  ],
+  "population": "above 20 years of age; excluded insufficient data for CKD, lack of data for CMI, history of cancer, pregnant, sampling weight of 0",
+  "n_analytic": 21765,
+  "outcome_main": "CKD",
+  "outcome_definition": "a consistently low eGFR below 60 mL per minute per 1.73 m2 body surface area, or excretion of ≥ 30 mg urinary albumin per day",
+  "egfr_equation": null,
+  "uacr_threshold": "≥ 30 mg urinary albumin per day",
+  "weight_variable": "NHANES recommended weights (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 1.08,
+  "ci_low": 1.03,
+  "ci_high": 1.13,
+  "p": 0.002,
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "gender",
+   "race/ethnicity",
+   "smoke",
+   "drink",
+   "BMI",
+   "TC",
+   "LDL-C",
+   "hypertension",
+   "DM"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "smoking habits",
+   "alcohol consumption behaviors",
+   "BMI",
+   "TC",
+   "LDL-C",
+   "hypertension",
+   "diabetes mellitus (DM)"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "exposure scale of the abstract estimate",
+    "reading_1": "OR 1.08 (1.03-1.13) is the Table 2 Model 3 'CMI per 1 unit' continuous estimate (number matches)",
+    "reading_2": "abstract words call it 'the higher tertile of CMI'; as a category estimate, Model 3 T3 vs T1 OR 1.22 (1.05-1.43), P 0.013"
+   },
+   {
+    "point": "albuminuria component of CKD definition",
+    "reading_1": "as written: excretion of >= 30 mg urinary albumin per day",
+    "reading_2": "UACR >= 30 mg/g (spot urine measure available in NHANES)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.15,
+    "ci_low": 1.12,
+    "ci_high": 1.18,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race/ethnicity"
+    ],
+    "estimate": 1.17,
+    "ci_low": 1.14,
+    "ci_high": 1.21,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "450ed6ebb6",
+  "doi": "[DOI withheld]",
+  "index_name": "RC",
+  "index_formula": "RC(mg/dL)=TC(mg/dL)−(HDL−C[mg/dL]+LDL−C[mg/dL])",
+  "index_components": [
+   "TC",
+   "HDL-C",
+   "LDL-C"
+  ],
+  "cycles": [
+   "2015-2016",
+   "2017-2020 (pre-pandemic)"
+  ],
+  "population": "excluding those under 20 years of age and pregnant women; excluded incomplete data on eGFR, ACR, ALB, Scr, diabetes status, hs-CRP, TC, HDL-C, LDL-C",
+  "n_analytic": 5943,
+  "outcome_main": "DKD",
+  "outcome_definition": "Confirmed diagnosis of diabetes, and ACR ≥ 30 mg/g or eGFR ≤ 60 mL/min/1.73 m2, or both",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "appropriate NHANES sampling weights (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "Q4 vs Q1 (RC quartiles)",
+  "estimate": 2.73,
+  "ci_low": 2.12,
+  "ci_high": 3.52,
+  "p": null,
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "gender",
+   "race",
+   "educational level",
+   "marital status",
+   "PIR",
+   "smoking status",
+   "drinking status",
+   "BMI",
+   "Hypertension",
+   "diabetes duration"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "educational level",
+   "marital status",
+   "PIR",
+   "smoking status",
+   "drinking status",
+   "BMI",
+   "hypertension",
+   "diabetes duration"
+  ],
+  "inflection_point": 49.85,
+  "ambiguities": [
+   {
+    "point": "abstract gives only category estimates; continuous estimate in table",
+    "reading_1": "RC Quartile 4 vs Quartile 1, Model 3, OR 2.73 (2.12, 3.52)",
+    "reading_2": "RC per-SD, Model 3, OR 1.36 (1.27, 1.47) (Table 2)"
+   },
+   {
+    "point": "abstract singles out RCII as the studied index (title, diagnostic aim, conclusion) while the first abstract estimate is for RC",
+    "reading_1": "index RC, Q4 vs Q1 Model 3 OR 2.73 (2.12, 3.52)",
+    "reading_2": "index RCII, Q4 vs Q1 Model 3 OR 2.29 (1.77, 2.97); per-SD 1.32 (1.22, 1.42)"
+   },
+   {
+    "point": "DKD definition differs between sections",
+    "reading_1": "Methods: diabetes and (ACR >= 30 mg/g or eGFR <= 60, or both)",
+    "reading_2": "Abstract: diabetes, ACR >= 30 mg/g and eGFR < 60; Methods para 3 also says diabetes and reduced eGFR (< 60) only"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 4.14,
+    "ci_low": 3.32,
+    "ci_high": 5.15,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender"
+    ],
+    "estimate": 3.49,
+    "ci_low": 2.77,
+    "ci_high": 4.39,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "69700c2b09",
+  "doi": "[DOI withheld]",
+  "index_name": "NHHR",
+  "index_formula": null,
+  "index_components": [
+   "non-HDL-C",
+   "HDL-C"
+  ],
+  "cycles": [
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016"
+  ],
+  "population": "age 18 and over with diabetes; excluded missing NHHR, eGFR, UACR, pregnant, non-diabetic, missing weighted data",
+  "n_analytic": 4177,
+  "outcome_main": "DKD",
+  "outcome_definition": "diabetes plus UACR ≥ 30 mg/g or eGFR < 60 ml/min/1.73 m2",
+  "egfr_equation": null,
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "WTDR2D (dietary two-day sample weight)",
+  "cycle_pooling": "WTDR2D / 6 (six cycles)",
+  "model_label": "Adjusted (single adjusted model; no model number)",
+  "effect_type": "OR",
+  "exposure_scale": "continuous NHHR (per 1 unit implied, unit not stated)",
+  "estimate": 1.07,
+  "ci_low": 1.02,
+  "ci_high": 1.12,
+  "p": "P < 0.01",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "age",
+    "gender",
+    "race",
+    "marital status",
+    "educational level",
+    "family PIR",
+    "BMI",
+    "smoking status",
+    "alcohol consumption",
+    "history of hypertension",
+    "history of hyperuricemia",
+    "physical activity or inactivity",
+    "dietary cholesterol",
+    "AST",
+    "ALT"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": null,
+  "inflection_point": 2.66,
+  "ambiguities": [
+   {
+    "point": "which weight",
+    "reading_1": "WTDR2D/6 (dietary two-day weight) as stated",
+    "reading_2": "MEC examination weight usual for lab outcomes"
+   }
+  ],
+  "other_models": []
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "250e5761d5",
+  "doi": "[DOI withheld]",
+  "index_name": "AVAI",
+  "index_formula": null,
+  "index_components": [
+   "WC",
+   "HDL",
+   "TG",
+   "BMI",
+   "age"
+  ],
+  "cycles": [
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "participants aged 20 years and older with complete CKD data and AVAI; missing CKD status or AVAI excluded",
+  "n_analytic": 7760,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR < 60 mL/min/1.73 m2 or ACR above 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "above 30 mg/g",
+  "weight_variable": null,
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 1.47,
+  "ci_low": 1.36,
+  "ci_high": 1.59,
+  "p": "<0.001",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "age",
+    "sex",
+    "race",
+    "BMI",
+    "educational level",
+    "smoke",
+    "drink",
+    "activity status",
+    "diabetes",
+    "hypertension"
+   ]
+  },
+  "covariate_sources_differ": true,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race",
+   "poverty income ratio (PIR)",
+   "educational level",
+   "body mass index (BMI)",
+   "smoking",
+   "drinking",
+   "physical activity",
+   "diabetes",
+   "hypertension"
+  ],
+  "inflection_point": -6.5,
+  "ambiguities": [
+   {
+    "point": "covariate list of Model 3",
+    "reading_1": "Table 2 footnote list (no PIR)",
+    "reading_2": "Methods list including poverty income ratio (PIR)"
+   },
+   {
+    "point": "survey weighting",
+    "reading_1": "unweighted (no weights, strata or PSU mentioned)",
+    "reading_2": "weighted but not reported (paper cites the complex stratified sampling strategy)"
+   },
+   {
+    "point": "ACR cut point",
+    "reading_1": "ACR above 30 mg/g (strictly greater)",
+    "reading_2": "ACR >= 30 mg/g (KDIGO, which the paper cites)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.47,
+    "ci_low": 1.41,
+    "ci_high": 1.54,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "sex",
+     "race"
+    ],
+    "estimate": 1.54,
+    "ci_low": 1.44,
+    "ci_high": 1.65,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "ff27565860",
+  "doi": "[DOI withheld]",
+  "index_name": "NHHR",
+  "index_formula": "total cholesterol (TC) minus HDL-C, which is non-high-density lipoprotein cholesterol (non-HDL-C), and then divided by HDL-C",
+  "index_components": [
+   "TC",
+   "HDL-C"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2020 (pre-pandemic)"
+  ],
+  "population": "diabetic participants after strict inclusion and exclusion criteria (criteria shown only in flowchart Fig 1)",
+  "n_analytic": 8329,
+  "outcome_main": "DKD",
+  "outcome_definition": "DKD = diabetes plus UACR >= 30 mg/g and/or eGFR < 60 mL/min/1.73 m2",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": null,
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit",
+  "estimate": 1.06,
+  "ci_low": 1.03,
+  "ci_high": 1.09,
+  "p": "<0.001",
+  "source_table": "Table 2",
+  "covariates_final": [
+   "race",
+   "gender",
+   "age",
+   "marital status",
+   "education level",
+   "body mass index (BMI)",
+   "poverty income ratio (PIR)",
+   "hypertension",
+   "stroke",
+   "cancer",
+   "coronary heart disease",
+   "hypercholesterolemia",
+   "liver disease",
+   "smoking status"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "race",
+   "gender",
+   "age",
+   "marital status",
+   "education level",
+   "body mass index (BMI)",
+   "poverty income ratio (PIR)",
+   "hypertension",
+   "stroke",
+   "cancer",
+   "coronary heart disease",
+   "hypercholesterolemia",
+   "liver disease",
+   "smoking status"
+  ],
+  "inflection_point": 1.75,
+  "ambiguities": [
+   {
+    "point": "abstract has no numeric estimate",
+    "reading_1": "Abstract gives only '6% rise' per one-unit increase without OR or CI; main estimate taken from Table 2 Model3 continuous NHHR OR 1.06 (1.03, 1.09)",
+    "reading_2": "Results text for Model 3 reports a 22% increase (95% CI 1.06, 1.40, P = 0.004) per one-unit increase, which matches Table 2 Q4 vs Q1 Model3 1.22 (1.06, 1.40)"
+   },
+   {
+    "point": "Model 3 covariate list ('adjusted for all presented covariates')",
+    "reading_1": "Covariates section list plus smoking status (race, gender, age, marital status, education, BMI, PIR, hypertension, stroke, cancer, coronary heart disease, hypercholesterolemia, liver disease, smoking); these are the Table 1 covariate rows",
+    "reading_2": "also HDL-C and total cholesterol, which are presented in Table 1 but are components of the exposure"
+   },
+   {
+    "point": "survey weights",
+    "reading_1": "No weights mentioned (unweighted)",
+    "reading_2": "NHANES weights applied but not reported"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model1",
+    "covariates": [],
+    "estimate": 0.97,
+    "ci_low": 0.95,
+    "ci_high": 1.0,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model2",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 1.07,
+    "ci_low": 1.04,
+    "ci_high": 1.1,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F4_lipid_anthro",
+  "rec_id": "259b9d6255",
+  "doi": "[DOI withheld]",
+  "index_name": "WWI",
+  "index_formula": "WC (cm) divided by the square root of body weight (WT, kg)",
+  "index_components": [
+   "waist circumference",
+   "body weight"
+  ],
+  "cycles": [
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "hyperuricemic adults; excluded age < 20 years, missing waist circumference, missing weight, missing urate-lowering medication use",
+  "n_analytic": 5330,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR below 60 mL/min/1.73 m², albuminuria ≥ 30 mg/g, or both",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "weighted analysis; weight variable not named",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "Q4 vs Q1",
+  "estimate": 1.6,
+  "ci_low": 1.01,
+  "ci_high": 2.53,
+  "p": 0.047,
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "gender",
+   "race",
+   "education level",
+   "PIR",
+   "smoking status",
+   "blood pressure",
+   "blood glucose",
+   "blood lipid",
+   "serum calcium",
+   "phosphorus levels"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "education level",
+   "PIR",
+   "smoking status",
+   "blood pressure",
+   "blood glucose",
+   "blood lipid",
+   "serum calcium",
+   "phosphorus"
+  ],
+  "inflection_point": 11.36,
+  "ambiguities": [
+   {
+    "point": "abstract gives only a category estimate (Q4 vs Q1); continuous estimate exists in table at same model",
+    "reading_1": "Model 3 Q4 vs Q1 OR 1.60 (1.01, 2.53), Table 2",
+    "reading_2": "Model 3 per 1 unit WWI (cm/√kg) OR 1.21 (0.98, 1.50), p = 0.069, Table 2"
+   },
+   {
+    "point": "UACR threshold for albuminuria in the CKD definition",
+    "reading_1": "albuminuria ≥ 30 mg/g (Methods)",
+    "reading_2": "albuminuria levels greater than 30 mg/g (Abstract)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 5.27,
+    "ci_low": 4.03,
+    "ci_high": 6.9,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 2.15,
+    "ci_low": 1.38,
+    "ci_high": 3.35,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "fea693ee81",
+  "doi": "[DOI withheld]",
+  "index_name": "LC9",
+  "index_formula": "mean of the eight LE8 components plus the depression score",
+  "index_components": [
+   "diet quality",
+   "nicotine exposure",
+   "physical activity",
+   "sleep duration",
+   "BMI",
+   "blood pressure",
+   "blood glucose",
+   "blood lipids",
+   "depression (PHQ-9)"
+  ],
+  "cycles": [
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "excluded individuals under 18 years old, with missing data, or with abnormal blood cell values",
+  "n_analytic": 16431,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR of less than 60 mL/min/1.73m2, UACR of 30 mg/g or higher, or both",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "30 mg/g or higher",
+  "weight_variable": "appropriate survey weights (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Adjust 2",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit (continuous LC9 score; unit not stated)",
+  "estimate": 0.98,
+  "ci_low": 0.97,
+  "ci_high": 0.99,
+  "p": "< 0.001",
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "sex",
+   "race",
+   "body mass index",
+   "poverty income ratio",
+   "education levels",
+   "marital status",
+   "smoking status",
+   "alcohol consumption",
+   "PA total MET",
+   "hyperlipidemia",
+   "hypertension",
+   "diabetes mellitus",
+   "cardiovascular disease"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": null,
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "abstract has no numeric estimate",
+    "reading_1": "fully adjusted continuous estimate from results: Table 2 Adjust 2, LC9 (continuous) OR 0.98 (0.97, 0.99), p < 0.001",
+    "reading_2": "Table 2 Adjust 2 quartile estimate Q4 vs Q1 OR 0.57 (0.38, 0.85), p = 0.01"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Unadjusted model",
+    "covariates": [],
+    "estimate": 0.96,
+    "ci_low": 0.96,
+    "ci_high": 0.97,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Adjust 1",
+    "covariates": [
+     "age",
+     "sex",
+     "race"
+    ],
+    "estimate": 0.97,
+    "ci_low": 0.96,
+    "ci_high": 0.97,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "ac96396902",
+  "doi": "[DOI withheld]",
+  "index_name": "ALBI",
+  "index_formula": "ALBI = (log10 bilirubin μmol/L × 0.66) + (albumin g/L × − 0.085)",
+  "index_components": [
+   "bilirubin",
+   "albumin"
+  ],
+  "cycles": [
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "adults; excluded incomplete information on CVD or CKD, missing ALBI scores, missing key covariates (age limit not stated in Methods)",
+  "n_analytic": 15681,
+  "outcome_main": "CKD (separate CKD estimate reported in the Results text; the abstract outcome is CVD–CKD comorbidity)",
+  "outcome_definition": "CKD = UACR >= 30 mg/g or eGFR < 60 mL/min/1.73 m2",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "UACR ≥ 30 mg/g",
+  "weight_variable": "sample weights (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "adjusted sensitivity model for CKD alone (same covariates as Table 2 Model 3 footnote)",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit (continuous ALBI)",
+  "estimate": 2.1,
+  "ci_low": 1.7,
+  "ci_high": 2.59,
+  "p": "< 0.001",
+  "source_table": "Supplementary Table 2 (not in the full text; estimate taken from the Results text)",
+  "covariates_final": [
+   "sex",
+   "age",
+   "race/ethnicity",
+   "education",
+   "family income-to-poverty ratio",
+   "BMI",
+   "drinking status",
+   "smoking status",
+   "hypertension"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "sex",
+   "age",
+   "race/ethnicity",
+   "education",
+   "family income-to-poverty ratio",
+   "BMI",
+   "drinking status",
+   "smoking status",
+   "hypertension"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "outcome of the main estimate (abstract outcome is the composite CVD–CKD comorbidity)",
+    "reading_1": "CKD alone, brief rule 4: adjusted OR 2.10 (1.70, 2.59) per unit, Results text (Supplementary Table 2)",
+    "reading_2": "CVD–CKD comorbidity, Table 2 Model 3 OR 5.38 (3.84, 7.54) per unit; Model 1 8.08 (6.24, 10.45), Model 2 3.74 (2.63, 5.30); inflection point -3.436 (Table 3)"
+   },
+   {
+    "point": "diabetes in the adjustment set",
+    "reading_1": "no diabetes: Results text list for the CKD model and Table 2 Model 3 footnote",
+    "reading_2": "diabetes included: Methods 'Model 3 further adjusted for hypertension, alcohol consumption, smoking status, and diabetes' and abstract"
+   },
+   {
+    "point": "inflection point",
+    "reading_1": "none for CKD alone",
+    "reading_2": "-3.436, two-piecewise model for CVD–CKD comorbidity (Table 3)"
+   }
+  ],
+  "other_models": []
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "c48bec549c",
+  "doi": "[DOI withheld]",
+  "index_name": "Framingham Steatosis Index (FSI)",
+  "index_formula": "FSI = −7.981 + 0.011 × age (years) − 0.146 × sex (female = 1, male = 0) + 0.173 × BMI (kg/m²) + 0.007 × TG (mg/dL) + 0.593 × hypertension (yes = 1, no = 0) + 0.789 × diabetes (yes = 1, no = 0) + 1.1 × ALT:AST ratio ≥ 1.33 (yes = 1, no = 0)",
+  "index_components": [
+   "age",
+   "sex",
+   "BMI",
+   "TG",
+   "hypertension",
+   "diabetes",
+   "ALT",
+   "AST"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "Excluded missing FSI variables, missing ACR, pregnant women and participants younger than 18 years",
+  "n_analytic": 23879,
+  "outcome_main": "albuminuria",
+  "outcome_definition": "ACR > 30 mg/g",
+  "egfr_equation": null,
+  "uacr_threshold": "> 30 mg/g",
+  "weight_variable": "WTSAF4YR (1999-2002), WTSAF2YR (2003-2018) (fasting subsample weights)",
+  "cycle_pooling": "(2/10) ×WTSAF4YR for 1999–2002 and (1/10) ×WTSAF2YR for each subsequent 2-year cycle",
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit (continuous FSI; unit not stated in Table 2, same estimate as the Table 3 standard linear model)",
+  "estimate": 1.13,
+  "ci_low": 1.09,
+  "ci_high": 1.18,
+  "p": "<0.001",
+  "source_table": "Table 2",
+  "covariates_final": [
+   "age",
+   "gender",
+   "race",
+   "BMI",
+   "education",
+   "marital status",
+   "PIR",
+   "albumin",
+   "uric acid",
+   "hyperlipidemia",
+   "diabetes",
+   "alcohol consumption",
+   "hypertension",
+   "vigorous activity",
+   "moderate activity",
+   "smoking",
+   "eGFR"
+  ],
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "ethnicity",
+   "BMI",
+   "education",
+   "marital status",
+   "PIR",
+   "albumin",
+   "UA",
+   "hyperlipidemia",
+   "diabetes",
+   "alcohol consumption",
+   "hypertension",
+   "vigorous activity",
+   "moderate activity",
+   "smoking",
+   "eGFR"
+  ],
+  "inflection_point": -3.22,
+  "ambiguities": [
+   {
+    "point": "exposure scale of the Table 2 'Albuminuria' row",
+    "reading_1": "continuous FSI, OR per 1-unit increase",
+    "reading_2": "FSI per SD or another scaling (not stated)"
+   },
+   {
+    "point": "Albuminuria threshold",
+    "reading_1": "ACR > 30 mg/g (as written)",
+    "reading_2": "ACR >= 30 mg/g (standard definition)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.24,
+    "ci_low": 1.21,
+    "ci_high": 1.26,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "race"
+    ],
+    "estimate": 1.19,
+    "ci_low": 1.16,
+    "ci_high": 1.21,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "ba21203b93",
+  "doi": "[DOI withheld]",
+  "index_name": "FPSA/TPSA ratio",
+  "index_formula": "FPSA / TPSA (Table 3 scale x 10^2)",
+  "index_components": [
+   "FPSA",
+   "TPSA"
+  ],
+  "cycles": [
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010"
+  ],
+  "population": "male patients with diabetes; excluded incomplete PSA or DKD diagnostic data, prostate cancer, missing HbA1c, waist circumference, TC, triglycerides",
+  "n_analytic": 1681,
+  "outcome_main": "DKD (CKD among men with diabetes)",
+  "outcome_definition": "CKD (UACR >= 30 mg/g and/or eGFR < 60 mL/min/1.73 m2) in men with diabetes (DKD not defined separately)",
+  "egfr_equation": null,
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": null,
+  "cycle_pooling": null,
+  "model_label": "Model IV",
+  "effect_type": "OR",
+  "exposure_scale": "T3 vs T2 (tertiles, reference middle tertile T2)",
+  "estimate": 2.16,
+  "ci_low": 1.6,
+  "ci_high": 2.91,
+  "p": "< 0.001",
+  "source_table": "Table 3",
+  "covariates_final": {
+   "value": [
+    "age",
+    "race",
+    "education level",
+    "marriage status",
+    "body mass index (BMI)",
+    "waist",
+    "smoking",
+    "drinking",
+    "stroke",
+    "heart disease",
+    "hypertension",
+    "total cholesterol level (TC)",
+    "total triglyceride level (TG)",
+    "high-density lipoprotein(HDL)",
+    "Glycosylated hemoglobin (HbA1C)"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "race",
+   "education level",
+   "marital status",
+   "BMI",
+   "waist circumference",
+   "smoking status",
+   "alcohol consumption",
+   "history of stroke",
+   "heart disease",
+   "hypertension",
+   "TC",
+   "triglycerides (TG)",
+   "high-density lipoprotein (HDL)",
+   "glycosylated hemoglobin (HbA1c)"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "which abstract estimate is the main one",
+    "reading_1": "the index (FPSA/TPSA ratio), Model IV T3 vs T2, OR 2.16 (1.60-2.91)",
+    "reading_2": "first stated category contrast, TPSA T3 vs T2, Model IV OR 1.92 (1.43-2.56), inflection -0.766 (log2 TPSA); TPSA is a single analyte"
+   },
+   {
+    "point": "covariate list of the fully adjusted model",
+    "reading_1": "Table 3 footnote Model IV (15 covariates)",
+    "reading_2": "Abstract: age, race, BMI, hypertension and cardiovascular disease"
+   },
+   {
+    "point": "continuous vs category for the ratio",
+    "reading_1": "T3 vs T2 OR 2.16 (the number printed in the abstract)",
+    "reading_2": "continuous FPSA/TPSA (x 10^2) Model IV OR 1.03 (1.02-1.04)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model I",
+    "covariates": [],
+    "estimate": 2.32,
+    "ci_low": 1.75,
+    "ci_high": 3.08,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model II",
+    "covariates": [
+     "age",
+     "race",
+     "education level",
+     "marriage status"
+    ],
+    "estimate": 2.31,
+    "ci_low": 1.74,
+    "ci_high": 3.08,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model III",
+    "covariates": [
+     "age",
+     "race",
+     "education level",
+     "marriage status",
+     "body mass index (BMI)",
+     "waist",
+     "smoking",
+     "drinking",
+     "stroke",
+     "heart disease",
+     "hypertension"
+    ],
+    "estimate": 2.21,
+    "ci_low": 1.65,
+    "ci_high": 2.97,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model IV, continuous FPSA/TPSA",
+    "covariates": "same as Model IV",
+    "estimate": 1.03,
+    "ci_low": 1.02,
+    "ci_high": 1.04,
+    "loc": "Table 3"
+   }
+  ]
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "0717542568",
+  "doi": "[DOI withheld]",
+  "index_name": "serum copper/zinc ratio",
+  "index_formula": "serum copper/zinc",
+  "index_components": [
+   "serum copper",
+   "serum zinc"
+  ],
+  "cycles": [
+   "2011-2012",
+   "2013-2014",
+   "2015-2016"
+  ],
+  "population": "participants with weight information 2011-2016; subset aged >= 20",
+  "n_analytic": 4978,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR <60 ml/min/1.73 m2 or UACR ≥30 mg/g",
+  "egfr_equation": "(140-age) *weight*1.23/serum creatinine (male); (140-age) *weight*1.03/serum creatinine (female); equation name not stated",
+  "uacr_threshold": "≥30 mg/g",
+  "weight_variable": "WTSA2YR (subsample A 2-year weight)",
+  "cycle_pooling": "1/3*WTSA2YR (2-year weight divided by 3 cycles)",
+  "model_label": "Model 2",
+  "effect_type": "OR",
+  "exposure_scale": "copper/zinc ratio < 1.2 category vs reference category (Methods says Q1 is reference; OR < 1 for the lowest category contradicts that; reference not stated in text)",
+  "estimate": 0.57,
+  "ci_low": 0.39,
+  "ci_high": 0.84,
+  "p": 0.006,
+  "source_table": "Results text (Logistic Regression Models para 2); Table 2 is referenced but not in the full text",
+  "covariates_final": {
+   "value": [
+    "age",
+    "gender",
+    "ethnicity",
+    "education status",
+    "average household income",
+    "BMI",
+    "diabetic status",
+    "smoke status"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "ethnicity",
+   "education status",
+   "average household income",
+   "BMI",
+   "diabetic status",
+   "smoke status"
+  ],
+  "inflection_point": 1.49,
+  "ambiguities": [
+   {
+    "point": "analytic sample size",
+    "reading_1": "4978 (Results: participants with CKD status, 905 with CKD)",
+    "reading_2": "5296 (Methods: subset aged >= 20 in complex sampling analysis); abstract says 7764"
+   },
+   {
+    "point": "reference category of the <1.2 copper/zinc estimate",
+    "reading_1": "Methods: Q1 set as reference (lowest quartile)",
+    "reading_2": "Results text implies the lower-ratio categories are compared with a higher-ratio reference (OR < 1 for lower ratios)"
+   },
+   {
+    "point": "estimate location",
+    "reading_1": "Results text (Model 2), Table 2 not in text",
+    "reading_2": "Table 2 or Table 3 (referenced, not available)"
+   }
+  ],
+  "other_models": []
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "3865be04bf",
+  "doi": "[DOI withheld]",
+  "index_name": "Fibrosis-4 (FIB4) index",
+  "index_formula": "FIB4 = [Age (years) × aspartate transaminase (AST) (μkat/L)]/ [Platelet count (Plt) (10⁹/L) × √ alanine transaminase (ALT) (μkat/L)]",
+  "index_components": [
+   "age",
+   "AST",
+   "platelets",
+   "ALT"
+  ],
+  "cycles": [
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2020 (pre-pandemic)"
+  ],
+  "population": "adults; excluded age < 18 years, missing survival outcomes or critical covariates, comorbid viral hepatitis, cirrhosis, or active liver diseases",
+  "n_analytic": 28231,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR <60 mL/min/1.73 m² (CKD-EPI) or UACR ≥30 mg/g, or both",
+  "egfr_equation": "CKD-EPI 2009 creatinine equation (year not stated; identified from Equation 1 coefficients incl. race factor 1.159)",
+  "uacr_threshold": "≥30 mg/g",
+  "weight_variable": "sample weights (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 unit (continuous FIB4 row; unit not stated for the logistic model)",
+  "estimate": 1.85,
+  "ci_low": 1.64,
+  "ci_high": 2.08,
+  "p": "<.001",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "sex",
+    "ethnicity",
+    "PIR",
+    "smoking",
+    "drinking",
+    "physical activity",
+    "education level",
+    "hypertension",
+    "diabetes mellitus"
+   ]
+  },
+  "covariate_sources_differ": true,
+  "covariates_methods": [
+   "sex",
+   "ethnicity",
+   "education level",
+   "marital status",
+   "PIR",
+   "drinking",
+   "smoking",
+   "physical activity",
+   "diabetes mellitus",
+   "hypertension"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "marital status in Model 3 of the CKD logistic model",
+    "reading_1": "Table 2 footnote: Model 3 without marital status (9 covariates)",
+    "reading_2": "Methods (VIF, S8 Table for logistic regression): Model 3 includes marital status (10 covariates)"
+   },
+   {
+    "point": "cycles covered by 'NHANES 2005–2020'",
+    "reading_1": "2005-2006 to 2015-2016 plus 2017-March 2020 pre-pandemic file",
+    "reading_2": "2005-2006 to 2017-2018 only"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 2.46,
+    "ci_low": 2.2,
+    "ci_high": 2.75,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "sex",
+     "ethnicity"
+    ],
+    "estimate": 2.52,
+    "ci_low": 2.25,
+    "ci_high": 2.84,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "edaf91172c",
+  "doi": "[DOI withheld]",
+  "index_name": "hemoglobin-to-red blood cell distribution width ratio (HRR)",
+  "index_formula": "the ratio of the HGB value to the red cell distribution width",
+  "index_components": [
+   "HGB",
+   "RDW"
+  ],
+  "cycles": [
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "aged ≥ 20 years with complete serum creatinine, urine creatinine, urine albumin, HGB and RDW data",
+  "n_analytic": 19426,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR <60 mL/min/1.73 m² or UACR ≥ 30 mg/g",
+  "egfr_equation": "CKD-EPI, version not stated",
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "weights per official NHANES documentation (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "continuous HRR, per 1 unit assumed (scale not stated)",
+  "estimate": 0.35,
+  "ci_low": 0.22,
+  "ci_high": 0.56,
+  "p": "<.001",
+  "source_table": "Table 2",
+  "covariates_final": {
+   "value": [
+    "age",
+    "sex",
+    "BMI",
+    "race",
+    "educational level",
+    "PIR",
+    "smoking",
+    "hypertension",
+    "hypercholesterolemia",
+    "CVD",
+    "diabetes",
+    "BUN",
+    "ALT",
+    "AST"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": null,
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "scale of the HRR estimate",
+    "reading_1": "OR per 1-unit increase in continuous HRR",
+    "reading_2": "OR per SD or other scaling (not stated)"
+   },
+   {
+    "point": "covariate list in Model 3",
+    "reading_1": "the 14 variables of the Table 2 footnote",
+    "reading_2": "Methods 2.4 candidate list plus unspecified 'other key variables'"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 0.07,
+    "ci_low": 0.05,
+    "ci_high": 0.1,
+    "loc": "Table 2"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "sex",
+     "race"
+    ],
+    "estimate": 0.08,
+    "ci_low": 0.06,
+    "ci_high": 0.12,
+    "loc": "Table 2"
+   }
+  ]
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "2ecb3dff61",
+  "doi": "[DOI withheld]",
+  "index_name": "trunk fat-to-muscle mass ratio (trunk-FMR)",
+  "index_formula": "ratio of fat mass to muscle mass (DXA)",
+  "index_components": [
+   "fat mass",
+   "muscle mass"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "adults aged 20 years or older with DXA data; excluded under 20 years, missing DKD data, missing FMR data, missing other essential data",
+  "n_analytic": 17859,
+  "outcome_main": "DKD",
+  "outcome_definition": "DKD: albuminuria (UACR >= 30 mg/g) or eGFR < 60 mL/min/1.73 m2 in patients with diabetes (KDIGO 2021)",
+  "egfr_equation": "CKD-EPI",
+  "uacr_threshold": "UACR >= 30 mg/g",
+  "weight_variable": "survey weights (variable not named)",
+  "cycle_pooling": null,
+  "model_label": "fully adjusted (unlabelled in text)",
+  "effect_type": "OR",
+  "exposure_scale": "per 0.1 unit of trunk-FMR",
+  "estimate": 1.245,
+  "ci_low": 1.143,
+  "ci_high": 1.353,
+  "p": "< 0.0001",
+  "source_table": "Supplementary Table S3 (not included in the text)",
+  "covariates_final": {
+   "value": [
+    "sex",
+    "age",
+    "PIR",
+    "ethnicity",
+    "marital status",
+    "education level",
+    "smoking",
+    "alcohol consumption",
+    "physical activity",
+    "hypertension",
+    "CVD",
+    "use of lipid-lowering medications",
+    "BMI",
+    "total cholesterol",
+    "triglycerides",
+    "high-density lipoprotein"
+   ]
+  },
+  "covariate_sources_differ": true,
+  "covariates_methods": [
+   "demographic characteristics",
+   "alcohol consumption",
+   "smoking habits",
+   "family income-to-poverty ratio",
+   "physical activity",
+   "BMI",
+   "lipid profiles",
+   "hypertension status",
+   "lipid-lowering medication use",
+   "self-reported CVD"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "main estimate source",
+    "reading_1": "NHANES part only (rule 2): abstract has no numeric NHANES estimate, so the fully adjusted trunk-FMR estimate in Results text is taken: OR 1.245 (1.143, 1.353) per 0.1 unit (Supplementary Table S3 not in text)",
+    "reading_2": "Abstract OR 12.029 (1.431, 121.317) for trunk-FMR from the 94-patient hospital validation cohort (not NHANES)"
+   },
+   {
+    "point": "analytic population of the DKD model",
+    "reading_1": "DKD prevalence 3.81% = 680 of 17,859 adults, so DKD vs all other adults (N = 17,859)",
+    "reading_2": "DKD among people with diabetes only (ROC section says among T2DM patients; N not stated)"
+   },
+   {
+    "point": "covariate list",
+    "reading_1": "Results text list of the fully adjusted model (16 named covariates)",
+    "reading_2": "Methods grouped list (demographic characteristics, lifestyle factors, BMI, lipid profiles, hypertension, lipid-lowering medication, self-reported CVD)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "unadjusted (crude)",
+    "covariates": [],
+    "estimate": 1.266,
+    "ci_low": 1.211,
+    "ci_high": 1.322,
+    "loc": "Results para 1"
+   },
+   {
+    "model_label": "adjusted for sex, age, PIR, ethnicity, marital status, education level",
+    "covariates": [
+     "sex",
+     "age",
+     "PIR",
+     "ethnicity",
+     "marital status",
+     "education level"
+    ],
+    "estimate": 1.347,
+    "ci_low": 1.243,
+    "ci_high": 1.46,
+    "loc": "Results para 1"
+   }
+  ]
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "4de61a08ed",
+  "doi": "[DOI withheld]",
+  "index_name": "hemoglobin to red blood cell distribution width ratio (HRR)",
+  "index_formula": "hemoglobin (g/dL) divided by RDW",
+  "index_components": [
+   "hemoglobin",
+   "RDW"
+  ],
+  "cycles": [
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "adults aged 20 and older; excluded under 20 years, incomplete UACR data, incomplete HRR data",
+  "n_analytic": 13971,
+  "outcome_main": "albuminuria",
+  "outcome_definition": "albuminuria: UACR > 30 mg/g",
+  "egfr_equation": "CKD-EPI (eGFR used as covariate)",
+  "uacr_threshold": "UACR > 30 mg/g",
+  "weight_variable": null,
+  "cycle_pooling": null,
+  "model_label": "multivariate piecewise (two-segment) regression, fully adjusted",
+  "effect_type": "OR",
+  "exposure_scale": "per 0.1 unit, among HRR < 1.213 (piecewise segment)",
+  "estimate": 0.93,
+  "ci_low": 0.9,
+  "ci_high": 0.97,
+  "p": 0.0007,
+  "source_table": "Table 3",
+  "covariates_final": [
+   "sex",
+   "age",
+   "BMI",
+   "PIR",
+   "TC",
+   "TG",
+   "ALT",
+   "AST",
+   "BUN",
+   "UA",
+   "Cr",
+   "eGFR",
+   "Race",
+   "Smoking",
+   "Drinking",
+   "Hypertension",
+   "Diabetes",
+   "CVD",
+   "Education level"
+  ],
+  "covariate_sources_differ": true,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "PIR",
+   "education level",
+   "BMI",
+   "smoking",
+   "alcohol consumption",
+   "BUN",
+   "CR",
+   "UA",
+   "eGFR",
+   "ALT",
+   "AST",
+   "LDL-C",
+   "HDL-C",
+   "TG",
+   "TC",
+   "FBG",
+   "HbA1c",
+   "hypertension",
+   "diabetes",
+   "CVD"
+  ],
+  "inflection_point": 1.213,
+  "ambiguities": [
+   {
+    "point": "which segment is the main estimate",
+    "reading_1": "Both adjusted estimates are piecewise; the first stated in the abstract (HRR < 1.213, OR 0.93) was taken",
+    "reading_2": "HRR >= 1.213 segment, OR 1.24 (1.08, 1.43)"
+   },
+   {
+    "point": "covariate set",
+    "reading_1": "Footnote of Table 3 (19 variables, without LDL-C, HDL-C, FBG, HbA1c)",
+    "reading_2": "Methods Covariates list (23 variables, including LDL-C, HDL-C, FBG, HbA1c)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "HRR >= 1.213 segment (same Table 3 model)",
+    "covariates": [
+     "sex",
+     "age",
+     "BMI",
+     "PIR",
+     "TC",
+     "TG",
+     "ALT",
+     "AST",
+     "BUN",
+     "UA",
+     "Cr",
+     "eGFR",
+     "Race",
+     "Smoking",
+     "Drinking",
+     "Hypertension",
+     "Diabetes",
+     "CVD",
+     "Education level"
+    ],
+    "estimate": 1.24,
+    "ci_low": 1.08,
+    "ci_high": 1.43,
+    "loc": "Table 3"
+   }
+  ]
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "d84bd11e2e",
+  "doi": "[DOI withheld]",
+  "index_name": "CMI",
+  "index_formula": "CMI = WHtR×[TG(mmol/L)/HDL-C(mmol/L)]",
+  "index_components": [
+   "WC",
+   "height",
+   "TG",
+   "HDL-C"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2018"
+  ],
+  "population": "excluded under age 20; missing data for CMI, ABSI, BRI, VAI, LAP; missing eGFR, UACR and T2DM data; incomplete covariates; non-T2DM and pregnant",
+  "n_analytic": 2371,
+  "outcome_main": "DKD",
+  "outcome_definition": "DKD among participants with T2DM: eGFR < 60 mL/min/1.73 m2 and/or UACR >= 30 mg/g",
+  "egfr_equation": null,
+  "uacr_threshold": "≥ 30 mg/g",
+  "weight_variable": "weighted (weight variable not named)",
+  "cycle_pooling": null,
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "per 1 log2 unit (Log2-CMI)",
+  "estimate": 1.4,
+  "ci_low": 1.19,
+  "ci_high": 1.66,
+  "p": "<0.001",
+  "source_table": "Table 3",
+  "covariates_final": [
+   "age",
+   "sex",
+   "race",
+   "poverty income ratio",
+   "physical activity",
+   "education level",
+   "smoking status",
+   "cardiovascular disease",
+   "hypertension",
+   "hyperlipidemia"
+  ],
+  "covariate_sources_differ": true,
+  "covariates_methods": [
+   "age",
+   "sex",
+   "race",
+   "PIR",
+   "physical activity",
+   "BMI",
+   "education level",
+   "smoking status",
+   "CVD",
+   "hypertension",
+   "hyperlipidemia"
+  ],
+  "inflection_point": null,
+  "ambiguities": [
+   {
+    "point": "BMI in Model 2/Model 3 adjustment set",
+    "reading_1": "Table 3 footnote: Model 3 = age, sex, race, PIR, physical activity, education level, smoking status, CVD, hypertension, hyperlipidemia (no BMI)",
+    "reading_2": "Methods: Model 2 includes BMI, so Model 3 also adjusts for BMI"
+   },
+   {
+    "point": "population / outcome",
+    "reading_1": "DKD among participants with diabetes (eGFR < 60 and/or UACR >= 30), non-T2DM excluded",
+    "reading_2": "T2DM is defined by any diabetes criterion (self-report, medication, FBG, HbA1c), so type 1 is not separated"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Crude model",
+    "covariates": [],
+    "estimate": 1.34,
+    "ci_low": 1.16,
+    "ci_high": 1.54,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model 1",
+    "covariates": [
+     "age",
+     "sex",
+     "race"
+    ],
+    "estimate": 1.44,
+    "ci_low": 1.23,
+    "ci_high": 1.69,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "sex",
+     "race",
+     "poverty income ratio",
+     "physical activity",
+     "education level",
+     "smoking status"
+    ],
+    "estimate": 1.44,
+    "ci_low": 1.24,
+    "ci_high": 1.69,
+    "loc": "Table 3"
+   }
+  ]
+ },
+ {
+  "family": "F5_other",
+  "rec_id": "a906145f51",
+  "doi": "[DOI withheld]",
+  "index_name": "SHR",
+  "index_formula": "SHR = RBG (mmol/L)/(1.59 * HbA1c [%] – 2.59)",
+  "index_components": [
+   "RBG",
+   "HbA1c"
+  ],
+  "cycles": [
+   "1999-2000",
+   "2001-2002",
+   "2003-2004",
+   "2005-2006",
+   "2007-2008",
+   "2009-2010",
+   "2011-2012",
+   "2013-2014",
+   "2015-2016",
+   "2017-2020 (pre-pandemic)"
+  ],
+  "population": "DM and age over 20 years; excluded dialysis in past year, hepatic insufficiency, malignant tumor, missing blood glucose (RBG or HbA1c), missing renal function (eGFR and albuminuria)",
+  "n_analytic": 6119,
+  "outcome_main": "CKD",
+  "outcome_definition": "eGFR ≤ 60 ml/min/1.73 m2 or uACR ≥30 mg/g",
+  "egfr_equation": null,
+  "uacr_threshold": "≥30 mg/g",
+  "weight_variable": "examination weights WTMEC4YR (1999-2002), WTMEC2YR (2003-2016), WTMECPRP (2017-2020)",
+  "cycle_pooling": "1999-2002: (4/21.2) × WTMEC4YR; 2003-2016: (2/21.2) × WTMEC2YR; 2017-2020: (3.2/21.2) × WTMECPRP",
+  "model_label": "Model 3",
+  "effect_type": "OR",
+  "exposure_scale": "Quintile 1 vs Quintile 3 (reference)",
+  "estimate": 1.5,
+  "ci_low": 1.19,
+  "ci_high": 1.9,
+  "p": "<0.001",
+  "source_table": "Table 3",
+  "covariates_final": {
+   "value": [
+    "age",
+    "gender",
+    "body mass index",
+    "race",
+    "smoking status",
+    "alcohol consumption",
+    "DM duration",
+    "hypertension",
+    "cardiovascular disease",
+    "anemia",
+    "uric acid",
+    "blood urea nitrogen",
+    "antidiabetic drugs",
+    "renin angiotensin system inhibitors",
+    "statins"
+   ]
+  },
+  "covariate_sources_differ": false,
+  "covariates_methods": [
+   "age",
+   "gender",
+   "race",
+   "BMI",
+   "smoking status",
+   "alcohol consumption",
+   "DM duration",
+   "hypertension",
+   "CVD",
+   "anemia",
+   "uric acid",
+   "blood urea nitrogen",
+   "antidiabetic drugs",
+   "RASi",
+   "statins"
+  ],
+  "inflection_point": 0.76,
+  "ambiguities": [
+   {
+    "point": "Abstract gives only category estimates (four quintiles vs quintile 3, no CI); which category is the main estimate",
+    "reading_1": "First stated: quintile 1 vs quintile 3, Model 3 OR 1.50 (1.19-1.90)",
+    "reading_2": "Highest quintile: quintile 5 vs quintile 3, Model 3 OR 1.79 (1.33-2.41)"
+   },
+   {
+    "point": "No continuous-index estimate in Table 3; continuous estimates exist only as RCS-segment ORs in Results text (model not labelled)",
+    "reading_1": "Keep category estimate from abstract/Table 3",
+    "reading_2": "Per 10 SE of SHR: OR 0.93 (0.88-0.99) for SHR < 0.76 and OR 1.03 (1.01-1.05) for SHR >= 0.76 (Results text)"
+   },
+   {
+    "point": "Weight type",
+    "reading_1": "Examination (MEC) weights WTMEC4YR/WTMEC2YR/WTMECPRP combined over 21.2 years",
+    "reading_2": "Interview weights ('recommended NHANES interview weights', Statistical analysis para 1)"
+   }
+  ],
+  "other_models": [
+   {
+    "model_label": "Model 1",
+    "covariates": [],
+    "estimate": 1.42,
+    "ci_low": 1.17,
+    "ci_high": 1.73,
+    "loc": "Table 3"
+   },
+   {
+    "model_label": "Model 2",
+    "covariates": [
+     "age",
+     "gender",
+     "body mass index",
+     "race",
+     "smoking status",
+     "alcohol consumption"
+    ],
+    "estimate": 1.54,
+    "ci_low": 1.24,
+    "ci_high": 1.92,
+    "loc": "Table 3"
+   }
+  ]
+ }
+]

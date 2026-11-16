@@ -1,0 +1,17 @@
+rec_id	differs_in	A_decision	A_reason	A_flag_oc	A_flag_ed	B_decision	B_reason	B_flag_oc	B_flag_ed
+1d1ae107ea	decision,reason	include	INC_ALL_MET	0	0	unclear	UN_OUTCOME	0	0
+1eaf556d68	decision,reason	include	INC_ALL_MET	0	1	unclear	UN_DATA_SOURCE	0	1
+3af77fbc34	reason	exclude	EX_NOT_INDEX	0	0	exclude	EX_OUTCOME_NOT_KIDNEY	0	0
+53499e1e58	decision,reason	include	INC_ALL_MET	1	0	unclear	UN_DATA_SOURCE	1	0
+6f008a578b	flag_oc	exclude	EX_CKD_MORTALITY_PROGRESSION	1	0	exclude	EX_CKD_MORTALITY_PROGRESSION	0	0
+8cf96b7caf	reason	exclude	EX_NOT_INDEX	0	0	exclude	EX_OUTCOME_NOT_KIDNEY	0	0
+91d2bce25f	flag_oc	exclude	EX_OUTCOME_NOT_KIDNEY	1	0	exclude	EX_OUTCOME_NOT_KIDNEY	0	0
+931b980db4	flag_oc	exclude	EX_KIDNEY_EXPOSURE	0	0	exclude	EX_KIDNEY_EXPOSURE	1	0
+96fe1738c5	decision,reason	unclear	UN_ESTIMATE	0	0	include	INC_ALL_MET	0	0
+a75d957ba3	decision,reason	include	INC_ALL_MET	1	0	unclear	UN_DESIGN	1	0
+b65e74efa8	decision,reason	exclude	EX_NO_ADJUSTED_ESTIMATE	0	0	include	INC_ALL_MET	0	0
+bf7bb236d7	reason	exclude	EX_CKD_MORTALITY_PROGRESSION	0	0	exclude	EX_OUTCOME_NOT_KIDNEY	0	0
+c4b105619d	decision,reason	unclear	UN_EXPOSURE	0	0	include	INC_ALL_MET	0	0
+d8baadfbd9	decision,reason	include	INC_ALL_MET	0	0	unclear	UN_DATA_SOURCE	0	0
+dd3f90977a	decision,reason	exclude	EX_CKD_MORTALITY_PROGRESSION	0	0	unclear	UN_OUTCOME	0	0
+e1159d24b1	flag_oc	exclude	EX_NOT_NHANES	1	0	exclude	EX_NOT_NHANES	0	0

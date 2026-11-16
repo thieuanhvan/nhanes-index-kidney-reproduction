@@ -1,0 +1,84 @@
+{
+ "rec_id": "4de61a08ed",
+ "family": "F5_other",
+ "dag_family": "D2",
+ "flag_outcome_component": true,
+ "missing_A": "",
+ "missing_B": "physical_activity",
+ "label_A": "sufficient",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "seg_lo",
+ "target_sd": 1.3821692696137047,
+ "n_terms": 25,
+ "added_A": [],
+ "added_B": [
+  "c_pa"
+ ],
+ "n_common": 11527,
+ "n_paper_sample": 11529,
+ "n_neg": 10489,
+ "pir_missing_rate": 0.09405592168404889,
+ "full": {
+  "P": {
+   "logor": -0.14551742047692673,
+   "se": 0.047715895948407444,
+   "n": 11527
+  },
+  "Ps": {
+   "logor": -0.1461513594674364,
+   "se": 0.04764259803409807,
+   "n": 11529
+  },
+  "Pn": {
+   "logor": -0.16141811953169016,
+   "se": 0.04885198931418037,
+   "n": 10489
+  },
+  "N": {
+   "logor": -0.1614234876135404,
+   "se": 0.04884537542338881,
+   "n": 10489
+  },
+  "B": {
+   "logor": -0.14434262845718965,
+   "se": 0.04759453631859534,
+   "n": 11527
+  },
+  "Q": {
+   "logor": -0.17226308872670218,
+   "se": 0.04770766926937758,
+   "n": 11527
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.0006339389905096748,
+ "E3a_A": {
+  "class": "negative",
+  "note": "nothing missing under DAG A (or all present)"
+ },
+ "E3a_B": {
+  "delta": 0.001174792019737081,
+  "lo": -0.002486268377911389,
+  "hi": 0.004193734597364574,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -5.368081850226636e-06,
+  "lo": -0.0015421844324612617,
+  "hi": 0.0014154336068195963,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.02674566824977545,
+  "lo": 0.015860003965755376,
+  "hi": 0.03897242257932853,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "seconds": 56
+}

@@ -1,0 +1,20 @@
+field	note	agree	n	raw_agreement	cohen_kappa	gwet_ac1	n_categories
+index_name		52	55	0.9454	0.9433	0.9439	38
+index_components		43	55	0.7818	0.7012	0.7677	13
+cycles		55	55	1.0	1.0	1.0	17
+n_analytic		47	55	0.8545	0.8521	0.8521	62
+outcome_main		49	55	0.8909	0.8314	0.8798	8
+outcome_definition	free text	5	55	0.0909	0.0866	0.0801	85
+egfr_equation		51	55	0.9272	0.8692	0.9198	7
+uacr_threshold		54	55	0.9818	0.6583	0.9807	2
+weight_variable		26	55	0.4727	0.1307	0.4641	38
+cycle_pooling	free text	46	55	0.8363	0.5446	0.8333	21
+main_estimate.model_label		49	55	0.8909	0.7249	0.8879	16
+main_estimate.effect_type		55	55	1.0	1.0	1.0	2
+main_estimate.exposure_scale	free text	18	55	0.3272	0.2804	0.3178	68
+main_estimate.estimate		50	55	0.909	0.9071	0.9074	55
+main_estimate.ci_low		50	55	0.909	0.9066	0.9072	49
+main_estimate.ci_high		50	55	0.909	0.9071	0.9074	55
+main_estimate.source_table		51	55	0.9272	0.8475	0.9196	6
+covariates_final		46	55	0.8363	0.8335	0.8336	61
+inflection_point		48	55	0.8727	0.8244	0.8698	34

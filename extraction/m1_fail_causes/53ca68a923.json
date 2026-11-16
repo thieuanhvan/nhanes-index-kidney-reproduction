@@ -1,0 +1,45 @@
+{
+ "rec_id": "53ca68a923",
+ "n_reported": 26996.0,
+ "n_repro": 10490,
+ "n_cc": 10490,
+ "n_xy": 12098,
+ "n_domain_y": 12098,
+ "n_xy_noweight": 26996,
+ "weight": "w",
+ "exposure_terms": [
+  "cally_q2",
+  "cally_q3",
+  "cally_q4"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "pir",
+   949,
+   false
+  ],
+  [
+   "ldl",
+   319,
+   false
+  ],
+  [
+   "married",
+   179,
+   false
+  ],
+  [
+   "bmi",
+   162,
+   false
+  ],
+  [
+   "cvd_history",
+   73,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

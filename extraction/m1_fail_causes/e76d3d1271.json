@@ -1,0 +1,42 @@
+{
+ "rec_id": "e76d3d1271",
+ "n_reported": 21765.0,
+ "n_repro": 17919,
+ "n_cc": 17919,
+ "n_xy": 19444,
+ "n_domain_y": 19444,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "drink_yes",
+   1124,
+   false
+  ],
+  [
+   "ldl",
+   377,
+   false
+  ],
+  [
+   "bmi",
+   22,
+   false
+  ],
+  [
+   "smoke_yes",
+   18,
+   false
+  ],
+  [
+   "htn",
+   3,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

@@ -1,0 +1,34 @@
+{
+ "rec_id": "53ca68a923",
+ "points_run": [
+  "estimate: ln CALLY continuous 0.878"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 0.705,
+   "or_repro": 0.6844,
+   "dlogor": 0.0296,
+   "n_reported": 26996.0,
+   "n_repro": 10490,
+   "dn_rel": 0.6114
+  },
+  {
+   "combo": 1,
+   "label": "estimate: ln CALLY continuous 0.878",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 0.878,
+   "or_repro": 0.8739,
+   "dlogor": 0.0046,
+   "n_reported": 26996.0,
+   "n_repro": 10490,
+   "dn_rel": 0.6114
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "rec_id": "f1ad3fb0ff",
+ "family": "F1_tyg",
+ "dag_family": "D1",
+ "flag_outcome_component": false,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|alcohol|lipid_drugs",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "x",
+ "target_sd": 0.6839011270607516,
+ "n_terms": 18,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_alc",
+  "c_lipid_rx"
+ ],
+ "n_common": 7341,
+ "n_paper_sample": 8756,
+ "n_neg": 6617,
+ "pir_missing_rate": 0.09534859192068347,
+ "full": {
+  "P": {
+   "logor": 0.23427283466402093,
+   "se": 0.06517998270429257,
+   "n": 7341
+  },
+  "Ps": {
+   "logor": 0.24548035915687338,
+   "se": 0.060339693030551145,
+   "n": 8756
+  },
+  "Pn": {
+   "logor": 0.21749026436205726,
+   "se": 0.06554137457838569,
+   "n": 6617
+  },
+  "N": {
+   "logor": 0.21554978422622087,
+   "se": 0.06547933045730153,
+   "n": 6617
+  },
+  "A": {
+   "logor": 0.22807262085902807,
+   "se": 0.06716515570924808,
+   "n": 7341
+  },
+  "B": {
+   "logor": 0.23319644801913636,
+   "se": 0.06698670468243831,
+   "n": 7341
+  },
+  "Q": {
+   "logor": 0.24088101500425735,
+   "se": 0.064547809867242,
+   "n": 7341
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.01120752449285245,
+ "E3a_A": {
+  "delta": -0.00620021380499286,
+  "lo": -0.016988943462423137,
+  "hi": 0.003609042082257164,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.001076386644884575,
+  "lo": -0.013896845942984449,
+  "hi": 0.01062931066496677,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.0019404801358363921,
+  "lo": -0.007507242317895108,
+  "hi": 0.002199437594812752,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.006608180340236414,
+  "lo": -0.01814410408908503,
+  "hi": 0.005030093601931086,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "seconds": 32
+}

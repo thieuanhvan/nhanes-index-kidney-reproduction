@@ -1,0 +1,59 @@
+{
+ "rec_id": "cde66dda6a",
+ "points_run": [
+  "CKD requires both criteria",
+  "weight: pooled MEC"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 4,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.86,
+   "or_repro": 0.967,
+   "dlogor": 0.6541,
+   "n_reported": 24387.0,
+   "n_repro": 17709,
+   "dn_rel": 0.2738
+  },
+  {
+   "combo": 1,
+   "label": "weight: pooled MEC",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.86,
+   "or_repro": 0.9714,
+   "dlogor": 0.6496,
+   "n_reported": 24387.0,
+   "n_repro": 18467,
+   "dn_rel": 0.2427
+  },
+  {
+   "combo": 2,
+   "label": "CKD requires both criteria",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.86,
+   "or_repro": 0.9142,
+   "dlogor": 0.7102,
+   "n_reported": 24387.0,
+   "n_repro": 17709,
+   "dn_rel": 0.2738
+  },
+  {
+   "combo": 3,
+   "label": "CKD requires both criteria; weight: pooled MEC",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.86,
+   "or_repro": 0.9441,
+   "dlogor": 0.678,
+   "n_reported": 24387.0,
+   "n_repro": 18467,
+   "dn_rel": 0.2427
+  }
+ ]
+}

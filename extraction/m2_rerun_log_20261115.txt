@@ -1,0 +1,17 @@
+f1ad3fb0ff near_pass fasting match cannot_be_distinguished E2 ratio 0.6068
+6b7f67827b strict_pass fasting match cannot_be_distinguished E2 ratio 0.9991
+94132d0c1a strict_pass mec match cannot_be_distinguished E2 ratio 1.0013
+cef539b61e strict_pass fasting match cannot_be_distinguished E2 ratio 0.9816
+c62af9091f strict_pass mec match cannot_be_distinguished_reported_ci_width_0 E2 ratio nan
+4b72270032 strict_pass mec match cannot_be_distinguished E2 ratio 1.0704
+8991f10763 strict_pass mec match cannot_be_distinguished E2 ratio 1.1118
+71eedfeafb strict_pass diet_day1 match cannot_be_distinguished E2 ratio 0.9796
+aca6f864fb near_pass diet_day1 match cannot_be_distinguished E2 ratio 0.9814
+78c5287646 strict_pass mec match cannot_be_distinguished E2 ratio 1.0065
+9835a67923 strict_pass diet_day1 match cannot_be_distinguished E2 ratio 0.7324
+ea03123ab4 near_pass fasting match cannot_be_distinguished E2 ratio 0.6646
+69700c2b09 near_pass mec match cannot_be_distinguished E2 ratio 0.7511
+259b9d6255 strict_pass mec match cannot_be_distinguished E2 ratio 1.4965
+ac96396902 near_pass mec match cannot_be_distinguished E2 ratio 1.0235
+4de61a08ed near_pass fasting match cannot_be_distinguished E2 ratio 0.6023
+a906145f51 near_pass mec match cannot_be_distinguished E2 ratio 0.9992

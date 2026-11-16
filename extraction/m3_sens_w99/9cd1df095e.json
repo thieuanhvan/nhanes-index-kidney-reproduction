@@ -1,0 +1,74 @@
+{
+ "rec_id": "9cd1df095e",
+ "family": "F2_inflam",
+ "dag_family": "D2",
+ "flag_outcome_component": false,
+ "missing_A": "",
+ "missing_B": "",
+ "label_A": "sufficient",
+ "label_B": "sufficient",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x",
+ "target_sd": 1.6534490513036129,
+ "n_terms": 29,
+ "added_A": [],
+ "added_B": [],
+ "n_common": 2855,
+ "n_paper_sample": 2855,
+ "n_neg": 2485,
+ "pir_missing_rate": 0.13569131832797426,
+ "full": {
+  "P": {
+   "logor": 0.24152700833896654,
+   "se": 0.12618380840740503,
+   "n": 2855
+  },
+  "Ps": {
+   "logor": 0.24152700833896654,
+   "se": 0.12618380840740503,
+   "n": 2855
+  },
+  "Pn": {
+   "logor": 0.23126092869340056,
+   "se": 0.1409037370538324,
+   "n": 2485
+  },
+  "N": {
+   "logor": 0.23023206098745802,
+   "se": 0.14212124107165822,
+   "n": 2485
+  },
+  "Q": {
+   "logor": 0.24019506157866674,
+   "se": 0.12512606062889034,
+   "n": 2855
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.0,
+ "E3a_A": {
+  "class": "negative",
+  "note": "nothing missing under DAG A (or all present)"
+ },
+ "E3a_B": {
+  "class": "negative",
+  "note": "nothing missing under DAG B"
+ },
+ "neg_control": {
+  "delta": -0.0010288677059425433,
+  "lo": -0.011545528647984539,
+  "hi": 0.007801225072175614,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.0013319467602997959,
+  "lo": -0.023151891770050004,
+  "hi": 0.014177453036240621,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "seconds": 9
+}

@@ -1,0 +1,36 @@
+{
+ "rec_id": "94132d0c1a",
+ "points_run": [
+  "ACR > 30"
+ ],
+ "points_not_run": [
+  "cycles 1999-2018 (J file): builder coded for the P file"
+ ],
+ "combinations_defined": 4,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.24,
+   "or_repro": 1.232,
+   "dlogor": 0.0064,
+   "n_reported": 41089.0,
+   "n_repro": 37018,
+   "dn_rel": 0.099
+  },
+  {
+   "combo": 1,
+   "label": "ACR > 30",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.24,
+   "or_repro": 1.234,
+   "dlogor": 0.005,
+   "n_reported": 41089.0,
+   "n_repro": 37018,
+   "dn_rel": 0.099
+  }
+ ]
+}

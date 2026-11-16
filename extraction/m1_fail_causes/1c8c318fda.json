@@ -1,0 +1,42 @@
+{
+ "rec_id": "1c8c318fda",
+ "n_reported": 10968.0,
+ "n_repro": 14419,
+ "n_cc": 14419,
+ "n_xy": 16165,
+ "n_domain_y": 16165,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "ever_drink",
+   1012,
+   false
+  ],
+  [
+   "bmi",
+   436,
+   false
+  ],
+  [
+   "married",
+   252,
+   false
+  ],
+  [
+   "cvd_history",
+   121,
+   false
+  ],
+  [
+   "lipid_drug",
+   55,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

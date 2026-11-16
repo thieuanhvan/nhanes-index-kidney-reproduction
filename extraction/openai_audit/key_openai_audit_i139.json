@@ -1,0 +1,142 @@
+{
+ "plant": {
+  "ea130293e0": [
+   "covariates",
+   [
+    "sex",
+    "race",
+    "education level",
+    "smoking status",
+    "BMI",
+    "blood pressure",
+    "lipid profile",
+    "renal function parameters"
+   ]
+  ],
+  "ba21203b93": [
+   "covariates",
+   [
+    "race",
+    "education level",
+    "marriage status",
+    "body mass index (BMI)",
+    "waist",
+    "smoking",
+    "drinking",
+    "stroke",
+    "heart disease",
+    "hypertension",
+    "total cholesterol level (TC)",
+    "total triglyceride level (TG)",
+    "high-density lipoprotein(HDL)",
+    "Glycosylated hemoglobin (HbA1C)"
+   ]
+  ],
+  "9e2e6087fa": [
+   "covariates",
+   [
+    "gender",
+    "age",
+    "race",
+    "education",
+    "systolic blood pressure",
+    "diastolic blood pressure",
+    "body mass index",
+    "waist circumference",
+    "hypertension",
+    "diabetes",
+    "smoking status",
+    "Serum Albumin",
+    "Serum Blood Urea Nitrogen",
+    "Serum Uric Acid",
+    "ALT",
+    "AST",
+    "Total cholesterol",
+    "HDL-C"
+   ]
+  ],
+  "79f1e21c4c": [
+   "covariates",
+   [
+    "gender",
+    "age",
+    "race",
+    "BMI",
+    "WC",
+    "education level",
+    "smoking",
+    "alcohol drinking",
+    "SBP",
+    "DBP",
+    "AST",
+    "ALT",
+    "TC",
+    "LDL-C",
+    "HDL-C",
+    "serum total calcium",
+    "hypertension",
+    "diabetes status"
+   ]
+  ],
+  "988df86a79": [
+   "model",
+   "Model 2"
+  ],
+  "fe82b9da6a": [
+   "model",
+   "Model 1"
+  ],
+  "cef539b61e": [
+   "estimate",
+   [
+    2.14,
+    1.75,
+    2.62
+   ]
+  ],
+  "b966d3cfdc": [
+   "estimate",
+   [
+    0.79,
+    0.66,
+    0.94
+   ]
+  ]
+ },
+ "missing_A": [
+  "79f1e21c4c",
+  "f1ad3fb0ff",
+  "6b7f67827b",
+  "d22fcf0a95",
+  "ea130293e0",
+  "c62af9091f",
+  "71eedfeafb",
+  "9e2e6087fa",
+  "988df86a79",
+  "fe82b9da6a",
+  "78c5287646",
+  "9835a67923",
+  "8a9e8d47ec",
+  "b966d3cfdc",
+  "1c8c318fda",
+  "cde66dda6a",
+  "e76d3d1271",
+  "250e5761d5",
+  "ac96396902",
+  "ba21203b93",
+  "0717542568",
+  "a906145f51"
+ ],
+ "random10": [
+  "ea03123ab4",
+  "3865be04bf",
+  "cef539b61e",
+  "4b72270032",
+  "9cd1df095e",
+  "f6e85f9043",
+  "4de61a08ed",
+  "8991f10763",
+  "d84bd11e2e",
+  "450ed6ebb6"
+ ]
+}

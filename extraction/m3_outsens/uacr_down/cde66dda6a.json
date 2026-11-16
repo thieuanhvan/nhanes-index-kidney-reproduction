@@ -1,0 +1,97 @@
+{
+ "rec_id": "cde66dda6a",
+ "family": "F4_lipid_anthro",
+ "dag_family": "D1",
+ "flag_outcome_component": false,
+ "missing_A": "smoking",
+ "missing_B": "smoking|lipid_drugs",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "x",
+ "target_sd": 0.7516238580511275,
+ "n_terms": 22,
+ "added_A": [
+  "smoking__current",
+  "smoking__former"
+ ],
+ "added_B": [
+  "smoking__current",
+  "smoking__former",
+  "c_lipid_rx"
+ ],
+ "n_common": 17315,
+ "n_paper_sample": 17709,
+ "n_neg": 15833,
+ "pir_missing_rate": 0.08633029164430131,
+ "full": {
+  "P": {
+   "logor": -0.03396262863704123,
+   "se": 0.08415694875708285,
+   "n": 17315
+  },
+  "Ps": {
+   "logor": -0.018393926739291258,
+   "se": 0.08033922322470345,
+   "n": 17709
+  },
+  "Pn": {
+   "logor": -0.07489722546887011,
+   "se": 0.09298070955843679,
+   "n": 15833
+  },
+  "N": {
+   "logor": -0.07286994463595467,
+   "se": 0.09322952104022551,
+   "n": 15833
+  },
+  "A": {
+   "logor": -0.05393683290816097,
+   "se": 0.08442567209193516,
+   "n": 17315
+  },
+  "B": {
+   "logor": -0.045995750838293104,
+   "se": 0.0851169929713458,
+   "n": 17315
+  },
+  "Q": {
+   "logor": 0.40256704582366987,
+   "se": 0.07058666935585581,
+   "n": 17315
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.015568701897749969,
+ "E3a_A": {
+  "delta": -0.01997420427111974,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.012033122201251877,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 0.0020272808329154374,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.4365296744607111,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "point_positive"
+ },
+ "seconds": 6
+}

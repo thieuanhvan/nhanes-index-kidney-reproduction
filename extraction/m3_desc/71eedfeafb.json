@@ -1,0 +1,128 @@
+{
+ "rec_id": "71eedfeafb",
+ "status": "run",
+ "n_common": 27838,
+ "weight_kind": "diet_day1",
+ "binary_target": false,
+ "term_map": {
+  "race1__mexican_american": "confounder_like",
+  "race1__nh_black": "confounder_like",
+  "race1__other_hispanic": "confounder_like",
+  "race1__other_multi": "confounder_like",
+  "age": "confounder_like",
+  "female": "confounder_like",
+  "educ_hs_plus": "confounder_like",
+  "married": "confounder_like",
+  "htn": "hypertension_dx",
+  "hyperlip": "other",
+  "ascvd": "cvd",
+  "dm": "diabetes_dx",
+  "rasi": "other",
+  "nsaid": "other"
+ },
+ "log": [],
+ "k_concepts": [
+  "cvd",
+  "diabetes_dx",
+  "hypertension_dx"
+ ],
+ "k_terms_dropped_E3b": [
+  "htn",
+  "ascvd",
+  "dm"
+ ],
+ "point": {
+  "P": {
+   "logor": -0.15338984550151694,
+   "logpr": -0.10898045914878382,
+   "marg_logor": -0.12703058684621338
+  },
+  "E3b": {
+   "logor": -0.18291058064487903,
+   "logpr": -0.13355526007157686,
+   "marg_logor": -0.1568179103981968
+  },
+  "conv": {
+   "logor": -0.1487392950033241,
+   "logpr": -0.1049689182870615,
+   "marg_logor": -0.12366815749628746
+  },
+  "P_dmrx": {
+   "logor": -0.15483120949600693,
+   "logpr": -0.10981096930039787,
+   "marg_logor": -0.12775335272311472
+  },
+  "P_bprx": {
+   "logor": -0.15331667946012684,
+   "logpr": -0.10884195655180708,
+   "marg_logor": -0.12697160755813863
+  },
+  "A": {
+   "logor": -0.13635873200761087,
+   "logpr": -0.09715821279095019,
+   "marg_logor": -0.1125391420808759
+  },
+  "B": {
+   "logor": -0.13635873200761087,
+   "logpr": -0.09715821279095019,
+   "marg_logor": -0.1125391420808759
+  }
+ },
+ "E3a_A_PR": {
+  "delta": 0.011822246357833632,
+  "lo": 0.006261647926287384,
+  "hi": 0.0179902715439035,
+  "class": "negative"
+ },
+ "E3a_A_marginal": {
+  "delta": 0.01449144476533748,
+  "lo": 0.008133320620995204,
+  "hi": 0.021622927894381735,
+  "class": "negative"
+ },
+ "E3a_B_PR": {
+  "delta": 0.011822246357833632,
+  "lo": 0.006261647926287384,
+  "hi": 0.0179902715439035,
+  "class": "negative"
+ },
+ "E3a_B_marginal": {
+  "delta": 0.01449144476533748,
+  "lo": 0.008133320620995204,
+  "hi": 0.021622927894381735,
+  "class": "negative"
+ },
+ "E3b": {
+  "logor": {
+   "delta": -0.029520735143362092,
+   "lo": -0.03932792488635611,
+   "hi": -0.019097305166601602,
+   "class": "negative"
+  },
+  "logpr": {
+   "delta": -0.024574800922793044,
+   "lo": -0.0315509064509197,
+   "hi": -0.017495998838937238,
+   "class": "negative"
+  },
+  "marg": {
+   "delta": -0.029787323551983436,
+   "lo": -0.038597175091468094,
+   "hi": -0.02067506267272342,
+   "class": "negative"
+  }
+ },
+ "shift_conv": 0.004650550498192824,
+ "shift_P_dmrx": -0.0014413639944899914,
+ "shift_P_bprx": 7.316604139009919e-05,
+ "RoE": {
+  "n_models": 1024,
+  "n_groups": 12,
+  "p2_5": 0.8100770444241372,
+  "p97_5": 0.876130363421758,
+  "roe": 1.0815395516417532,
+  "share_or_gt1": 0.0,
+  "n_failed_fits": 0
+ },
+ "seconds": 89
+}

@@ -1,0 +1,36 @@
+{
+ "rec_id": "fad26f18b1",
+ "points_run": [
+  "age and BMI continuous"
+ ],
+ "points_not_run": [
+  "KDIGO chronicity: not possible with one NHANES visit"
+ ],
+ "combinations_defined": 4,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 0.97,
+   "or_repro": 1.0,
+   "dlogor": 0.0306,
+   "n_reported": 25181.0,
+   "n_repro": 20655,
+   "dn_rel": 0.1797
+  },
+  {
+   "combo": 1,
+   "label": "age and BMI continuous",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 0.97,
+   "or_repro": 1.0,
+   "dlogor": 0.0307,
+   "n_reported": 25181.0,
+   "n_repro": 20655,
+   "dn_rel": 0.1797
+  }
+ ]
+}

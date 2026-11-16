@@ -1,0 +1,42 @@
+{
+ "rec_id": "c48bec549c",
+ "n_reported": 23879.0,
+ "n_repro": 17711,
+ "n_cc": 17711,
+ "n_xy": 22334,
+ "n_domain_y": 22334,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "drink3__current",
+   2451,
+   false
+  ],
+  [
+   "drink3__former",
+   2451,
+   false
+  ],
+  [
+   "pir3__1.3_3.5",
+   1908,
+   false
+  ],
+  [
+   "pir3__ge3.5",
+   1908,
+   false
+  ],
+  [
+   "smoking__current",
+   1228,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

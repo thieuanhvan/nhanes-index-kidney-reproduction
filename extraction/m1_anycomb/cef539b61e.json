@@ -1,0 +1,34 @@
+{
+ "rec_id": "cef539b61e",
+ "points_run": [
+  "weight: pooled MEC"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.36,
+   "or_repro": 1.36,
+   "dlogor": 0.0,
+   "n_reported": 10787.0,
+   "n_repro": 10495,
+   "dn_rel": 0.027
+  },
+  {
+   "combo": 1,
+   "label": "weight: pooled MEC",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.36,
+   "or_repro": 1.432,
+   "dlogor": 0.0513,
+   "n_reported": 10787.0,
+   "n_repro": 10961,
+   "dn_rel": 0.0161
+  }
+ ]
+}

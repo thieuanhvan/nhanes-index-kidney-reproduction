@@ -1,0 +1,61 @@
+{
+ "rec_id": "a906145f51",
+ "points_run": [
+  "estimate: Q5 vs Q3 1.79",
+  "weight: interview"
+ ],
+ "points_not_run": [
+  "RCS-segment estimates: model not labelled"
+ ],
+ "combinations_defined": 8,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 1.5,
+   "or_repro": 1.336,
+   "dlogor": 0.1156,
+   "n_reported": 6119.0,
+   "n_repro": 5528,
+   "dn_rel": 0.0965
+  },
+  {
+   "combo": 1,
+   "label": "weight: interview",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 1.5,
+   "or_repro": 1.333,
+   "dlogor": 0.1181,
+   "n_reported": 6119.0,
+   "n_repro": 5528,
+   "dn_rel": 0.0965
+  },
+  {
+   "combo": 2,
+   "label": "estimate: Q5 vs Q3 1.79",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.79,
+   "or_repro": 1.677,
+   "dlogor": 0.0653,
+   "n_reported": 6119.0,
+   "n_repro": 5528,
+   "dn_rel": 0.0965
+  },
+  {
+   "combo": 3,
+   "label": "estimate: Q5 vs Q3 1.79; weight: interview",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.79,
+   "or_repro": 1.695,
+   "dlogor": 0.0545,
+   "n_reported": 6119.0,
+   "n_repro": 5528,
+   "dn_rel": 0.0965
+  }
+ ]
+}

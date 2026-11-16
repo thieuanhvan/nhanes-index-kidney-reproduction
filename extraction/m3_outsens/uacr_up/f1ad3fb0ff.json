@@ -1,0 +1,100 @@
+{
+ "rec_id": "f1ad3fb0ff",
+ "family": "F1_tyg",
+ "dag_family": "D1",
+ "flag_outcome_component": false,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|alcohol|lipid_drugs",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "x",
+ "target_sd": 0.6839011270607516,
+ "n_terms": 18,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_alc",
+  "c_lipid_rx"
+ ],
+ "n_common": 7341,
+ "n_paper_sample": 8756,
+ "n_neg": 6617,
+ "pir_missing_rate": 0.09534859192068347,
+ "full": {
+  "P": {
+   "logor": 0.23428051466696134,
+   "se": 0.06508113381900528,
+   "n": 7341
+  },
+  "Ps": {
+   "logor": 0.24548858035338775,
+   "se": 0.06027285977187636,
+   "n": 8756
+  },
+  "Pn": {
+   "logor": 0.21718129237559033,
+   "se": 0.06546351296340898,
+   "n": 6617
+  },
+  "N": {
+   "logor": 0.21532215596631682,
+   "se": 0.06539610402665708,
+   "n": 6617
+  },
+  "A": {
+   "logor": 0.22803998050681495,
+   "se": 0.06709005850198277,
+   "n": 7341
+  },
+  "B": {
+   "logor": 0.23311753928958295,
+   "se": 0.0669027454606126,
+   "n": 7341
+  },
+  "Q": {
+   "logor": 0.24096517712241475,
+   "se": 0.06446443125783884,
+   "n": 7341
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.011208065686426405,
+ "E3a_A": {
+  "delta": -0.006240534160146388,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.001162975377378389,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.0018591364092735152,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.006684662455453405,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "seconds": 1
+}

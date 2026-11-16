@@ -1,0 +1,43 @@
+{
+ "rec_id": "ba21203b93",
+ "n_reported": 1681.0,
+ "n_repro": 1456,
+ "n_cc": 1456,
+ "n_xy": 1644,
+ "n_domain_y": 1644,
+ "weight": null,
+ "exposure_terms": [
+  "x_t1",
+  "x_t3"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "drink_yes",
+   96,
+   false
+  ],
+  [
+   "waist",
+   81,
+   false
+  ],
+  [
+   "bmi_cat__25-30",
+   53,
+   false
+  ],
+  [
+   "bmi_cat__gt30",
+   53,
+   false
+  ],
+  [
+   "chd",
+   19,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

@@ -1,0 +1,42 @@
+{
+ "rec_id": "edaf91172c",
+ "n_reported": 19426.0,
+ "n_repro": 27246,
+ "n_cc": 27246,
+ "n_xy": 35125,
+ "n_domain_y": 35125,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "hichol",
+   4740,
+   false
+  ],
+  [
+   "pir3__1to3",
+   3070,
+   false
+  ],
+  [
+   "pir3__gt3",
+   3070,
+   false
+  ],
+  [
+   "bmi3__obese",
+   346,
+   false
+  ],
+  [
+   "bmi3__over",
+   346,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

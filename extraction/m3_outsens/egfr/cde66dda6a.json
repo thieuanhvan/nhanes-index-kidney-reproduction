@@ -1,0 +1,97 @@
+{
+ "rec_id": "cde66dda6a",
+ "family": "F4_lipid_anthro",
+ "dag_family": "D1",
+ "flag_outcome_component": false,
+ "missing_A": "smoking",
+ "missing_B": "smoking|lipid_drugs",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "x",
+ "target_sd": 0.7516238580511275,
+ "n_terms": 22,
+ "added_A": [
+  "smoking__current",
+  "smoking__former"
+ ],
+ "added_B": [
+  "smoking__current",
+  "smoking__former",
+  "c_lipid_rx"
+ ],
+ "n_common": 17315,
+ "n_paper_sample": 17709,
+ "n_neg": 15833,
+ "pir_missing_rate": 0.08633029164430131,
+ "full": {
+  "P": {
+   "logor": -0.04373270363460958,
+   "se": 0.08460752604816661,
+   "n": 17315
+  },
+  "Ps": {
+   "logor": -0.02571714622556932,
+   "se": 0.08211307263963792,
+   "n": 17709
+  },
+  "Pn": {
+   "logor": -0.06722705871305201,
+   "se": 0.09127325296681682,
+   "n": 15833
+  },
+  "N": {
+   "logor": -0.06284900357021997,
+   "se": 0.09164193081206369,
+   "n": 15833
+  },
+  "A": {
+   "logor": -0.05589738484853484,
+   "se": 0.08490053847087962,
+   "n": 17315
+  },
+  "B": {
+   "logor": -0.05152278613196025,
+   "se": 0.08527103317652733,
+   "n": 17315
+  },
+  "Q": {
+   "logor": 0.29946634210960965,
+   "se": 0.07427889059831004,
+   "n": 17315
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.018015557409040258,
+ "E3a_A": {
+  "delta": -0.012164681213925263,
+  "lo": -0.03760323357067139,
+  "hi": 0.007848354315932372,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.007790082497350671,
+  "lo": -0.040008951038157915,
+  "hi": 0.009656580546822814,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 0.0043780551428320436,
+  "lo": -0.0058825851095467676,
+  "hi": 0.017067800420053226,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.3431990457442192,
+  "lo": -0.4279386880553765,
+  "hi": -0.2704535693929872,
+  "n_boot": 100,
+  "class": "firm_positive"
+ },
+ "seconds": 14
+}

@@ -1,0 +1,99 @@
+{
+ "rec_id": "988df86a79",
+ "family": "F3_diet_life",
+ "dag_family": "D3",
+ "flag_outcome_component": false,
+ "missing_A": "education|hypertension_dx",
+ "missing_B": "education|hypertension_dx|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "diet_day1",
+ "target": "x",
+ "target_sd": 1.0009074879703996,
+ "n_terms": 23,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "c_htn_dx"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "c_htn_dx",
+  "c_pa"
+ ],
+ "n_common": 7179,
+ "n_paper_sample": 7447,
+ "n_neg": 6519,
+ "pir_missing_rate": 0.08960629106523876,
+ "full": {
+  "P": {
+   "logor": 0.18091390802493426,
+   "se": 0.05502777390830465,
+   "n": 7179
+  },
+  "Ps": {
+   "logor": 0.18514871518328582,
+   "se": 0.05296357817812451,
+   "n": 7447
+  },
+  "Pn": {
+   "logor": 0.1552689493164927,
+   "se": 0.05698579888552231,
+   "n": 6519
+  },
+  "N": {
+   "logor": 0.15505830546095578,
+   "se": 0.056921748260956494,
+   "n": 6519
+  },
+  "A": {
+   "logor": 0.18364147409407897,
+   "se": 0.056246756835038325,
+   "n": 7179
+  },
+  "B": {
+   "logor": 0.1787185605835531,
+   "se": 0.0559976755445193,
+   "n": 7179
+  },
+  "Q": {
+   "logor": 0.17165440542604699,
+   "se": 0.05675444202445896,
+   "n": 7179
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.004234807158351561,
+ "E3a_A": {
+  "delta": 0.0027275660691447046,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.002195347441381168,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.00021064385553692944,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.009259502598887276,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "seconds": 4
+}

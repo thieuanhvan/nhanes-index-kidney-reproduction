@@ -1,0 +1,70 @@
+{
+ "rec_id": "4b72270032",
+ "status": "run",
+ "weight_kind": "mec",
+ "n_common": 29114,
+ "B": 100,
+ "boot_failed_fits": 0,
+ "added_A": [],
+ "k_terms_dropped": [
+  "cvd_history",
+  "bun",
+  "hba1c",
+  "glucose_serum"
+ ],
+ "log": [],
+ "point_logor": {
+  "P": 0.17689161925598082,
+  "A": 0.17689161925598082,
+  "D": 0.2063552214336462,
+  "DA": 0.2063552214336462
+ },
+ "route1_add": {
+  "delta": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "route1_drop": {
+  "delta": 0.029463602177665388,
+  "lo": 0.019573347906704862,
+  "hi": 0.04081088722796833,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "route2_drop": {
+  "delta": 0.029463602177665388,
+  "lo": 0.019573347906704862,
+  "hi": 0.04081088722796833,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "route2_add": {
+  "delta": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "mean_add": {
+  "delta": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "class": "negative"
+ },
+ "mean_drop": {
+  "delta": 0.029463602177665388,
+  "lo": 0.019573347906704862,
+  "hi": 0.04081088722796833,
+  "class": "negative"
+ },
+ "total": {
+  "delta": 0.029463602177665388,
+  "lo": 0.019573347906704862,
+  "hi": 0.04081088722796833,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 12
+}

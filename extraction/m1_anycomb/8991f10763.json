@@ -1,0 +1,34 @@
+{
+ "rec_id": "8991f10763",
+ "points_run": [
+  "covariates: add blood uric acid"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.05,
+   "or_repro": 1.049,
+   "dlogor": 0.0011,
+   "n_reported": 24386.0,
+   "n_repro": 25403,
+   "dn_rel": 0.0417
+  },
+  {
+   "combo": 1,
+   "label": "covariates: add blood uric acid",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.05,
+   "or_repro": 1.047,
+   "dlogor": 0.0033,
+   "n_reported": 24386.0,
+   "n_repro": 25403,
+   "dn_rel": 0.0417
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "rec_id": "30eae6044c",
+ "n_reported": 2770.0,
+ "n_repro": 3757,
+ "n_cc": 3757,
+ "n_xy": 4147,
+ "n_domain_y": 4147,
+ "weight": null,
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "pir3__high",
+   354,
+   false
+  ],
+  [
+   "pir3__mid",
+   354,
+   false
+  ],
+  [
+   "cvd_history",
+   32,
+   false
+  ],
+  [
+   "htn",
+   7,
+   false
+  ],
+  [
+   "alt",
+   5,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

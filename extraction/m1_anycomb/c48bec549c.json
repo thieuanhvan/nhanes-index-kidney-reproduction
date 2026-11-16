@@ -1,0 +1,36 @@
+{
+ "rec_id": "c48bec549c",
+ "points_run": [
+  "ACR >= 30"
+ ],
+ "points_not_run": [
+  "exposure scaling not stated (reading_2 undefined)"
+ ],
+ "combinations_defined": 4,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.13,
+   "or_repro": 1.063,
+   "dlogor": 0.0607,
+   "n_reported": 23879.0,
+   "n_repro": 17711,
+   "dn_rel": 0.2583
+  },
+  {
+   "combo": 1,
+   "label": "ACR >= 30",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.13,
+   "or_repro": 1.063,
+   "dlogor": 0.0614,
+   "n_reported": 23879.0,
+   "n_repro": 17711,
+   "dn_rel": 0.2583
+  }
+ ]
+}

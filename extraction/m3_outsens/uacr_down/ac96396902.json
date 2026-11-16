@@ -1,0 +1,95 @@
+{
+ "rec_id": "ac96396902",
+ "family": "F5_other",
+ "dag_family": "D2",
+ "flag_outcome_component": true,
+ "missing_A": "diabetes_dx",
+ "missing_B": "diabetes_dx|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x",
+ "target_sd": 0.28787559172026894,
+ "n_terms": 16,
+ "added_A": [
+  "c_dm_dx"
+ ],
+ "added_B": [
+  "c_dm_dx",
+  "c_pa"
+ ],
+ "n_common": 16412,
+ "n_paper_sample": 16420,
+ "n_neg": 14802,
+ "pir_missing_rate": 0.0952980265807491,
+ "full": {
+  "P": {
+   "logor": 0.15411435324884537,
+   "se": 0.029161050775793878,
+   "n": 16412
+  },
+  "Ps": {
+   "logor": 0.15498418441524894,
+   "se": 0.029107802233245997,
+   "n": 16420
+  },
+  "Pn": {
+   "logor": 0.1404681890431126,
+   "se": 0.02996796687454595,
+   "n": 14802
+  },
+  "N": {
+   "logor": 0.140381207117157,
+   "se": 0.029973380359380842,
+   "n": 14802
+  },
+  "A": {
+   "logor": 0.1488339016345086,
+   "se": 0.02993681559845107,
+   "n": 16412
+  },
+  "B": {
+   "logor": 0.14577133855530744,
+   "se": 0.029571027001095214,
+   "n": 16412
+  },
+  "Q": {
+   "logor": 0.27652819227993475,
+   "se": 0.027650290474508867,
+   "n": 16412
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.0008698311664035729,
+ "E3a_A": {
+  "delta": -0.0052804516143367675,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.008343014693537931,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -8.698192595560372e-05,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.12241383903108938,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "point_positive"
+ },
+ "seconds": 2
+}

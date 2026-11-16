@@ -1,0 +1,59 @@
+{
+ "rec_id": "9cd1df095e",
+ "points_run": [
+  "covariates: Methods list without serum creatinine",
+  "weight: WTMECPRP"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 4,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.13,
+   "or_repro": 1.183,
+   "dlogor": 0.0456,
+   "n_reported": 7772.0,
+   "n_repro": 2758,
+   "dn_rel": 0.6451
+  },
+  {
+   "combo": 1,
+   "label": "weight: WTMECPRP",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.13,
+   "or_repro": 1.157,
+   "dlogor": 0.0238,
+   "n_reported": 7772.0,
+   "n_repro": 2855,
+   "dn_rel": 0.6326
+  },
+  {
+   "combo": 2,
+   "label": "covariates: Methods list without serum creatinine",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.13,
+   "or_repro": 1.198,
+   "dlogor": 0.0587,
+   "n_reported": 7772.0,
+   "n_repro": 2758,
+   "dn_rel": 0.6451
+  },
+  {
+   "combo": 3,
+   "label": "covariates: Methods list without serum creatinine; weight: WTMECPRP",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.13,
+   "or_repro": 1.172,
+   "dlogor": 0.0362,
+   "n_reported": 7772.0,
+   "n_repro": 2855,
+   "dn_rel": 0.6326
+  }
+ ]
+}

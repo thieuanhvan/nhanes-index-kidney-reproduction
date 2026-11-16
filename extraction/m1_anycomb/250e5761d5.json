@@ -1,0 +1,108 @@
+{
+ "rec_id": "250e5761d5",
+ "points_run": [
+  "covariates: Methods list adds PIR",
+  "weighted (correct weight)",
+  "ACR >= 30"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 8,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.47,
+   "or_repro": 1.022,
+   "dlogor": 0.3633,
+   "n_reported": 7760.0,
+   "n_repro": 13121,
+   "dn_rel": 0.6908
+  },
+  {
+   "combo": 1,
+   "label": "ACR >= 30",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.47,
+   "or_repro": 1.023,
+   "dlogor": 0.3629,
+   "n_reported": 7760.0,
+   "n_repro": 13121,
+   "dn_rel": 0.6908
+  },
+  {
+   "combo": 2,
+   "label": "weighted (correct weight)",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.47,
+   "or_repro": 1.017,
+   "dlogor": 0.3679,
+   "n_reported": 7760.0,
+   "n_repro": 12502,
+   "dn_rel": 0.611
+  },
+  {
+   "combo": 3,
+   "label": "weighted (correct weight); ACR >= 30",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.47,
+   "or_repro": 1.017,
+   "dlogor": 0.368,
+   "n_reported": 7760.0,
+   "n_repro": 12502,
+   "dn_rel": 0.611
+  },
+  {
+   "combo": 4,
+   "label": "covariates: Methods list adds PIR",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.47,
+   "or_repro": 1.022,
+   "dlogor": 0.3636,
+   "n_reported": 7760.0,
+   "n_repro": 11959,
+   "dn_rel": 0.5411
+  },
+  {
+   "combo": 5,
+   "label": "covariates: Methods list adds PIR; ACR >= 30",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.47,
+   "or_repro": 1.022,
+   "dlogor": 0.3633,
+   "n_reported": 7760.0,
+   "n_repro": 11959,
+   "dn_rel": 0.5411
+  },
+  {
+   "combo": 6,
+   "label": "covariates: Methods list adds PIR; weighted (correct weight)",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.47,
+   "or_repro": 1.016,
+   "dlogor": 0.3697,
+   "n_reported": 7760.0,
+   "n_repro": 11419,
+   "dn_rel": 0.4715
+  },
+  {
+   "combo": 7,
+   "label": "covariates: Methods list adds PIR; weighted (correct weight); ACR >= 30",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.47,
+   "or_repro": 1.015,
+   "dlogor": 0.3699,
+   "n_reported": 7760.0,
+   "n_repro": 11419,
+   "dn_rel": 0.4715
+  }
+ ]
+}

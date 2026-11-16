@@ -1,0 +1,181 @@
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 84, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 35, in run
+    b = C.load_builder(rid)
+  File "<workdir>/tools\m23_common_i139.py", line 36, in load_builder
+    return m.build(lib)
+           ~~~~~~~^^^^^
+  File "<workdir>/tools\m1_specs\450ed6ebb6.py", line 61, in build
+    qn, cuts = lib.quantile_dummies(df, "x", dom, k=4)
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "<workdir>/tools\m1_lib_i139.py", line 132, in quantile_dummies
+    cuts = np.quantile(v, np.linspace(0, 1, k + 1)[1:-1])
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4556, in quantile
+    return _quantile_unchecked(
+        a, q, axis, out, overwrite_input, method, keepdims, weights)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4569, in _quantile_unchecked
+    return _ureduce(a,
+                    func=_quantile_ureduce_func,
+    ...<5 lines>...
+                    overwrite_input=overwrite_input,
+                    method=method)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\lib\_function_base_impl.py", line 3914, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4744, in _quantile_ureduce_func
+    result = _quantile(arr,
+                       quantiles=q,
+    ...<2 lines>...
+                       out=out,
+                       weights=wgt)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4866, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+                                  ~~~^^^^^^^^^
+IndexError: index -1 is out of bounds for axis 0 with size 0
+<workdir>/tools\nhanes_core.py:290: RuntimeWarning: overflow encountered in exp
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+<workdir>/tools\nhanes_core.py:290: RuntimeWarning: overflow encountered in exp
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+<workdir>/tools\nhanes_core.py:290: RuntimeWarning: overflow encountered in exp
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+<workdir>/tools\nhanes_core.py:290: RuntimeWarning: overflow encountered in exp
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+<workdir>/tools\nhanes_core.py:290: RuntimeWarning: overflow encountered in exp
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+<workdir>/tools\nhanes_core.py:273: RuntimeWarning: Mean of empty slice.
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+C:\Users\Win\anaconda3\Lib\site-packages\numpy\_core\_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 84, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+<workdir>/tools\nhanes_core.py:273: RuntimeWarning: Mean of empty slice.
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+C:\Users\Win\anaconda3\Lib\site-packages\numpy\_core\_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 84, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+<workdir>/tools\nhanes_core.py:273: RuntimeWarning: Mean of empty slice.
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+C:\Users\Win\anaconda3\Lib\site-packages\numpy\_core\_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 84, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+<workdir>/tools\nhanes_core.py:273: RuntimeWarning: Mean of empty slice.
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+C:\Users\Win\anaconda3\Lib\site-packages\numpy\_core\_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 84, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+C:\Users\Win\anaconda3\Lib\site-packages\pandas\core\arraylike.py:399: RuntimeWarning: divide by zero encountered in log
+  result = getattr(ufunc, method)(*inputs, **kwargs)
+<workdir>/tools\nhanes_core.py:273: RuntimeWarning: Mean of empty slice.
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+C:\Users\Win\anaconda3\Lib\site-packages\numpy\_core\_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 84, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+C:\Users\Win\anaconda3\Lib\site-packages\pandas\core\arraylike.py:399: RuntimeWarning: divide by zero encountered in log
+  result = getattr(ufunc, method)(*inputs, **kwargs)
+<workdir>/tools\nhanes_core.py:273: RuntimeWarning: Mean of empty slice.
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+C:\Users\Win\anaconda3\Lib\site-packages\numpy\_core\_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 84, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+<workdir>/tools\nhanes_core.py:273: RuntimeWarning: Mean of empty slice.
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+C:\Users\Win\anaconda3\Lib\site-packages\numpy\_core\_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 84, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix

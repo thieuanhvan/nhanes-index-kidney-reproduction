@@ -1,0 +1,82 @@
+{
+ "rec_id": "3865be04bf",
+ "status": "run",
+ "n_common": 30856,
+ "weight_kind": "mec",
+ "binary_target": false,
+ "term_map": {
+  "female": "confounder_like",
+  "race1__mexican_american": "confounder_like",
+  "race1__nh_black": "confounder_like",
+  "race1__other_hispanic": "confounder_like",
+  "race1__other_multi": "confounder_like",
+  "poor": "other",
+  "ever_smoker": "confounder_like",
+  "drink_cur": "confounder_like",
+  "low_pa": "other",
+  "educ3__gt_hs": "confounder_like",
+  "educ3__hs_ged": "confounder_like",
+  "hypertension_any_140": "hypertension_dx",
+  "diab": "diabetes_dx"
+ },
+ "log": [],
+ "k_concepts": [],
+ "k_terms_dropped_E3b": [],
+ "point": {
+  "P": {
+   "logor": 0.43305162561125554,
+   "logpr": 0.13110009263863717,
+   "marg_logor": 0.3646741462279799
+  },
+  "E3b": {
+   "logor": 0.43305162561125554,
+   "logpr": 0.13110009263863717,
+   "marg_logor": 0.3646741462279799
+  },
+  "conv": {
+   "logor": 0.13037565542202528,
+   "logpr": 0.06617997041030886,
+   "marg_logor": 0.1079299255207502
+  },
+  "P_dmrx": {
+   "logor": 0.43536233336654895,
+   "logpr": 0.13152097482228944,
+   "marg_logor": 0.36592944815731054
+  },
+  "P_bprx": {
+   "logor": 0.4209032153644714,
+   "logpr": 0.13343762935014464,
+   "marg_logor": 0.35336055152266144
+  },
+  "B": {
+   "logor": 0.4338336865573597,
+   "logpr": 0.13006011361730568,
+   "marg_logor": 0.36532918095731026
+  }
+ },
+ "E3a_B_PR": {
+  "delta": -0.0010399790213314886,
+  "lo": -0.0030876210581339504,
+  "hi": 0.0008080662830373892,
+  "class": "negative"
+ },
+ "E3a_B_marginal": {
+  "delta": 0.0006550347293303727,
+  "lo": -0.0067882671244521905,
+  "hi": 0.008145655975433453,
+  "class": "negative"
+ },
+ "shift_conv": -0.30267597018923026,
+ "shift_P_dmrx": 0.0023107077552934063,
+ "shift_P_bprx": -0.012148410246784147,
+ "RoE": {
+  "n_models": 1024,
+  "n_groups": 10,
+  "p2_5": 1.5303773574343895,
+  "p97_5": 1.950595725321707,
+  "roe": 1.2745848047515518,
+  "share_or_gt1": 1.0,
+  "n_failed_fits": 0
+ },
+ "seconds": 57
+}

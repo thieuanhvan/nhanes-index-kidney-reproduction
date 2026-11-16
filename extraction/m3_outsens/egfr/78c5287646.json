@@ -1,0 +1,101 @@
+{
+ "rec_id": "78c5287646",
+ "family": "F3_diet_life",
+ "dag_family": "D2",
+ "flag_outcome_component": true,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|alcohol|physical_activity|bmi_waist",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x",
+ "target_sd": 1.0,
+ "n_terms": 15,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_alc",
+  "c_pa",
+  "bmi"
+ ],
+ "n_common": 2270,
+ "n_paper_sample": 2590,
+ "n_neg": 2052,
+ "pir_missing_rate": 0.09167303284950344,
+ "full": {
+  "P": {
+   "logor": -0.47038633445506084,
+   "se": 0.17170210878269915,
+   "n": 2270
+  },
+  "Ps": {
+   "logor": -0.4204467709957626,
+   "se": 0.169133993417978,
+   "n": 2590
+  },
+  "Pn": {
+   "logor": -0.4739069329001323,
+   "se": 0.17808137075294123,
+   "n": 2052
+  },
+  "N": {
+   "logor": -0.4840843786527813,
+   "se": 0.17554104162424564,
+   "n": 2052
+  },
+  "A": {
+   "logor": -0.46974054965307216,
+   "se": 0.1743144438056546,
+   "n": 2270
+  },
+  "B": {
+   "logor": -0.4678150058695512,
+   "se": 0.17505429312574688,
+   "n": 2270
+  },
+  "Q": {
+   "logor": -0.5375489649363215,
+   "se": 0.16715065598376544,
+   "n": 2270
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.04993956345929823,
+ "E3a_A": {
+  "delta": 0.0006457848019886803,
+  "lo": -0.03278908953981716,
+  "hi": 0.032879318176493935,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": 0.0025713285855096246,
+  "lo": -0.06997885129381826,
+  "hi": 0.06313393193394765,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.010177445752649006,
+  "lo": -0.053952870976487856,
+  "hi": 0.003874354205810084,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.0671626304812607,
+  "lo": 0.003141216175923005,
+  "hi": 0.13218942607101683,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 2
+}

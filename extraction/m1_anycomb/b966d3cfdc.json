@@ -1,0 +1,61 @@
+{
+ "rec_id": "b966d3cfdc",
+ "points_run": [
+  "estimate: continuous OBS 0.96",
+  "CKD requires both criteria"
+ ],
+ "points_not_run": [
+  "five of six cycles: the omitted cycle is not named"
+ ],
+ "combinations_defined": 8,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 0.69,
+   "or_repro": 0.6201,
+   "dlogor": 0.1067,
+   "n_reported": 4353.0,
+   "n_repro": 5290,
+   "dn_rel": 0.2152
+  },
+  {
+   "combo": 1,
+   "label": "CKD requires both criteria",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 0.69,
+   "or_repro": 0.4751,
+   "dlogor": 0.3732,
+   "n_reported": 4353.0,
+   "n_repro": 5290,
+   "dn_rel": 0.2152
+  },
+  {
+   "combo": 2,
+   "label": "estimate: continuous OBS 0.96",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 0.96,
+   "or_repro": 0.9615,
+   "dlogor": 0.0015,
+   "n_reported": 4353.0,
+   "n_repro": 5290,
+   "dn_rel": 0.2152
+  },
+  {
+   "combo": 3,
+   "label": "estimate: continuous OBS 0.96; CKD requires both criteria",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 0.96,
+   "or_repro": 0.931,
+   "dlogor": 0.0306,
+   "n_reported": 4353.0,
+   "n_repro": 5290,
+   "dn_rel": 0.2152
+  }
+ ]
+}

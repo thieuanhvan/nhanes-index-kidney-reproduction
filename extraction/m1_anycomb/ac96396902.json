@@ -1,0 +1,36 @@
+{
+ "rec_id": "ac96396902",
+ "points_run": [
+  "covariates: add diabetes"
+ ],
+ "points_not_run": [
+  "CVD-CKD comorbidity outcome: excluded by the pre-written rule 4"
+ ],
+ "combinations_defined": 4,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 2.1,
+   "or_repro": 1.718,
+   "dlogor": 0.201,
+   "n_reported": 15681.0,
+   "n_repro": 16420,
+   "dn_rel": 0.0471
+  },
+  {
+   "combo": 1,
+   "label": "covariates: add diabetes",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 2.1,
+   "or_repro": 1.683,
+   "dlogor": 0.2212,
+   "n_reported": 15681.0,
+   "n_repro": 16414,
+   "dn_rel": 0.0467
+  }
+ ]
+}

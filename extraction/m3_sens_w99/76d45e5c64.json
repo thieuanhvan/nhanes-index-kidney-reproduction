@@ -1,0 +1,74 @@
+{
+ "rec_id": "76d45e5c64",
+ "family": "F4_lipid_anthro",
+ "dag_family": "D5",
+ "flag_outcome_component": true,
+ "missing_A": "",
+ "missing_B": "",
+ "label_A": "sufficient",
+ "label_B": "sufficient",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x_q4",
+ "target_sd": 1.0,
+ "n_terms": 31,
+ "added_A": [],
+ "added_B": [],
+ "n_common": 560,
+ "n_paper_sample": 560,
+ "n_neg": 505,
+ "pir_missing_rate": 0.09390690731442529,
+ "full": {
+  "P": {
+   "logor": 1.7483081518201706,
+   "se": 0.42157544255788315,
+   "n": 560
+  },
+  "Ps": {
+   "logor": 1.7483081518201706,
+   "se": 0.42157544255788315,
+   "n": 560
+  },
+  "Pn": {
+   "logor": 1.7440018390310719,
+   "se": 0.4265752277459849,
+   "n": 505
+  },
+  "N": {
+   "logor": 1.747818456063785,
+   "se": 0.4261781325783284,
+   "n": 505
+  },
+  "Q": {
+   "logor": 1.6030400737067068,
+   "se": 0.40602798823272795,
+   "n": 560
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.0,
+ "E3a_A": {
+  "class": "negative",
+  "note": "nothing missing under DAG A (or all present)"
+ },
+ "E3a_B": {
+  "class": "negative",
+  "note": "nothing missing under DAG B"
+ },
+ "neg_control": {
+  "delta": 0.0038166170327131876,
+  "lo": -0.09250399164448271,
+  "hi": 0.22208972476095212,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.14526807811346387,
+  "lo": -0.057033011800706045,
+  "hi": 0.5798935550680953,
+  "n_boot": 500,
+  "class": "point_positive"
+ },
+ "seconds": 11
+}

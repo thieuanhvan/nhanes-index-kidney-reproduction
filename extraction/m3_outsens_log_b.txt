@@ -1,0 +1,241 @@
+1c8c318fda egfr run nC 13232 A negative 0.0006852557581012997
+250e5761d5 egfr run nC 11419 A negative -0.02471842754327662
+259b9d6255 egfr run nC 4641 A negative None
+30eae6044c egfr run nC 3755 A negative None
+3865be04bf egfr run nC 30898 A negative None
+450ed6ebb6 egfr run nC 4243 A negative None
+4b72270032 egfr run nC 29114 A negative None
+4de61a08ed egfr run nC 11527 A negative None
+53ca68a923 egfr run nC 9944 A negative None
+69700c2b09 egfr run nC 3131 A negative None
+6b7f67827b egfr run nC 7756 A negative -0.0022484753244382816
+71eedfeafb egfr run nC 25330 A negative 0.01700821380013956
+76d45e5c64 egfr run nC 530 A negative None
+78c5287646 egfr run nC 2270 A negative 0.0006457848019886803
+79f1e21c4c egfr run nC 15884 A negative -0.000800667283124834
+8991f10763 egfr run nC 25400 A negative None
+8a9e8d47ec egfr run nC 4230 A negative -0.03615739891441622
+94132d0c1a egfr run nC 37013 A negative None
+9835a67923 egfr run nC 2502 A point_positive 0.12923096694077993
+988df86a79 egfr run nC 7179 A negative 0.0010515845975169469
+9cd1df095e egfr run nC 2758 A negative None
+a906145f51 egfr run nC 5005 A negative -0.0070608850116310184
+ac96396902 egfr run nC 16412 A negative -0.005136186502785689
+aca6f864fb egfr run nC 24533 A negative None
+b966d3cfdc egfr run nC 4807 A negative 0.06050730159815376
+ba21203b93 egfr run nC 1362 A negative -0.0013734295744308733
+c48bec549c egfr run nC 17711 A negative None
+c62af9091f egfr run nC 22539 A negative 0.007321656228516028
+cde66dda6a egfr run nC 17315 A negative -0.012164681213925263
+cef539b61e egfr run nC 10493 A negative None
+cf0849f17f egfr run nC 2767 A negative None
+d22fcf0a95 egfr run nC 20681 A negative -0.0012836698533894297
+d84bd11e2e egfr run nC 2940 A negative None
+e1d9d038bb egfr run nC 3290 A negative None
+e76d3d1271 egfr run nC 16390 A negative -0.01807922446330487
+ea03123ab4 egfr run nC 17181 A negative None
+ea130293e0 egfr run nC 1605 A negative -0.0038739726795605223
+edaf91172c egfr run nC 25268 A negative None
+f1ad3fb0ff egfr run nC 7341 A negative -0.006372102200669305
+f6e85f9043 egfr run nC 9678 A negative None
+fad26f18b1 egfr run nC 20654 A negative None
+ff27565860 egfr run nC 5027 A negative None
+1c8c318fda conf2 run nC 13232 A negative 0.002053138476849292
+250e5761d5 conf2 run nC 1890 A negative -0.00939253408547721
+259b9d6255 conf2 run nC 758 A negative None
+30eae6044c conf2 run nC 607 A negative None
+3865be04bf conf2 run nC 4065 A negative None
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 79, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 35, in run
+    b = C.load_builder(rid)
+  File "<workdir>/tools\m23_common_i139.py", line 36, in load_builder
+    return m.build(lib)
+           ~~~~~~~^^^^^
+  File "<workdir>/tools\m1_specs\450ed6ebb6.py", line 61, in build
+    qn, cuts = lib.quantile_dummies(df, "x", dom, k=4)
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "<workdir>/tools\m1_lib_i139.py", line 127, in quantile_dummies
+    cuts = np.quantile(v, np.linspace(0, 1, k + 1)[1:-1])
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4556, in quantile
+    return _quantile_unchecked(
+        a, q, axis, out, overwrite_input, method, keepdims, weights)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4569, in _quantile_unchecked
+    return _ureduce(a,
+                    func=_quantile_ureduce_func,
+    ...<5 lines>...
+                    overwrite_input=overwrite_input,
+                    method=method)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\lib\_function_base_impl.py", line 3914, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4744, in _quantile_ureduce_func
+                       quantiles=q,
+    ...<2 lines>...
+                       out=out,
+                       weights=wgt)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4866, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+                                  ~~~^^^^^^^^^
+IndexError: index -1 is out of bounds for axis 0 with size 0
+450ed6ebb6 conf2 error nC None A None None
+4b72270032 conf2 run nC 4100 A negative None
+4de61a08ed conf2 run nC 1893 A negative None
+53ca68a923 conf2 run nC 1847 A negative None
+69700c2b09 conf2 run nC 591 A negative None
+6b7f67827b conf2 run nC 775 A negative 0.0019268355663275005
+71eedfeafb conf2 run nC 3140 A negative 0.013227093776173579
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+76d45e5c64 conf2 run nC 61 A negative None
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 79, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+78c5287646 conf2 error nC None A None None
+79f1e21c4c conf2 run nC 1586 A negative 0.0063566124208859764
+8991f10763 conf2 run nC 4120 A negative None
+8a9e8d47ec conf2 run nC 761 A negative 0.03734004262727908
+94132d0c1a conf2 run nC 3627 A negative None
+9835a67923 conf2 run nC 722 A negative 0.09300241515517876
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 79, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+988df86a79 conf2 error nC None A None None
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 79, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+9cd1df095e conf2 error nC None A None None
+a906145f51 conf2 run nC 508 A negative 0.03412421113255143
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 79, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+ac96396902 conf2 error nC None A None None
+aca6f864fb conf2 run nC 4084 A negative None
+b966d3cfdc conf2 run nC 769 A negative -0.007793884036132015
+ba21203b93 conf2 run nC 322 A negative 0.04125985122055509
+c48bec549c conf2 run nC 1890 A negative None
+c62af9091f conf2 run nC 4085 A negative 0.011714479384815308
+cde66dda6a conf2 run nC 1821 A negative -0.011624597834463027
+cef539b61e conf2 run nC 1798 A negative None
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 79, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+cf0849f17f conf2 error nC None A None None
+d22fcf0a95 conf2 run nC 4058 A negative -0.009337502650882623
+d84bd11e2e conf2 run nC 304 A negative None
+e1d9d038bb conf2 run nC 572 A negative None
+e76d3d1271 conf2 run nC 1622 A negative -0.0159213073672565
+ea03123ab4 conf2 run nC 1816 A negative None
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 79, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+ea130293e0 conf2 error nC None A None None
+edaf91172c conf2 run nC 2977 A negative None
+  S = df[cc]; X = np.column_stack([np.ones(cc.sum()), S[list(x)].to_numpy(float)]); Y = S[y].to_numpy(float); W = wt[cc] / wt[cc].mean()
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 79, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+f1ad3fb0ff conf2 error nC None A None None
+f6e85f9043 conf2 run nC 1824 A negative None
+fad26f18b1 conf2 run nC 4057 A negative None
+ff27565860 conf2 run nC 601 A negative None

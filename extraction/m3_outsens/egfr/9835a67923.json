@@ -1,0 +1,100 @@
+{
+ "rec_id": "9835a67923",
+ "family": "F3_diet_life",
+ "dag_family": "D3",
+ "flag_outcome_component": false,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|alcohol|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "diet_day1",
+ "target": "dobs_q4",
+ "target_sd": 1.0,
+ "n_terms": 15,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_alc",
+  "c_pa"
+ ],
+ "n_common": 3030,
+ "n_paper_sample": 3415,
+ "n_neg": 2785,
+ "pir_missing_rate": 0.08035222894881673,
+ "full": {
+  "P": {
+   "logor": -0.26697413645963847,
+   "se": 0.14601893854615083,
+   "n": 3030
+  },
+  "Ps": {
+   "logor": -0.37694937134536655,
+   "se": 0.14017211667868595,
+   "n": 3415
+  },
+  "Pn": {
+   "logor": -0.2731497519399664,
+   "se": 0.15359448055870223,
+   "n": 2785
+  },
+  "N": {
+   "logor": -0.2625377785854058,
+   "se": 0.15210689816875847,
+   "n": 2785
+  },
+  "A": {
+   "logor": -0.15663086835718562,
+   "se": 0.14915263074675547,
+   "n": 3030
+  },
+  "B": {
+   "logor": -0.1351055765834794,
+   "se": 0.1494991488256581,
+   "n": 3030
+  },
+  "Q": {
+   "logor": -0.31328145338289304,
+   "se": 0.14791215730779858,
+   "n": 3030
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.10997523488572808,
+ "E3a_A": {
+  "delta": 0.11034326810245285,
+  "lo": 0.05894729840003096,
+  "hi": 0.16933237340377102,
+  "n_boot": 100,
+  "class": "point_positive"
+ },
+ "E3a_B": {
+  "delta": 0.13186855987615906,
+  "lo": 0.07258179340603957,
+  "hi": 0.1960301711268287,
+  "n_boot": 100,
+  "class": "point_positive"
+ },
+ "neg_control": {
+  "delta": 0.0106119733545606,
+  "lo": -0.00372433544511372,
+  "hi": 0.038482387336706614,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.04630731692325457,
+  "lo": 0.016944797542328666,
+  "hi": 0.07942137572472498,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 6
+}

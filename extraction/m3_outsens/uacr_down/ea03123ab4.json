@@ -1,0 +1,86 @@
+{
+ "rec_id": "ea03123ab4",
+ "family": "F4_lipid_anthro",
+ "dag_family": "D1",
+ "flag_outcome_component": false,
+ "missing_A": "",
+ "missing_B": "alcohol|physical_activity|lipid_drugs",
+ "label_A": "sufficient",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "x",
+ "target_sd": 0.7381322745380912,
+ "n_terms": 20,
+ "added_A": [],
+ "added_B": [
+  "c_alc",
+  "c_pa",
+  "c_lipid_rx"
+ ],
+ "n_common": 17181,
+ "n_paper_sample": 18571,
+ "n_neg": 15717,
+ "pir_missing_rate": 0.08630301949065608,
+ "full": {
+  "P": {
+   "logor": 0.18414907642914138,
+   "se": 0.08215572798981496,
+   "n": 17181
+  },
+  "Ps": {
+   "logor": 0.21103118184790795,
+   "se": 0.07672354902432271,
+   "n": 18571
+  },
+  "Pn": {
+   "logor": 0.20264664953841713,
+   "se": 0.08078565892001349,
+   "n": 15717
+  },
+  "N": {
+   "logor": 0.2028755382605627,
+   "se": 0.08056763631826992,
+   "n": 15717
+  },
+  "B": {
+   "logor": 0.16747381888922444,
+   "se": 0.0821838857229811,
+   "n": 17181
+  },
+  "Q": {
+   "logor": 0.20973600726181618,
+   "se": 0.08153160803470318,
+   "n": 17181
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.026882105418766566,
+ "E3a_A": {
+  "class": "negative",
+  "note": "nothing missing under DAG A (or all present)"
+ },
+ "E3a_B": {
+  "delta": -0.016675257539916943,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 0.00022888872214557598,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.025586930832674798,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "seconds": 4
+}

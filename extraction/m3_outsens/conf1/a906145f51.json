@@ -1,0 +1,99 @@
+{
+ "rec_id": "a906145f51",
+ "family": "F5_other",
+ "dag_family": "D4b",
+ "flag_outcome_component": false,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x_q1v3",
+ "target_sd": 1.0,
+ "n_terms": 24,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_pa"
+ ],
+ "n_common": 508,
+ "n_paper_sample": 567,
+ "n_neg": 443,
+ "pir_missing_rate": 0.11764705882352941,
+ "full": {
+  "P": {
+   "logor": 0.014455207128951793,
+   "se": 0.4061367081993531,
+   "n": 508
+  },
+  "Ps": {
+   "logor": -0.08106661110864491,
+   "se": 0.34935497624144096,
+   "n": 567
+  },
+  "Pn": {
+   "logor": -0.21523503815810358,
+   "se": 0.4617009366705734,
+   "n": 443
+  },
+  "N": {
+   "logor": -0.22538210123915195,
+   "se": 0.46276720099575064,
+   "n": 443
+  },
+  "A": {
+   "logor": 0.040659941876203455,
+   "se": 0.4000003724766414,
+   "n": 508
+  },
+  "B": {
+   "logor": 0.03819231871293932,
+   "se": 0.3973678881364869,
+   "n": 508
+  },
+  "Q": {
+   "logor": 0.014998538863680827,
+   "se": 0.4152315987763419,
+   "n": 508
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.0955218182375967,
+ "E3a_A": {
+  "delta": 0.026204734747251664,
+  "lo": -0.10955359264805845,
+  "hi": 0.15728346696090387,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": 0.02373711158398753,
+  "lo": -0.17546412636175462,
+  "hi": 0.1751361567275152,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.010147063081048374,
+  "lo": -0.15024126208787036,
+  "hi": 0.1530361387056824,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.0005433317347290339,
+  "lo": -0.22920859870843277,
+  "hi": 0.25143486222297134,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 5
+}

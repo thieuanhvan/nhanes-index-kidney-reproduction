@@ -1,0 +1,42 @@
+{
+ "rec_id": "d84bd11e2e",
+ "n_reported": 2371.0,
+ "n_repro": 3082,
+ "n_cc": 3082,
+ "n_xy": 3441,
+ "n_domain_y": 3441,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "pir3__high",
+   319,
+   false
+  ],
+  [
+   "pir3__medium",
+   319,
+   false
+  ],
+  [
+   "cvd_history",
+   28,
+   false
+  ],
+  [
+   "pa_active",
+   22,
+   false
+  ],
+  [
+   "educ3__gt_hs",
+   3,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

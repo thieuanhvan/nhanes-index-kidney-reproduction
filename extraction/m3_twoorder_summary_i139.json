@@ -1,0 +1,455 @@
+{
+ "n_files": 42,
+ "n_run": 42,
+ "B": 100,
+ "errors": [],
+ "route1_add": {
+  "n_nonzero": 19,
+  "median_abs_all": 0.0,
+  "max_abs": 0.1103,
+  "median_abs_nonzero": 0.0062,
+  "n_gt_log110": 1,
+  "n_firm": 0,
+  "n_point_only": 1
+ },
+ "route1_drop": {
+  "n_nonzero": 37,
+  "median_abs_all": 0.0272,
+  "max_abs": 0.2471,
+  "median_abs_nonzero": 0.036,
+  "n_gt_log110": 9,
+  "n_firm": 3,
+  "n_point_only": 6
+ },
+ "route2_drop": {
+  "n_nonzero": 37,
+  "median_abs_all": 0.0288,
+  "max_abs": 0.2471,
+  "median_abs_nonzero": 0.036,
+  "n_gt_log110": 9,
+  "n_firm": 3,
+  "n_point_only": 6
+ },
+ "route2_add": {
+  "n_nonzero": 19,
+  "median_abs_all": 0.0,
+  "max_abs": 0.1089,
+  "median_abs_nonzero": 0.0072,
+  "n_gt_log110": 1,
+  "n_firm": 0,
+  "n_point_only": 1
+ },
+ "mean_add": {
+  "n_nonzero": 19,
+  "median_abs_all": 0.0,
+  "max_abs": 0.1096,
+  "median_abs_nonzero": 0.0067,
+  "n_gt_log110": 1,
+  "n_firm": 0,
+  "n_point_only": 1
+ },
+ "mean_drop": {
+  "n_nonzero": 37,
+  "median_abs_all": 0.0276,
+  "max_abs": 0.2471,
+  "median_abs_nonzero": 0.036,
+  "n_gt_log110": 9,
+  "n_firm": 3,
+  "n_point_only": 6
+ },
+ "total": {
+  "n_nonzero": 39,
+  "median_abs_all": 0.028,
+  "max_abs": 0.2471,
+  "median_abs_nonzero": 0.036,
+  "n_gt_log110": 11,
+  "n_firm": 3,
+  "n_point_only": 8
+ },
+ "n_with_both_steps": 17,
+ "order_dependence_add": {
+  "median_abs": 0.0024,
+  "max_abs": 0.0126
+ },
+ "share_total_from_drop_median": 1.0,
+ "per_paper": {
+  "1c8c318fda": {
+   "route1_add": 0.002,
+   "route1_drop": -0.0288,
+   "route2_drop": -0.0282,
+   "route2_add": 0.0014,
+   "mean_add": 0.0017,
+   "mean_drop": -0.0285,
+   "total": -0.0268
+  },
+  "250e5761d5": {
+   "route1_add": -0.0244,
+   "route1_drop": 0.0937,
+   "route2_drop": 0.081,
+   "route2_add": -0.0118,
+   "mean_add": -0.0181,
+   "mean_drop": 0.0873,
+   "total": 0.0693
+  },
+  "259b9d6255": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0,
+   "route2_drop": 0.0,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0,
+   "total": 0.0
+  },
+  "30eae6044c": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0101,
+   "route2_drop": 0.0101,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0101,
+   "total": 0.0101
+  },
+  "3865be04bf": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0,
+   "route2_drop": 0.0,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0,
+   "total": 0.0
+  },
+  "450ed6ebb6": {
+   "route1_add": 0.0,
+   "route1_drop": 0.1416,
+   "route2_drop": 0.1416,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.1416,
+   "total": 0.1416
+  },
+  "4b72270032": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0294,
+   "route2_drop": 0.0294,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0294,
+   "total": 0.0294
+  },
+  "4de61a08ed": {
+   "route1_add": 0.0,
+   "route1_drop": -0.0792,
+   "route2_drop": -0.0792,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": -0.0792,
+   "total": -0.0792
+  },
+  "53ca68a923": {
+   "route1_add": 0.0,
+   "route1_drop": -0.0723,
+   "route2_drop": -0.0723,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": -0.0723,
+   "total": -0.0723
+  },
+  "69700c2b09": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0074,
+   "route2_drop": 0.0074,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0074,
+   "total": 0.0074
+  },
+  "6b7f67827b": {
+   "route1_add": -0.0018,
+   "route1_drop": 0.0465,
+   "route2_drop": 0.0487,
+   "route2_add": -0.004,
+   "mean_add": -0.0029,
+   "mean_drop": 0.0476,
+   "total": 0.0448
+  },
+  "71eedfeafb": {
+   "route1_add": 0.0173,
+   "route1_drop": -0.0237,
+   "route2_drop": -0.03,
+   "route2_add": 0.0236,
+   "mean_add": 0.0204,
+   "mean_drop": -0.0269,
+   "total": -0.0064
+  },
+  "76d45e5c64": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0422,
+   "route2_drop": 0.0422,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0422,
+   "total": 0.0422
+  },
+  "78c5287646": {
+   "route1_add": -0.0024,
+   "route1_drop": 0.0105,
+   "route2_drop": 0.0129,
+   "route2_add": -0.0048,
+   "mean_add": -0.0036,
+   "mean_drop": 0.0117,
+   "total": 0.0081
+  },
+  "79f1e21c4c": {
+   "route1_add": -0.0004,
+   "route1_drop": 0.0174,
+   "route2_drop": 0.0164,
+   "route2_add": 0.0005,
+   "mean_add": 0.0001,
+   "mean_drop": 0.0169,
+   "total": 0.017
+  },
+  "8991f10763": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0069,
+   "route2_drop": 0.0069,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0069,
+   "total": 0.0069
+  },
+  "8a9e8d47ec": {
+   "route1_add": -0.0362,
+   "route1_drop": 0.0103,
+   "route2_drop": 0.0054,
+   "route2_add": -0.0313,
+   "mean_add": -0.0338,
+   "mean_drop": 0.0078,
+   "total": -0.0259
+  },
+  "94132d0c1a": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0229,
+   "route2_drop": 0.0229,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0229,
+   "total": 0.0229
+  },
+  "9835a67923": {
+   "route1_add": 0.1103,
+   "route1_drop": -0.0012,
+   "route2_drop": 0.0002,
+   "route2_add": 0.1089,
+   "mean_add": 0.1096,
+   "mean_drop": -0.0005,
+   "total": 0.1092
+  },
+  "988df86a79": {
+   "route1_add": 0.0027,
+   "route1_drop": 0.0055,
+   "route2_drop": 0.0101,
+   "route2_add": -0.0019,
+   "mean_add": 0.0004,
+   "mean_drop": 0.0078,
+   "total": 0.0083
+  },
+  "9cd1df095e": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0256,
+   "route2_drop": 0.0256,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0256,
+   "total": 0.0256
+  },
+  "a906145f51": {
+   "route1_add": -0.0076,
+   "route1_drop": 0.0478,
+   "route2_drop": 0.0463,
+   "route2_add": -0.006,
+   "mean_add": -0.0068,
+   "mean_drop": 0.047,
+   "total": 0.0403
+  },
+  "ac96396902": {
+   "route1_add": -0.0053,
+   "route1_drop": 0.0,
+   "route2_drop": 0.0,
+   "route2_add": -0.0053,
+   "mean_add": -0.0053,
+   "mean_drop": 0.0,
+   "total": -0.0053
+  },
+  "aca6f864fb": {
+   "route1_add": 0.0,
+   "route1_drop": -0.1086,
+   "route2_drop": -0.1086,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": -0.1086,
+   "total": -0.1086
+  },
+  "b966d3cfdc": {
+   "route1_add": 0.0681,
+   "route1_drop": 0.0405,
+   "route2_drop": 0.0517,
+   "route2_add": 0.0569,
+   "mean_add": 0.0625,
+   "mean_drop": 0.0461,
+   "total": 0.1086
+  },
+  "ba21203b93": {
+   "route1_add": -0.0003,
+   "route1_drop": 0.0243,
+   "route2_drop": 0.0265,
+   "route2_add": -0.0026,
+   "mean_add": -0.0014,
+   "mean_drop": 0.0254,
+   "total": 0.024
+  },
+  "c48bec549c": {
+   "route1_add": 0.0,
+   "route1_drop": 0.2471,
+   "route2_drop": 0.2471,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.2471,
+   "total": 0.2471
+  },
+  "c62af9091f": {
+   "route1_add": 0.0081,
+   "route1_drop": 0.0,
+   "route2_drop": 0.0,
+   "route2_add": 0.0081,
+   "mean_add": 0.0081,
+   "mean_drop": 0.0,
+   "total": 0.0081
+  },
+  "cde66dda6a": {
+   "route1_add": -0.0194,
+   "route1_drop": 0.0747,
+   "route2_drop": 0.0679,
+   "route2_add": -0.0126,
+   "mean_add": -0.016,
+   "mean_drop": 0.0713,
+   "total": 0.0554
+  },
+  "cef539b61e": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0048,
+   "route2_drop": 0.0048,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0048,
+   "total": 0.0048
+  },
+  "cf0849f17f": {
+   "route1_add": 0.0,
+   "route1_drop": 0.1057,
+   "route2_drop": 0.1057,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.1057,
+   "total": 0.1057
+  },
+  "d22fcf0a95": {
+   "route1_add": -0.0008,
+   "route1_drop": 0.0017,
+   "route2_drop": 0.002,
+   "route2_add": -0.0011,
+   "mean_add": -0.001,
+   "mean_drop": 0.0018,
+   "total": 0.0009
+  },
+  "d84bd11e2e": {
+   "route1_add": 0.0,
+   "route1_drop": 0.036,
+   "route2_drop": 0.036,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.036,
+   "total": 0.036
+  },
+  "e1d9d038bb": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0,
+   "route2_drop": 0.0,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0,
+   "total": 0.0
+  },
+  "e76d3d1271": {
+   "route1_add": -0.0172,
+   "route1_drop": 0.1148,
+   "route2_drop": 0.1136,
+   "route2_add": -0.0159,
+   "mean_add": -0.0165,
+   "mean_drop": 0.1142,
+   "total": 0.0977
+  },
+  "ea03123ab4": {
+   "route1_add": 0.0,
+   "route1_drop": 0.1548,
+   "route2_drop": 0.1548,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.1548,
+   "total": 0.1548
+  },
+  "ea130293e0": {
+   "route1_add": -0.002,
+   "route1_drop": 0.1298,
+   "route2_drop": 0.135,
+   "route2_add": -0.0073,
+   "mean_add": -0.0046,
+   "mean_drop": 0.1324,
+   "total": 0.1278
+  },
+  "edaf91172c": {
+   "route1_add": 0.0,
+   "route1_drop": -0.1282,
+   "route2_drop": -0.1282,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": -0.1282,
+   "total": -0.1282
+  },
+  "f1ad3fb0ff": {
+   "route1_add": -0.0063,
+   "route1_drop": 0.1423,
+   "route2_drop": 0.1462,
+   "route2_add": -0.0102,
+   "mean_add": -0.0082,
+   "mean_drop": 0.1443,
+   "total": 0.1361
+  },
+  "f6e85f9043": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0862,
+   "route2_drop": 0.0862,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0862,
+   "total": 0.0862
+  },
+  "fad26f18b1": {
+   "route1_add": 0.0,
+   "route1_drop": 0.0053,
+   "route2_drop": 0.0053,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": 0.0053,
+   "total": 0.0053
+  },
+  "ff27565860": {
+   "route1_add": 0.0,
+   "route1_drop": -0.011,
+   "route2_drop": -0.011,
+   "route2_add": 0.0,
+   "mean_add": 0.0,
+   "mean_drop": -0.011,
+   "total": -0.011
+  }
+ }
+}

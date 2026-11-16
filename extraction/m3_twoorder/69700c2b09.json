@@ -1,0 +1,69 @@
+{
+ "rec_id": "69700c2b09",
+ "status": "run",
+ "weight_kind": "mec",
+ "n_common": 3565,
+ "B": 100,
+ "boot_failed_fits": 0,
+ "added_A": [],
+ "k_terms_dropped": [
+  "htn",
+  "hyperuric",
+  "diet_chol"
+ ],
+ "log": [],
+ "point_logor": {
+  "P": 0.09485311432077252,
+  "A": 0.09485311432077252,
+  "D": 0.10234999186336702,
+  "DA": 0.10234999186336702
+ },
+ "route1_add": {
+  "delta": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "route1_drop": {
+  "delta": 0.007496877542594496,
+  "lo": -0.008533234315406734,
+  "hi": 0.02676514416936588,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "route2_drop": {
+  "delta": 0.007496877542594496,
+  "lo": -0.008533234315406734,
+  "hi": 0.02676514416936588,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "route2_add": {
+  "delta": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "mean_add": {
+  "delta": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "class": "negative"
+ },
+ "mean_drop": {
+  "delta": 0.007496877542594496,
+  "lo": -0.008533234315406734,
+  "hi": 0.02676514416936588,
+  "class": "negative"
+ },
+ "total": {
+  "delta": 0.007496877542594496,
+  "lo": -0.008533234315406734,
+  "hi": 0.02676514416936588,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 5
+}

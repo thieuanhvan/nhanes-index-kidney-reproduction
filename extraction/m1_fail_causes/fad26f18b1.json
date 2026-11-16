@@ -1,0 +1,42 @@
+{
+ "rec_id": "fad26f18b1",
+ "n_reported": 25181.0,
+ "n_repro": 20655,
+ "n_cc": 20655,
+ "n_xy": 25181,
+ "n_domain_y": 25181,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "pir3__high",
+   2402,
+   false
+  ],
+  [
+   "pir3__mid",
+   2402,
+   false
+  ],
+  [
+   "drink_yes",
+   2165,
+   false
+  ],
+  [
+   "bmi3__25_30",
+   236,
+   false
+  ],
+  [
+   "bmi3__ge30",
+   236,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

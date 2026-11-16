@@ -1,0 +1,5 @@
+{
+ "rec_id": "f1ad3fb0ff",
+ "status": "error",
+ "error": "LinAlgError: Singular matrix"
+}

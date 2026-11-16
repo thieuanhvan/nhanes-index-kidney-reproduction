@@ -1,0 +1,100 @@
+{
+ "rec_id": "9835a67923",
+ "family": "F3_diet_life",
+ "dag_family": "D3",
+ "flag_outcome_component": false,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|alcohol|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "diet_day1",
+ "target": "dobs_q4",
+ "target_sd": 1.0,
+ "n_terms": 15,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_alc",
+  "c_pa"
+ ],
+ "n_common": 722,
+ "n_paper_sample": 840,
+ "n_neg": 640,
+ "pir_missing_rate": 0.0967741935483871,
+ "full": {
+  "P": {
+   "logor": 0.3531302042580041,
+   "se": 0.30615945027361724,
+   "n": 722
+  },
+  "Ps": {
+   "logor": 0.2068228317128695,
+   "se": 0.26684390471832664,
+   "n": 840
+  },
+  "Pn": {
+   "logor": 0.4163111870247859,
+   "se": 0.32944778460568536,
+   "n": 640
+  },
+  "N": {
+   "logor": 0.4103511915588852,
+   "se": 0.33214311497936333,
+   "n": 640
+  },
+  "A": {
+   "logor": 0.5148861051020126,
+   "se": 0.34015706352174885,
+   "n": 722
+  },
+  "B": {
+   "logor": 0.5345100511405069,
+   "se": 0.33758263292411417,
+   "n": 722
+  },
+  "Q": {
+   "logor": 0.23841524529289768,
+   "se": 0.3043187713666306,
+   "n": 722
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.14630737254513462,
+ "E3a_A": {
+  "delta": 0.16175590084400848,
+  "lo": 0.01823570685862885,
+  "hi": 0.35798817639243585,
+  "n_boot": 100,
+  "class": "point_positive"
+ },
+ "E3a_B": {
+  "delta": 0.18137984688250275,
+  "lo": 0.03659615395904932,
+  "hi": 0.37333425238094503,
+  "n_boot": 100,
+  "class": "point_positive"
+ },
+ "neg_control": {
+  "delta": -0.005959995465900703,
+  "lo": -0.060108147485089525,
+  "hi": 0.034400584168746674,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.11471495896510644,
+  "lo": -0.00737455577053837,
+  "hi": 0.2629043732458217,
+  "n_boot": 100,
+  "class": "point_positive"
+ },
+ "seconds": 5
+}

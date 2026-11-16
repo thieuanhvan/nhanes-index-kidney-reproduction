@@ -1,0 +1,101 @@
+{
+ "rec_id": "78c5287646",
+ "family": "F3_diet_life",
+ "dag_family": "D2",
+ "flag_outcome_component": true,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|alcohol|physical_activity|bmi_waist",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x",
+ "target_sd": 1.0,
+ "n_terms": 15,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_alc",
+  "c_pa",
+  "bmi"
+ ],
+ "n_common": 2270,
+ "n_paper_sample": 2590,
+ "n_neg": 2052,
+ "pir_missing_rate": 0.09167303284950344,
+ "full": {
+  "P": {
+   "logor": -0.4241766377372038,
+   "se": 0.17404870704130915,
+   "n": 2270
+  },
+  "Ps": {
+   "logor": -0.38053116392026093,
+   "se": 0.16792626583092102,
+   "n": 2590
+  },
+  "Pn": {
+   "logor": -0.4373252924218964,
+   "se": 0.18371909456643695,
+   "n": 2052
+  },
+  "N": {
+   "logor": -0.45310808477222847,
+   "se": 0.18027329621543434,
+   "n": 2052
+  },
+  "A": {
+   "logor": -0.42654098986408157,
+   "se": 0.17659278574186096,
+   "n": 2270
+  },
+  "B": {
+   "logor": -0.4236636657554894,
+   "se": 0.17695460278382555,
+   "n": 2270
+  },
+  "Q": {
+   "logor": -0.5022165615483036,
+   "se": 0.16896940878543118,
+   "n": 2270
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.04364547381694289,
+ "E3a_A": {
+  "delta": -0.0023643521268777445,
+  "lo": -0.03851202052577776,
+  "hi": 0.04540009417630852,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": 0.0005129719817144052,
+  "lo": -0.08363321436546123,
+  "hi": 0.08958773291318374,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.015782792350332087,
+  "lo": -0.061423076454613604,
+  "hi": 0.003919497463954279,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.07803992381109981,
+  "lo": -0.0025386752282229273,
+  "hi": 0.1538216719926259,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "seconds": 11
+}

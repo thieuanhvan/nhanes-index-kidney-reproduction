@@ -1,0 +1,88 @@
+{
+ "rec_id": "259b9d6255",
+ "status": "run",
+ "n_common": 4633,
+ "weight_kind": "mec",
+ "binary_target": true,
+ "term_map": {
+  "age_g__middle": "confounder_like",
+  "age_g__old": "confounder_like",
+  "female": "confounder_like",
+  "race1__nh_black": "confounder_like",
+  "race1__nh_white": "confounder_like",
+  "race1__other_hispanic": "confounder_like",
+  "race1__other_multi": "confounder_like",
+  "educ3__gt_hs": "confounder_like",
+  "educ3__hs_ged": "confounder_like",
+  "pir": "confounder_like",
+  "smk100": "confounder_like",
+  "htn": "hypertension_dx",
+  "dm": "diabetes_dx",
+  "hyperlip": "other",
+  "calcium": "confounder_like",
+  "phos": "other"
+ },
+ "log": [],
+ "k_concepts": [
+  "bp_measured",
+  "glycaemia_measured"
+ ],
+ "k_terms_dropped_E3b": [],
+ "point": {
+  "P": {
+   "logor": 0.4235322888277762,
+   "logpr": 0.3218549896762795,
+   "marg_logor": 0.3186332658067317
+  },
+  "E3b": {
+   "logor": 0.4235322888277762,
+   "logpr": 0.3218549896762795,
+   "marg_logor": 0.3186332658067317
+  },
+  "conv": {
+   "logor": 0.12221024516118448,
+   "logpr": 0.06012522938551566,
+   "marg_logor": 0.09101924653403126
+  },
+  "P_dmrx": {
+   "logor": 0.39378023053987865,
+   "logpr": 0.312494254942793,
+   "marg_logor": 0.2938961062912122
+  },
+  "P_bprx": {
+   "logor": 0.38519598251503895,
+   "logpr": 0.2991178893946272,
+   "marg_logor": 0.28799067668453104
+  },
+  "B": {
+   "logor": 0.4074315701154395,
+   "logpr": 0.3112446950268326,
+   "marg_logor": 0.30624341948335776
+  }
+ },
+ "E3a_B_PR": {
+  "delta": -0.010610294649446905,
+  "lo": -0.03847719330075724,
+  "hi": 0.010975908410897125,
+  "class": "negative"
+ },
+ "E3a_B_marginal": {
+  "delta": -0.012389846323373921,
+  "lo": -0.05065041950340687,
+  "hi": 0.01987152110962658,
+  "class": "negative"
+ },
+ "shift_conv": -0.30132204366659177,
+ "shift_P_dmrx": -0.029752058287897565,
+ "shift_P_bprx": -0.03833630631273727,
+ "RoE": {
+  "n_models": 1024,
+  "n_groups": 13,
+  "p2_5": 1.5546331758084762,
+  "p97_5": 4.886034171368985,
+  "roe": 3.142885567734033,
+  "share_or_gt1": 1.0,
+  "n_failed_fits": 0
+ },
+ "seconds": 16
+}

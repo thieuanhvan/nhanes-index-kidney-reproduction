@@ -1,0 +1,57 @@
+{
+ "rec_id": "78c5287646",
+ "status": "run",
+ "n": 2590,
+ "xcol": "pni",
+ "sd_x": 5.961696487619459,
+ "k_reported": 50.5,
+ "grid": [
+  40.0,
+  66.58093888169307
+ ],
+ "k_reported_in_range": true,
+ "covariates": [
+  "age",
+  "male",
+  "nhw",
+  "ever_smk",
+  "htn",
+  "dii_pos",
+  "energy_kg",
+  "dpi",
+  "hyperua",
+  "hba1c",
+  "tg_mmol",
+  "hypoalb",
+  "anemia",
+  "lymph_n"
+ ],
+ "collinear_dropped": [],
+ "k_hat": 65.50696155313982,
+ "rcs_wald": 0.25943117725103254,
+ "rcs_p": 0.8783452067668596,
+ "rcs_F_p": 0.8786724365068279,
+ "k_ci": [
+  40.0,
+  66.58093888169307
+ ],
+ "k_ci_width_sd": 4.458619947676504,
+ "boot_edge_share": 0.106,
+ "sim": {
+  "paper": {
+   "coverage": 0.81,
+   "power_localise": 0.04,
+   "slope_change": 0.002958608943773694
+  },
+  "half": {
+   "coverage": 0.86,
+   "power_localise": 0.05,
+   "slope_change": 0.001479304471886847
+  },
+  "neg_false_localisation": 0.14
+ },
+ "k_true_used": 50.5,
+ "class": "classification_invalid",
+ "class_0_5sd": "classification_invalid",
+ "seconds": 102
+}

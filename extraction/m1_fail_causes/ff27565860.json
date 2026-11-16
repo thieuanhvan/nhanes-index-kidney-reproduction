@@ -1,0 +1,42 @@
+{
+ "rec_id": "ff27565860",
+ "n_reported": 8329.0,
+ "n_repro": 5351,
+ "n_cc": 5351,
+ "n_xy": 8422,
+ "n_domain_y": 8422,
+ "weight": null,
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "marital6__divorced",
+   1666,
+   false
+  ],
+  [
+   "marital6__never",
+   1666,
+   false
+  ],
+  [
+   "marital6__partner",
+   1666,
+   false
+  ],
+  [
+   "marital6__separated",
+   1666,
+   false
+  ],
+  [
+   "marital6__widowed",
+   1666,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

@@ -1,0 +1,42 @@
+{
+ "rec_id": "cf0849f17f",
+ "n_reported": 3937.0,
+ "n_repro": 2908,
+ "n_cc": 2908,
+ "n_xy": 3755,
+ "n_domain_y": 3755,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "pir",
+   385,
+   false
+  ],
+  [
+   "mets",
+   271,
+   false
+  ],
+  [
+   "dbp",
+   226,
+   false
+  ],
+  [
+   "sbp",
+   211,
+   false
+  ],
+  [
+   "bmi_g__obese",
+   58,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

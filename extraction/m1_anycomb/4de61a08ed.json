@@ -1,0 +1,59 @@
+{
+ "rec_id": "4de61a08ed",
+ "points_run": [
+  "estimate: upper segment 1.24",
+  "covariates: add LDL-C, HDL-C, FBG, HbA1c"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 4,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 0.93,
+   "or_repro": 0.8794,
+   "dlogor": 0.0559,
+   "n_reported": 13971.0,
+   "n_repro": 12086,
+   "dn_rel": 0.1349
+  },
+  {
+   "combo": 1,
+   "label": "covariates: add LDL-C, HDL-C, FBG, HbA1c",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 0.93,
+   "or_repro": 0.8659,
+   "dlogor": 0.0713,
+   "n_reported": 13971.0,
+   "n_repro": 11856,
+   "dn_rel": 0.1513
+  },
+  {
+   "combo": 2,
+   "label": "estimate: upper segment 1.24",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 1.24,
+   "or_repro": 1.12,
+   "dlogor": 0.1016,
+   "n_reported": 13971.0,
+   "n_repro": 12086,
+   "dn_rel": 0.1349
+  },
+  {
+   "combo": 3,
+   "label": "estimate: upper segment 1.24; covariates: add LDL-C, HDL-C, FBG, HbA1c",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.24,
+   "or_repro": 1.118,
+   "dlogor": 0.1034,
+   "n_reported": 13971.0,
+   "n_repro": 11856,
+   "dn_rel": 0.1513
+  }
+ ]
+}

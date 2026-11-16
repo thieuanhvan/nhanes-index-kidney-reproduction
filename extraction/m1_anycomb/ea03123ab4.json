@@ -1,0 +1,34 @@
+{
+ "rec_id": "ea03123ab4",
+ "points_run": [
+  "weighted regression (correct weight)"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 1.406,
+   "or_repro": 1.479,
+   "dlogor": 0.0506,
+   "n_reported": 22514.0,
+   "n_repro": 19467,
+   "dn_rel": 0.1353
+  },
+  {
+   "combo": 1,
+   "label": "weighted regression (correct weight)",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.406,
+   "or_repro": 1.333,
+   "dlogor": 0.0533,
+   "n_reported": 22514.0,
+   "n_repro": 18571,
+   "dn_rel": 0.1751
+  }
+ ]
+}

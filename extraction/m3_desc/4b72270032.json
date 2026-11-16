@@ -1,0 +1,120 @@
+{
+ "rec_id": "4b72270032",
+ "status": "run",
+ "n_common": 29063,
+ "weight_kind": "mec",
+ "binary_target": false,
+ "term_map": {
+  "age": "confounder_like",
+  "female": "confounder_like",
+  "bmi": "bmi_waist",
+  "race1__mexican_american": "confounder_like",
+  "race1__nh_black": "confounder_like",
+  "race1__other_hispanic": "confounder_like",
+  "race1__other_multi": "confounder_like",
+  "educ3__gt_hs": "confounder_like",
+  "educ3__hs_ged": "confounder_like",
+  "pir4__b_131_185": "confounder_like",
+  "pir4__c_186_350": "confounder_like",
+  "pir4__d_gt350": "confounder_like",
+  "smoking__current": "confounder_like",
+  "smoking__former": "confounder_like",
+  "hypertension_any_130": "hypertension_dx",
+  "cvd_history": "cvd",
+  "diab": "diabetes_dx",
+  "bun": "kidney_measure",
+  "alt": "liver",
+  "ast": "liver",
+  "hba1c": "glycaemia_measured",
+  "glucose_serum": "glycaemia_measured"
+ },
+ "log": [],
+ "k_concepts": [
+  "cvd",
+  "glycaemia_measured",
+  "kidney_measure"
+ ],
+ "k_terms_dropped_E3b": [
+  "cvd_history",
+  "bun",
+  "hba1c",
+  "glucose_serum"
+ ],
+ "point": {
+  "P": {
+   "logor": 0.17689284175942574,
+   "logpr": 0.09202418599664294,
+   "marg_logor": 0.13649445317519238
+  },
+  "E3b": {
+   "logor": 0.2065162675357299,
+   "logpr": 0.1331743420143719,
+   "marg_logor": 0.17013254578055892
+  },
+  "conv": {
+   "logor": 0.20968941644710032,
+   "logpr": 0.13861787610789836,
+   "marg_logor": 0.17268288686755984
+  },
+  "P_dmrx": {
+   "logor": 0.17701985853488791,
+   "logpr": 0.09200277454113608,
+   "marg_logor": 0.13658083640182261
+  },
+  "P_bprx": {
+   "logor": 0.17877731553989973,
+   "logpr": 0.09372609473824968,
+   "marg_logor": 0.13780176852064474
+  },
+  "B": {
+   "logor": 0.17199077582369351,
+   "logpr": 0.08971023724621845,
+   "marg_logor": 0.13261377688453613
+  }
+ },
+ "E3a_B_PR": {
+  "delta": -0.0023139487504244965,
+  "lo": -0.005215210899046354,
+  "hi": 0.0002303255627025805,
+  "class": "negative"
+ },
+ "E3a_B_marginal": {
+  "delta": -0.0038806762906562486,
+  "lo": -0.007650241054033069,
+  "hi": -0.0007488279422091847,
+  "class": "negative"
+ },
+ "E3b": {
+  "logor": {
+   "delta": 0.02962342577630417,
+   "lo": 0.018627525464581327,
+   "hi": 0.04058162887318379,
+   "class": "negative"
+  },
+  "logpr": {
+   "delta": 0.04115015601772895,
+   "lo": 0.02971036904602361,
+   "hi": 0.05286929469412017,
+   "class": "negative"
+  },
+  "marg": {
+   "delta": 0.03363809260536654,
+   "lo": 0.025833304351849995,
+   "hi": 0.041709884350817586,
+   "class": "negative"
+  }
+ },
+ "shift_conv": 0.03279657468767458,
+ "shift_P_dmrx": 0.00012701677546217427,
+ "shift_P_bprx": 0.0018844737804739886,
+ "RoE": {
+  "n_models": 1024,
+  "n_groups": 17,
+  "p2_5": 1.2016211616681904,
+  "p97_5": 1.3937283130179092,
+  "roe": 1.1598733090577564,
+  "share_or_gt1": 1.0,
+  "n_failed_fits": 0
+ },
+ "seconds": 85
+}

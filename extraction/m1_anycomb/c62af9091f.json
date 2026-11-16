@@ -1,0 +1,34 @@
+{
+ "rec_id": "c62af9091f",
+ "points_run": [
+  "eGFR CKD-EPI 2021"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 0.99,
+   "or_repro": 0.9971,
+   "dlogor": 0.0071,
+   "n_reported": 24538.0,
+   "n_repro": 24376,
+   "dn_rel": 0.0066
+  },
+  {
+   "combo": 1,
+   "label": "eGFR CKD-EPI 2021",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 0.99,
+   "or_repro": 0.9988,
+   "dlogor": 0.0088,
+   "n_reported": 24538.0,
+   "n_repro": 24376,
+   "dn_rel": 0.0066
+  }
+ ]
+}

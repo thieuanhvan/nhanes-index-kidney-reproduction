@@ -1,0 +1,95 @@
+{
+ "rec_id": "d22fcf0a95",
+ "family": "F2_inflam",
+ "dag_family": "D2",
+ "flag_outcome_component": true,
+ "missing_A": "hypertension_dx",
+ "missing_B": "hypertension_dx|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x_q2",
+ "target_sd": 1.0,
+ "n_terms": 26,
+ "added_A": [
+  "c_htn_dx"
+ ],
+ "added_B": [
+  "c_htn_dx",
+  "c_pa"
+ ],
+ "n_common": 4058,
+ "n_paper_sample": 4064,
+ "n_neg": 3641,
+ "pir_missing_rate": 0.0925700365408039,
+ "full": {
+  "P": {
+   "logor": 0.241155139596827,
+   "se": 0.23744702889699176,
+   "n": 4058
+  },
+  "Ps": {
+   "logor": 0.24059131653915178,
+   "se": 0.23740710345441182,
+   "n": 4064
+  },
+  "Pn": {
+   "logor": 0.2659541085484237,
+   "se": 0.2632955678922782,
+   "n": 3641
+  },
+  "N": {
+   "logor": 0.265308580503399,
+   "se": 0.26334803565304366,
+   "n": 3641
+  },
+  "A": {
+   "logor": 0.23489469605722518,
+   "se": 0.2363726742560721,
+   "n": 4058
+  },
+  "B": {
+   "logor": 0.22907458040336784,
+   "se": 0.2381202146696093,
+   "n": 4058
+  },
+  "Q": {
+   "logor": 0.18937587642956727,
+   "se": 0.23228109314884166,
+   "n": 4058
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.0005638230576752168,
+ "E3a_A": {
+  "delta": -0.006260443539601812,
+  "lo": -0.01798659049897974,
+  "hi": 0.002916075438015241,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.012080559193459156,
+  "lo": -0.03855239551247962,
+  "hi": 0.004180764120032274,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.0006455280450247125,
+  "lo": -0.019550372044554044,
+  "hi": 0.003745791515442039,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.051779263167259726,
+  "lo": -0.026077363976332132,
+  "hi": 0.11143358618435306,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 7
+}

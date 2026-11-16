@@ -1,0 +1,55 @@
+// I139 Phụ lục A, họ D5 khác, DAG A. Sinh bằng tools/build_dag_i139.py từ bảng 5.2 của
+// prereg_i139_v6_vi.md (sha256 72db630ce54c3d65d90c8d175aaf0eac10145d967020fc802387d147fd25ca21). Bảng là nguồn duy nhất; nếu khác nhau thì bảng đúng.
+// Mã hoá vai trò: G (và T có B+ ở DAG B) = gây nhiễu, vào bộ hiệu chỉnh; T/P ngoài bộ = chỉ yếu tố nguy cơ của kết cục;
+// K-C = thành phần (-> chỉ số); K-M = trung gian/hậu duệ phơi nhiễm; K-O = hậu duệ kết cục; K-X = va chạm.
+// DAG ở mức họ chỉ số, chỉ vẽ cạnh quyết định bộ hiệu chỉnh; cạnh giữa các hiệp biến không vẽ.
+dag {
+Index [exposure,pos="0.00,-0.00"]
+Kidney_disease [outcome,pos="10.00,-0.00"]
+Age_Sex [adjusted,pos="2.50,-4.20"]  // G
+Race_ethnicity [adjusted,pos="7.50,-4.20"]  // G
+Education_PIR [adjusted,pos="2.50,-3.00"]  // G
+Smoking [adjusted,pos="7.50,-3.00"]  // G
+Alcohol [pos="2.33,-1.60"]  // T B+ | B+
+Physical_activity [pos="4.00,-1.60"]  // T B+ | B+
+BMI_waist [pos="5.67,-1.60"]  // T B+ | B+
+Diagnosed_diabetes [pos="7.33,-1.60"]  // T
+Glycaemia_HbA1c_insulin [pos="9.00,-1.60"]  // T
+Diagnosed_hypertension [pos="10.67,-1.60"]  // T
+Measured_BP [pos="4.94,3.80"]  // K-O
+Lipid_lowering_drugs [pos="3.25,2.60"]  // T
+Diabetes_drugs [pos="4.75,2.60"]  // T
+Antihypertensive_drugs [pos="6.25,2.60"]  // T
+HDL_LDL_TC [pos="7.75,2.60"]  // T
+CRP_WBC [pos="9.25,2.60"]  // T
+Uric_acid [pos="6.81,3.80"]  // K-O
+Kidney_markers [pos="8.69,3.80"]  // K-O
+CVD [pos="10.56,3.80"]  // K-X
+NHANES_cycle [pos="10.75,2.60"]  // P
+Age_Sex -> Index
+Age_Sex -> Kidney_disease
+Alcohol -> Kidney_disease
+Antihypertensive_drugs -> Kidney_disease
+BMI_waist -> Kidney_disease
+CRP_WBC -> Kidney_disease
+Diabetes_drugs -> Kidney_disease
+Diagnosed_diabetes -> Kidney_disease
+Diagnosed_hypertension -> Kidney_disease
+Education_PIR -> Index
+Education_PIR -> Kidney_disease
+Glycaemia_HbA1c_insulin -> Kidney_disease
+HDL_LDL_TC -> Kidney_disease
+Index -> CVD
+Index -> Kidney_disease
+Kidney_disease -> CVD
+Kidney_disease -> Kidney_markers
+Kidney_disease -> Measured_BP
+Kidney_disease -> Uric_acid
+Lipid_lowering_drugs -> Kidney_disease
+NHANES_cycle -> Kidney_disease
+Physical_activity -> Kidney_disease
+Race_ethnicity -> Index
+Race_ethnicity -> Kidney_disease
+Smoking -> Index
+Smoking -> Kidney_disease
+}

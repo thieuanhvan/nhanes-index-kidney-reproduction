@@ -1,0 +1,25 @@
+<workdir>/tools\nhanes_core.py:286: RuntimeWarning: invalid value encountered in sqrt
+  Hi = np.linalg.inv(H); V = Hi @ M @ Hi; se = np.sqrt(np.diag(V))
+<workdir>/tools\nhanes_core.py:290: RuntimeWarning: overflow encountered in exp
+  tab = pd.DataFrame({"coef": beta, "se": se, "OR": np.exp(beta), "lo": np.exp(beta - q * se), "hi": np.exp(beta + q * se),
+<workdir>/tools\nhanes_core.py:286: RuntimeWarning: invalid value encountered in sqrt
+  Hi = np.linalg.inv(H); V = Hi @ M @ Hi; se = np.sqrt(np.diag(V))
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_outsens_i139.py", line 84, in main
+    res = M.run(rid, T, L)
+  File "<workdir>/tools\m3_run_i139.py", line 89, in run
+    fit = C.nc.svy_logit(df, y, ts, "_wc", domain=m)
+  File "<workdir>/tools\nhanes_core.py", line 274, in svy_logit
+    beta, p, H = _irls(X, Y, W)
+                 ~~~~~^^^^^^^^^
+  File "<workdir>/tools\nhanes_core.py", line 258, in _irls
+    step = np.linalg.solve(H, g); beta += step
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+C:\Users\Win\anaconda3\Lib\site-packages\pandas\core\arraylike.py:399: RuntimeWarning: divide by zero encountered in log
+  result = getattr(ufunc, method)(*inputs, **kwargs)
+C:\Users\Win\anaconda3\Lib\site-packages\pandas\core\arraylike.py:399: RuntimeWarning: divide by zero encountered in log
+  result = getattr(ufunc, method)(*inputs, **kwargs)

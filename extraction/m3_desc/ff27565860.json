@@ -1,0 +1,125 @@
+{
+ "rec_id": "ff27565860",
+ "status": "run",
+ "n_common": 5024,
+ "weight_kind": "mec",
+ "binary_target": false,
+ "term_map": {
+  "race1__mexican_american": "confounder_like",
+  "race1__nh_black": "confounder_like",
+  "race1__other_hispanic": "confounder_like",
+  "race1__other_multi": "confounder_like",
+  "female": "confounder_like",
+  "age": "confounder_like",
+  "marital6__divorced": "other",
+  "marital6__never": "other",
+  "marital6__partner": "other",
+  "marital6__separated": "other",
+  "marital6__widowed": "other",
+  "educ5__9to11": "confounder_like",
+  "educ5__coll": "confounder_like",
+  "educ5__hs": "confounder_like",
+  "educ5__somecoll": "confounder_like",
+  "bmi3__25to30": "bmi_waist",
+  "bmi3__gt30": "bmi_waist",
+  "pir3__1to3": "confounder_like",
+  "pir3__gt3": "confounder_like",
+  "htn_dx": "hypertension_dx",
+  "stroke": "cvd",
+  "cancer": "other",
+  "chd": "cvd",
+  "hichol": "lipids",
+  "liver": "other",
+  "smoking__current": "confounder_like",
+  "smoking__former": "confounder_like"
+ },
+ "log": [],
+ "k_concepts": [
+  "cvd",
+  "hypertension_dx",
+  "lipids"
+ ],
+ "k_terms_dropped_E3b": [
+  "htn_dx",
+  "stroke",
+  "chd",
+  "hichol"
+ ],
+ "point": {
+  "P": {
+   "logor": 0.10350466254153977,
+   "logpr": 0.059159031811707126,
+   "marg_logor": 0.09136797494738286
+  },
+  "E3b": {
+   "logor": 0.0924358622663551,
+   "logpr": 0.053666142200311004,
+   "marg_logor": 0.08310242247377975
+  },
+  "conv": {
+   "logor": 0.11561615811050314,
+   "logpr": 0.06496272832752284,
+   "marg_logor": 0.10290986238264327
+  },
+  "P_dmrx": {
+   "logor": 0.1247807039491128,
+   "logpr": 0.06862250362360806,
+   "marg_logor": 0.10913977028065697
+  },
+  "P_bprx": {
+   "logor": 0.10231584563163088,
+   "logpr": 0.05853060625242246,
+   "marg_logor": 0.09031154239722516
+  },
+  "B": {
+   "logor": 0.10162088164944923,
+   "logpr": 0.05816483640279271,
+   "marg_logor": 0.0895310576706766
+  }
+ },
+ "E3a_B_PR": {
+  "delta": -0.0009941954089144125,
+  "lo": -0.012448462276864657,
+  "hi": 0.008325322118746228,
+  "class": "negative"
+ },
+ "E3a_B_marginal": {
+  "delta": -0.0018369172767062625,
+  "lo": -0.01978059504936303,
+  "hi": 0.013271571303216465,
+  "class": "negative"
+ },
+ "E3b": {
+  "logor": {
+   "delta": -0.01106880027518467,
+   "lo": -0.02567755197693238,
+   "hi": 0.004755126544959449,
+   "class": "negative"
+  },
+  "logpr": {
+   "delta": -0.005492889611396122,
+   "lo": -0.01411206616660311,
+   "hi": 0.0031547167087675214,
+   "class": "negative"
+  },
+  "marg": {
+   "delta": -0.00826555247360311,
+   "lo": -0.020728272699039974,
+   "hi": 0.004928222268845586,
+   "class": "negative"
+  }
+ },
+ "shift_conv": 0.012111495568963376,
+ "shift_P_dmrx": 0.021276041407573026,
+ "shift_P_bprx": -0.0011888169099088935,
+ "RoE": {
+  "n_models": 1024,
+  "n_groups": 17,
+  "p2_5": 0.9853960451488997,
+  "p97_5": 1.1328092558248752,
+  "roe": 1.1495979321225107,
+  "share_or_gt1": 0.869140625,
+  "n_failed_fits": 0
+ },
+ "seconds": 31
+}

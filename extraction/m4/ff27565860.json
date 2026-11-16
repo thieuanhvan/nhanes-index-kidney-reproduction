@@ -1,0 +1,70 @@
+{
+ "rec_id": "ff27565860",
+ "status": "run",
+ "n": 5351,
+ "xcol": "x",
+ "sd_x": 1.7116095479964533,
+ "k_reported": 1.75,
+ "grid": [
+  0.9248897021264544,
+  8.858727184598068
+ ],
+ "k_reported_in_range": true,
+ "covariates": [
+  "race1__mexican_american",
+  "race1__nh_black",
+  "race1__other_hispanic",
+  "race1__other_multi",
+  "female",
+  "age",
+  "marital6__divorced",
+  "marital6__never",
+  "marital6__partner",
+  "marital6__separated",
+  "marital6__widowed",
+  "educ5__9to11",
+  "educ5__coll",
+  "educ5__hs",
+  "educ5__somecoll",
+  "bmi3__25to30",
+  "bmi3__gt30",
+  "pir3__1to3",
+  "pir3__gt3",
+  "htn_dx",
+  "stroke",
+  "cancer",
+  "chd",
+  "hichol",
+  "liver",
+  "smoking__current",
+  "smoking__former"
+ ],
+ "collinear_dropped": [],
+ "k_hat": 1.806427200178856,
+ "rcs_wald": 7.211828394544189,
+ "rcs_p": 0.027162601482752645,
+ "rcs_F_p": 0.029351223097269924,
+ "k_ci": [
+  0.9248897021264544,
+  7.205844375749816
+ ],
+ "k_ci_width_sd": 3.6696188572771256,
+ "boot_edge_share": 0.458,
+ "sim": {
+  "paper": {
+   "coverage": 0.63,
+   "power_localise": 0.37,
+   "slope_change": 0.7080351428759137
+  },
+  "half": {
+   "coverage": 0.57,
+   "power_localise": 0.13,
+   "slope_change": 0.35401757143795687
+  },
+  "neg_false_localisation": 0.69
+ },
+ "k_true_used": 1.75,
+ "class": "classification_invalid",
+ "class_0_5sd": "classification_invalid",
+ "seconds": 287
+}

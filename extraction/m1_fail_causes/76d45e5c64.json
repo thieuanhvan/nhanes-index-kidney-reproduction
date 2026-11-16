@@ -1,0 +1,45 @@
+{
+ "rec_id": "76d45e5c64",
+ "n_reported": 7138.0,
+ "n_repro": 530,
+ "n_cc": 530,
+ "n_xy": 3483,
+ "n_domain_y": 3483,
+ "n_xy_noweight": 7369,
+ "weight": "w",
+ "exposure_terms": [
+  "x_q2",
+  "x_q3",
+  "x_q4"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "drink__heavy",
+   1761,
+   false
+  ],
+  [
+   "drink__moderate",
+   1761,
+   false
+  ],
+  [
+   "antilip",
+   1719,
+   false
+  ],
+  [
+   "dm_dur",
+   1128,
+   false
+  ],
+  [
+   "pir",
+   327,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

@@ -1,0 +1,406 @@
+{
+ "papers_testable": 42,
+ "per_paper": {
+  "f6e85f9043": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "79f1e21c4c": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": null,
+   "run": 0,
+   "pass": 0,
+   "defined": 1,
+   "not_run_points": []
+  },
+  "f1ad3fb0ff": {
+   "first_combination_rank": "near_pass",
+   "first_reproduced_here": "near_pass",
+   "run": 2,
+   "pass": 2,
+   "defined": 8,
+   "not_run_points": [
+    "model with metabolic syndrome or log HOMA-IR: terms not in the builder",
+    "Table 6 mutually adjusted model: terms not in the builder"
+   ]
+  },
+  "6b7f67827b": {
+   "first_combination_rank": "strict_pass",
+   "first_reproduced_here": null,
+   "run": 0,
+   "pass": 0,
+   "defined": 1,
+   "not_run_points": []
+  },
+  "d22fcf0a95": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 3,
+   "pass": 0,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "94132d0c1a": {
+   "first_combination_rank": "strict_pass",
+   "first_reproduced_here": "strict_pass",
+   "run": 2,
+   "pass": 2,
+   "defined": 4,
+   "not_run_points": [
+    "cycles 1999-2018 (J file): builder coded for the P file"
+   ]
+  },
+  "ea130293e0": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": null,
+   "run": 0,
+   "pass": 0,
+   "defined": 1,
+   "not_run_points": []
+  },
+  "fad26f18b1": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 4,
+   "not_run_points": [
+    "KDIGO chronicity: not possible with one NHANES visit"
+   ]
+  },
+  "cef539b61e": {
+   "first_combination_rank": "strict_pass",
+   "first_reproduced_here": "strict_pass",
+   "run": 2,
+   "pass": 2,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "9cd1df095e": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 4,
+   "pass": 0,
+   "defined": 4,
+   "not_run_points": []
+  },
+  "53ca68a923": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "c62af9091f": {
+   "first_combination_rank": "strict_pass",
+   "first_reproduced_here": "strict_pass",
+   "run": 2,
+   "pass": 2,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "cf0849f17f": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "4b72270032": {
+   "first_combination_rank": "strict_pass",
+   "first_reproduced_here": "strict_pass",
+   "run": 2,
+   "pass": 2,
+   "defined": 4,
+   "not_run_points": [
+    "abstract covariate description: list not specified"
+   ]
+  },
+  "8991f10763": {
+   "first_combination_rank": "strict_pass",
+   "first_reproduced_here": "strict_pass",
+   "run": 2,
+   "pass": 2,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "71eedfeafb": {
+   "first_combination_rank": "strict_pass",
+   "first_reproduced_here": "strict_pass",
+   "run": 2,
+   "pass": 2,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "988df86a79": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "30eae6044c": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "aca6f864fb": {
+   "first_combination_rank": "near_pass",
+   "first_reproduced_here": "near_pass",
+   "run": 4,
+   "pass": 4,
+   "defined": 8,
+   "not_run_points": [
+    "Model 2: gives the same reported OR; its covariate list is not in the builder"
+   ]
+  },
+  "78c5287646": {
+   "first_combination_rank": "strict_pass",
+   "first_reproduced_here": "strict_pass",
+   "run": 2,
+   "pass": 1,
+   "defined": 4,
+   "not_run_points": [
+    "footnote list with lymphocyte and PNI group: PNI group is a coding of the exposure"
+   ]
+  },
+  "9835a67923": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "strict_pass",
+   "run": 2,
+   "pass": 2,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "8a9e8d47ec": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": null,
+   "run": 0,
+   "pass": 0,
+   "defined": 1,
+   "not_run_points": []
+  },
+  "b966d3cfdc": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 4,
+   "pass": 0,
+   "defined": 8,
+   "not_run_points": [
+    "five of six cycles: the omitted cycle is not named"
+   ]
+  },
+  "1c8c318fda": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 4,
+   "not_run_points": [
+    "CHARLS estimate: not NHANES"
+   ]
+  },
+  "cde66dda6a": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 4,
+   "pass": 0,
+   "defined": 4,
+   "not_run_points": []
+  },
+  "ea03123ab4": {
+   "first_combination_rank": "near_pass",
+   "first_reproduced_here": "near_pass",
+   "run": 2,
+   "pass": 1,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "76d45e5c64": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "e1d9d038bb": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": null,
+   "run": 0,
+   "pass": 0,
+   "defined": 1,
+   "not_run_points": []
+  },
+  "e76d3d1271": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "450ed6ebb6": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 4,
+   "pass": 0,
+   "defined": 8,
+   "not_run_points": [
+    "RCII as exposure: needs a new builder"
+   ]
+  },
+  "69700c2b09": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "near_pass",
+   "run": 2,
+   "pass": 2,
+   "defined": 2,
+   "not_run_points": []
+  },
+  "250e5761d5": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 8,
+   "pass": 0,
+   "defined": 8,
+   "not_run_points": []
+  },
+  "ff27565860": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 8,
+   "pass": 0,
+   "defined": 8,
+   "not_run_points": []
+  },
+  "259b9d6255": {
+   "first_combination_rank": "strict_pass",
+   "first_reproduced_here": "strict_pass",
+   "run": 4,
+   "pass": 4,
+   "defined": 4,
+   "not_run_points": []
+  },
+  "ac96396902": {
+   "first_combination_rank": "near_pass",
+   "first_reproduced_here": "near_pass",
+   "run": 2,
+   "pass": 2,
+   "defined": 4,
+   "not_run_points": [
+    "CVD-CKD comorbidity outcome: excluded by the pre-written rule 4"
+   ]
+  },
+  "c48bec549c": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 4,
+   "not_run_points": [
+    "exposure scaling not stated (reading_2 undefined)"
+   ]
+  },
+  "ba21203b93": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 1,
+   "defined": 8,
+   "not_run_points": [
+    "TPSA as exposure: needs a new builder",
+    "abstract covariate list: needs a new builder"
+   ]
+  },
+  "3865be04bf": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": null,
+   "run": 0,
+   "pass": 0,
+   "defined": 1,
+   "not_run_points": []
+  },
+  "edaf91172c": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": null,
+   "run": 0,
+   "pass": 0,
+   "defined": 1,
+   "not_run_points": []
+  },
+  "4de61a08ed": {
+   "first_combination_rank": "near_pass",
+   "first_reproduced_here": "near_pass",
+   "run": 4,
+   "pass": 2,
+   "defined": 4,
+   "not_run_points": []
+  },
+  "d84bd11e2e": {
+   "first_combination_rank": "fail",
+   "first_reproduced_here": "fail",
+   "run": 2,
+   "pass": 0,
+   "defined": 4,
+   "not_run_points": [
+    "type 1 diabetes not separated: no NHANES variable"
+   ]
+  },
+  "a906145f51": {
+   "first_combination_rank": "near_pass",
+   "first_reproduced_here": "near_pass",
+   "run": 4,
+   "pass": 4,
+   "defined": 8,
+   "not_run_points": [
+    "RCS-segment estimates: model not labelled"
+   ]
+  }
+ },
+ "any_pass": [
+  18,
+  42,
+  0.4285,
+  0.2911,
+  0.5779
+ ],
+ "any_strict": 11,
+ "combinations_run": 99,
+ "combinations_passing": 37,
+ "combinations_defined": 149,
+ "combinations_error": 0,
+ "fail_to_pass": [
+  {
+   "9835a67923": [
+    "first combination",
+    "estimate: continuous DOBS 0.98"
+   ]
+  },
+  {
+   "69700c2b09": [
+    "first combination",
+    "weight: pooled MEC"
+   ]
+  },
+  {
+   "ba21203b93": [
+    "estimate: continuous FPSA/TPSA x 100, 1.03"
+   ]
+  }
+ ],
+ "first_combination_mismatch": [
+  "9835a67923",
+  "69700c2b09"
+ ]
+}

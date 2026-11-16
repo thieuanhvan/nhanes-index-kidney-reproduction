@@ -1,0 +1,138 @@
+{
+ "rec_id": "a906145f51",
+ "status": "run",
+ "n_common": 4996,
+ "weight_kind": "mec",
+ "binary_target": true,
+ "term_map": {
+  "age": "confounder_like",
+  "female": "confounder_like",
+  "bmi": "bmi_waist",
+  "race1__mexican_american": "confounder_like",
+  "race1__nh_black": "confounder_like",
+  "race1__other_hispanic": "confounder_like",
+  "race1__other_multi": "confounder_like",
+  "smoking__current": "confounder_like",
+  "smoking__former": "confounder_like",
+  "alcohol__heavy": "confounder_like",
+  "alcohol__moderate": "confounder_like",
+  "dm_dur": "diabetes_dx",
+  "hypertension_any_140": "hypertension_dx",
+  "cvd_history": "cvd",
+  "anemia": "hemoglobin",
+  "uric_acid": "uric_acid",
+  "bun": "kidney_measure",
+  "antidiab": "diabetes_dx",
+  "rasi": "other",
+  "statin": "other"
+ },
+ "log": [],
+ "k_concepts": [
+  "bmi_waist",
+  "cvd",
+  "hypertension_dx",
+  "kidney_measure",
+  "uric_acid"
+ ],
+ "k_terms_dropped_E3b": [
+  "bmi",
+  "hypertension_any_140",
+  "cvd_history",
+  "uric_acid",
+  "bun"
+ ],
+ "point": {
+  "P": {
+   "logor": 0.25184451154005716,
+   "logpr": 0.15818163302526453,
+   "marg_logor": 0.20379013751009284
+  },
+  "E3b": {
+   "logor": 0.2980917617637044,
+   "logpr": 0.1857090182009258,
+   "marg_logor": 0.2668546875872802
+  },
+  "conv": {
+   "logor": 0.08428670012435326,
+   "logpr": 0.04676273132744395,
+   "marg_logor": 0.07699601778542425
+  },
+  "P_dmrx": {
+   "logor": 0.2545169347203026,
+   "logpr": 0.1579274251312918,
+   "marg_logor": 0.20589043089936915
+  },
+  "P_bprx": {
+   "logor": 0.24791482711831073,
+   "logpr": 0.15593816062552066,
+   "marg_logor": 0.20038381206332745
+  },
+  "A": {
+   "logor": 0.2435961463424168,
+   "logpr": 0.15401997746174947,
+   "marg_logor": 0.19617658169340785
+  },
+  "B": {
+   "logor": 0.2401366055516914,
+   "logpr": 0.15190401170805876,
+   "marg_logor": 0.1933718427464179
+  }
+ },
+ "E3a_A_PR": {
+  "delta": -0.004161655563515054,
+  "lo": -0.018153569445102616,
+  "hi": 0.004206060106964755,
+  "class": "negative"
+ },
+ "E3a_A_marginal": {
+  "delta": -0.0076135558166849915,
+  "lo": -0.030114175426622716,
+  "hi": 0.01243179708074701,
+  "class": "negative"
+ },
+ "E3a_B_PR": {
+  "delta": -0.006277621317205773,
+  "lo": -0.02241632356791317,
+  "hi": 0.005186040283723201,
+  "class": "negative"
+ },
+ "E3a_B_marginal": {
+  "delta": -0.010418294763674951,
+  "lo": -0.03685548171674947,
+  "hi": 0.010300120824463148,
+  "class": "negative"
+ },
+ "E3b": {
+  "logor": {
+   "delta": 0.04624725022364723,
+   "lo": -0.033427092211290484,
+   "hi": 0.13696316766879874,
+   "class": "negative"
+  },
+  "logpr": {
+   "delta": 0.02752738517566128,
+   "lo": -0.013386283888377154,
+   "hi": 0.06782667224334897,
+   "class": "negative"
+  },
+  "marg": {
+   "delta": 0.06306455007718736,
+   "lo": -0.00038102927282153,
+   "hi": 0.13377897809105183,
+   "class": "negative"
+  }
+ },
+ "shift_conv": -0.16755781141570392,
+ "shift_P_dmrx": 0.0026724231802454645,
+ "shift_P_bprx": -0.003929684421746432,
+ "RoE": {
+  "n_models": 1024,
+  "n_groups": 18,
+  "p2_5": 1.2619978890618204,
+  "p97_5": 1.446079837570141,
+  "roe": 1.1458654963719221,
+  "share_or_gt1": 1.0,
+  "n_failed_fits": 0
+ },
+ "seconds": 47
+}

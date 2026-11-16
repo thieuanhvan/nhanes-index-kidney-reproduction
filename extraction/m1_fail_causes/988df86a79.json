@@ -1,0 +1,42 @@
+{
+ "rec_id": "988df86a79",
+ "n_reported": 19317.0,
+ "n_repro": 7447,
+ "n_cc": 7447,
+ "n_xy": 19329,
+ "n_domain_y": 19329,
+ "weight": null,
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": true,
+ "covariate_loss_top5": [
+  [
+   "ldl",
+   10244,
+   true
+  ],
+  [
+   "tg",
+   10122,
+   true
+  ],
+  [
+   "glucose",
+   9976,
+   true
+  ],
+  [
+   "pir",
+   1732,
+   false
+  ],
+  [
+   "alc_dpd",
+   901,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

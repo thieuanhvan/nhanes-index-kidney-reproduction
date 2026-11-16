@@ -1,0 +1,42 @@
+{
+ "rec_id": "cde66dda6a",
+ "n_reported": 24387.0,
+ "n_repro": 17709,
+ "n_cc": 17709,
+ "n_xy": 20976,
+ "n_domain_y": 20976,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "pir3__high",
+   1746,
+   false
+  ],
+  [
+   "pir3__mid",
+   1746,
+   false
+  ],
+  [
+   "alcohol",
+   1218,
+   false
+  ],
+  [
+   "ldl",
+   423,
+   false
+  ],
+  [
+   "dx_hypertension",
+   76,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

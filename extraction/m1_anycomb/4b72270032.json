@@ -1,0 +1,36 @@
+{
+ "rec_id": "4b72270032",
+ "points_run": [
+  "estimate: Q4 vs Q1 1.83"
+ ],
+ "points_not_run": [
+  "abstract covariate description: list not specified"
+ ],
+ "combinations_defined": 4,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 1.58,
+   "or_repro": 1.463,
+   "dlogor": 0.0766,
+   "n_reported": 29847.0,
+   "n_repro": 31443,
+   "dn_rel": 0.0534
+  },
+  {
+   "combo": 1,
+   "label": "estimate: Q4 vs Q1 1.83",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 1.83,
+   "or_repro": 1.557,
+   "dlogor": 0.1617,
+   "n_reported": 29847.0,
+   "n_repro": 31443,
+   "dn_rel": 0.0534
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "rec_id": "76d45e5c64",
+ "points_run": [
+  "estimate: continuous UHR 1.10"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 6.73,
+   "or_repro": 5.821,
+   "dlogor": 0.1451,
+   "n_reported": 7138.0,
+   "n_repro": 530,
+   "dn_rel": 0.9257
+  },
+  {
+   "combo": 1,
+   "label": "estimate: continuous UHR 1.10",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.1,
+   "or_repro": 1.101,
+   "dlogor": 0.0008,
+   "n_reported": 7138.0,
+   "n_repro": 530,
+   "dn_rel": 0.9257
+  }
+ ]
+}

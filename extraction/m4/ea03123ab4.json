@@ -1,0 +1,62 @@
+{
+ "rec_id": "ea03123ab4",
+ "status": "run",
+ "n": 18571,
+ "xcol": "x",
+ "sd_x": 0.740452142334758,
+ "k_reported": 6.128,
+ "grid": [
+  4.693324945966958,
+  7.945723453125493
+ ],
+ "k_reported_in_range": true,
+ "covariates": [
+  "age60",
+  "female",
+  "race1__mexican_american",
+  "race1__nh_black",
+  "race1__other_hispanic",
+  "race1__other_multi",
+  "married",
+  "pir",
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "smoke_hist",
+  "htn",
+  "dm",
+  "cvd_history",
+  "bmi3__25to30",
+  "bmi3__ge30",
+  "tc",
+  "ldl",
+  "egfr_ckdepi2009"
+ ],
+ "collinear_dropped": [],
+ "k_hat": 6.20454041393961,
+ "rcs_wald": 50.852453131058425,
+ "rcs_p": 9.06838827970634e-12,
+ "rcs_F_p": 2.925666980318867e-10,
+ "k_ci": [
+  5.5064245727565915,
+  6.99710722187092
+ ],
+ "k_ci_width_sd": 2.013205937137246,
+ "boot_edge_share": 0.004,
+ "sim": {
+  "paper": {
+   "coverage": 0.63,
+   "power_localise": 0.62,
+   "slope_change": 1.451830927303072
+  },
+  "half": {
+   "coverage": 0.83,
+   "power_localise": 0.36,
+   "slope_change": 0.725915463651536
+  },
+  "neg_false_localisation": 0.95
+ },
+ "k_true_used": 6.128,
+ "class": "classification_invalid",
+ "class_0_5sd": "classification_invalid",
+ "seconds": 325
+}

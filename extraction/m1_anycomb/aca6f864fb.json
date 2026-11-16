@@ -1,0 +1,61 @@
+{
+ "rec_id": "aca6f864fb",
+ "points_run": [
+  "ACR >= 30",
+  "weight: dietary day 1"
+ ],
+ "points_not_run": [
+  "Model 2: gives the same reported OR; its covariate list is not in the builder"
+ ],
+ "combinations_defined": 8,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 0.74,
+   "or_repro": 0.7101,
+   "dlogor": 0.0412,
+   "n_reported": 25118.0,
+   "n_repro": 28334,
+   "dn_rel": 0.128
+  },
+  {
+   "combo": 1,
+   "label": "weight: dietary day 1",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 0.74,
+   "or_repro": 0.7302,
+   "dlogor": 0.0132,
+   "n_reported": 25118.0,
+   "n_repro": 28334,
+   "dn_rel": 0.128
+  },
+  {
+   "combo": 2,
+   "label": "ACR >= 30",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 0.74,
+   "or_repro": 0.7138,
+   "dlogor": 0.036,
+   "n_reported": 25118.0,
+   "n_repro": 28334,
+   "dn_rel": 0.128
+  },
+  {
+   "combo": 3,
+   "label": "ACR >= 30; weight: dietary day 1",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 0.74,
+   "or_repro": 0.7336,
+   "dlogor": 0.0087,
+   "n_reported": 25118.0,
+   "n_repro": 28334,
+   "dn_rel": 0.128
+  }
+ ]
+}

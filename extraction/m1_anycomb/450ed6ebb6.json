@@ -1,0 +1,61 @@
+{
+ "rec_id": "450ed6ebb6",
+ "points_run": [
+  "estimate: RC per SD 1.36",
+  "DKD requires ACR >= 30 and eGFR < 60"
+ ],
+ "points_not_run": [
+  "RCII as exposure: needs a new builder"
+ ],
+ "combinations_defined": 8,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 2.73,
+   "or_repro": 3.125,
+   "dlogor": 0.1352,
+   "n_reported": 5943.0,
+   "n_repro": 4266,
+   "dn_rel": 0.2821
+  },
+  {
+   "combo": 1,
+   "label": "DKD requires ACR >= 30 and eGFR < 60",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 2.73,
+   "or_repro": 3.868,
+   "dlogor": 0.3483,
+   "n_reported": 5943.0,
+   "n_repro": 4266,
+   "dn_rel": 0.2821
+  },
+  {
+   "combo": 2,
+   "label": "estimate: RC per SD 1.36",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.36,
+   "or_repro": 1.346,
+   "dlogor": 0.0102,
+   "n_reported": 5943.0,
+   "n_repro": 4266,
+   "dn_rel": 0.2821
+  },
+  {
+   "combo": 3,
+   "label": "estimate: RC per SD 1.36; DKD requires ACR >= 30 and eGFR < 60",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.36,
+   "or_repro": 1.076,
+   "dlogor": 0.2342,
+   "n_reported": 5943.0,
+   "n_repro": 4266,
+   "dn_rel": 0.2821
+  }
+ ]
+}

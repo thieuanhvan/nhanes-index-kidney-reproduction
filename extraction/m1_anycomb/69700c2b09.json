@@ -1,0 +1,34 @@
+{
+ "rec_id": "69700c2b09",
+ "points_run": [
+  "weight: pooled MEC"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 1.07,
+   "or_repro": 1.046,
+   "dlogor": 0.0222,
+   "n_reported": 4177.0,
+   "n_repro": 3636,
+   "dn_rel": 0.1295
+  },
+  {
+   "combo": 1,
+   "label": "weight: pooled MEC",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 1.07,
+   "or_repro": 1.055,
+   "dlogor": 0.0142,
+   "n_reported": 4177.0,
+   "n_repro": 3636,
+   "dn_rel": 0.1295
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+450ed6ebb6 run mec nC 4335 A negative  B negative neg negative pos negative 11 s
+53ca68a923 run mec nC 10421 A negative  B negative neg negative pos firm_positive 31 s
+76d45e5c64 run mec nC 560 A negative  B negative neg negative pos point_positive 12 s
+8a9e8d47ec run mec nC 4417 A negative -0.0354 B negative neg negative pos negative 18 s
+c48bec549c run mec nC 18720 A negative  B negative neg negative pos negative 48 s
+cef539b61e run mec nC 10959 A negative  B negative neg negative pos negative 54 s
+e76d3d1271 run fasting nC 16390 A negative -0.0171 B negative neg negative pos negative 48 s
+ea130293e0 run mec nC 1682 A negative 0.0015 B negative neg negative pos negative 8 s
+f6e85f9043 run mec nC 10120 A negative  B negative neg negative pos negative 43 s

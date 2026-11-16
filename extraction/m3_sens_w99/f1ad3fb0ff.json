@@ -1,0 +1,100 @@
+{
+ "rec_id": "f1ad3fb0ff",
+ "family": "F1_tyg",
+ "dag_family": "D1",
+ "flag_outcome_component": false,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|alcohol|lipid_drugs",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x",
+ "target_sd": 0.6837276509463844,
+ "n_terms": 18,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_alc",
+  "c_lipid_rx"
+ ],
+ "n_common": 7628,
+ "n_paper_sample": 9186,
+ "n_neg": 6872,
+ "pir_missing_rate": 0.09534859192068347,
+ "full": {
+  "P": {
+   "logor": 0.2189062015691165,
+   "se": 0.06248621961319856,
+   "n": 7628
+  },
+  "Ps": {
+   "logor": 0.23092855827257872,
+   "se": 0.056480312105872364,
+   "n": 9186
+  },
+  "Pn": {
+   "logor": 0.2028783966287312,
+   "se": 0.06322234606733564,
+   "n": 6872
+  },
+  "N": {
+   "logor": 0.20134653529052318,
+   "se": 0.06311634646258128,
+   "n": 6872
+  },
+  "A": {
+   "logor": 0.21179916858443684,
+   "se": 0.06418569718302589,
+   "n": 7628
+  },
+  "B": {
+   "logor": 0.21901225230128563,
+   "se": 0.06397366721617725,
+   "n": 7628
+  },
+  "Q": {
+   "logor": 0.223514158849574,
+   "se": 0.061998788018784334,
+   "n": 7628
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.012022356703462217,
+ "E3a_A": {
+  "delta": -0.0071070329846796565,
+  "lo": -0.01806439002952551,
+  "hi": 0.0013483016472583588,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": 0.0001060507321691273,
+  "lo": -0.012054289985202778,
+  "hi": 0.010253606339816448,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.0015318613382080126,
+  "lo": -0.006745373374054659,
+  "hi": 0.0022167700214703674,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.004607957280457514,
+  "lo": -0.0150564947921752,
+  "hi": 0.007234968220155599,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "seconds": 28
+}

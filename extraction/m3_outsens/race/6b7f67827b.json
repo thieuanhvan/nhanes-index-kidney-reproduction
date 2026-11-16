@@ -1,0 +1,104 @@
+{
+ "rec_id": "6b7f67827b",
+ "family": "F1_tyg",
+ "dag_family": "D1",
+ "flag_outcome_component": false,
+ "missing_A": "pir|race",
+ "missing_B": "lipid_drugs|physical_activity|pir|race",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "x",
+ "target_sd": 11.347943261028039,
+ "n_terms": 13,
+ "added_A": [
+  "pir",
+  "race1__mexican_american",
+  "race1__nh_black",
+  "race1__other_hispanic",
+  "race1__other_multi"
+ ],
+ "added_B": [
+  "c_lipid_rx",
+  "c_pa",
+  "pir",
+  "race1__mexican_american",
+  "race1__nh_black",
+  "race1__other_hispanic",
+  "race1__other_multi"
+ ],
+ "n_common": 7756,
+ "n_paper_sample": 8641,
+ "n_neg": 6991,
+ "pir_missing_rate": 0.09713905522288756,
+ "full": {
+  "P": {
+   "logor": 0.21931582965668475,
+   "se": 0.04798538654648548,
+   "n": 7756
+  },
+  "Ps": {
+   "logor": 0.22045163588615826,
+   "se": 0.04645647748382204,
+   "n": 8641
+  },
+  "Pn": {
+   "logor": 0.23204717974906952,
+   "se": 0.05021181667886735,
+   "n": 6991
+  },
+  "N": {
+   "logor": 0.23217147144983966,
+   "se": 0.05022699143844417,
+   "n": 6991
+  },
+  "A": {
+   "logor": 0.2172099132194071,
+   "se": 0.0505689225344391,
+   "n": 7756
+  },
+  "B": {
+   "logor": 0.21319890519597043,
+   "se": 0.04820689158684101,
+   "n": 7756
+  },
+  "Q": {
+   "logor": 0.2751417571974217,
+   "se": 0.045998708508161325,
+   "n": 7756
+  }
+ },
+ "boot_failed_fits": 33,
+ "log": [],
+ "sample_change": 0.0011358062294735127,
+ "E3a_A": {
+  "delta": -0.002105916437277644,
+  "lo": -0.009441931436684056,
+  "hi": 0.003203562741253972,
+  "n_boot": 84,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.006116924460714324,
+  "lo": -0.014203751435052345,
+  "hi": 0.0012749305992556248,
+  "n_boot": 83,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 0.00012429170077013496,
+  "lo": -0.0010614213944254082,
+  "hi": 0.001244894218257795,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.055825927540736925,
+  "lo": -0.07299657757959145,
+  "hi": -0.03352782301547148,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 11
+}

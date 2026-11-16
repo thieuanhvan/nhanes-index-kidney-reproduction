@@ -1,0 +1,44 @@
+{
+ "rec_id": "b966d3cfdc",
+ "n_reported": 4353.0,
+ "n_repro": 5290,
+ "n_cc": 5290,
+ "n_xy": 5398,
+ "n_domain_y": 5398,
+ "weight": "w",
+ "exposure_terms": [
+  "x_q2",
+  "x_q3",
+  "x_q4"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": true,
+ "covariate_loss_top5": [
+  [
+   "htn",
+   70,
+   false
+  ],
+  [
+   "educ3__gt_hs",
+   30,
+   false
+  ],
+  [
+   "educ3__hs_ged",
+   30,
+   false
+  ],
+  [
+   "smoke_yes",
+   16,
+   false
+  ],
+  [
+   "uric_acid",
+   2,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

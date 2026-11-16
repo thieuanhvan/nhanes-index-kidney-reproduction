@@ -1,0 +1,43 @@
+{
+ "rec_id": "9cd1df095e",
+ "n_reported": 7772.0,
+ "n_repro": 2758,
+ "n_cc": 2758,
+ "n_xy": 3683,
+ "n_domain_y": 3683,
+ "n_xy_noweight": 7775,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "pir",
+   491,
+   false
+  ],
+  [
+   "sbp",
+   321,
+   false
+  ],
+  [
+   "dbp",
+   321,
+   false
+  ],
+  [
+   "alcohol",
+   182,
+   false
+  ],
+  [
+   "bmi",
+   46,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

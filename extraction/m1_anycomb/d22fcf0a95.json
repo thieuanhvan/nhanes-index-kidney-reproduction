@@ -1,0 +1,46 @@
+{
+ "rec_id": "d22fcf0a95",
+ "points_run": [
+  "estimate: continuous NPAR 1.099 or Q4 vs Q1 1.86"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.14,
+   "or_repro": 1.096,
+   "dlogor": 0.0392,
+   "n_reported": 25236.0,
+   "n_repro": 20708,
+   "dn_rel": 0.1794
+  },
+  {
+   "combo": 1,
+   "label": "estimate: continuous NPAR 1.099 or Q4 vs Q1 1.86",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.099,
+   "or_repro": 1.088,
+   "dlogor": 0.01,
+   "n_reported": 25236.0,
+   "n_repro": 20708,
+   "dn_rel": 0.1794
+  },
+  {
+   "combo": 2,
+   "label": "estimate: continuous NPAR 1.099 or Q4 vs Q1 1.86",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.86,
+   "or_repro": 1.745,
+   "dlogor": 0.0638,
+   "n_reported": 25236.0,
+   "n_repro": 20708,
+   "dn_rel": 0.1794
+  }
+ ]
+}

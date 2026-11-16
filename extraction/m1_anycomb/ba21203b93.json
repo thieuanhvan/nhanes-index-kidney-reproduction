@@ -1,0 +1,37 @@
+{
+ "rec_id": "ba21203b93",
+ "points_run": [
+  "estimate: continuous FPSA/TPSA x 100, 1.03"
+ ],
+ "points_not_run": [
+  "TPSA as exposure: needs a new builder",
+  "abstract covariate list: needs a new builder"
+ ],
+ "combinations_defined": 8,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 2.16,
+   "or_repro": 1.554,
+   "dlogor": 0.3294,
+   "n_reported": 1681.0,
+   "n_repro": 1456,
+   "dn_rel": 0.1338
+  },
+  {
+   "combo": 1,
+   "label": "estimate: continuous FPSA/TPSA x 100, 1.03",
+   "status": "run",
+   "rank": "near_pass",
+   "or_reported": 1.03,
+   "or_repro": 1.023,
+   "dlogor": 0.0071,
+   "n_reported": 1681.0,
+   "n_repro": 1456,
+   "dn_rel": 0.1338
+  }
+ ]
+}

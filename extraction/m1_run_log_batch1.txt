@@ -1,0 +1,44 @@
+0717542568 not_testable  OR 0.57 ->  N 4978 ->  specification undefined under reading_1: the reported '< 1.2' copper/zinc catego
+1c8c318fda run fail OR 1.81 -> 1.887 N 10968 -> 14419 written before first execution; no post-run changes
+250e5761d5 run fail OR 1.47 -> 1.022 N 7760 -> 13121 builder by agent 15/11. Post-run change required by prereg section 4 missing-dat
+259b9d6255 run strict_pass OR 1.6 -> 1.517 N 5330 -> 4863 builder written by an M1 agent 15/11/2026; quartile cuts on the domain 10.83, 11
+2ecb3dff61 not_testable  OR 1.245 ->  N 17859 ->  exposure (DXA trunk fat / trunk lean) absent for 1999-2006 (DXA multiple-imputat
+30eae6044c run fail OR 1.33 -> 1.307 N 2770 -> 3757 builder by agent 15/11. Post-run change required by prereg section 4 missing-dat
+3865be04bf run fail OR 1.85 -> 88.14 N 28231 -> 31121 builder by agent 15/11
+4b72270032 run strict_pass OR 1.58 -> 1.463 N 29847 -> 31443 units of BUN, glucose kept in NHANES conventional units (scale does not change t
+4de61a08ed run near_pass OR 0.93 -> 0.8794 N 13971 -> 12086 segment coding gives the slope below and the slope above the knot as separate co
+53ca68a923 run fail OR 0.705 -> 0.6844 N 26996 -> 10490 builder by agent 15/11; quartile cuts on domain [1.7694, 4.1855, 10.4999]
+69700c2b09 run fail OR 1.07 -> 1.066 N 4177 -> 2988 written before first execution; no post-run changes
+6b7f67827b run strict_pass OR 1.021 -> 1.02 N 9182 -> 8641 builder by agent 15/11; first version kept the paper's Unknown levels (Table 2).
+76d45e5c64 run fail OR 6.73 -> 5.821 N 7138 -> 530 builder written by an M1 agent 15/11/2026; quartile cuts on the domain 9.09, 12.
+78c5287646 run strict_pass OR 0.64 -> 0.6043 N 2720 -> 2590 builder written by an M1 agent 15/11/2026
+79f1e21c4c run fail OR 4.03 -> 1.465 N 18078 -> 17677 written before first execution; no post-run changes
+8991f10763 run strict_pass OR 1.05 -> 1.049 N 24386 -> 25403 domain = adults >= 20 with CKD and AISI data; covariate completeness applied by 
+8a9e8d47ec run fail OR 1.37 -> 1.446 N 15360 -> 4886 the paper does not report missing-data handling; Table 1 shows CRP and FPG summa
+94132d0c1a run strict_pass OR 1.24 -> 1.232 N 41089 -> 37018 builder written by an M1 agent 15/11/2026
+9835a67923 run fail OR 0.78 -> 0.7646 N 3218 -> 2506 DOBS quartile cut points in the domain: [11.0, 16.0, 22.0]
+988df86a79 run fail OR 1.16 -> 1.154 N 19317 -> 7447 written before first execution; no post-run changes
+9cd1df095e run fail OR 1.13 -> 1.183 N 7772 -> 2758 written before first execution; no post-run changes
+9e2e6087fa not_testable  OR 1.19 ->  N 22607 ->  index cannot be reconstructed: DII: the paper states 28 components but names 27 
+ac96396902 run near_pass OR 2.1 -> 1.718 N 15681 -> 16420 ALBI per INDEX['ALBI']: log10 bilirubin umol/L * 0.66 - 0.085 * albumin g/L
+aca6f864fb run near_pass OR 0.74 -> 0.7101 N 25118 -> 28334 OBS quartile cut points on domain: [15.0, 21.0, 27.0] (truncated)
+c48bec549c run fail OR 1.13 -> 1.063 N 23879 -> 17711 domain = age >= 18, not pregnant, FSI computable, ACR present. Post-run technica
+c62af9091f run strict_pass OR 0.99 -> 0.9971 N 24538 -> 24376 CRP 1999-2010 from LAB11/L11_B/L11_C/CRP_D-F (LBXCRP mg/dL x 10 = mg/L in crp_mg
+C:\Users\Win\anaconda3\Lib\site-packages\pandas\core\arraylike.py:399: RuntimeWarning: divide by zero encountered in log
+  result = getattr(ufunc, method)(*inputs, **kwargs)
+cde66dda6a run fail OR 1.86 -> 0.967 N 24387 -> 17709 builder by agent 15/11
+cf0849f17f run fail OR 1.42 -> 1.334 N 3937 -> 2908 builder written by an M1 agent 15/11/2026
+d22fcf0a95 run fail OR 1.14 -> 1.096 N 25236 -> 20708 NPAR quartile cut points on domain: [12.0238, 13.6511, 15.35] (truncated)
+d84bd11e2e run fail OR 1.4 -> 1.225 N 2371 -> 3082 marital status is listed among covariates but is in none of the model sets; not 
+e1d9d038bb run fail OR 2.43 -> 2.6 N 4010 -> 3292 ln-UHR quartile cut points in the domain: [2.209, 2.497, 2.769]
+e76d3d1271 run fail OR 1.08 -> 1.096 N 21765 -> 17919 CMI unit chosen from Table 1 before the first execution; it differs from the rec
+C:\Users\Win\anaconda3\Lib\site-packages\pandas\core\arraylike.py:399: RuntimeWarning: divide by zero encountered in log
+  result = getattr(ufunc, method)(*inputs, **kwargs)
+ea03123ab4 run near_pass OR 1.406 -> 1.479 N 22514 -> 19467 domain needs the fasting subsample (FPG and TG in METS-IR); regression unweighte
+ea130293e0 run fail OR 1.46 -> 1.584 N 3734 -> 1902 LDL-C restricts the complete cases to the fasting subsample, hence fasting weigh
+edaf91172c run fail OR 0.35 -> 0.2752 N 19426 -> 27246 weighted per spec; quartile cut points in the paper not used (continuous target)
+f1ad3fb0ff run near_pass OR 1.391 -> 1.432 N 9872 -> 8756 template builder written by the main session
+fad26f18b1 run fail OR 0.97 -> 1.0 N 25181 -> 20655 paper used multiple imputation for missing covariates; M1 fit is complete case. 
+fe82b9da6a not_testable  OR 1.42 ->  N 1618 ->  index cannot be reconstructed: OBS: the paper does not name its 16 dietary compo
+fea693ee81 not_testable  OR 0.98 ->  N 16431 ->  index cannot be reconstructed: LC9 diet metric needs HEI-2015 from USDA FPED (th
+ff27565860 run fail OR 1.06 -> 1.075 N 8329 -> 5351 2017-2020 release used instead of 2017-2018 (spec cycles say 2017-2020 pre-pande

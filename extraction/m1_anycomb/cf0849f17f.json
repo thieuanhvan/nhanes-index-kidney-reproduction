@@ -1,0 +1,34 @@
+{
+ "rec_id": "cf0849f17f",
+ "points_run": [
+  "covariates: Methods list without BMI, Scr, eGFR"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.42,
+   "or_repro": 1.334,
+   "dlogor": 0.0624,
+   "n_reported": 3937.0,
+   "n_repro": 2908,
+   "dn_rel": 0.2613
+  },
+  {
+   "combo": 1,
+   "label": "covariates: Methods list without BMI, Scr, eGFR",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.42,
+   "or_repro": 1.455,
+   "dlogor": 0.0242,
+   "n_reported": 3937.0,
+   "n_repro": 2937,
+   "dn_rel": 0.254
+  }
+ ]
+}

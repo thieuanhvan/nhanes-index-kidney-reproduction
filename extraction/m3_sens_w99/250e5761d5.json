@@ -1,0 +1,90 @@
+{
+ "rec_id": "250e5761d5",
+ "family": "F4_lipid_anthro",
+ "dag_family": "D4b",
+ "flag_outcome_component": false,
+ "missing_A": "pir",
+ "missing_B": "pir",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x",
+ "target_sd": 7.222085113712376,
+ "n_terms": 15,
+ "added_A": [
+  "pir"
+ ],
+ "added_B": [
+  "pir"
+ ],
+ "n_common": 11959,
+ "n_paper_sample": 13121,
+ "n_neg": 10870,
+ "pir_missing_rate": 0.09188998589562765,
+ "full": {
+  "P": {
+   "logor": 0.14342040315141213,
+   "se": 0.08380245776785854,
+   "n": 11959
+  },
+  "Ps": {
+   "logor": 0.1285217386841296,
+   "se": 0.0795909856156421,
+   "n": 13121
+  },
+  "Pn": {
+   "logor": 0.1746669070113185,
+   "se": 0.08184113336364186,
+   "n": 10870
+  },
+  "N": {
+   "logor": 0.17460457051099582,
+   "se": 0.0818956051008564,
+   "n": 10870
+  },
+  "A": {
+   "logor": 0.12024321484857177,
+   "se": 0.08577944378846145,
+   "n": 11959
+  },
+  "Q": {
+   "logor": 0.6423935936753892,
+   "se": 0.05898798137399509,
+   "n": 11959
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.014898664467282524,
+ "E3a_A": {
+  "delta": -0.023177188302840365,
+  "lo": -0.04028638031963399,
+  "hi": -0.010634788626186784,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.023177188302840365,
+  "lo": -0.04028638031963399,
+  "hi": -0.010634788626186784,
+  "n_boot": 500,
+  "class": "negative",
+  "note": "DAG B adds the same variables as DAG A"
+ },
+ "neg_control": {
+  "delta": -6.233650032269611e-05,
+  "lo": -0.0032573064046382523,
+  "hi": 0.00254819622103942,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": -0.49897319052397704,
+  "lo": -0.5877791970472214,
+  "hi": -0.42013295682173707,
+  "n_boot": 500,
+  "class": "firm_positive"
+ },
+ "seconds": 32
+}

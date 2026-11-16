@@ -1,0 +1,59 @@
+{
+ "rec_id": "259b9d6255",
+ "status": "run",
+ "n": 4863,
+ "xcol": "x",
+ "sd_x": 0.8085186999204358,
+ "k_reported": 11.36,
+ "grid": [
+  9.46563367817723,
+  13.109565560659322
+ ],
+ "k_reported_in_range": true,
+ "covariates": [
+  "age_g__middle",
+  "age_g__old",
+  "female",
+  "race1__nh_black",
+  "race1__nh_white",
+  "race1__other_hispanic",
+  "race1__other_multi",
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "smk100",
+  "htn",
+  "dm",
+  "hyperlip",
+  "calcium",
+  "phos"
+ ],
+ "collinear_dropped": [],
+ "k_hat": 13.109565560659322,
+ "rcs_wald": 5.0960086262526,
+ "rcs_p": 0.07823764815106275,
+ "rcs_F_p": 0.083631423069849,
+ "k_ci": [
+  9.46563367817723,
+  13.109565560659322
+ ],
+ "k_ci_width_sd": 4.5069234426373574,
+ "boot_edge_share": 0.068,
+ "sim": {
+  "paper": {
+   "coverage": 0.66,
+   "power_localise": 0.03,
+   "slope_change": -0.29743264953088655
+  },
+  "half": {
+   "coverage": 0.74,
+   "power_localise": 0.03,
+   "slope_change": -0.14871632476544328
+  },
+  "neg_false_localisation": 0.41
+ },
+ "k_true_used": 11.36,
+ "class": "classification_invalid",
+ "class_0_5sd": "classification_invalid",
+ "seconds": 270
+}

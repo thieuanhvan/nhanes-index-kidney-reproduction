@@ -1,0 +1,34 @@
+{
+ "rec_id": "988df86a79",
+ "points_run": [
+  "reported N 19,371"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.16,
+   "or_repro": 1.154,
+   "dlogor": 0.0052,
+   "n_reported": 19317.0,
+   "n_repro": 7447,
+   "dn_rel": 0.6144
+  },
+  {
+   "combo": 1,
+   "label": "reported N 19,371",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 1.16,
+   "or_repro": 1.154,
+   "dlogor": 0.0052,
+   "n_reported": 19371.0,
+   "n_repro": 7447,
+   "dn_rel": 0.6155
+  }
+ ]
+}

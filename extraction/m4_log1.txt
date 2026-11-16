@@ -1,0 +1,27 @@
+94132d0c1a run classification_invalid k_rep 2.04 k_hat 3.1848558523019164 ci [1.2478078423507106, 4.224210904719951] w/sd 3.5908733332862903 1206
+fad26f18b1 run classification_invalid k_rep 52.43 k_hat 38.425125982482506 ci [32.25073035235688, 68.47385138242721] w/sd 0.6675569067767313 385
+c48bec549c run classification_invalid k_rep -3.22 k_hat -3.253525938895871 ci [-3.749274637611384, -0.43382336689323353] w/sd 1.7736128226393455 473
+79f1e21c4c run classification_invalid k_rep 8.21 k_hat 8.94020573816336 ci [7.240649694255466, 9.379497766461586] w/sd 3.497215106009529 366
+Traceback (most recent call last):
+  File "<workdir>/tools\m4_run_i139.py", line 177, in main
+    res = run(rid, T, L)
+  File "<workdir>/tools\m4_run_i139.py", line 79, in run
+    ll, betas = profile(Z, x, yy, ww, grid)
+                ~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "<workdir>/tools\m4_run_i139.py", line 45, in profile
+    b = fit(X, y, w, None if b is None or len(b) != X.shape[1] else b)
+  File "<workdir>/tools\m4_run_i139.py", line 35, in fit
+    beta, _ = C.irls(X, y, w, beta0=b0, it=30, tol=1e-7)
+              ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workdir>/tools\m23_common_i139.py", line 177, in irls
+    step = np.linalg.solve(H, g)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+4de61a08ed error None k_rep None k_hat None ci None w/sd None None
+f6e85f9043 run classification_invalid k_rep 8.0 k_hat 9.875806315701958 ci [5.910396101851458, 9.916269685231045] w/sd 4.542474529898405 1150
+259b9d6255 run classification_invalid k_rep 11.36 k_hat 13.109565560659322 ci [9.46563367817723, 13.109565560659322] w/sd 4.5069234426373574 300
+450ed6ebb6 run classification_invalid k_rep 49.85 k_hat 5.0 ci [5.0, 15.0] w/sd 0.7787207170361572 324
+69700c2b09 run classification_invalid k_rep 2.66 k_hat 2.2524555196583647 ci [0.8987231001901153, 5.862408638240364] w/sd 2.9276710239269916 207

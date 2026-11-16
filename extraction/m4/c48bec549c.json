@@ -1,0 +1,67 @@
+{
+ "rec_id": "c48bec549c",
+ "status": "run",
+ "n": 17711,
+ "xcol": "x",
+ "sd_x": 1.8693207606519033,
+ "k_reported": -3.22,
+ "grid": [
+  -4.0973535111775945,
+  4.256539454411465
+ ],
+ "k_reported_in_range": true,
+ "covariates": [
+  "age2__ge60",
+  "female",
+  "race1__mexican_american",
+  "race1__nh_black",
+  "race1__other_hispanic",
+  "race1__other_multi",
+  "bmi2__ge30",
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "marital2__alone",
+  "pir3__1.3_3.5",
+  "pir3__ge3.5",
+  "albumin_serum",
+  "uric_acid",
+  "hyperlip",
+  "dm",
+  "drink3__current",
+  "drink3__former",
+  "hypertension_any_130",
+  "vig",
+  "mod",
+  "smoking__current",
+  "smoking__former",
+  "egfr2__lt60"
+ ],
+ "collinear_dropped": [],
+ "k_hat": -3.253525938895871,
+ "rcs_wald": 30.635250352827278,
+ "rcs_p": 2.2265882351937215e-07,
+ "rcs_F_p": 8.634884355764585e-07,
+ "k_ci": [
+  -3.749274637611384,
+  -0.43382336689323353
+ ],
+ "k_ci_width_sd": 1.7736128226393455,
+ "boot_edge_share": 0.024,
+ "sim": {
+  "paper": {
+   "coverage": 0.46,
+   "power_localise": 0.46,
+   "slope_change": 1.557207057863962
+  },
+  "half": {
+   "coverage": 0.66,
+   "power_localise": 0.49,
+   "slope_change": 0.778603528931981
+  },
+  "neg_false_localisation": 0.97
+ },
+ "k_true_used": -3.22,
+ "class": "classification_invalid",
+ "class_0_5sd": "classification_invalid",
+ "seconds": 476
+}

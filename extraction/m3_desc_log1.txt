@@ -1,0 +1,62 @@
+  p0 = np.average(1 / (1 + np.exp(-(X0 @ beta))), weights=w)
+  p1 = np.average(1 / (1 + np.exp(-(X1 @ beta))), weights=w)
+f6e85f9043 run E3b negative PR_A None RoE 1.464 38
+f1ad3fb0ff run E3b firm_positive PR_A negative RoE 1.254 28
+d22fcf0a95 run E3b negative PR_A negative RoE 1.082 82
+ea130293e0 run E3b point_positive PR_A negative RoE 1.152 12
+cef539b61e run E3b negative PR_A None RoE 1.081 53
+53ca68a923 run E3b negative PR_A None RoE 1.864 35
+cf0849f17f run E3b point_positive PR_A None RoE 1.178 22
+8991f10763 run E3b negative PR_A None RoE 1.07 68
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_desc_i139.py", line 214, in main
+    res = run(rid, T, L)
+  File "<workdir>/tools\m3_desc_i139.py", line 134, in run
+    bl, _ = C.irls(Xm, yy, ww)
+            ~~~~~~^^^^^^^^^^^^
+  File "<workdir>/tools\m23_common_i139.py", line 177, in irls
+    step = np.linalg.solve(H, g)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+988df86a79 error E3b None PR_A None RoE nan None
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_desc_i139.py", line 214, in main
+    res = run(rid, T, L)
+  File "<workdir>/tools\m3_desc_i139.py", line 134, in run
+    bl, _ = C.irls(Xm, yy, ww)
+            ~~~~~~^^^^^^^^^^^^
+  File "<workdir>/tools\m23_common_i139.py", line 177, in irls
+    step = np.linalg.solve(H, g)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+aca6f864fb error E3b None PR_A None RoE nan None
+9835a67923 run E3b negative PR_A negative RoE 1.389 21
+b966d3cfdc run E3b negative PR_A negative RoE 1.888 20
+cde66dda6a run E3b negative PR_A negative RoE 2.738 79
+Traceback (most recent call last):
+  File "<workdir>/tools\m3_desc_i139.py", line 214, in main
+    res = run(rid, T, L)
+  File "<workdir>/tools\m3_desc_i139.py", line 134, in run
+    bl, _ = C.irls(Xm, yy, ww)
+            ~~~~~~^^^^^^^^^^^^
+  File "<workdir>/tools\m23_common_i139.py", line 177, in irls
+    step = np.linalg.solve(H, g)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 471, in solve
+    r = gufunc(a, b, signature=signature)
+  File "C:\Users\Win\anaconda3\Lib\site-packages\numpy\linalg\_linalg.py", line 163, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+76d45e5c64 error E3b None PR_A None RoE nan None
+e76d3d1271 run E3b point_positive PR_A negative RoE 1.216 59
+69700c2b09 run E3b negative PR_A None RoE 1.174 23
+ff27565860 run E3b negative PR_A None RoE 1.15 31
+ac96396902 run E3b None PR_A negative RoE 1.196 39
+ba21203b93 run E3b negative PR_A negative RoE 1.157 12
+edaf91172c run E3b firm_positive PR_A None RoE 1.202 65
+d84bd11e2e run E3b negative PR_A None RoE 1.145 14

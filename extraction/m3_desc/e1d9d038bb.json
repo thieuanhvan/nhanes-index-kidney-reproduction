@@ -1,0 +1,83 @@
+{
+ "rec_id": "e1d9d038bb",
+ "status": "run",
+ "n_common": 3283,
+ "weight_kind": "mec",
+ "binary_target": true,
+ "term_map": {
+  "age": "confounder_like",
+  "female": "confounder_like",
+  "race1__mexican_american": "confounder_like",
+  "race1__nh_black": "confounder_like",
+  "race1__other_hispanic": "confounder_like",
+  "race1__other_multi": "confounder_like",
+  "educ3__gt_hs": "confounder_like",
+  "educ3__hs_ged": "confounder_like",
+  "pir": "confounder_like",
+  "smk100": "confounder_like",
+  "drink": "confounder_like",
+  "bmi": "bmi_waist",
+  "hba1c": "glycaemia_measured",
+  "hypertension_any_140": "hypertension_dx"
+ },
+ "log": [],
+ "k_concepts": [],
+ "k_terms_dropped_E3b": [],
+ "point": {
+  "P": {
+   "logor": 0.9598248551116089,
+   "logpr": 0.5338094659462332,
+   "marg_logor": 0.8142131324063151
+  },
+  "E3b": {
+   "logor": 0.9598248551116089,
+   "logpr": 0.5338094659462332,
+   "marg_logor": 0.8142131324063151
+  },
+  "conv": {
+   "logor": 0.6742692847190506,
+   "logpr": 0.3690128048287628,
+   "marg_logor": 0.6023136251265389
+  },
+  "P_dmrx": {
+   "logor": 0.9605051262493135,
+   "logpr": 0.5327801892960382,
+   "marg_logor": 0.814389472285154
+  },
+  "P_bprx": {
+   "logor": 0.9653745933599064,
+   "logpr": 0.5372475889079094,
+   "marg_logor": 0.816935977955485
+  },
+  "B": {
+   "logor": 0.9599937691925093,
+   "logpr": 0.5335035340509713,
+   "marg_logor": 0.8141274816693269
+  }
+ },
+ "E3a_B_PR": {
+  "delta": -0.0003059318952619572,
+  "lo": -0.0070633978835925116,
+  "hi": 0.0047773219057089325,
+  "class": "negative"
+ },
+ "E3a_B_marginal": {
+  "delta": -8.565073698818537e-05,
+  "lo": -0.009878786656034302,
+  "hi": 0.007111704605347348,
+  "class": "negative"
+ },
+ "shift_conv": -0.2855555703925583,
+ "shift_P_dmrx": 0.0006802711377046355,
+ "shift_P_bprx": 0.00554973824829752,
+ "RoE": {
+  "n_models": 1024,
+  "n_groups": 11,
+  "p2_5": 2.256065183157161,
+  "p97_5": 2.907861003341031,
+  "roe": 1.2889082394648457,
+  "share_or_gt1": 1.0,
+  "n_failed_fits": 0
+ },
+ "seconds": 14
+}

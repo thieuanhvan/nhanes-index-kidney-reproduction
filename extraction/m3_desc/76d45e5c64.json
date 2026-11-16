@@ -1,0 +1,108 @@
+{
+ "rec_id": "76d45e5c64",
+ "status": "run",
+ "n_common": 530,
+ "weight_kind": "fasting",
+ "binary_target": true,
+ "term_map": {
+  "age": "confounder_like",
+  "female": "confounder_like",
+  "race1__nh_black": "confounder_like",
+  "race1__nh_white": "confounder_like",
+  "race1__other_hispanic": "confounder_like",
+  "race1__other_multi": "confounder_like",
+  "educ3__gt_hs": "confounder_like",
+  "educ3__hs_ged": "confounder_like",
+  "pir": "confounder_like",
+  "coupled": "other",
+  "smoking__current": "confounder_like",
+  "smoking__former": "confounder_like",
+  "drink__heavy": "confounder_like",
+  "drink__moderate": "confounder_like",
+  "pa_high": "confounder_like",
+  "antidm": "other",
+  "antilip": "other",
+  "dm_dur": "diabetes_dx",
+  "htn": "hypertension_dx",
+  "cvd_history": "cvd",
+  "bmi_g__25_30": "bmi_waist",
+  "bmi_g__ge30": "bmi_waist",
+  "glucose": "glycaemia_measured",
+  "hba1c": "glycaemia_measured",
+  "ldl": "lipids",
+  "wbc": "inflammation",
+  "hgb": "hemoglobin",
+  "neut_n": "inflammation"
+ },
+ "log": [
+  "model P_dmrx: ridge fallback"
+ ],
+ "k_concepts": [
+  "cvd",
+  "lipids"
+ ],
+ "k_terms_dropped_E3b": [
+  "cvd_history",
+  "ldl"
+ ],
+ "point": {
+  "P": {
+   "logor": 1.761462625326333,
+   "logpr": 0.9500920837199589,
+   "marg_logor": 1.3426397229866152
+  },
+  "E3b": {
+   "logor": 1.8037468762688535,
+   "logpr": 0.9711151778013922,
+   "marg_logor": 1.3862184761127674
+  },
+  "conv": {
+   "logor": 1.157030660841699,
+   "logpr": 0.6520619458112926,
+   "marg_logor": 1.0212234369754176
+  },
+  "P_dmrx": {
+   "logor": 1.760937098722492,
+   "logpr": 0.9500920837199585,
+   "marg_logor": 1.342323281714597
+  },
+  "P_bprx": {
+   "logor": 1.7212872129481003,
+   "logpr": 0.9334355272377582,
+   "marg_logor": 1.3092166389939859
+  }
+ },
+ "E3b": {
+  "logor": {
+   "delta": 0.04228425094252053,
+   "lo": -0.11820101645935012,
+   "hi": 0.20402904675337727,
+   "class": "negative"
+  },
+  "logpr": {
+   "delta": 0.021023094081433324,
+   "lo": -0.06337757088745569,
+   "hi": 0.13366021964897706,
+   "class": "negative"
+  },
+  "marg": {
+   "delta": 0.043578753126152225,
+   "lo": -0.052351851454417515,
+   "hi": 0.2344206584615957,
+   "class": "negative"
+  }
+ },
+ "shift_conv": -0.6044319644846341,
+ "shift_P_dmrx": -0.0005255266038410866,
+ "shift_P_bprx": -0.040175412378232744,
+ "RoE": {
+  "n_models": 1024,
+  "n_groups": 21,
+  "p2_5": 4.146910966560666,
+  "p97_5": 7.996056812540824,
+  "roe": 1.928195921498776,
+  "share_or_gt1": 1.0,
+  "n_failed_fits": 0
+ },
+ "seconds": 23
+}

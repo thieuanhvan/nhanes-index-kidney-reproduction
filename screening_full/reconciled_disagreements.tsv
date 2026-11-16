@@ -1,0 +1,17 @@
+rec_id	decision	reason_code	flag_outcome_component	flag_exposure_descendant	rationale
+1d1ae107ea	unclear	UN_OUTCOME	0	0	The reported estimates treat UACR as a continuous variable (beta in mg/g) despite the mention of logistic regression, so a prevalent albuminuria or CKD outcome cannot be confirmed from the abstract.
+1eaf556d68	include	INC_ALL_MET	0	1	NHANES supplies a separable cross-sectional DKD analysis among diabetics alongside CHARLS, adjusted models are reported, and the CHG index contains glucose in a diabetes-restricted sample.
+3af77fbc34	exclude	EX_NOT_INDEX	0	0	The exposures are single predictors such as age, sex and initial ACR rather than an index, and EX_NOT_INDEX (priority 5) precedes EX_OUTCOME_NOT_KIDNEY (priority 8).
+53499e1e58	include	INC_ALL_MET	1	0	Condition 1 fails only when NHANES is not a data source; here the NHANES cohort is a separable cross-sectional analysis with multivariable logistic regression on prevalent DKD, and UHR with a DKD (eGFR-including) outcome sets the outcome-component flag.
+6f008a578b	exclude	EX_CKD_MORTALITY_PROGRESSION	1	0	The outcomes are CVD and mortality in people who already have DKD, and the standard MDS includes an eGFR (creatinine-based) component, so the flag is set.
+8cf96b7caf	exclude	EX_NOT_INDEX	0	0	The main exposure is hyperuricemia, a single measured quantity, and EX_NOT_INDEX precedes EX_OUTCOME_NOT_KIDNEY in the priority order.
+91d2bce25f	exclude	EX_OUTCOME_NOT_KIDNEY	1	0	The outcome is stroke, not a kidney outcome or mortality, and the standard MDS includes an eGFR (creatinine-based) component, so the flag is set.
+931b980db4	exclude	EX_KIDNEY_EXPOSURE	1	0	CKD is the exposure and presbycusis the outcome; the index studied, NPAR, is a named example that sets the outcome-component flag.
+96fe1738c5	unclear	UN_ESTIMATE	0	0	Data source, ratio exposure, prevalent CKD and design are met, but the abstract neither names a regression model nor says the ORs are adjusted, so condition 4 cannot be judged.
+a75d957ba3	include	INC_ALL_MET	1	0	Logistic regression on DKD defined by ACR and eGFR at the NHANES exam is a separable cross-sectional part reported as independent; HALP contains haemoglobin and albumin with an eGFR-including outcome.
+b65e74efa8	unclear	UN_ESTIMATE	0	0	Only univariate logistic regression is named, yet two different ORs are given and covariates are mentioned, so the abstract neither shows an adjusted estimate nor makes plain that none exists.
+bf7bb236d7	exclude	EX_CKD_MORTALITY_PROGRESSION	0	0	The outcome is mortality with the key estimates in people who already have CKD, and EX_CKD_MORTALITY_PROGRESSION (priority 7) precedes EX_OUTCOME_NOT_KIDNEY (priority 8).
+c4b105619d	include	INC_ALL_MET	0	0	SLR is a lipid-subfraction ratio derived within NHANES (no restricted data indicated), CKD is the outcome and multiple logistic regression is stated, so all conditions are met.
+d8baadfbd9	include	INC_ALL_MET	0	0	The NHANES 1999-2020 cohort is a separable cross-sectional analysis with multivariable logistic regression on DKD, and AIP (log TG/HDL) contains no glucose or kidney component.
+dd3f90977a	exclude	EX_CKD_MORTALITY_PROGRESSION	0	0	The methods state plainly that the outcome is mortality in CKD patients analysed only with Cox models; the sample is not restricted to diabetes, so the TyG flag stays 0.
+e1159d24b1	exclude	EX_NOT_NHANES	1	0	The data are solely NHANES III, so condition 1 fails, and the MDS explicitly includes eGFR, so the outcome-component flag is set.

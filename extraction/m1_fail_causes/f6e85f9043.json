@@ -1,0 +1,42 @@
+{
+ "rec_id": "f6e85f9043",
+ "n_reported": 15163.0,
+ "n_repro": 10479,
+ "n_cc": 10479,
+ "n_xy": 13175,
+ "n_domain_y": 13175,
+ "weight": null,
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "pir_cat__1.3-3.5",
+   1099,
+   false
+  ],
+  [
+   "pir_cat__ge3.5",
+   1099,
+   false
+  ],
+  [
+   "alcohol__current",
+   915,
+   false
+  ],
+  [
+   "alcohol__former",
+   915,
+   false
+  ],
+  [
+   "ldl",
+   644,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

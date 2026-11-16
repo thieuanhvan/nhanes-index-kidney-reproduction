@@ -1,0 +1,99 @@
+{
+ "rec_id": "e76d3d1271",
+ "family": "F4_lipid_anthro",
+ "dag_family": "D4b",
+ "flag_outcome_component": false,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "fasting",
+ "target": "x",
+ "target_sd": 1.31773879014908,
+ "n_terms": 14,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_pa"
+ ],
+ "n_common": 16390,
+ "n_paper_sample": 17919,
+ "n_neg": 14949,
+ "pir_missing_rate": 0.08727628060069945,
+ "full": {
+  "P": {
+   "logor": 0.12868024942841366,
+   "se": 0.032703866427709415,
+   "n": 16390
+  },
+  "Ps": {
+   "logor": 0.12064703603181365,
+   "se": 0.031188710005683167,
+   "n": 17919
+  },
+  "Pn": {
+   "logor": 0.13197603826890594,
+   "se": 0.03586071665971739,
+   "n": 14949
+  },
+  "N": {
+   "logor": 0.13210868492720787,
+   "se": 0.035717564513404326,
+   "n": 14949
+  },
+  "A": {
+   "logor": 0.11156287220435677,
+   "se": 0.03240221196886286,
+   "n": 16390
+  },
+  "B": {
+   "logor": 0.10923075266068373,
+   "se": 0.03248250898622454,
+   "n": 16390
+  },
+  "Q": {
+   "logor": 0.07948262517595428,
+   "se": 0.029929643840226564,
+   "n": 16390
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.008033213396600014,
+ "E3a_A": {
+  "delta": -0.017117377224056887,
+  "lo": -0.025598467812220114,
+  "hi": -0.00982675871161516,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.019449496767729932,
+  "lo": -0.027654447277240313,
+  "hi": -0.011557034828464909,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 0.000132646658301927,
+  "lo": -0.0019880300304053367,
+  "hi": 0.004000680040232992,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.04919762425245938,
+  "lo": 0.03336941037876434,
+  "hi": 0.0675430452408858,
+  "n_boot": 500,
+  "class": "negative"
+ },
+ "seconds": 38
+}

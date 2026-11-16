@@ -1,0 +1,43 @@
+{
+ "rec_id": "ea130293e0",
+ "n_reported": 3734.0,
+ "n_repro": 1902,
+ "n_cc": 1902,
+ "n_xy": 1993,
+ "n_domain_y": 1993,
+ "n_xy_noweight": 3926,
+ "weight": "w",
+ "exposure_terms": [
+  "x"
+ ],
+ "exposure_or_outcome_fasting": false,
+ "dietary_index": false,
+ "covariate_loss_top5": [
+  [
+   "ldl",
+   54,
+   false
+  ],
+  [
+   "bmi",
+   25,
+   false
+  ],
+  [
+   "educ3__gt_hs",
+   11,
+   false
+  ],
+  [
+   "educ3__hs_ged",
+   11,
+   false
+  ],
+  [
+   "smoking__current",
+   4,
+   false
+  ]
+ ],
+ "imputation_lines": "[excerpt withheld]"
+}

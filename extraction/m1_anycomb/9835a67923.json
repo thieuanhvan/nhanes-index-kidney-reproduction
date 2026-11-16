@@ -1,0 +1,34 @@
+{
+ "rec_id": "9835a67923",
+ "points_run": [
+  "estimate: continuous DOBS 0.98"
+ ],
+ "points_not_run": [],
+ "combinations_defined": 2,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 0.78,
+   "or_repro": 0.7516,
+   "dlogor": 0.0371,
+   "n_reported": 3218.0,
+   "n_repro": 3415,
+   "dn_rel": 0.0612
+  },
+  {
+   "combo": 1,
+   "label": "estimate: continuous DOBS 0.98",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 0.98,
+   "or_repro": 0.9839,
+   "dlogor": 0.0039,
+   "n_reported": 3218.0,
+   "n_repro": 3415,
+   "dn_rel": 0.0612
+  }
+ ]
+}

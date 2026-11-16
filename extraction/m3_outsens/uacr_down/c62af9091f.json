@@ -1,0 +1,99 @@
+{
+ "rec_id": "c62af9091f",
+ "family": "F2_inflam",
+ "dag_family": "D2",
+ "flag_outcome_component": true,
+ "missing_A": "education|pir",
+ "missing_B": "education|pir|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x",
+ "target_sd": 19.649557907278545,
+ "n_terms": 13,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "pir",
+  "c_pa"
+ ],
+ "n_common": 22539,
+ "n_paper_sample": 24376,
+ "n_neg": 20689,
+ "pir_missing_rate": 0.07986368350866795,
+ "full": {
+  "P": {
+   "logor": -0.08915472664444811,
+   "se": 0.053458404631919657,
+   "n": 22539
+  },
+  "Ps": {
+   "logor": -0.08049393045575484,
+   "se": 0.04999855270844085,
+   "n": 24376
+  },
+  "Pn": {
+   "logor": -0.05867298293971281,
+   "se": 0.05538407488115272,
+   "n": 20689
+  },
+  "N": {
+   "logor": -0.05865873701760818,
+   "se": 0.05539952460703474,
+   "n": 20689
+  },
+  "A": {
+   "logor": -0.08076942831372745,
+   "se": 0.05185771529207957,
+   "n": 22539
+  },
+  "B": {
+   "logor": -0.07773420667001957,
+   "se": 0.05125284489900281,
+   "n": 22539
+  },
+  "Q": {
+   "logor": -0.2431062197503452,
+   "se": 0.055733116381545954,
+   "n": 22539
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.008660796188693268,
+ "E3a_A": {
+  "delta": 0.008385298330720659,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": 0.011420519974428542,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 1.424592210463177e-05,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.15395149310589706,
+  "lo": NaN,
+  "hi": NaN,
+  "n_boot": 20,
+  "class": "point_positive"
+ },
+ "seconds": 3
+}

@@ -1,0 +1,36 @@
+{
+ "rec_id": "78c5287646",
+ "points_run": [
+  "reported N 14,349 (whole sample)"
+ ],
+ "points_not_run": [
+  "footnote list with lymphocyte and PNI group: PNI group is a coding of the exposure"
+ ],
+ "combinations_defined": 4,
+ "combinations": [
+  {
+   "combo": 0,
+   "label": "first combination",
+   "status": "run",
+   "rank": "strict_pass",
+   "or_reported": 0.64,
+   "or_repro": 0.6043,
+   "dlogor": 0.0574,
+   "n_reported": 2720.0,
+   "n_repro": 2590,
+   "dn_rel": 0.0477
+  },
+  {
+   "combo": 1,
+   "label": "reported N 14,349 (whole sample)",
+   "status": "run",
+   "rank": "fail",
+   "or_reported": 0.64,
+   "or_repro": 0.6043,
+   "dlogor": 0.0574,
+   "n_reported": 14349.0,
+   "n_repro": 2590,
+   "dn_rel": 0.8194
+  }
+ ]
+}

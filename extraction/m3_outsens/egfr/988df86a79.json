@@ -1,0 +1,99 @@
+{
+ "rec_id": "988df86a79",
+ "family": "F3_diet_life",
+ "dag_family": "D3",
+ "flag_outcome_component": false,
+ "missing_A": "education|hypertension_dx",
+ "missing_B": "education|hypertension_dx|physical_activity",
+ "label_A": "missing",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "diet_day1",
+ "target": "x",
+ "target_sd": 1.0009074879703996,
+ "n_terms": 23,
+ "added_A": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "c_htn_dx"
+ ],
+ "added_B": [
+  "educ3__gt_hs",
+  "educ3__hs_ged",
+  "c_htn_dx",
+  "c_pa"
+ ],
+ "n_common": 7179,
+ "n_paper_sample": 7447,
+ "n_neg": 6519,
+ "pir_missing_rate": 0.08960629106523876,
+ "full": {
+  "P": {
+   "logor": 0.1904340023966291,
+   "se": 0.06003805924608798,
+   "n": 7179
+  },
+  "Ps": {
+   "logor": 0.19446641336433215,
+   "se": 0.05737468606155704,
+   "n": 7447
+  },
+  "Pn": {
+   "logor": 0.16978851275030332,
+   "se": 0.06072782114780416,
+   "n": 6519
+  },
+  "N": {
+   "logor": 0.16964078877777491,
+   "se": 0.06072865978680996,
+   "n": 6519
+  },
+  "A": {
+   "logor": 0.19148558699414606,
+   "se": 0.0613343739524634,
+   "n": 7179
+  },
+  "B": {
+   "logor": 0.1857033468442768,
+   "se": 0.0602178144705399,
+   "n": 7179
+  },
+  "Q": {
+   "logor": 0.18376451061842183,
+   "se": 0.06145959389968699,
+   "n": 7179
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": 0.004032410967703043,
+ "E3a_A": {
+  "delta": 0.0010515845975169469,
+  "lo": -0.013364159805166063,
+  "hi": 0.014564582337474444,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "E3a_B": {
+  "delta": -0.004730655552352303,
+  "lo": -0.0213478460297562,
+  "hi": 0.00847533277548758,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": -0.0001477239725284074,
+  "lo": -0.002625853217868369,
+  "hi": 0.0013357675081412327,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "delta": 0.006669491778207276,
+  "lo": -0.008700870497792102,
+  "hi": 0.022971347057699112,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "seconds": 8
+}

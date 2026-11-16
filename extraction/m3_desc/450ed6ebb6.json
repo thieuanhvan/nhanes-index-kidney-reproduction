@@ -1,0 +1,107 @@
+{
+ "rec_id": "450ed6ebb6",
+ "status": "run",
+ "n_common": 4238,
+ "weight_kind": "fasting",
+ "binary_target": true,
+ "term_map": {
+  "age": "confounder_like",
+  "female": "confounder_like",
+  "race1__mexican_american": "confounder_like",
+  "race1__nh_black": "confounder_like",
+  "race1__other_hispanic": "confounder_like",
+  "race1__other_multi": "confounder_like",
+  "educ_gt_hs": "confounder_like",
+  "married": "confounder_like",
+  "pir_lt1": "confounder_like",
+  "smoke_yes": "confounder_like",
+  "drink_yes": "confounder_like",
+  "bmi": "bmi_waist",
+  "htn": "hypertension_dx",
+  "dm_dur": "diabetes_dx"
+ },
+ "log": [],
+ "k_concepts": [
+  "hypertension_dx"
+ ],
+ "k_terms_dropped_E3b": [
+  "htn"
+ ],
+ "point": {
+  "P": {
+   "logor": 1.1302230714365658,
+   "logpr": 1.0094134305913347,
+   "marg_logor": 0.8508284528821872
+  },
+  "E3b": {
+   "logor": 1.2716898020248248,
+   "logpr": 1.2057622606593836,
+   "marg_logor": 0.9675709486825643
+  },
+  "conv": {
+   "logor": 0.5315718320305292,
+   "logpr": 0.36499306254175223,
+   "marg_logor": 0.36740131067730974
+  },
+  "P_dmrx": {
+   "logor": 0.677292407642982,
+   "logpr": 0.496375942405501,
+   "marg_logor": 0.4625521934090262
+  },
+  "P_bprx": {
+   "logor": 1.1281012698875352,
+   "logpr": 1.010659590704561,
+   "marg_logor": 0.8486176888754873
+  },
+  "B": {
+   "logor": 1.1524056913954581,
+   "logpr": 1.0242321904671041,
+   "marg_logor": 0.8643380378660588
+  }
+ },
+ "E3a_B_PR": {
+  "delta": 0.014818759875769416,
+  "lo": -0.03710608574139547,
+  "hi": 0.11881203440763724,
+  "class": "negative"
+ },
+ "E3a_B_marginal": {
+  "delta": 0.013509584983871559,
+  "lo": -0.04039483622140909,
+  "hi": 0.08860588868422085,
+  "class": "negative"
+ },
+ "E3b": {
+  "logor": {
+   "delta": 0.1414667305882591,
+   "lo": 0.062765864666407,
+   "hi": 0.2170917832343781,
+   "class": "point_positive"
+  },
+  "logpr": {
+   "delta": 0.19634883006804893,
+   "lo": 0.06754933629260668,
+   "hi": 0.43412436510965596,
+   "class": "point_positive"
+  },
+  "marg": {
+   "delta": 0.1167424958003771,
+   "lo": 0.047449716084203286,
+   "hi": 0.1845157927368013,
+   "class": "point_positive"
+  }
+ },
+ "shift_conv": -0.5986512394060366,
+ "shift_P_dmrx": -0.4529306637935837,
+ "shift_P_bprx": -0.002121801549030522,
+ "RoE": {
+  "n_models": 1024,
+  "n_groups": 13,
+  "p2_5": 2.88685694170726,
+  "p97_5": 5.161770033086945,
+  "roe": 1.7880241859280783,
+  "share_or_gt1": 1.0,
+  "n_failed_fits": 0
+ },
+ "seconds": 14
+}

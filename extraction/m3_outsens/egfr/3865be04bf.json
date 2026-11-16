@@ -1,0 +1,76 @@
+{
+ "rec_id": "3865be04bf",
+ "family": "F5_other",
+ "dag_family": "D2",
+ "flag_outcome_component": false,
+ "missing_A": "",
+ "missing_B": "bmi_waist",
+ "label_A": "sufficient",
+ "label_B": "missing",
+ "status": "run",
+ "weight_kind": "mec",
+ "target": "x",
+ "target_sd": 0.09691525891699813,
+ "n_terms": 14,
+ "added_A": [],
+ "added_B": [
+  "bmi"
+ ],
+ "n_common": 30898,
+ "n_paper_sample": 31121,
+ "n_neg": 28071,
+ "pir_missing_rate": 0.09222966946150514,
+ "full": {
+  "P": {
+   "logor": 0.39983514876906817,
+   "se": 0.039959149174114354,
+   "n": 30898
+  },
+  "Ps": {
+   "logor": 0.39781248294940874,
+   "se": 0.039384189860152366,
+   "n": 31121
+  },
+  "Pn": {
+   "logor": 0.41710260736048244,
+   "se": 0.044410645851601226,
+   "n": 28071
+  },
+  "N": {
+   "logor": 0.41774635791876885,
+   "se": 0.0443479236574579,
+   "n": 28071
+  },
+  "B": {
+   "logor": 0.39765008357674064,
+   "se": 0.04068111091789703,
+   "n": 30898
+  }
+ },
+ "boot_failed_fits": 0,
+ "log": [],
+ "sample_change": -0.0020226658196594305,
+ "E3a_A": {
+  "class": "negative",
+  "note": "nothing missing under DAG A (or all present)"
+ },
+ "E3a_B": {
+  "delta": -0.002185065192327529,
+  "lo": -0.009242406822162668,
+  "hi": 0.005160048383362875,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "neg_control": {
+  "delta": 0.0006437505582864156,
+  "lo": -0.00036529828546702086,
+  "hi": 0.0020743485097770606,
+  "n_boot": 100,
+  "class": "negative"
+ },
+ "pos_control": {
+  "class": "na",
+  "note": "no age term"
+ },
+ "seconds": 16
+}
