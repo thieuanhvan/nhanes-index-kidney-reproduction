@@ -1,0 +1,30 @@
+{
+ "E3a_A_primary": {
+  "events": 0,
+  "n": 29,
+  "n_eff": 25.8262,
+  "weights": {
+   "F1_tyg": 0.0522,
+   "F2_inflam": 0.2238,
+   "F3_diet_life": 0.3352,
+   "F4_lipid_anthro": 0.2715,
+   "F5_other": 0.1171
+  },
+  "wilson_upper": 0.1294,
+  "clopper_pearson_upper": 0.1331
+ },
+ "E3a_B_primary": {
+  "events": 0,
+  "n": 29,
+  "n_eff": 25.8262,
+  "weights": {
+   "F1_tyg": 0.0522,
+   "F2_inflam": 0.2238,
+   "F3_diet_life": 0.3352,
+   "F4_lipid_anthro": 0.2715,
+   "F5_other": 0.1171
+  },
+  "wilson_upper": 0.1294,
+  "clopper_pearson_upper": 0.1331
+ }
+}
