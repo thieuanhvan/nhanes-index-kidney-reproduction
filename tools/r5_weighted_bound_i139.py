@@ -2,7 +2,8 @@
 bootstrap is degenerate (every stratum has 0 firm positives). Post hoc and descriptive, no refit.
 
 Effective sample size of the stratified estimator (Korn and Graubard): n_eff = 1 / sum_h(W_h^2 / n_h), with the
-weights W_h of the registered analysis (m3_summary_i139.NHS). With 0 events the upper 95 % bound is the Wilson bound
+weights W_h of the registered analysis (m3_summary_i139.NHS). This equals the Kish effective sample size
+(sum w)^2 / sum w^2 of the per-paper weights w_i = W_h / n_h. With 0 events the upper 95 % bound is the Wilson bound
 z^2 / (n_eff + z^2) and the Clopper-Pearson bound 1 - 0.025^(1 / n_eff).
 Usage: python -I tools/r5_weighted_bound_i139.py   -> extraction/r5_weighted_bound_i139.json
 """
