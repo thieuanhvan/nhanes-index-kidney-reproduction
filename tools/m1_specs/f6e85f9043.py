@@ -1,4 +1,4 @@
-"""M1 builder, f6e85f9043 (CTI and albuminuria, Medicine 2025, doi [DOI withheld]).
+"""M1 builder, f6e85f9043 (CTI and albuminuria; source withheld).
 Spec: CTI per 1 unit, albuminuria UACR >= 30 mg/g, Model 3 (Table 2 footnote, 18 covariates), NHANES 1999-2010, no weighting.
 Sources in the paper (fulltext_txt/f6e85f9043.txt): exclusions section 2.1 (line 12), CTI 2.2 (line 15), outcome 2.3 (line 18),
 covariates 2.4 (line 21), models 2.5 (line 25), Table 1 categories (lines 105-163), Table 2 footnote (line 178).

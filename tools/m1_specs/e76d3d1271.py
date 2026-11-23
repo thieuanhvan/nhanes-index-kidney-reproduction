@@ -1,4 +1,4 @@
-"""M1 builder, e76d3d1271 (Int Urol Nephrol 2024, doi [DOI withheld]). CMI and CKD.
+"""M1 builder, e76d3d1271 (source withheld). CMI and CKD.
 Spec: CMI per 1 unit (reading_1: Table 2 continuous estimate), CKD = eGFR < 60 or albumin >= 30 mg/day (reading_1),
 Model 3 (Table 2), NHANES 1999-2000 to 2017-March 2020, NHANES recommended weights.
 Sources in fulltext_txt/e76d3d1271.txt: 'Study design and population' (exclusions), 'Calculation of the CMI',

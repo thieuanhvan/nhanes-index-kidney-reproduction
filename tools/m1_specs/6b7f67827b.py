@@ -1,4 +1,4 @@
-"""M1 builder, 6b7f67827b (NTI and CKD in hypertensive adults, Front Nutr 2026, doi [DOI withheld]).
+"""M1 builder, 6b7f67827b (NTI and CKD in hypertensive adults; source withheld).
 Spec: NHANES part (reading_1), NTI per 1 unit, CKD = eGFR < 60 or UACR >= 30, Model 2, NHANES 1999-2000 to 2017-March 2020,
 pooled fasting-subsample weights (2017-2020 as 3.2 years).
 Sources in fulltext_txt/6b7f67827b.txt: population line 17, exposure line 20, outcome line 23, covariates lines 26-27,

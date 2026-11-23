@@ -1,4 +1,4 @@
-"""M1 builder, 9835a67923 (DOBS and diabetic nephropathy, Front Nutr 2025, doi [DOI withheld]).
+"""M1 builder, 9835a67923 (DOBS and diabetic nephropathy; source withheld).
 Spec: DOBS Q4 vs Q1, DN = diabetes with UACR > 30 mg/g, NHANES 2001-2010, Table 2 Model 3 before PSM,
 dietary weights WTDR2D (two complete recalls) else WTDRD1, times 1/5.
 Sources in fulltext_txt/9835a67923.txt: population (Study population, lines 22-23), DOBS (line 26), diabetes and DN

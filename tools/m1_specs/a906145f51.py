@@ -1,4 +1,4 @@
-"""M1 builder, a906145f51 (stress hyperglycemia ratio and CKD in diabetes, Front Endocrinol 2024, doi [DOI withheld]).
+"""M1 builder, a906145f51 (stress hyperglycemia ratio and CKD in diabetes; source withheld).
 Spec: SHR quintile 1 vs quintile 3 (reference), CKD (eGFR <= 60 or uACR >= 30), Model 3 (15 covariates),
 NHANES 1999-March 2020, MEC weights pooled over 21.2 years.
 Sources in the paper (fulltext_txt/a906145f51.txt): population line 14, SHR, DM and CKD line 17, covariates line 20,

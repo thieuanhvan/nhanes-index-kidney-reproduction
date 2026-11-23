@@ -1,4 +1,4 @@
-"""M1 builder, 9cd1df095e (J Int Med Res 2026, doi [DOI withheld]). NHR per 1 unit, albuminuria, Model 3.
+"""M1 builder, 9cd1df095e (source withheld). NHR per 1 unit, albuminuria, Model 3.
 Spec: NHANES 2017-March 2020 pre-pandemic file, adults >= 20, albuminuria ACR > 30 mg/g, survey weights (not named),
 Table 2 Model 3 OR 1.13.
 Sources (fulltext_txt/9cd1df095e.txt): population and exclusions (Methods, Study population), exposure and outcome

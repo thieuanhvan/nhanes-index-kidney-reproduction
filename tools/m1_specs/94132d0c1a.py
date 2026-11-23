@@ -1,4 +1,4 @@
-"""M1 builder, 94132d0c1a (SIRI and CKD, Front Endocrinol 2024, doi [DOI withheld]).
+"""M1 builder, 94132d0c1a (SIRI and CKD; source withheld).
 Spec: SIRI per 1 unit, CKD = ACR >= 30 mg/g or eGFR (CKD-EPI 2009) < 60, Model 3, NHANES 1999-2016 + 2017-March 2020.
 Sources in fulltext_txt/94132d0c1a.txt: population line 16, CKD line 20, covariates and HTN/DM definitions lines 23-24,
 Model 3 line 27 and Table 2 footnote, covariate coding Table 1 (lines 95-157).

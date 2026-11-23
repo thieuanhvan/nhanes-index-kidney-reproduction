@@ -1,4 +1,4 @@
-"""M1 builder, 988df86a79 (Sci Rep 2024, doi [DOI withheld]). DII per SD, CKD, Model 3.
+"""M1 builder, 988df86a79 (source withheld). DII per SD, CKD, Model 3.
 Spec: NHANES 2011-2018, age >= 18, CKD = eGFR < 60 (CKD-EPI, version not stated) or uACR >= 30 mg/g, no weighting
 reported (weight_variable null), Table 2 Model 3 OR 1.16 per SD.
 Sources (fulltext_txt/988df86a79.txt): exclusions lines 63-66, data collection and definitions lines 68-104,

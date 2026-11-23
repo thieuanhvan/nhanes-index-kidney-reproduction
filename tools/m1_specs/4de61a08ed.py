@@ -1,4 +1,4 @@
-"""M1 builder, 4de61a08ed (HRR and albuminuria, Front Nutr 2025, doi [DOI withheld]).
+"""M1 builder, 4de61a08ed (HRR and albuminuria; source withheld).
 Spec: two-segment logistic model with the paper's inflection point 1.213; target = per 0.1 unit of HRR below 1.213,
 albuminuria = UACR > 30 mg/g, NHANES 2007-2018, Table 3 adjustment list, unweighted (no weighting reported).
 Sources in fulltext_txt/4de61a08ed.txt: population (line 12), HRR and outcome (lines 15-16), covariate definitions

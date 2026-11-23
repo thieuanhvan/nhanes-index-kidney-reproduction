@@ -1,4 +1,4 @@
-"""M1 builder, ff27565860 (NHHR and DKD in diabetes, PLoS One 2024, doi [DOI withheld]).
+"""M1 builder, ff27565860 (NHHR and DKD in diabetes; source withheld).
 Spec: NHHR continuous per 1 unit, Table 2 Model 3, DKD = diabetes plus UACR >= 30 and/or eGFR < 60, NHANES 1999-2020
 (2017-March 2020 pre-pandemic release used for the last period).
 Sources (fulltext_txt/ff27565860.txt): population (criteria only in Fig 1), exposure, outcome and diabetes definition,

@@ -1,4 +1,4 @@
-"""M1 builder, ea03123ab4 (METS-VF and albuminuria, Front Endocrinol 2025, doi [DOI withheld]).
+"""M1 builder, ea03123ab4 (METS-VF and albuminuria; source withheld).
 Spec: METS-VF continuous per 1 unit, Model 3, albuminuria UACR >= 30, NHANES 1999-2018.
 Sources (fulltext_txt/ea03123ab4.txt): population and formula (Methods), covariates section, statistical analysis
 (weights stated for descriptive statistics only; Model 3 list), Table 1 coding, Table 3.

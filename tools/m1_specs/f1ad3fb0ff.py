@@ -1,4 +1,4 @@
-"""M1 builder, f1ad3fb0ff (Wang et al., Front Endocrinol 2023, doi [DOI withheld]). Template example.
+"""M1 builder, f1ad3fb0ff (source withheld). Template example.
 Spec: TyG continuous, albuminuria UACR > 30 mg/g, Model 3, NHANES 2011-2018, fasting subsample weights.
 Sources in the paper (fulltext_txt/f1ad3fb0ff.txt): covariates section 2.4 (lines 177-200), weights section 2.5 (line 207).
 """

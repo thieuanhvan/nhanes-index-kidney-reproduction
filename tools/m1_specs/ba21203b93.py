@@ -1,4 +1,4 @@
-"""M1 builder, ba21203b93 (PSA indicators and DKD in men with diabetes, Eur J Med Res 2025, doi [DOI withheld]).
+"""M1 builder, ba21203b93 (PSA indicators and DKD in men with diabetes; source withheld).
 Spec: FPSA/TPSA ratio (x 10^2) tertile T3 vs T2 (reference T2), CKD in men with diabetes, Model IV (15 covariates),
 NHANES 2001-2010, no weighting.
 Sources in the paper (fulltext_txt/ba21203b93.txt): population line 17, DM and CKD line 21, covariate coding line 24,

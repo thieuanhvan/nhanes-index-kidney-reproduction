@@ -1,4 +1,4 @@
-"""M1 builder, cf0849f17f (SII and DKD in T2DM, Front Endocrinol 2022, doi [DOI withheld]).
+"""M1 builder, cf0849f17f (SII and DKD in T2DM; source withheld).
 Spec: SII >= 445.21 vs < 445.21 (fixed cut point), DKD = ACR >= 30 mg/g and/or eGFR < 60 in T2DM, Model 3 of Table 2,
 NHANES 2011-2018. Sources in fulltext_txt/cf0849f17f.txt: population lines 246-252, diabetes and DKD lines 260-267,
 other definitions lines 269-297, Model 3 lines 336-341 and Table 2 footnote (line ~720).

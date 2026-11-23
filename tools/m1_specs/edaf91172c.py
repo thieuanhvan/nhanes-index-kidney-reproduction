@@ -1,4 +1,4 @@
-"""M1 builder, edaf91172c (HRR and CKD, Medicine 2024, doi [DOI withheld]).
+"""M1 builder, edaf91172c (HRR and CKD; source withheld).
 Spec: HRR continuous per 1 unit, Model 3 (Table 2 footnote, 14 covariates), CKD = eGFR < 60 or UACR >= 30, NHANES 2005-2018, weighted.
 Sources (fulltext_txt/edaf91172c.txt): population (Methods 2.1), outcome (2.3), covariates (2.4), weights and models (2.5),
 Table 1 coding, Table 2.

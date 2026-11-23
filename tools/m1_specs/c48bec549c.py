@@ -1,4 +1,4 @@
-"""M1 builder, c48bec549c (PLOS One 2025, doi [DOI withheld]). Framingham Steatosis Index and albuminuria.
+"""M1 builder, c48bec549c (source withheld). Framingham Steatosis Index and albuminuria.
 Spec: FSI per 1 unit (reading_1), albuminuria = ACR > 30 mg/g (reading_1), Model 3 (Table 2), NHANES 1999-2018,
 fasting subsample weights (2/10) WTSAF4YR 1999-2002, (1/10) WTSAF2YR 2003-2018.
 Sources in fulltext_txt/c48bec549c.txt: 'Data and study participants', 'Definition of FSI', 'Outcome ascertainment',

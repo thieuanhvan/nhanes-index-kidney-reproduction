@@ -1,4 +1,4 @@
-"""M1 builder, 250e5761d5 (AVAI and CKD, Ren Fail 2025, doi [DOI withheld]).
+"""M1 builder, 250e5761d5 (AVAI and CKD; source withheld).
 Spec: AVAI per 1 unit, CKD = eGFR < 60 or ACR > 30 (reading_1), Model 3 (Table 2 footnote list, no PIR, reading_1),
 NHANES 2007-2008 to 2017-2018, unweighted (reading_1).
 Formula: MathML display formula in fulltext/250e5761d5.xml (AVAI = -16.186 - 1.369 HDL + 0.38 WC + 0.144 Age - 0.013 BMI

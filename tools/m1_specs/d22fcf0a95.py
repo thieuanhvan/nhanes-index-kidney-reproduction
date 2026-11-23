@@ -1,4 +1,4 @@
-"""M1 builder, d22fcf0a95 (NPAR and CKD, PLoS One 2024, doi [DOI withheld]).
+"""M1 builder, d22fcf0a95 (NPAR and CKD; source withheld).
 Spec: NPAR quartiles, Model 3, Q2 vs Q1 (reading_1 of both ambiguities), CKD = eGFR < 60 or UACR >= 30, NHANES 2009-2018.
 Sources (fulltext_txt/d22fcf0a95.txt): population line 12, outcome line 20, covariate coding line 24,
 models and weighting line 27, Table 1 lines 104-165, Table 2 lines 168-173.

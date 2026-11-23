@@ -1,4 +1,4 @@
-"""M1 builder, fad26f18b1 (PLOS One 2026, doi [DOI withheld]). HALP score and CKD.
+"""M1 builder, fad26f18b1 (source withheld). HALP score and CKD.
 Spec: HALP per 1 point, CKD = ACR >= 30 or eGFR (CKD-EPI 2009) < 60, Model 3 (Table 2), NHANES 2009-2018, weighted.
 Sources in fulltext_txt/fad26f18b1.txt: exclusions lines 145-151, HALP 152-156, CKD 157-162, covariates 167-191,
 statistics 252-268 (multiple imputation of missing covariates; complete case here, applied by the fit).

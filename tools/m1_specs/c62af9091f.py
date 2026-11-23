@@ -1,4 +1,4 @@
-"""M1 builder, c62af9091f (CALLY index and CKD, US NHANES 1999-2010 arm; doi [DOI withheld]).
+"""M1 builder, c62af9091f (CALLY index and CKD; US NHANES 1999-2010 arm; source withheld).
 Spec: CALLY continuous per 1 unit, Model 3, CKD = eGFR < 60 and/or UACR >= 30.
 Sources (fulltext_txt/c62af9091f.txt): exclusions line 15, outcome line 18, index line 20, covariates line 25,
 models line 29, Table 1 lines 106-138, Table 3 lines 185-194. No survey weighting is mentioned anywhere.

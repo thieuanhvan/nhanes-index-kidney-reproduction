@@ -1,4 +1,4 @@
-"""M1 builder, ac96396902 (ALBI and CVD-CKD comorbidity, Eur J Med Res 2026, doi [DOI withheld]).
+"""M1 builder, ac96396902 (ALBI and CVD-CKD comorbidity; source withheld).
 Spec (reading_1): CKD alone (UACR >= 30 or eGFR < 60), ALBI continuous per unit, adjusted sensitivity model of the
 Results text (Supplementary Table 2), NHANES 2011-2018, sample weights.
 Sources in fulltext_txt/ac96396902.txt: participants (line 16), ALBI (line 19), CVD and CKD (line 22),

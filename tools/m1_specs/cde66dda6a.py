@@ -1,4 +1,4 @@
-"""M1 builder, cde66dda6a (METS-VF and CKD, Sci Rep 2025, doi [DOI withheld]).
+"""M1 builder, cde66dda6a (METS-VF and CKD; source withheld).
 Spec: METS-VF per 1 unit, CKD = eGFR < 60 or UACR > 30 (either, reading_1), Model 3, NHANES 1999-2000 to 2017-2018, weighted.
 Sources in fulltext_txt/cde66dda6a.txt: population line 13, formula lines 18-19, CKD and eGFR lines 24-25, covariates lines 28-30,
 weighting line 33, Table 1 (categories) line 41, Table 2 footnote line 45.

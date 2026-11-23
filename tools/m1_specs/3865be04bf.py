@@ -1,4 +1,4 @@
-"""M1 builder, 3865be04bf (FIB4 and CKD, PLoS One 2025, doi [DOI withheld]).
+"""M1 builder, 3865be04bf (FIB4 and CKD; source withheld).
 Spec: FIB4 (AST, ALT in ukat/L) per 1 unit, CKD = eGFR < 60 (CKD-EPI 2009) or UACR >= 30, Model 3 (Table 2 footnote, no
 marital status, reading_1), NHANES 2005-2006 to 2015-2016 plus 2017-March 2020 (reading_1), weighted.
 Sources in fulltext_txt/3865be04bf.txt: population line 12, CKD and FIB4 line 17, eGFR equation lines 21-22, covariates

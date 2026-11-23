@@ -1,4 +1,4 @@
-"""M1 builder, 76d45e5c64 (UHR and DKD, Sci Rep 2025, doi [DOI withheld]).
+"""M1 builder, 76d45e5c64 (UHR and DKD; source withheld).
 Spec: UHR (uric acid / HDL-C x 100) Q4 vs Q1, DKD = UACR > 30 mg/g and/or eGFR (CKD-EPI 2009) < 60 in diabetes,
 Model 3, NHANES 2001-2018. Sources in fulltext_txt/76d45e5c64.txt: population line 12, exposure and outcome line 16,
 covariates lines 19-20, Model 3 line 23, covariate denominators Table 1 (line 41).

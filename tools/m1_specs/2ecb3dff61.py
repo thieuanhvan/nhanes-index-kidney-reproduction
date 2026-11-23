@@ -1,4 +1,4 @@
-"""M1 builder, 2ecb3dff61 (trunk fat-to-muscle ratio and DKD, Front Nutr 2025, doi [DOI withheld]).
+"""M1 builder, 2ecb3dff61 (trunk fat-to-muscle ratio and DKD; source withheld).
 Spec: trunk-FMR per 0.1 unit, DKD (UACR >= 30 or eGFR < 60 in diabetes) vs all other adults, fully adjusted model,
 NHANES 1999-2006 + 2011-2018 with DXA.
 

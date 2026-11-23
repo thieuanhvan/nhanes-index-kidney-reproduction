@@ -1,4 +1,4 @@
-"""M1 builder, 450ed6ebb6 (remnant cholesterol and DKD, Front Nutr 2025, doi [DOI withheld]).
+"""M1 builder, 450ed6ebb6 (remnant cholesterol and DKD; source withheld).
 Spec: RC quartile Q4 vs Q1, DKD (diabetes and (ACR >= 30 or eGFR <= 60)), Model 3 (11 covariates),
 NHANES 2015-2016 and 2017-March 2020, weighted.
 Sources in the paper (fulltext_txt/450ed6ebb6.txt): population line 12, RC line 15, quartiles line 18, DKD lines 21-24,

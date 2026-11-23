@@ -1,4 +1,4 @@
-"""M1 builder, 4b72270032 (RAR and CKD, Medicine 2026, doi [DOI withheld]).
+"""M1 builder, 4b72270032 (RAR and CKD; source withheld).
 Spec: RAR continuous per unit, CKD = eGFR < 60 or UACR >= 30, NHANES 2005-2018, Table 2 Model 3 footnote, weighted.
 Sources in fulltext_txt/4b72270032.txt: population (2.1, line 14), CKD (2.2, line 17), covariate definitions (2.4,
 lines 23-25), weights (2.5, line 28), Model 3 list (Table 2 footnote, line 153).

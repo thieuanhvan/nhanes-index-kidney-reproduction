@@ -1,4 +1,4 @@
-"""M1 builder, d84bd11e2e (J Health Popul Nutr 2025, doi [DOI withheld]). CMI and DKD in diabetes.
+"""M1 builder, d84bd11e2e (source withheld). CMI and DKD in diabetes.
 Spec: Log2-CMI per 1 log2 unit, DKD = eGFR < 60 and/or UACR >= 30 mg/g among participants with diabetes (reading_1),
 Model 3 (Table 3; reading_1: no BMI), NHANES 1999-2018, weighted.
 Sources in fulltext_txt/d84bd11e2e.txt: 'Study population and participant selection', Table 1 (CMI formula, mmol/L),

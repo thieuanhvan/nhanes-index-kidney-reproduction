@@ -1,4 +1,4 @@
-"""M1 builder, 53ca68a923 (CALLY index and CKD, Arch Med Sci, doi [DOI withheld]).
+"""M1 builder, 53ca68a923 (CALLY index and CKD; source withheld).
 Spec: CALLY Q4 vs Q1, CKD = eGFR < 60 and/or UACR >= 30, Model 3, NHANES 1999-2000 to 2009-2010, survey weighted.
 Sources in fulltext_txt/53ca68a923.txt: population line 12, index and CKD line 15, covariates line 21, models and
 weighting line 24, Table I lines 68-100 (Smokers yes/no, Married, Above high school), Table III.

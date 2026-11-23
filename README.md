@@ -1,6 +1,6 @@
 # Reproducing published NHANES index and kidney disease studies: code and derived data
 
-This repository holds the code, protocol, directed acyclic graphs (DAGs), sampling frame, derived per-paper results and run logs for the study "Reproducing published NHANES index and kidney disease studies from raw data: a pre-registered meta-research study of a stratified sample of 47 papers" (Van Thieu, University of Information Technology, Ho Chi Minh City, Vietnam). The protocol is registered on the Open Science Framework (https://osf.io/egjy3). Each folder keeps the name and layout it had during the analysis, so the relative paths inside the scripts work without changes.
+This repository holds the code, protocol, directed acyclic graphs (DAGs), sampling frame, derived per-paper results and run logs for the study "What NHANES index and kidney disease studies need to report: a pre-registered meta-research reconstruction of 47 papers from raw data" (earlier title: "Reproducing published NHANES index and kidney disease studies from raw data: a pre-registered meta-research study of a stratified sample of 47 papers") (Van Thieu, University of Information Technology, Ho Chi Minh City, Vietnam). The protocol is registered on the Open Science Framework (https://osf.io/egjy3). Each folder keeps the name and layout it had during the analysis, so the relative paths inside the scripts work without changes.
 
 ## What is and is not included
 
@@ -12,9 +12,9 @@ Not included:
 - the raw extraction passes and the blind-audit packets, which consist largely of verbatim text;
 - NHANES files, which are public at the CDC; `tools/download_nhanes_core.py` and `tools/nhanes_extra_i139.py` fetch them.
 
-The audited papers are identified only by `rec_id`, a short hash of the record key. DOIs are withheld in every file except the registered frame (`frame/frame_i139.tsv`). The frame, the seed in the protocol and the sampling rule make the sample reproducible, so the papers can be identified by anyone who repeats the sampling; the paper does not name them.
+The audited papers are identified only by `rec_id`, a short hash of the record key. DOIs are withheld in every file except the registered frame (`frame/frame_i139.tsv`). The frame, the seed in the protocol and the sampling rule make the sample reproducible, so the papers can be identified by anyone who repeats the sampling; the paper does not name them. Naming the papers and writing to their corresponding authors, the protocol default, was not done (deviation 12 in the supplement, decided 23 November 2026): the paper reports field-level reporting recommendations, not verdicts on single papers. For the same reason the first docstring line of each builder in `tools/m1_specs/` gives only the index and outcome, not the journal and year.
 
-Because DOIs and excerpts were removed, files whose hashes were recorded during the study (`extraction/spec_table_i139.sha256`, `extraction/labels_i139.sha256` and the audit locks) do not match the copies here; those hashes refer to the unredacted files kept by the author. The protocol, the frame and the DAG files are unredacted and match their hashes.
+Because DOIs and excerpts were removed, files whose hashes were recorded during the study (`extraction/spec_table_i139.sha256`, `extraction/labels_i139.sha256` and the audit locks) do not match the copies here (nor do the builders in `tools/m1_specs/`, whose first docstring line was shortened); those hashes refer to the unredacted files kept by the author. The protocol, the frame and the DAG files are unredacted and match their hashes.
 
 `extraction/m2_m3_rules_i139.md` is unredacted. Its two recorded hashes (`extraction/m2_m3_rules_i139.sha256`) refer to earlier states of this append-only file. `extraction/rules_history/` holds every state, rebuilt byte for byte from the session logs of 15 November 2026: `rules_v1_0823.md` matches the first recorded hash, `rules_v3_0856.md` the second, and `rules_v5_0930.md` equals the current file; `timeline.tsv` gives the time and SHA-256 of each state.
 
@@ -23,7 +23,8 @@ Because DOIs and excerpts were removed, files whose hashes were recorded during 
 | Folder | Contents |
 |---|---|
 | `tools/` | All scripts; `tools/m1_specs/<rec_id>.py` holds the per-paper reconstruction (first combination of readings of the locked specification) |
-| `dag/` | DAG code (dagitty) and figures for the five DAG families, versions A (minimal) and B (extended), and the manifest |
+| `dag/` | DAG code (dagitty) and figures for the DAG families, versions A (minimal) and B (extended), and the manifest, as registered (Vietnamese node labels) |
+| `dag/en/` | English rendering of the same DAGs, built by `tools/build_dag_i139_en.py` from table 5.2 of `prereg_i139_v7_en.md` (23 November 2026); every node role and adjustment set equals the registered manifest |
 | `frame/` | Registered sampling frame and its hash |
 | `screening_full/` | Screening prompts, decisions of the two language-model passes (quote column dropped), disagreements and their reconciliation, final decisions, sampling queue |
 | `extraction/` | Extraction prompts and briefs, reconciliation rules, the locked specification table, labels, results of M1 (reproduction), M2 (survey design), M3 (confounder specification) and M4 (inflection points), sensitivity analyses, overlap of participants, agreement statistics, audit results, logs |

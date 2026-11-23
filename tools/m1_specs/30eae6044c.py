@@ -1,4 +1,4 @@
-"""M1 builder, 30eae6044c (ABSI and DKD in diabetes, Ren Fail 2025, doi [DOI withheld]).
+"""M1 builder, 30eae6044c (ABSI and DKD in diabetes; source withheld).
 Spec: ABSI x100 per 1 unit, DKD (diabetes plus eGFR2021 < 60 or ACR >= 30), Model 3, NHANES 2005-2006 to 2015-2016, unweighted.
 Sources in fulltext_txt/30eae6044c.txt: exclusions line 12, ABSI line 15, outcome and diabetes line 18, covariates line 21,
 models and mean imputation line 24, Table 2 footnote line 132.

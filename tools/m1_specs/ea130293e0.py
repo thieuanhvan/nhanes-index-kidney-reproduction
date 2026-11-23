@@ -1,4 +1,4 @@
-"""M1 builder, ea130293e0 (RA = RDW/albumin and DKD, Sci Rep 2026, doi [DOI withheld]).
+"""M1 builder, ea130293e0 (RA = RDW/albumin and DKD; source withheld).
 Spec: RA continuous per 1 dL/g, DKD = eGFR < 60 or UACR >= 30 in diabetes, NHANES 2011-2018, Model 3 (reading_1),
 survey weighted. Sources in fulltext_txt/ea130293e0.txt: population (Study design, line 13), diabetes and DKD
 (Endpoint definition, line 21), covariates (line 25), Model 3 (Statistical analysis, line 28), Scr and eGFR in the

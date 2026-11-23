@@ -1,4 +1,4 @@
-"""M1 builder, 71eedfeafb (OBS and CKD in overweight/obese adults, Front Nutr 2025, doi [DOI withheld]).
+"""M1 builder, 71eedfeafb (OBS and CKD in overweight/obese adults; source withheld).
 Spec: OBS per 1 unit, CKD (eGFR < 60 or ACR > 30), Model 3 (11 covariates), NHANES 1999-2018, survey weighted.
 Sources in the paper (fulltext_txt/71eedfeafb.txt): population (Methods, Study population), OBS (Assessment of OBS),
 outcome (Definition of CKD), covariates and medication classes (Covariates), models (Statistical analysis).

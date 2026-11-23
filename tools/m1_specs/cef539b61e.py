@@ -1,4 +1,4 @@
-"""M1 builder, cef539b61e (SII and CKD, Front Immunol 2024, doi [DOI withheld]).
+"""M1 builder, cef539b61e (SII and CKD; source withheld).
 Spec: SII/1000 per 1 unit, CKD (eGFR < 60 or UACR >= 30), Model 3 (24 covariates), NHANES 2007-2018, weighted.
 Sources in the paper (fulltext_txt/cef539b61e.txt): population line 14, exposure line 19, outcome line 22,
 covariates line 25, models line 28, Table 1 categories lines 78-131, Table 2 reference levels lines 133-170.

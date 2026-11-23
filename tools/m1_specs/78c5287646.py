@@ -1,4 +1,4 @@
-"""M1 builder, 78c5287646 (PNI and DKD in T2DM, Acta Diabetol 2022, doi [DOI withheld]).
+"""M1 builder, 78c5287646 (PNI and DKD in T2DM; source withheld).
 Spec: PNI > 50.5 vs <= 50.5, DKD = UACR > 30 mg/g and/or eGFR < 60 in T2DM, multivariate model of Table 5,
 NHANES 2013-2018, 6-year weight = 2-year weight / 3. Sources in fulltext_txt/78c5287646.txt: population line 12,
 PNI line 16, definitions lines 19-20, weights line 23, Table 5 and footnote lines 181-202.

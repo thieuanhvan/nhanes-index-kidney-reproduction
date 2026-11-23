@@ -1,4 +1,4 @@
-"""M1 builder, 259b9d6255 (WWI and CKD in hyperuricemia, BMC Public Health 2025, doi [DOI withheld]).
+"""M1 builder, 259b9d6255 (WWI and CKD in hyperuricemia; source withheld).
 Spec: WWI Q4 vs Q1, CKD = eGFR < 60 or albuminuria >= 30 mg/g, Model 3 of Table 2, NHANES 2007-2018.
 Sources in fulltext_txt/259b9d6255.txt: population line 15, WWI line 18, hyperuricemia and CKD line 21,
 covariates line 24, Model 3 line 28 and Table 2 footnote (line 145), Table 1 (lines 96-134).

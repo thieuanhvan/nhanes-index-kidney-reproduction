@@ -1,4 +1,4 @@
-"""M1 builder, 79f1e21c4c (Urol Nephrol 2024, doi [DOI withheld]). TyG per 1 unit, CKD, Model 3.
+"""M1 builder, 79f1e21c4c (source withheld). TyG per 1 unit, CKD, Model 3.
 Spec: NHANES 1999-2020 (reading_1: 1999-2000 to 2015-2016 plus the 2017-March 2020 pre-pandemic file), CKD = eGFR < 60
 (CKD-EPI 2009) or ACR >= 30 mg/g, weighted (variable not named), Table 2 Model 3 OR 4.03.
 Sources (fulltext_txt/79f1e21c4c.txt): exclusions line 12, outcome line 16, covariates lines 19-20, models line 23,

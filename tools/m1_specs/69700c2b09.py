@@ -1,4 +1,4 @@
-"""M1 builder, 69700c2b09 (Lipids Health Dis 2024, doi [DOI withheld]). NHHR continuous, DKD among
+"""M1 builder, 69700c2b09 (source withheld). NHHR continuous, DKD among
 adults with diabetes, single adjusted model (Table 2, OR 1.07).
 Spec: NHANES 2005-2016, age >= 18 with diabetes, not pregnant, DKD = UACR >= 30 mg/g or eGFR < 60, weight WTDR2D / 6.
 Sources (fulltext_txt/69700c2b09.txt): exclusions line 13, NHHR line 16 (formula image M1 in the XML: non-HDL-C / HDL-C),

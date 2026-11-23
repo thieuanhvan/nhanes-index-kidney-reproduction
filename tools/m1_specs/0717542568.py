@@ -1,4 +1,4 @@
-"""M1 builder, 0717542568 (Research Square preprint, doi [DOI withheld]). Serum copper/zinc ratio, CKD, Model 2.
+"""M1 builder, 0717542568 (source withheld). Serum copper/zinc ratio, CKD, Model 2.
 Reported estimate: copper/zinc < 1.2 category, OR 0.57 (Results text; Table 2 referenced but absent from the full text).
 Spec ambiguity 'reference category': reading_1 = Methods/Results 'Q1 set as referent' (lowest quartile).
 Under reading_1 the '< 1.2' category is the lowest ratio category (the next is '1.20-1.46'), that is Q1, the reference

@@ -1,4 +1,4 @@
-"""M1 builder, 8a9e8d47ec (Ren Fail 2025, doi [DOI withheld]). WWI and albuminuria in hypertension.
+"""M1 builder, 8a9e8d47ec (source withheld). WWI and albuminuria in hypertension.
 Spec: WWI per unit (reading_1: WWI is the main exposure), albuminuria = UACR >= 30 mg/g, Model II (Table 2),
 NHANES 2005-2006 to 2017-March 2020, no weighting reported.
 Sources in fulltext_txt/8a9e8d47ec.txt: 'Definitions and variables' (line 20), Table 1 (variable coding), Table 2 footnote.

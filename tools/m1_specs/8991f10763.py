@@ -1,4 +1,4 @@
-"""M1 builder, 8991f10763 (Medicine 2025, doi [DOI withheld]). AISI and CKD.
+"""M1 builder, 8991f10763 (source withheld). AISI and CKD.
 Spec: AISI/100 per unit, CKD = eGFR < 60 or ACR >= 30 mg/g, fully adjusted model 3 (Table 2), NHANES 2007-2018, weighted.
 Sources in fulltext_txt/8991f10763.txt: sections 2.2 (exclusions), 2.3 (AISI), 2.4 (CKD), 2.5 (covariates), 2.6
 (weights, models), Table 2 footnote (model 3 set, spec reading_1: hyperuricemia, no blood uric acid).

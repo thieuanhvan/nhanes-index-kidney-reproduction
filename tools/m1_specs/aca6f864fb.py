@@ -1,4 +1,4 @@
-"""M1 builder, aca6f864fb (OBS and CKD, Front Nutr 2024, doi [DOI withheld]).
+"""M1 builder, aca6f864fb (OBS and CKD; source withheld).
 Spec: OBS quartiles, Q4 vs Q1, Model 3 (all covariates), CKD = eGFR < 60 or ACR > 30, NHANES 2005-2018, weighted (2-year weight / 7).
 Sources (fulltext_txt/aca6f864fb.txt): exclusions section 2.1, outcome section 2.2 (CKD-EPI 2009 printed with race factor),
 OBS section 2.3, covariates section 2.4, weighting and models section 2.5, Table 1 and Table 2.

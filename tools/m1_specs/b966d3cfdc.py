@@ -1,4 +1,4 @@
-"""M1 builder, b966d3cfdc (OBS and CKD in diabetes, Sci Rep 2025 15:21215; spec DOI of the preprint [DOI withheld]).
+"""M1 builder, b966d3cfdc (OBS and CKD in diabetes; source withheld).
 Spec: OBS quartile Q4 vs Q1, CKD (eGFR < 60 or ACR >= 30), Model 3 (13 covariates), NHANES 2007-2018, weighted.
 Sources in the paper (fulltext_txt/b966d3cfdc.txt): population p. 7 (lines 573-581), OBS p. 7 (lines 581-714),
 diabetes and CKD (lines 716-721), covariates (lines 726-734), statistics p. 8 (quartiles Q1 <= P25 ..., Model 3).

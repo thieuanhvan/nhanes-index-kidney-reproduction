@@ -1,0 +1,61 @@
+// I139 Appendix A, family D2 inflammation and haematology, DAG B. Built by tools/build_dag_i139_en.py from table 5.2 of
+// prereg_i139_v7_en.md (sha256 cf05a9e110595ff68f8fe4e54e0bc3472de75f631621df5e9a36f62310ed99be). English rendering of the registered DAG (dag/, OSF egjy3).
+// Roles: G (and T with B+ in DAG B) = confounder, in the adjustment set; T/P outside the set = risk factor of the outcome only;
+// K-C = component (-> index); K-M = mediator or descendant of the exposure; K-O = descendant of the outcome; K-X = collider.
+// Family-level DAG: only edges that decide the adjustment set are drawn; edges between covariates are not drawn.
+dag {
+Index [exposure,pos="0.00,-0.00"]
+Kidney_disease [outcome,pos="10.00,-0.00"]
+Age_Sex [adjusted,pos="1.00,-4.20"]  // G
+Race_ethnicity [adjusted,pos="3.00,-4.20"]  // G
+Education_PIR [adjusted,pos="5.00,-4.20"]  // G
+Smoking [adjusted,pos="7.00,-4.20"]  // G
+Alcohol [adjusted,pos="9.00,-4.20"]  // T B+ | B+
+Physical_activity [adjusted,pos="1.25,-3.00"]  // T B+ | B+
+BMI_waist [adjusted,pos="3.75,-3.00"]  // T B+ | B+
+Diagnosed_diabetes [adjusted,pos="6.25,-3.00"]  // G
+Glycaemia_HbA1c_insulin [pos="5.00,1.30"]  // K-M | (use diagnosed diabetes instead of the measurement)
+Diagnosed_hypertension [adjusted,pos="8.75,-3.00"]  // G
+Measured_BP [pos="4.94,3.80"]  // K-O
+Lipid_lowering_drugs [pos="3.17,-1.60"]  // T
+Diabetes_drugs [pos="6.50,-1.60"]  // T
+Antihypertensive_drugs [pos="9.83,-1.60"]  // T
+HDL_LDL_TC [pos="4.00,2.60"]  // T
+CRP_WBC [pos="7.00,2.60"]  // T | if a component, T if not
+Uric_acid [pos="6.81,3.80"]  // K-O
+Kidney_markers [pos="8.69,3.80"]  // K-O
+CVD [pos="10.56,3.80"]  // K-X
+NHANES_cycle [pos="10.00,2.60"]  // P
+Age_Sex -> Index
+Age_Sex -> Kidney_disease
+Alcohol -> Index
+Alcohol -> Kidney_disease
+Antihypertensive_drugs -> Kidney_disease
+BMI_waist -> Index
+BMI_waist -> Kidney_disease
+CRP_WBC -> Kidney_disease
+Diabetes_drugs -> Kidney_disease
+Diagnosed_diabetes -> Index
+Diagnosed_diabetes -> Kidney_disease
+Diagnosed_hypertension -> Index
+Diagnosed_hypertension -> Kidney_disease
+Education_PIR -> Index
+Education_PIR -> Kidney_disease
+Glycaemia_HbA1c_insulin -> Kidney_disease
+HDL_LDL_TC -> Kidney_disease
+Index -> CVD
+Index -> Glycaemia_HbA1c_insulin
+Index -> Kidney_disease
+Kidney_disease -> CVD
+Kidney_disease -> Kidney_markers
+Kidney_disease -> Measured_BP
+Kidney_disease -> Uric_acid
+Lipid_lowering_drugs -> Kidney_disease
+NHANES_cycle -> Kidney_disease
+Physical_activity -> Index
+Physical_activity -> Kidney_disease
+Race_ethnicity -> Index
+Race_ethnicity -> Kidney_disease
+Smoking -> Index
+Smoking -> Kidney_disease
+}

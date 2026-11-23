@@ -1,4 +1,4 @@
-"""M1 builder, 1c8c318fda (Ren Fail 2025, doi [DOI withheld]). UHR per SD, CKD, Model 3, NHANES part.
+"""M1 builder, 1c8c318fda (source withheld). UHR per SD, CKD, Model 3, NHANES part.
 Spec: NHANES 1999-2010, age >= 45, CKD = eGFR < 60 (2021 CKD-EPI), weighted ('proper sample weights', not named),
 Table 3 NHANES Model 3 OR 1.81 per SD.
 Sources (fulltext_txt/1c8c318fda.txt): exclusions line 18, outcome line 26, covariates lines 29-30, models line 34,

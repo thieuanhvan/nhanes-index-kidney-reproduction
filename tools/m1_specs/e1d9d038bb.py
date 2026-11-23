@@ -1,4 +1,4 @@
-"""M1 builder, e1d9d038bb (UHR and DKD in type 2 diabetes, Medicine 2026, doi [DOI withheld]).
+"""M1 builder, e1d9d038bb (UHR and DKD in type 2 diabetes; source withheld).
 Spec: ln-UHR Q4 vs Q1, DKD (original) = UACR >= 30 and/or eGFR < 60 (CKD-EPI 2009 without race multiplier),
 NHANES 2009-2018, Model 3 (primary), WTMEC2YR/5 with SDMVPSU and SDMVSTRA.
 Sources in fulltext_txt/e1d9d038bb.txt: design and weights (2.1, line 13), exclusions (2.2, line 16), UHR, diabetes
